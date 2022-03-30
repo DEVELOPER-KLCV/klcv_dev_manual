@@ -1,8 +1,8 @@
 ---
 layout: default
 title: ホーム
-nav_order: 1
-description: "パッケージ版 user00"
+nav_order: 0
+description: ""
 ---
 # {{site.title}}
 
