@@ -54,28 +54,28 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 #### Collection ####
 collections_dir: "DOCS"
 collections:
-  api:
-    permalink: "/:collection/:path/"
-    output: true
-  bizDesignerV:
-    permalink: "/:collection/:path/"
-    output: true
   bizBrowserV:
+    permalink: "/:collection/:path/"
+    output: true
+  Method:
+    permalink: "/:collection/:path/"
+    output: true
+  Package:
     permalink: "/:collection/:path/"
     output: true
 
 just_the_docs:
   collections:
-    api:
-      name: Web API仕様
-      nav_exclude: true  # for debug purpose
-      search_exclude: true
-    bizDesignerV:
-      name: BizDesigner V
-      nav_exclude: true
-      search_exclude: false
     bizBrowserV:
       name: BizBrowser V
+      nav_exclude: false
+      search_exclude: false
+    Method:
+      name: Global Method
+      nav_exclude: false
+      search_exclude: false
+    Package:
+      name: Package and Class
       nav_exclude: false
       search_exclude: false
     

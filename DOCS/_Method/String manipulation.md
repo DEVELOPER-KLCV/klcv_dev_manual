@@ -2,8 +2,8 @@
 layout: default
 has_children: true
 
-title: 8. Package and Class
-nav_order: 8
+title: String Manipulation
+nav_order: 7
 ---
 
 # {{ page.title }}

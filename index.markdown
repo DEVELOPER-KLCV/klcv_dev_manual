@@ -2,7 +2,7 @@
 layout: default
 title: ホーム
 nav_order: 0
-description: ""
+description: "For internal use"
 ---
 # {{site.title}}
 
@@ -12,3 +12,4 @@ description: ""
 
 ##### Version {{site.version}}
 ##### Author: {{ site.author }}
+##### Developed by: [rippananooru](https://github.com/rippananooru)
