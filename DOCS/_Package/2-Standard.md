@@ -2,9 +2,10 @@
 layout: default
 has_children: true
 
-title: 1. System Package
-nav_order: 1
-permalink: /package/system
+title: 1. Standard Package
+nav_order: 2
+permalink: /package/standard
+
 ---
 
 # {{ page.title }}

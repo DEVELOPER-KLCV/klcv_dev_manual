@@ -12,4 +12,3 @@ description: "For internal use"
 
 ##### Version {{site.version}}
 ##### Author: {{ site.author }}
-##### Developed by: [rippananooru](https://github.com/rippananooru)

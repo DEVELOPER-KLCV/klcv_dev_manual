@@ -1,17 +1,25 @@
 ---
 layout: default
 
-parent: 4. Startup Behavior
+parent: String Manipulation
 
-title: 4.1 title
+title: find
 nav_order: 1
+permalink: /method/str/find
 ---
 {% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/core/core1.files/image001.gif" %}
-{% assign img2 = "https://yishengresume.pages.dev/assets/images/KamYiSheng.jpg" %}
 
 
 # {{ page.title }}
 
 <a href="{{ img1 }}" target="_blank"> <img src="{{ img1 }}" alt="{{img1}}"></a>
-<br>
-<a href="{{ img2 }}" target="_blank"> <img src="{{ img2 }}" alt="{{img2}}"></a>
+
+
+[sini link](/method/str)
+
+```
+asdasdasd{
+    asdasdasd 
+    asdasdadasa
+}
+```
