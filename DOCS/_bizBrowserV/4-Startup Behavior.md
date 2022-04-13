@@ -14,4 +14,4 @@ nav_order: 4
 
 ---
 
-content here
+Explains how the first screen is displayed after launching Biz / Browser .
