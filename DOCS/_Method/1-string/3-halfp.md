@@ -3,9 +3,9 @@ layout: default
 
 parent: String Manipulation
 
-title: fullp
-nav_order: 2
-permalink: /method/str/fullp
+title: halfp
+nav_order: 3
+permalink: /method/str/halfp
 ---
 {% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/core/core1.files/image001.gif" %}
 
@@ -15,15 +15,15 @@ permalink: /method/str/fullp
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2">Converts half-width characters in a <b>character string</b> to full-width characters.</td>
+    <td colspan="2">Converts full-width characters in a character string to half-width characters.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var s = fullp( <b>character string</b> [, <b>flag</b> ] )</td>
+    <td colspan="2">var s = halfp( <b>character string</b> [, <b>flag</b> ] )</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">Character string converted from half-width characters to full-width characters</td>
+    <td colspan="2">Character string converted from full-width characters to half-width characters</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
@@ -40,11 +40,11 @@ permalink: /method/str/fullp
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><a href="/img/Biz Browser V/Fullp.PNG" target="_blank"><br><img src="/img/Biz Browser V/Fullp.PNG" alt="Fullp method"></a></td>
+    <td colspan="2"><a href="/img/Biz Browser V/Halfp.PNG" target="_blank"><br><img src="/img/Biz Browser V/Halfp.PNG" alt="Halfp Method"></a></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a >halfp</a> method</td>
+    <td colspan="2"><a >fullp</a> method</td>
   </tr>
 </table>
 
