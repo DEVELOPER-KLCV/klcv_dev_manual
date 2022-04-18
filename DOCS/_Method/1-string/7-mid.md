@@ -54,7 +54,7 @@ print(s, "\n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a>left</a>, <a>right</a> method</td>
+    <td colspan="2"><a href="/method/str/left">left</a>, <a href="/method/str/right">right</a> method</td>
   </tr>
 </table>
 

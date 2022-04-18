@@ -15,24 +15,20 @@ permalink: /method/str/right
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Extracts the specified <b>length</b> from the end (right end) of the <b>character string</b>.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">var s = right( <b>string</b>, <b>length</b> [, <b>processing unit</b> ] )</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Extracted character string</td>
   </tr>  
   <tr>
-    <td rowspan="4">Arguments</td>
+    <td rowspan="3">Arguments</td>
     <td>String <b>string</b></td>
     <td>Original character string</td>
-  </tr>
-  <tr>
-    <td>Integer <b>position</b></td>
-    <td>Position to start ejecting</td>
   </tr>
   <tr>
     <td>Integer <b>length</b></td>
@@ -48,11 +44,13 @@ permalink: /method/str/right
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"><code><pre>var str = "I have a book. I have a pen.";
+var s = right(str, 13);
+print(s, "\n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a>left</a>, <a>right</a> method</td>
+    <td colspan="2"><a href="/method/str/left">left</a>, <a href="/method/str/mid">mid</a> method</td>
   </tr>
 </table>
 

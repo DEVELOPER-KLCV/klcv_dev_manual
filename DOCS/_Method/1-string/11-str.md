@@ -15,32 +15,24 @@ permalink: /method/str/str
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Converts a number, date, or string to a string.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">var s = str (<b>value</b> [, <b>format string</b>])</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Converted string</td>
   </tr>  
   <tr>
-    <td rowspan="4">Arguments</td>
-    <td>String <b>string</b></td>
-    <td>Original character string</td>
+    <td rowspan="2">Arguments</td>
+    <td>Object <b>value</b></td>
+    <td>Value to convert</td>
   </tr>
   <tr>
-    <td>Integer <b>position</b></td>
-    <td>Position to start ejecting</td>
-  </tr>
-  <tr>
-    <td>Integer <b>length</b></td>
-    <td>Number of characters to extract</td>
-  </tr>
-  <tr>
-    <td>Integer <b>processing unit</b></td>
-    <td>0:  Treat as one character without distinguishing between half-width and full-width<br>1:   Half-width characters are treated as one character, and full-width characters are treated as two characters.  If omitted, half-width and full-width characters will not be distinguished.<br> *<small>AI does not distinguish between half-width and full-width characters regardless of the argument</small>*</td>
+    <td>String <b>format string</b></td>
+    <td>Refer to <a>Format</b> property (optional)</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -48,11 +40,17 @@ permalink: /method/str/str
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"><code><pre>var n = new Number(1234.56);
+var f = new Fixed(4567.89);
+var d = sysdate();
+var s = "string";
+print(str(n), str(f), str(d), str(s), "\n");
+print(str(n, "999,990.99"), "\n");
+print(str(d, "WSWYY.MM.DD"), "\n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a>left</a>, <a>right</a> method</td>
+    <td colspan="2"><a href="/method/str/val">val</a> method<br><a>Format</a> property</td>
   </tr>
 </table>
 

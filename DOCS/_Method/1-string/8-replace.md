@@ -15,28 +15,32 @@ permalink: /method/str/replace
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Deletes the specified <b>length</b> from the specified <b>position</b> in the <b>string</b> and inserts the <b>replacement string</b> at that <b>position</b>.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">var s = replace( <b>string</b>, <b>position</b>, <b>length</b>, <b>replacement string</b> [, <b>processing unit</b> ] )</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Replaced string</td>
   </tr>  
   <tr>
-    <td rowspan="4">Arguments</td>
+    <td rowspan="5">Arguments</td>
     <td>String <b>string</b></td>
     <td>Original character string</td>
   </tr>
   <tr>
     <td>Integer <b>position</b></td>
-    <td>Position to start ejecting</td>
+    <td>Position to operate in the character string</td>
   </tr>
   <tr>
     <td>Integer <b>length</b></td>
-    <td>Number of characters to extract</td>
+    <td>Length to delete</td>
+  </tr>
+  <tr>
+    <td>String <b>replacement string</b></td>
+    <td>String to replace</td>
   </tr>
   <tr>
     <td>Integer <b>processing unit</b></td>
@@ -48,11 +52,14 @@ permalink: /method/str/replace
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"><code><pre>var s = "I have a book. I have a pen.";
+s = replace(s, 9, 4, "pencil");
+s = replace(s, 0, 1, "You");
+print(s, "\n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a>left</a>, <a>right</a> method</td>
+    <td colspan="2"></td>
   </tr>
 </table>
 

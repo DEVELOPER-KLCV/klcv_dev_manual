@@ -15,32 +15,19 @@ permalink: /method/str/val
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Converts a <b>string</b> to a number.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">var v = val( <b>string</b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Converted number</td>
   </tr>  
   <tr>
-    <td rowspan="4">Arguments</td>
     <td>String <b>string</b></td>
     <td>Original character string</td>
-  </tr>
-  <tr>
-    <td>Integer <b>position</b></td>
-    <td>Position to start ejecting</td>
-  </tr>
-  <tr>
-    <td>Integer <b>length</b></td>
-    <td>Number of characters to extract</td>
-  </tr>
-  <tr>
-    <td>Integer <b>processing unit</b></td>
-    <td>0:  Treat as one character without distinguishing between half-width and full-width<br>1:   Half-width characters are treated as one character, and full-width characters are treated as two characters.  If omitted, half-width and full-width characters will not be distinguished.<br> *<small>AI does not distinguish between half-width and full-width characters regardless of the argument</small>*</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -48,11 +35,15 @@ permalink: /method/str/val
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"><code><pre>var s1 = "123.456";
+var s2 = "789";
+var v1 = val(s1);
+var v2 = val(s2);
+print(s1 + s2, v1 + v2, "\n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a>left</a>, <a>right</a> method</td>
+    <td colspan="2"><a href="/method/str/str">str</a> method</td>
   </tr>
 </table>
 

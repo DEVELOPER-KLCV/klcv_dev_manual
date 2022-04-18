@@ -15,32 +15,28 @@ permalink: /method/str/split
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Separates the <b>string</b> with a <b>delimiter string</b> and gets its elements.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">var s = split( <b>string</b>, <b>delimiter string</b>, <b>element position</b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Element corresponding to the specified element position<br>If there is no corresponding element at the specified element position, an empty string is returned.</td>
   </tr>  
   <tr>
-    <td rowspan="4">Arguments</td>
+    <td rowspan="3">Arguments</td>
     <td>String <b>string</b></td>
     <td>Original character string</td>
   </tr>
   <tr>
-    <td>Integer <b>position</b></td>
-    <td>Position to start ejecting</td>
+    <td>String <b>delimiter string</b></td>
+    <td>String to use as a delimiter</td>
   </tr>
   <tr>
-    <td>Integer <b>length</b></td>
-    <td>Number of characters to extract</td>
-  </tr>
-  <tr>
-    <td>Integer <b>processing unit</b></td>
-    <td>0:  Treat as one character without distinguishing between half-width and full-width<br>1:   Half-width characters are treated as one character, and full-width characters are treated as two characters.  If omitted, half-width and full-width characters will not be distinguished.<br> *<small>AI does not distinguish between half-width and full-width characters regardless of the argument</small>*</td>
+    <td>Integer <b>element position</b></td>
+    <td>Position of the element to be taken out<br>Specify by the number where the leftmost element is 0.</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -48,11 +44,14 @@ permalink: /method/str/split
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"><code><pre>var s = "1999/08/10";
+print(split(s, "/", 0), "\n");  /* 1999 が切り出されます */
+print(split(s, "/", 1), "\n");  /* 08 が切り出されます */
+print(split(s, "/", 2), "\n");  /* 10 が切り出されます */</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a>left</a>, <a>right</a> method</td>
+    <td colspan="2"></td>
   </tr>
 </table>
 

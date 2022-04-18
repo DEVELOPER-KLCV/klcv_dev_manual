@@ -45,7 +45,7 @@ print(halfp("アイウ、ガギグ。「パピプ」", $TRUE), "\n");</pre></cod
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a >fullp</a> method</td>
+    <td colspan="2"><a href="/method/str/fullp">fullp</a> method</td>
   </tr>
 </table>
 

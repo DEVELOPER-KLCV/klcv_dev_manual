@@ -15,32 +15,24 @@ permalink: /method/str/suuji
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Converts a <b>number</b> to a string of Chinese numerals. Numbers after the decimal point are rounded off.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">var s = suuji( <b>number value</b> [, <b>representation</b> ] )</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Character string converted to Chinese numerals</td>
   </tr>  
   <tr>
-    <td rowspan="4">Arguments</td>
-    <td>String <b>string</b></td>
-    <td>Original character string</td>
+    <td rowspan="2">Arguments</td>
+    <td>Number <b>number</b></td>
+    <td>Numerical values ​​to convert to Chinese numerals</td>
   </tr>
   <tr>
-    <td>Integer <b>position</b></td>
-    <td>Position to start ejecting</td>
-  </tr>
-  <tr>
-    <td>Integer <b>length</b></td>
-    <td>Number of characters to extract</td>
-  </tr>
-  <tr>
-    <td>Integer <b>processing unit</b></td>
-    <td>0:  Treat as one character without distinguishing between half-width and full-width<br>1:   Half-width characters are treated as one character, and full-width characters are treated as two characters.  If omitted, half-width and full-width characters will not be distinguished.<br> *<small>AI does not distinguish between half-width and full-width characters regardless of the argument</small>*</td>
+    <td>Integer <b>display format</b></td>
+    <td>If the number is 321<br>1: 321<br>2: San Hyaku 2 Pickup Ichi<br>3: 32<br>If omitted, the display format will be 1.</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -48,11 +40,12 @@ permalink: /method/str/suuji
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"><code><pre>var s = suuji(12345);
+print(s, "\n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a>left</a>, <a>right</a> method</td>
+    <td colspan="2"></td>
   </tr>
 </table>
 

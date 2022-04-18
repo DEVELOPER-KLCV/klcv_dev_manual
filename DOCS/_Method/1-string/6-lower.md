@@ -42,7 +42,7 @@ print(s, "\n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a >upper</a> method</td>
+    <td colspan="2"><a href="/method/str/upper">upper</a> method</td>
   </tr>
 </table>
 
