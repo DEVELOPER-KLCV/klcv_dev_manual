@@ -48,7 +48,15 @@ permalink: /method/str/find
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><a href="/img/Biz Browser V/Find.PNG" target="_blank"><br><img src="/img/Biz Browser V/Find.PNG" alt="Find method"></a></td>
+    <td colspan="2"><code><pre>var str = "I have a book. I have a pen.";
+var i = -1;
+while (true) {
+    i = find(str, "have", i + 1);
+    if (i < 0) {
+        break;
+    }
+    print(i, "\n");
+}</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
