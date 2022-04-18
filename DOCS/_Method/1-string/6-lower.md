@@ -26,7 +26,7 @@ permalink: /method/str/lower
     <td colspan="2">String with uppercase converted to lowercase</td>
   </tr>  
   <tr>
-    <td rowspan="1">Arguments</td>
+    <td>Arguments</td>
     <td>String <b>string</b></td>
     <td>Original character string</td>
   </tr>

@@ -26,6 +26,7 @@ permalink: /method/str/upper
     <td colspan="2">String with lowercase letters converted to uppercase</td>
   </tr>  
   <tr>
+    <td>Arguments</td>
     <td>String <b>string</b></td>
     <td>Original character string</td>
   </tr>

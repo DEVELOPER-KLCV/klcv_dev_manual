@@ -26,6 +26,7 @@ permalink: /method/str/val
     <td colspan="2">Converted number</td>
   </tr>  
   <tr>
+    <td>Arguments</td>
     <td>String <b>string</b></td>
     <td>Original character string</td>
   </tr>

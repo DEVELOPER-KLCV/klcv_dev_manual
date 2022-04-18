@@ -26,6 +26,7 @@ permalink: /method/str/trim
     <td colspan="2">String with whitespace removed</td>
   </tr>  
   <tr>
+    <td>Arguments</td>
     <td>String <b>string</b></td>
     <td>Original character string</td>
   </tr>

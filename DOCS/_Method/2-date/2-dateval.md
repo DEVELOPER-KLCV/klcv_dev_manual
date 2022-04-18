@@ -15,32 +15,20 @@ permalink: /method/date/dateval
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"><b>The target character string</b> is searched from the <b>start position of the character string</b>, and the start position of the matching part is obtained. The position is 0 at the beginning of the <b>string</b>.</td>
+    <td colspan="2">Specifies the format of the <b>date string</b>. Returns 0 if the <b>date string</b> cannot be interpreted as a date.<br>If you do not include the time in the <b>date string</b>, the time will be 0:00:00. If seconds are not included, it will be 0 seconds.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var i = find ( <b>string</b>, <b>target string</b>, <b>start position</b> [, <b>processing unit</b> ]) </td>
+    <td colspan="2">var d = dateval (<b>date string</b>)</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">The beginning position of the matched part </td>
+    <td colspan="2">Returns a Date object.</td>
   </tr>  
   <tr>
-    <td rowspan="4">Arguments</td>
-    <td>String <b>string</b></td>
-    <td>Character string to search</td>
-  </tr>
-  <tr>
-    <td>String <b>target string</b></td>
-    <td> Character string to be searched</td>
-  </tr>
-  <tr>
-    <td>Integer <b>start position</b></td>
-    <td>The position to start the search in the target character string</td>
-  </tr>
-  <tr>
-    <td>Integer <b>processing unit</b></td>
-    <td>0:  Treat as one character without distinguishing between half-width and full-width<br>1:   Half-width characters are treated as one character, and full-width characters are treated as two characters.  If omitted, half-width and full-width characters will not be distinguished.<br> *<small>AI does not distinguish between half-width and full-width characters regardless of the argument</small>*</td>
+    <td>Arguments</td>
+    <td>String <b>Date string</b></td>
+    <td>Specify one of the following formats:<br>"YY / MM / DD"<br>"YY / MM / DD HH24: MI"<br>"YY / MM / DD HH24: MI: SS"<br>"YYYY / MM / DD"<br>"YYYY / MM / DD HH24: MI"<br>"YYYY / MM / DD HH24; MI: SS"</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -48,15 +36,7 @@ permalink: /method/date/dateval
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre>var str = "I have a book. I have a pen.";
-var i = -1;
-while (true) {
-    i = find(str, "have", i + 1);
-    if (i < 0) {
-        break;
-    }
-    print(i, "\n");
-}</pre></code></td>
+    <td colspan="2"><code><pre>var d = dateval("2002/2/28");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
