@@ -3,9 +3,9 @@ layout: default
 
 parent: String Manipulation
 
-title: mid
-nav_order: 7
-permalink: /method/str/mid
+title: split
+nav_order: 10
+permalink: /method/str/split
 ---
 {% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/core/core1.files/image001.gif" %}
 
@@ -15,15 +15,15 @@ permalink: /method/str/mid
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2">Extracts a character string of the specified <b>length</b> from the specified <b>position</b> of the <b>character string</b>. The position is counted with 0 at the beginning of the string.</td>
+    <td colspan="2"></td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var i = mid ( <b>string</b>, <b>target location</b>, <b>length</b> [, <b>processing unit</b> ]) </td>
+    <td colspan="2"></td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">Extracted character string</td>
+    <td colspan="2"></td>
   </tr>  
   <tr>
     <td rowspan="4">Arguments</td>
@@ -48,9 +48,7 @@ permalink: /method/str/mid
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre>var str = "I have a book. I have a pen.";
-var s = mid(str, 9, 4);
-print(s, "\n");</pre></code></td>
+    <td colspan="2"><code><pre></pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>

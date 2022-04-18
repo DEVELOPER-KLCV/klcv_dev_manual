@@ -44,13 +44,13 @@ permalink: /method/str/left
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><a href="/img/Biz Browser V/Left.PNG" target="_blank"><br><img src="/img/Biz Browser V/Left.PNG" alt="Left method"></a></td>
-  </tr>
-  <tr>
-    <td>Related item</td>
     <td colspan="2"><code><pre>var str = "I have a book. I have a pen.";
 var s = left(str, 14);
 print(s, "\n");</pre></code></td>
+  </tr>
+  <tr>
+    <td>Related item</td>
+    <td colspan="2"><a >mid</a>, <a>right</a> method</td>
   </tr>
 </table>
 

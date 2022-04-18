@@ -1,13 +1,13 @@
 ---
 layout: default
 
-parent: String Manipulation
+parent: Arithmetic Functions
 
-title: mid
-nav_order: 7
-permalink: /method/str/mid
+title: roundup
+nav_order: 8
+permalink: /method/arithmetic/roundup
 ---
-{% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/core/core1.files/image001.gif" %}
+
 
 
 # {{ page.title }}
@@ -15,28 +15,28 @@ permalink: /method/str/mid
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2">Extracts a character string of the specified <b>length</b> from the specified <b>position</b> of the <b>character string</b>. The position is counted with 0 at the beginning of the string.</td>
+    <td colspan="2"><b>The target character string</b> is searched from the <b>start position of the character string</b>, and the start position of the matching part is obtained. The position is 0 at the beginning of the <b>string</b>.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var i = mid ( <b>string</b>, <b>target location</b>, <b>length</b> [, <b>processing unit</b> ]) </td>
+    <td colspan="2">var i = find ( <b>string</b>, <b>target string</b>, <b>start position</b> [, <b>processing unit</b> ]) </td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">Extracted character string</td>
+    <td colspan="2">The beginning position of the matched part </td>
   </tr>  
   <tr>
     <td rowspan="4">Arguments</td>
     <td>String <b>string</b></td>
-    <td>Original character string</td>
+    <td>Character string to search</td>
   </tr>
   <tr>
-    <td>Integer <b>position</b></td>
-    <td>Position to start ejecting</td>
+    <td>String <b>target string</b></td>
+    <td> Character string to be searched</td>
   </tr>
   <tr>
-    <td>Integer <b>length</b></td>
-    <td>Number of characters to extract</td>
+    <td>Integer <b>start position</b></td>
+    <td>The position to start the search in the target character string</td>
   </tr>
   <tr>
     <td>Integer <b>processing unit</b></td>
@@ -49,12 +49,22 @@ permalink: /method/str/mid
   <tr>
     <td>Example of use</td>
     <td colspan="2"><code><pre>var str = "I have a book. I have a pen.";
-var s = mid(str, 9, 4);
-print(s, "\n");</pre></code></td>
+var i = -1;
+while (true) {
+    i = find(str, "have", i + 1);
+    if (i < 0) {
+        break;
+    }
+    print(i, "\n");
+}</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a>left</a>, <a>right</a> method</td>
+    <td colspan="2"></td>
   </tr>
 </table>
+
+
+
+
 
