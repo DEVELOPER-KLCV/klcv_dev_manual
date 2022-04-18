@@ -40,7 +40,8 @@ permalink: /method/str/length
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><a href="/img/Biz Browser V/Length.PNG" target="_blank"><br><img src="/img/Biz Browser V/Length.PNG" alt="Length method"></a></td>
+    <td colspan="2"><code><pre>var s = "ｱｸｼｽｿﾌﾄ株式会社";
+print(length(s), length(s, 1), "\n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>

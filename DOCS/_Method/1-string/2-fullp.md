@@ -40,7 +40,8 @@ permalink: /method/str/fullp
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><a href="/img/Biz Browser V/Fullp.PNG" target="_blank"><br><img src="/img/Biz Browser V/Fullp.PNG" alt="Fullp method"></a></td>
+    <td colspan="2"><code><pre>print(fullp("ABCabc123+-"), "\n");
+print(fullp("ｱｲｳ､ｶﾞｷﾞｸﾞ｡｢ﾊﾟﾋﾟﾌﾟ｣", $TRUE), "\n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>

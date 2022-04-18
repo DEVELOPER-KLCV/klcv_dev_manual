@@ -48,7 +48,9 @@ permalink: /method/str/left
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a >mid</a>, <a >right</a> method</td>
+    <td colspan="2"><code><pre>var str = "I have a book. I have a pen.";
+var s = left(str, 14);
+print(s, "\n");</pre></code></td>
   </tr>
 </table>
 

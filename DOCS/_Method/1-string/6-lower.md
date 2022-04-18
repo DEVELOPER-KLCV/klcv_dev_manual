@@ -36,7 +36,9 @@ permalink: /method/str/lower
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><a href="/img/Biz Browser V/Lower.PNG" target="_blank"><br><img src="/img/Biz Browser V/Lower.PNG" alt="Lower method"></a></td>
+    <td colspan="2"><code><pre>var str = "I have a book. I have a pen.";
+var s = lower(str);
+print(s, "\n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>

@@ -40,7 +40,8 @@ permalink: /method/str/halfp
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><a href="/img/Biz Browser V/Halfp.PNG" target="_blank"><br><img src="/img/Biz Browser V/Halfp.PNG" alt="Halfp Method"></a></td>
+    <td colspan="2"><code><pre>print(halfp("ＡＢＣａｂｃ１２３＋－"), "\n");
+print(halfp("アイウ、ガギグ。「パピプ」", $TRUE), "\n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
