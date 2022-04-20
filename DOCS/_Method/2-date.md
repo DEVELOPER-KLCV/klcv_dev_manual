@@ -9,12 +9,6 @@ permalink: /method/date
 
 # {{ page.title }}
 
-{: .no_toc }
-
-
-
----
-
 Date functions perform operations related to dates and times.
 
 

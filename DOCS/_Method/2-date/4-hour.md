@@ -35,7 +35,7 @@ permalink: /method/date/hour
     <td colspan="2">None</td>
   </tr>
   <tr>
-    <td>Example of use</td>
+    <td>Example of use</td>a
     <td colspan="2"><code><pre>var d = sysdate();
 var h = hour(d);</pre></code></td>
   </tr>

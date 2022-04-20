@@ -1,11 +1,11 @@
 ---
 layout: default
 
-parent: Arithmetic Functions
+parent: System Functions
 
-title: rand
-nav_order: 5
-permalink: /method/arithmetic/rand
+title: link
+nav_order: 14
+permalink: /method/system/link
 ---
 
 
@@ -15,19 +15,20 @@ permalink: /method/arithmetic/rand
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2">Generate a random number.</td>
+    <td colspan="2"></td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var r = rand( )</td>
+    <td colspan="2"></td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">Returns a random number in the range 0 to 1.</td>
+    <td colspan="2"></td>
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>None</td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -35,8 +36,7 @@ permalink: /method/arithmetic/rand
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre>var a;
-a = rand();    /* aは0～1の間となる */</pre></code></td>
+    <td colspan="2"><code><pre></pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>

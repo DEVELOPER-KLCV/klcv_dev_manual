@@ -15,32 +15,24 @@ permalink: /method/arithmetic/and
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"><b>The target character string</b> is searched from the <b>start position of the character string</b>, and the start position of the matching part is obtained. The position is 0 at the beginning of the <b>string</b>.</td>
+    <td colspan="2">Calculate the logical product of two numbers.<br>*<small>Added since Version 5.0.1</small>*<br>*<small>Cannot be used with Mobile & AI version</small>*</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var i = find ( <b>string</b>, <b>target string</b>, <b>start position</b> [, <b>processing unit</b> ]) </td>
+    <td colspan="2">var a = and (<b>arg1</b>, <b>arg2</b>)</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">The beginning position of the matched part </td>
+    <td colspan="2">Calculation result</td>
   </tr>  
   <tr>
-    <td rowspan="4">Arguments</td>
-    <td>String <b>string</b></td>
-    <td>Character string to search</td>
+    <td rowspan="2">Arguments</td>
+    <td>Number <b>arg1</b></td>
+    <td>The target number. It is automatically converted to a 32-bit integer internally.</td>
   </tr>
   <tr>
-    <td>String <b>target string</b></td>
-    <td> Character string to be searched</td>
-  </tr>
-  <tr>
-    <td>Integer <b>start position</b></td>
-    <td>The position to start the search in the target character string</td>
-  </tr>
-  <tr>
-    <td>Integer <b>processing unit</b></td>
-    <td>0:  Treat as one character without distinguishing between half-width and full-width<br>1:   Half-width characters are treated as one character, and full-width characters are treated as two characters.  If omitted, half-width and full-width characters will not be distinguished.<br> *<small>AI does not distinguish between half-width and full-width characters regardless of the argument</small>*</td>
+    <td>Number <b>arg2</b></td>
+    <td>The target number. It is automatically converted to a 32-bit integer internally.</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -48,19 +40,12 @@ permalink: /method/arithmetic/and
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre>var str = "I have a book. I have a pen.";
-var i = -1;
-while (true) {
-    i = find(str, "have", i + 1);
-    if (i < 0) {
-        break;
-    }
-    print(i, "\n");
-}</pre></code></td>
+    <td colspan="2"><code><pre>var a;
+a = and(0x0000FFFF, 0x4000C000);    /* aは0x0000C000となる */</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"></td>
+    <td colspan="2"><a href="/method/arithmetic/or">or</a>, <a href="/method/arithmetic/xor">xor</a> method</td>
   </tr>
 </table>
 

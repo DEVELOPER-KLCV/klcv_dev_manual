@@ -15,32 +15,20 @@ permalink: /method/arithmetic/sign
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"><b>The target character string</b> is searched from the <b>start position of the character string</b>, and the start position of the matching part is obtained. The position is 0 at the beginning of the <b>string</b>.</td>
+    <td colspan="2">Determines the sign of a number.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var i = find ( <b>string</b>, <b>target string</b>, <b>start position</b> [, <b>processing unit</b> ]) </td>
+    <td colspan="2">var s = sign( <b>arg</b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">The beginning position of the matched part </td>
+    <td colspan="2">The sign is judged and the following values ​​are returned.<br><br>-1: Numerical value is negative<br>0: The number is zero<br>1: Numerical value is a positive number</td>
   </tr>  
   <tr>
-    <td rowspan="4">Arguments</td>
-    <td>String <b>string</b></td>
-    <td>Character string to search</td>
-  </tr>
-  <tr>
-    <td>String <b>target string</b></td>
-    <td> Character string to be searched</td>
-  </tr>
-  <tr>
-    <td>Integer <b>start position</b></td>
-    <td>The position to start the search in the target character string</td>
-  </tr>
-  <tr>
-    <td>Integer <b>processing unit</b></td>
-    <td>0:  Treat as one character without distinguishing between half-width and full-width<br>1:   Half-width characters are treated as one character, and full-width characters are treated as two characters.  If omitted, half-width and full-width characters will not be distinguished.<br> *<small>AI does not distinguish between half-width and full-width characters regardless of the argument</small>*</td>
+    <td>Arguments</td>
+    <td>Number <b>arg</b></td>
+    <td>Numerical value to judge the sign</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -48,19 +36,14 @@ permalink: /method/arithmetic/sign
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre>var str = "I have a book. I have a pen.";
-var i = -1;
-while (true) {
-    i = find(str, "have", i + 1);
-    if (i < 0) {
-        break;
-    }
-    print(i, "\n");
-}</pre></code></td>
+    <td colspan="2"><code><pre>var a;
+a = sign(2);  /* aは1となる */
+a = sign(-1); /* aは-1となる */
+a = sign(0);  /* aは0となる */</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"></td>
+    <td colspan="2"><a href="/method/arithmetic/abs">abs</a> method</td>
   </tr>
 </table>
 

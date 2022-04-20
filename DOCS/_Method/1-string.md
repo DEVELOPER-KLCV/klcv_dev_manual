@@ -9,12 +9,6 @@ permalink: /method/str
 
 # {{ page.title }}
 
-{: .no_toc }
-
-
-
----
-
 String functions perform operations related to characters and strings.
 
 
