@@ -14,4 +14,4 @@ permalink: /package/system/array/event
 
 # {{ page.title }}
 
-<a href="{{ img1 }}" target="_blank"> <img src="{{ img1 }}" alt="{{img1}}"></a>
+There are no events defined in the Array class.

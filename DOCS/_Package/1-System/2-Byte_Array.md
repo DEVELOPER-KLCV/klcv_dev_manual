@@ -13,5 +13,3 @@ permalink: /package/system/bytearray
 
 
 # {{ page.title }}
-
-<a href="{{ img1 }}" target="_blank"> <img src="{{ img1 }}" alt="{{img1}}"></a>
