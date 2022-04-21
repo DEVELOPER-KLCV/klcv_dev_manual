@@ -30,3 +30,4 @@ String functions perform operations related to characters and strings.
 | [trim](/method/str/trim)         	| Removes extra whitespace in the string                                	|
 | [upper](/method/str/upper)   	| Convert lowercase letters to uppercase                                	|
 | [val](/method/str/val)          	| Converts a string to a number                                         	|
+

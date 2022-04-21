@@ -2,7 +2,7 @@
 layout: default
 
 grand_parent: 1. System Package
-parent: Array
+parent: Array Class
 
 title: Operator
 nav_order: 4
@@ -17,5 +17,5 @@ permalink: /package/system/array/operator
 The following operators are defined in the Array class.
 
 |Name       | Description |
-|:--------:	|-------------|
+|--------	|-------------|
 | [Array[.]](/package/system/array/operator/array)  |Extract elements in array format |

@@ -2,7 +2,7 @@
 layout: default
 
 grand_parent: 1. System Package
-parent: Byte Array
+parent: Byte Array Class
 
 title: Event
 nav_order: 3
@@ -14,4 +14,4 @@ permalink: /package/system/bytearray/event
 
 # {{ page.title }}
 
-<a href="{{ img1 }}" target="_blank"> <img src="{{ img1 }}" alt="{{img1}}"></a>
+There are no events defined in the ByteArray class.

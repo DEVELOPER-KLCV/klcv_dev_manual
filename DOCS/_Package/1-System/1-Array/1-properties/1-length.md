@@ -1,7 +1,7 @@
 ---
 layout: default
 
-grand_parent: Array
+grand_parent: Array Class
 parent: Properties
 has_children: false
 title: Array.Length property

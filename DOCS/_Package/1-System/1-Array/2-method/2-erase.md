@@ -1,12 +1,12 @@
 ---
 layout: default
 
-grand_parent: Array
-parent: Method
+grand_parent: Array Class
+parent: Methods
 has_children: false
 title: Array.Erase method
 nav_order: 2
-permalink: /package/system/array/method/erase
+permalink: /package/system/array/methods/erase
 ---
 # {{ page.title }}
 

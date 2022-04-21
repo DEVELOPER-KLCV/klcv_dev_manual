@@ -1,12 +1,12 @@
 ---
 layout: default
 
-grand_parent: Array
-parent: Method
+grand_parent: Array Class
+parent: Methods
 has_children: false
 title: Array.Reverse method
 nav_order: 4
-permalink: /package/system/array/method/reverse
+permalink: /package/system/array/methods/reverse
 ---
 # {{ page.title }}
 

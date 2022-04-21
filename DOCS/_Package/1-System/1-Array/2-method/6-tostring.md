@@ -1,12 +1,12 @@
 ---
 layout: default
 
-grand_parent: Array
-parent: Method
+grand_parent: Array Class
+parent: Methods
 has_children: false
 title: Array.ToString method
 nav_order: 6
-permalink: /package/system/array/method/tostring
+permalink: /package/system/array/methods/tostring
 ---
 # {{ page.title }}
 

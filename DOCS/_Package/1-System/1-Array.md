@@ -4,7 +4,7 @@ layout: default
 parent: 1. System Package
 has_children: true
 
-title: Array
+title: Array Class
 nav_order: 1
 permalink: /package/system/Array
 

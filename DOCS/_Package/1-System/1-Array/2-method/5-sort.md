@@ -1,12 +1,12 @@
 ---
 layout: default
 
-grand_parent: Array
-parent: Method
+grand_parent: Array Class
+parent: Methods
 has_children: false
 title: Array.Sort method
 nav_order: 5
-permalink: /package/system/array/method/sort
+permalink: /package/system/array/methods/sort
 ---
 # {{ page.title }}
 

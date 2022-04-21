@@ -4,7 +4,7 @@ layout: default
 parent: 1. System Package
 has_children: true
 
-title: Byte Array
+title: Byte Array Class
 nav_order: 2
 permalink: /package/system/bytearray
 
@@ -13,3 +13,11 @@ permalink: /package/system/bytearray
 
 
 # {{ page.title }}
+
+A class that holds a set of binary data.
+
+It is used when loading binary data with ReadBinary method from [File]() class, [HttpResponse]() class, etc.
+
+<b>Default properties and ValueType</b>
+ 
+The default property is [Value](/package/system/bytearray/properties/value). The ValueType specification is invalid.

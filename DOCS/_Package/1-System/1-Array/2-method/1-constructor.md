@@ -1,12 +1,12 @@
 ---
 layout: default
 
-grand_parent: Array
-parent: Method
+grand_parent: Array Class
+parent: Methods
 has_children: false
 title: Array constructor
 nav_order: 1
-permalink: /package/system/array/method/constructor
+permalink: /package/system/array/methods/constructor
 ---
 # {{ page.title }}
 

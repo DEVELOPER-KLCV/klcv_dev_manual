@@ -1,12 +1,12 @@
 ---
 layout: default
 
-grand_parent: Array
-parent: Method
+grand_parent: Array Class
+parent: Methods
 has_children: false
 title: Array.Join method
 nav_order: 3
-permalink: /package/system/array/method/join
+permalink: /package/system/array/methods/join
 ---
 # {{ page.title }}
 

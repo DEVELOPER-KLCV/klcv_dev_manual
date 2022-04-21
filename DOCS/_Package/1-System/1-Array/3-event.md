@@ -2,7 +2,7 @@
 layout: default
 
 grand_parent: 1. System Package
-parent: Array
+parent: Array Class
 
 title: Event
 nav_order: 3
