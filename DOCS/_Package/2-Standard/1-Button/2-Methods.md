@@ -1,12 +1,12 @@
 ---
 layout: default
 
-parent: 1. Standard Package
-has_children: true
+grand_parent: 1. Standard Package
+parent: Button
 
-title: Checkbox Class
+title: Methods
 nav_order: 2
-permalink: /package/standard/checkbox
+permalink: /package/standard/button/methods
 
 ---
 {% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/core/core1.files/image001.gif" %}
@@ -14,4 +14,4 @@ permalink: /package/standard/checkbox
 
 # {{ page.title }}
 
-<a href="{{ img1 }}" target="_blank"> <img src="{{ img1 }}" alt="{{img1}}"></a>
+There are no methods defined in the Button class.
