@@ -1,0 +1,46 @@
+---
+layout: default
+
+grand_parent: UString Class
+parent: Properties
+has_children: false
+title: UString.FromCharCode Method
+nav_order: 20
+permalink: /package/system/ustring/methods/fromcharcode
+---
+# {{ page.title }}
+
+<table>
+  <tr>
+    <td>Explanation</td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <td>Call format</td>
+    <td colspan="2">var str = String.FromCharCode( <b>code_1</b> [, <b>code_2</b> [, … [, <b>code_n</b> ] ] ] )</td>
+  </tr>
+  <tr>
+    <td>Return value</td>
+    <td colspan="2"></td>
+  </tr>  
+  <tr>
+    <td>Arguments</td>
+    <td>integer <b>code_n</b></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Exception</td>
+    <td colspan="2">None</td>
+  </tr>
+  <tr>
+    <td>Example of use</td>
+    <td colspan="2"><code><pre>
+var str = UString.FromCharCode(0x0041, 0x0042, 0x0043);
+print(str, "\n");
+    </pre></code></td>
+  </tr>
+  <tr>
+    <td>Related item</td>
+    <td colspan="2"></td>
+  </tr>
+</table>
