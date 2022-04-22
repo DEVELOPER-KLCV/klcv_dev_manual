@@ -14,7 +14,7 @@ permalink: /package/system/netobject
 
 # {{ page.title }}
 
-The base class of a class in which a CRS file can be executed. It has a communication function with a WEB server and a function to compile and execute downloaded CRS files, and a class derived from the NetObject class can execute a new CRS program by using the [Get]() method or the like.
+The base class of a class in which a CRS file can be executed. It has a communication function with a WEB server and a function to compile and execute downloaded CRS files, and a class derived from the NetObject class can execute a new CRS program by using the [Get](/package/system/netobject/methods/get) method or the like.
 
 The NetObject class is a virtual class and cannot instantiate itself.
 

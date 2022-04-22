@@ -2,11 +2,11 @@
 layout: default
 
 grand_parent: 1. System Package
-parent: Exception Class
+parent: Date Class
 
-title: Event
+title: Events
 nav_order: 3
-permalink: /package/system/exception/event
+permalink: /package/system/date/events
 
 ---
 {% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/core/core1.files/image001.gif" %}
@@ -14,4 +14,4 @@ permalink: /package/system/exception/event
 
 # {{ page.title }}
 
-There are no events defined in the Exception class.
+There are no events defined in the Date class.

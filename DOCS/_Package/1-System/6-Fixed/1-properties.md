@@ -18,7 +18,7 @@ The following properties are defined in the Fixed class.
 
 |Name       | Access | Type   | Initial Value |  Description |
 |----------	|--------|--------|---------------|--------------|
-| [Value](/package/system/fixed/properties/value)* 	| CRW | 0 |Fixed  | Object value|
+| [Value](/package/system/fixed/properties/value)* 	| CRW | Fixed | 0 | Object value|
 
 <u><b>Access</b></u><br>
 R: Readable

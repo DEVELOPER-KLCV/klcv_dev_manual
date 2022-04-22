@@ -20,4 +20,4 @@ The values ​​of the Number class are managed in floating point notation, hav
 
 <b>Default properties and ValueType</b>
 
-The default property is [Value](). The ValueType specification is invalid.
+The default property is [Value](/package/system/number/properties/value). The ValueType specification is invalid.

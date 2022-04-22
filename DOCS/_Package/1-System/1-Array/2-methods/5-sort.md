@@ -28,10 +28,10 @@ permalink: /package/system/array/methods/sort
     <td>Argument</td>
     <td colspan="2">None</td>
   </tr>
+  <tr>
     <td>Exception</td>
     <td colspan="2">None</td>
   </tr>
-  <tr>
   <tr>
     <td>Example of use</td>
     <td colspan="2"><code><pre>var arr = new Array;

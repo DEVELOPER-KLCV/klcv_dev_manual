@@ -2,11 +2,11 @@
 layout: default
 
 grand_parent: 1. System Package
-parent: Event Class
+parent: RegexMatcher Class
 
-title: Event
+title: Events
 nav_order: 3
-permalink: /package/system/event/event
+permalink: /package/system/regexmatcher/events
 
 ---
 {% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/core/core1.files/image001.gif" %}
@@ -14,4 +14,4 @@ permalink: /package/system/event/event
 
 # {{ page.title }}
 
-There are no events defined in the Event class.
+There are no events defined in the RegexMatcher class.

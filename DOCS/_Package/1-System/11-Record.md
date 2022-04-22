@@ -50,4 +50,4 @@ custDB << CSV {
 
 <b>Default properties and ValueType</b>
  
-The default property is [Value](). The ValueType specification is invalid.
+The default property is [Value](/package/system/record/properties/value). The ValueType specification is invalid.
