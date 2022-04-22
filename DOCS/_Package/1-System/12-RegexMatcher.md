@@ -16,13 +16,13 @@ permalink: /package/system/regexmatcher
 
 A regular expression engine for interpreting regular expression patterns and performing match operations with input strings.
 
-Objects of RegexMatcher class are created by [Matcher]() method of [RegexPattern]() class. The RegexMatcher class has various methods for match and replace operations.
+Objects of RegexMatcher class are created by [Matcher]() method of [RegexPattern](/package/system/regexpattern) class. The RegexMatcher class has various methods for match and replace operations.
 
 **<small>[Unicode mode]() can now handle Unicode strings (UString).</small>**
 
 <b>Default properties and ValueType</b>
 
-The default property is [InputString](). The ValueType specification is invalid.
+The default property is [InputString](/package/system/regexmatcher/properties/inputstring). The ValueType specification is invalid.
 
 <b>About the reference to the forward reference group of the replace operation method</b>
  

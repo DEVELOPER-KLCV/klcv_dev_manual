@@ -30,4 +30,4 @@ Therefore, the description of the property and the usage of the method (handling
 
 <b>Default properties and ValueType</b>
  
-The default property is [Value](). The ValueType specification is invalid.
+The default property is [Value](/package/system/string/properties/value). The ValueType specification is invalid.
