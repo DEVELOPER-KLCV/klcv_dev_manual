@@ -16,34 +16,32 @@ permalink: /package/system/regexpattern
 
 A class that holds regular expression patterns.
 
-The [Compile]() static method compiles the specified regular expression and creates a RegexPattern object.
-The generated RegexPattern object is used to generate an object of the [RegexMatcher]() class, which is a regular expression engine for matching with any input string.
+The [Compile](/package/system/regexpattern/methods/compile) static method compiles the specified regular expression and creates a RegexPattern object.
+The generated RegexPattern object is used to generate an object of the [RegexMatcher](/package/system/regexmatcher) class, which is a regular expression engine for matching with any input string.
 
 You can create multiple RegexMathcer objects from a single RegexPattern object. Each RegexMatcher object shares the same regular expression pattern.
 
 <b>Default properties and ValueType</b>
 
-The default property is [Pattern](). The ValueType specification is invalid.
+The default property is [Pattern](/package/system/regexpattern/properties/pattern). The ValueType specification is invalid.
 
 **<small>A Unicode mode has been added that handles more Unicode strings. -></small>**
 
 <b>About Unicode mode</b>
 
-If you specify RegexPattern.Unicode as an argument of [Compile]() method and [Matches]() method, you can generate a regular expression engine in Unicode mode.
+If you specify RegexPattern.Unicode as an argument of [Compile](/package/system/regexpattern/methods/compile) method and [Matches](/package/system/regexpattern/methods/matches) method, you can generate a regular expression engine in Unicode mode.
 
 In Unicode mode, regular expressions and input strings are treated as UString type, and Unicode characters can be used.
 
-The index that represents the position of the character ([Start]() of RegexMatcher class, result of [End]() method, etc.) is in character units (byte units when not in Unicode mode).
+The index that represents the position of the character ([Start](/package/system/regexmatcher/methods/start) of RegexMatcher class, result of [End](/package/system/regexmatcher/methods/end) method, etc.) is in character units (byte units when not in Unicode mode).
 
 **<small><-Up to here</small>**
 
 <b>Typical usage</b>
 
-<ol>
-    <li>Compile the regular expression with the Compile static method to create a RegexPattern object.</li>
-    <li>Create a RegexMatcher object that matches the regular expression pattern and the input string by the Matcher method of the RegexPattern object generated in 1.</li>
-    <li>Match with the Matches method, Find method, etc. of the RegexMatcher object generated in 2.</li>
-</ol>
+1. Compile the regular expression with the Compile static method to create a RegexPattern object.
+1. Create a RegexMatcher object that matches the regular expression pattern and the input string by the Matcher method of the RegexPattern object generated in 1.
+1. Match with the [Matches](/package/system/regexmatcher/methods/matches) method, [Find](/package/system/regexmatcher/methods/find) method, etc. of the RegexMatcher object generated in 2.
 
 ```
 /* 正規表現をコンパイルします */

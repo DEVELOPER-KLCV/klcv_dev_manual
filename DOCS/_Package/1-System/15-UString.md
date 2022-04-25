@@ -31,4 +31,4 @@ When converting from Unicode to Shift_JIS, if a character that cannot be convert
 
 <b>Default properties and ValueType</b>
 
-The default property is [Value](). The ValueType specification is invalid.
+The default property is [Value](/package/system/ustring/properties/value). The ValueType specification is invalid.
