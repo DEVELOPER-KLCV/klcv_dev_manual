@@ -1,0 +1,11 @@
+---
+layout: default
+
+grand_parent: ListItem Class
+parent: Properties
+has_children: false
+title: ListItem.Selected Property
+nav_order: 1
+permalink: /package/standard/listitem/properties/selected
+---
+# {{ page.title }}

@@ -2,11 +2,11 @@
 layout: default
 
 grand_parent: 2. Standard Package
-parent: Doc Class
+parent: ListBox Class
 
 title: Events
 nav_order: 3
-permalink: /package/standard/doc/events
+permalink: /package/standard/listbox/events
 
 ---
 {% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/core/core1.files/image001.gif" %}
@@ -14,8 +14,9 @@ permalink: /package/standard/doc/events
 
 # {{ page.title }}
 
-The following events are defined in the Doc class.
+The following events are defined in the ListBox class.
 
-Name       |  Description |
+
+|Name       |  Description |
 |----------	|--------------|
-|[PageChange](/package/standard/doc/events/PageChange)       | |
+|[Dropped](/package/standard/listbox/events/dropped)       | |
