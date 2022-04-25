@@ -34,7 +34,7 @@ Standard GUI package.
     </tr>
     <tr>
         <td><a href="/package/standard/CheckBox">CheckBox</a></td>
-        <td>Show checkbox</td>
+        <td>Displays checkbox</td>
         <td>3.0.0</td>
         <td>2.0.0</td>
         <td>1.0.0</td>
@@ -118,98 +118,98 @@ Standard GUI package.
     </tr>
     <tr>
         <td><a href="/package/standard/GraphAxis">GraphAxis</a></td>
-        <td></td>
+        <td>Defines the axis of the Graph class</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
         <td><a href="/package/standard/GraphSeries">GraphSeries</a></td>
-        <td></td>
+        <td>Defines a series of Graph classes</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
         <td><a href="/package/standard/Label">Label</a></td>
-        <td></td>
+        <td>Display text label</td>
         <td>3.0.0</td>
         <td>2.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
         <td><a href="/package/standard/ListBox">ListBox</a></td>
-        <td></td>
+        <td>Display list box</td>
         <td>3.0.0</td>
         <td>2.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
         <td><a href="/package/standard/ListItem">ListItem</a></td>
-        <td></td>
+        <td>Defines the choices for the ListBox class</td>
         <td>3.0.0</td>
         <td>2.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
         <td><a href="/package/standard/OptionButton">OptionButton</a></td>
-        <td></td>
+        <td>Displays option button</td>
         <td>3.0.0</td>
         <td>2.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
         <td><a href="/package/standard/OptionItem">OptionItem</a></td>
-        <td></td>
+        <td>Defines the options for the OptionButton class</td>
         <td>3.0.0</td>
         <td>2.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
         <td><a href="/package/standard/PulldownItem">PulldownItem</a></td>
-        <td></td>
+        <td>Defines the choices for the PulldownList class</td>
         <td>3.0.0</td>
         <td>2.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
         <td><a href="/package/standard/PulldownList">PulldownList</a></td>
-        <td></td>
+        <td>Displays pull-down list</td>
         <td>3.0.0</td>
         <td>2.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
         <td><a href="/package/standard/Root">Root</a></td>
-        <td></td>
+        <td>The class corresponding to the window of Biz / Browser itself</td>
         <td>3.0.0</td>
         <td>2.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
         <td><a href="/package/standard/Spread">Spread</a></td>
-        <td></td>
+        <td>Displays spreadsheet</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
         <td><a href="/package/standard/SpreadColumn">SpreadColumn</a></td>
-        <td></td>
+        <td>Defines a column in the Spread class</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
         <td><a href="/package/standard/SpreadRow">SpreadRow</a></td>
-        <td></td>
+        <td>Defines a row for the Spread class</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
         <td><a href="/package/standard/TextBox">TextBox</a></td>
-        <td></td>
+        <td>Displays text box</td>
         <td>3.0.0</td>
         <td>2.0.0</td>
         <td>1.0.0</td>

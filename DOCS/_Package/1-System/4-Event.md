@@ -16,7 +16,7 @@ permalink: /package/system/event
 
 A class that represents an event that occurs in a CRS program, such as a button click.
 
-It is also used when the [PostEvent]() method raises an event from a CRS script. 
+It is also used when the [PostEvent](/package/system/object/methods/postevent) method raises an event from a CRS script. 
 
 <b>Default properties and ValueType</b>
  
