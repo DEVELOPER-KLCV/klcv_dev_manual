@@ -1,7 +1,7 @@
 ---
 layout: default
 
-parent: 1. Standard Package
+parent: 2. Standard Package
 has_children: true
 
 title: Button Class
@@ -14,7 +14,7 @@ permalink: /package/standard/button
 
 # {{ page.title }}
 
-A class that displays buttons. The surface displays the value of the [Title]() property.
+A class that displays buttons. The surface displays the value of the [Title](/package/standard/button/properties/title) property.
 
 <b>Screen display example</b>
 
@@ -26,7 +26,7 @@ Only the label is printed.
 
 <b>Default properties and ValueType</b>
  
-The default property is [Value](). ValueType can be String, Number, Fixed, Date, UString.<br>
+The default property is [Value](/package/standard/button/properties/value). ValueType can be String, Number, Fixed, Date, UString.<br>
 **<small>UString was added since Version 4.2.0</small>**
 
 <b>Restrictions when visual style is enabled</b>

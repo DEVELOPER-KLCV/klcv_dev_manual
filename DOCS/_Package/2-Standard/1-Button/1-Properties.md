@@ -1,8 +1,8 @@
 ---
 layout: default
 
-grand_parent: 1. Standard Package
-parent: Button
+grand_parent: 2. Standard Package
+parent: Button Class
 
 title: Properties
 nav_order: 1
@@ -18,7 +18,7 @@ The following properties are defined in the Button class.
 
 |Name       | Access | Type   | Initial Value |  Description |
 |----------	|--------|--------|---------------|--------------|
-|[AltKey](/package/standard/button/properties/length) | CR | integer | $STD | |
+|[AltKey](/package/standard/button/properties/altkey) | CR | integer | $STD | |
 |[FontFace](/package/standard/button/properties/fontface) | CR | integer | $STD | |
 |[FontKind](/package/standard/button/properties/fontkind) | CR | integer | $STD | |
 |[FontSize](/package/standard/button/properties/fontsize) | CR | integer | 10 | |
@@ -27,7 +27,7 @@ The following properties are defined in the Button class.
 |[Tooltip](/package/standard/button/properties/tooltip) | CRW | String |  | |
 |[ToolTipDelayTime](/package/standard/button/properties/tooltipdelaytime) | CRW | integer | 0 | |
 |[Value](/package/standard/button/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date<br>UString |  | |
-|[VerticalAlign](/package/standard/button/properties/verticalAlign)* | CR | integer | $STD | |
+|[VerticalAlign](/package/standard/button/properties/verticalAlign) | CR | integer | $STD | |
 
 <u><b>Access</b></u><br>
 R: Readable

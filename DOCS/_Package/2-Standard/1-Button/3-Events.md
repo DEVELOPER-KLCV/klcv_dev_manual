@@ -1,8 +1,8 @@
 ---
 layout: default
 
-grand_parent: 1. Standard Package
-parent: Button
+grand_parent: 2. Standard Package
+parent: Button Class
 
 title: Events
 nav_order: 3

@@ -1,12 +1,12 @@
 ---
 layout: default
 
-grand_parent: Button Class
+grand_parent: CheckItem Class
 parent: Properties
 has_children: false
-title: ToolTip property
-nav_order: 7
-permalink: /package/standard/button/properties/tooltip
+title: CheckItem.ToolTip property
+nav_order: 3
+permalink: /package/standard/checkitem/properties/tooltip
 ---
 # {{ page.title }}
 

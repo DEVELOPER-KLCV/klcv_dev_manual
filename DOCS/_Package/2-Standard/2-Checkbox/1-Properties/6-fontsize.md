@@ -1,12 +1,12 @@
 ---
 layout: default
 
-grand_parent: Button Class
+grand_parent: CheckBox Class
 parent: Properties
 has_children: false
 title: FontSize property
-nav_order: 4
-permalink: /package/standard/button/properties/FontSize
+nav_order: 6
+permalink: /package/standard/checkbox/properties/fontsize
 ---
 # {{ page.title }}
 

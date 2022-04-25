@@ -1,8 +1,8 @@
 ---
 layout: default
 
-grand_parent: 1. Standard Package
-parent: Button
+grand_parent: 2. Standard Package
+parent: Button Class
 
 title: Methods
 nav_order: 2
