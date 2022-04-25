@@ -15,11 +15,11 @@ permalink: /method/financial/ddb
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"><b>Finds the depreciation amount for the specified annual multiple depreciation method. <br><small> Added from Mobile Ver.2.0.0</small></b></td>
+    <td colspan="2"><b>Finds the depreciation amount for the specified annual multiple depreciation method. <b><small> Added from Mobile Ver.2.0.0</small></b></td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var d = ddb (<b>acquisition cost , remaining price , lifespan, no. of years of use </b>)</td>
+    <td colspan="2">var d = ddb (<b>acquisition cost, remaining price, lifespan, no. of years of use </b>)</td>
   </tr>
   <tr>
     <td>Return value</td>

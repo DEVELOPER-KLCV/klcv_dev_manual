@@ -15,20 +15,19 @@ permalink: /method/financial/sln
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Find the depreciation amount using the straight-line method</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">	var s = sln   (<b>acquisition cost, remaining price, no. of years of use </b>)</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the straight-line depreciation amount.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td></td>
-    <td></td>
+    <td>Number <b>Acquisition cost</b> <br> Number <b>Remaining price</b> <br> Number <b>years of use</b></td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -36,15 +35,12 @@ permalink: /method/financial/sln
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"></td>
   </tr>
   <tr>
     <td>Related item</td>
     <td colspan="2"></td>
   </tr>
 </table>
-
-
-
 
 

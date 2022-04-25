@@ -19,7 +19,7 @@ permalink: /method/financial/db
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var d = db (<b>acquisition cost , remaining price , lifespan, no. of years of use </b>)</td>
+    <td colspan="2">var d = db (<b>acquisition cost, remaining price, lifespan, no. of years of use </b>)</td>
   </tr>
   <tr>
     <td>Return value</td>

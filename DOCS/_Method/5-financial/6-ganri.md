@@ -15,20 +15,19 @@ permalink: /method/financial/ganri
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Find the interest on the equal repayment of principal. For monthly repayments, the interest rate specifies the monthly interest rate as a decimal.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">var g = ganri  (<b>borrowing amount, interest rate, repayment frequency, term </b>)</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Return interest on equal repayment of principal.</td>
   </tr>  
-  <tr>
+    <tr>
     <td>Arguments</td>
-    <td></td>
-    <td></td>
+    <td>Number <b>of borrowing amount</b> <br> Number <b>of interest rate</b><br>Number <b>of repayment frequency</b><br> Number <b>of term</b></td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -36,14 +35,13 @@ permalink: /method/financial/ganri
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"></td>
   </tr>
   <tr>
     <td>Related item</td>
     <td colspan="2"></td>
   </tr>
 </table>
-
 
 
 

@@ -19,7 +19,7 @@ permalink: /method/financial/cterm
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var c = cterm (<b>interest , target maturity , principal </b>)</td>
+    <td colspan="2">var c = cterm (<b>interest, target maturity, principal </b>)</td>
   </tr>
   <tr>
     <td>Return value</td>
