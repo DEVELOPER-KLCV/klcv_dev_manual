@@ -1,0 +1,11 @@
+---
+layout: default
+
+grand_parent: DateEdit Class
+parent: Events
+has_children: false
+title: DateEdit.DoubleClicked Event
+nav_order: 2
+permalink: /package/extension3/DateEdit/events/DoubleClicked
+---
+# {{ page.title }}
