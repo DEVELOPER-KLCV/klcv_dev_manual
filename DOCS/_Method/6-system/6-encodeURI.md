@@ -3,9 +3,9 @@ layout: default
 
 parent: System Functions
 
-title: encodeURI
+title: encodeURL
 nav_order: 6
-permalink: /method/system/encodeURI
+permalink: /method/system/encodeURL
 ---
 
 

@@ -23,7 +23,7 @@ permalink: /method/system/importConnectionLicense
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">None</td>
   </tr>  
   <tr>
     <td>Arguments</td>

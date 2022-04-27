@@ -12,39 +12,6 @@ permalink: /method/system/link
 
 # {{ page.title }}
 
-<table>
-  <tr>
-    <td>Explanation</td>
-    <td colspan="2"></td>
-  </tr>
-  <tr>
-    <td>Call format</td>
-    <td colspan="2"></td>
-  </tr>
-  <tr>
-    <td>Return value</td>
-    <td colspan="2"></td>
-  </tr>  
-  <tr>
-    <td>Arguments</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>Exception</td>
-    <td colspan="2">None</td>
-  </tr>
-  <tr>
-    <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
-  </tr>
-  <tr>
-    <td>Related item</td>
-    <td colspan="2"></td>
-  </tr>
-</table>
+Perform a hyperlink.
 
-
-
-
-
+<small>Ver.4.1.0 works the same as the Runtime.ShellLink method. See the description of the [Runtime.ShellLink]() method description for more information. </small>

@@ -42,7 +42,7 @@ debugMessage (d, s, "￥ n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/method/statistical/print">print</a> function</td>
+    <td colspan="2"><a href="/method/system/print">print</a> function</td>
   </tr>
 </table>
 

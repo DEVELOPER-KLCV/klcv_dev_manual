@@ -3,9 +3,9 @@ layout: default
 
 parent: System Functions
 
-title: decodeURI
+title: decodeURL
 nav_order: 5
-permalink: /method/system/decodeURI
+permalink: /method/system/decodeURL
 ---
 
 
@@ -15,7 +15,7 @@ permalink: /method/system/decodeURI
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2">Decodes URL -encoded strings</td>
+    <td colspan="2">Decodes URL - encoded strings</td>
   </tr>
   <tr>
     <td>Call format</td>
