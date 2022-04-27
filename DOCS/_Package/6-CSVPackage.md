@@ -8,3 +8,27 @@ permalink: /package/csvpackage
 ---
 
 # {{ page.title }}
+
+A package for handling CSV (comma-separated text) format data.
+
+<u><b>Class</b></u>
+
+<table>
+    <tr>
+        <td rowspan="2">Name</td>
+        <td rowspan="2">Explanation</td>
+        <td>Version</td>
+    </tr>
+    <tr>
+        <td>PC</td>
+        <td>Mobile</td>
+        <td>AI</td>
+    </tr>
+    <tr>
+        <td><a href="/package/csvpackage/csvdocument">CSVDocument</a></td>
+        <td></td>
+        <td>3.0.0</td>
+        <td>2.0.0</td>
+        <td>1.0.0</td>
+    </tr>
+</table>
