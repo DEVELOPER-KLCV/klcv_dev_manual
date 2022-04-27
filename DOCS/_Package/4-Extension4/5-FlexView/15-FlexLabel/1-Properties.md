@@ -35,4 +35,4 @@ R: Readable
 W: Writable
 C: Initializable
 
-* : default property
+*: default property
