@@ -14,24 +14,24 @@ permalink: /package/system/date/methods/SetUTCMonth
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the month part in UTC time.<br>The omitted parameter items are not changed.</td>
   </tr>
-  <tr>
+ 　<tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">d.SetUTCMonth (<b><i>value [, date ]]</i></b>)</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">None</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
-    <td></td>
-    <td></td>
+    <td>integer  <b><i>value</i></b></td>
+    <td>Specify the month as a month number with January as 0.</td>
   </tr>
-  <tr>
-    <td></td>
-    <td></td>
+    <tr>
+    <td>integer  <b><i>date</i></b></td>
+    <td>Specify the day numerically.</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -39,13 +39,13 @@ permalink: /package/system/date/methods/SetUTCMonth
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"><code><pre>var d = new Date ();
+print (d, "￥ n");
+d.SetUTCMonth (10);
+print (d, "￥ n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
     <td colspan="2"></td>
   </tr>
 </table>
-
-
-

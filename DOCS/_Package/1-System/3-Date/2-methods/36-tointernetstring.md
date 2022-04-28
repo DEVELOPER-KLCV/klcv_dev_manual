@@ -14,24 +14,19 @@ permalink: /package/system/date/methods/ToInternetString
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the date and time as a string in RFC822 format.<br><small> Added since Ver.4.1.0<br>Not supported by Mobile</small></td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">d.ToInternetString ()</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns a date string</td>
   </tr>  
   <tr>
-    <td rowspan="2">Arguments</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
+    <td>Argument</td>
+    <td colspan="2">None</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -39,13 +34,12 @@ permalink: /package/system/date/methods/ToInternetString
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"><code><pre>var d = new Date ();
+print (d.toInternetString (), "￥ n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
     <td colspan="2"></td>
   </tr>
 </table>
-
-
 

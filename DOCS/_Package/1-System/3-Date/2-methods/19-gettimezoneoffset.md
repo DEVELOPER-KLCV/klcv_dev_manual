@@ -14,24 +14,19 @@ permalink: /package/system/date/methods/GetTimezoneOffset
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the time zone offset as a value in minutes.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">var v = d.GetTimezoneOffset ()</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Numerical value indicating the difference</td>
   </tr>  
   <tr>
-    <td rowspan="2">Arguments</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
+    <td>Argument</td>
+    <td colspan="2">None</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -39,13 +34,12 @@ permalink: /package/system/date/methods/GetTimezoneOffset
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"><code><pre>var d = new Date ();
+print (d.GetTimezoneOffset (), "￥ n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
     <td colspan="2"></td>
   </tr>
 </table>
-
-
 

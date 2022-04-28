@@ -14,24 +14,20 @@ permalink: /package/system/date/methods/SetTime
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the date and time directly.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">d.SetTime (<b><i>value</i></b>)</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">None</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
+    <td>integer  <b><i>value</i></b></td>
+    <td>Specifies a number in milliseconds that represents the elapsed time from 00:00:00 on January 1 , 1970 in UTC</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -39,13 +35,13 @@ permalink: /package/system/date/methods/SetTime
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"><code><pre>var d = new Date ();
+d.SetTime (1015083255000);
+print (d, "￥ n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
     <td colspan="2"></td>
   </tr>
 </table>
-
-
 

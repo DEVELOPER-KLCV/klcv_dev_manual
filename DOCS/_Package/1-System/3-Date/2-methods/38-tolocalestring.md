@@ -14,24 +14,19 @@ permalink: /package/system/date/methods/ToLocaleString
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the date and time as a string in locale format.<br>Currently, only Japanese-specific formats are supported.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">var text = d.ToLocalString ()</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Locale-formatted date and time string</td>
   </tr>  
   <tr>
-    <td rowspan="2">Arguments</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
+    <td>Argument</td>
+    <td colspan="2">None</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -39,13 +34,12 @@ permalink: /package/system/date/methods/ToLocaleString
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"><code><pre>var d = new Date ();
+print (d.ToLocaleString (), "￥ n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
     <td colspan="2"></td>
   </tr>
 </table>
-
-
 

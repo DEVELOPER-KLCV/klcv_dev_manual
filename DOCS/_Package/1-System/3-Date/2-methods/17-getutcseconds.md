@@ -14,24 +14,19 @@ permalink: /package/system/date/methods/GetUTCSeconds
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the second part of UTC time.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">var v = d.GetUTCSeconds ()</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Numerical value indicating seconds</td>
   </tr>  
   <tr>
-    <td rowspan="2">Arguments</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
+    <td>Argument</td>
+    <td colspan="2">None</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -39,13 +34,12 @@ permalink: /package/system/date/methods/GetUTCSeconds
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"><code><pre>var d = new Date ();
+print (d.GetUTCSeconds (), "￥ n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
     <td colspan="2"></td>
   </tr>
 </table>
-
-
 

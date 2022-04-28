@@ -14,24 +14,20 @@ permalink: /package/system/date/methods/SetUTCMilliSeconds
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the millisecond part in UTC time.<br>Although defined for compatibility with JavaScript , the resolution of the Date class is 1 second, so the value does not change when this method is executed.</td>
   </tr>
-  <tr>
+ 　<tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">d.SetUTCMilliSeconds  (<b><i>value</i></b>)</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">None</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
+    <td>integer <b><i>value</i></b></td>
+    <td>Specify the number of milliseconds.</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -39,13 +35,12 @@ permalink: /package/system/date/methods/SetUTCMilliSeconds
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre></pre></code></td>
+    <td colspan="2"><code><pre>var d = new Date ();
+d.SetUTCMilliSeconds  (0);
+print (d, "￥ n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
     <td colspan="2"></td>
   </tr>
 </table>
-
-
-
