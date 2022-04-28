@@ -5,6 +5,7 @@ has_children: true
 title: 3. Extension3 Package
 nav_order: 3
 permalink: /package/extension3
+has_toc: false
 ---
 
 # {{ page.title }}

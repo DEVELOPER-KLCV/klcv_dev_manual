@@ -5,6 +5,7 @@ has_children: true
 title: Statistical Functions
 nav_order: 10
 permalink: /method/statistical
+has_toc: false
 ---
 
 # {{ page.title }}

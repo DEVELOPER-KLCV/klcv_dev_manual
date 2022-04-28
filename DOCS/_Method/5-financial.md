@@ -5,6 +5,7 @@ has_children: true
 title: Financial Functions
 nav_order: 11
 permalink: /method/financial
+has_toc: false
 ---
 
 # {{ page.title }}

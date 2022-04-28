@@ -5,6 +5,7 @@ has_children: true
 title: 7. XML Package
 nav_order: 7
 permalink: /package/xmlpackage
+has_toc: false
 ---
 
 # {{ page.title }}

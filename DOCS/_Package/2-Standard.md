@@ -5,6 +5,7 @@ has_children: true
 title: 2. Standard Package
 nav_order: 2
 permalink: /package/standard
+has_toc: false
 ---
 
 # {{ page.title }}

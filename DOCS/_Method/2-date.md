@@ -5,6 +5,7 @@ has_children: true
 title: Date Functions
 nav_order: 8
 permalink: /method/date
+has_toc: false
 ---
 
 # {{ page.title }}

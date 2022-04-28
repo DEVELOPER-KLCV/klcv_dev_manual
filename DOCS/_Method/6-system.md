@@ -5,6 +5,7 @@ has_children: true
 title: System Functions
 nav_order: 12
 permalink: /method/system
+has_toc: false
 ---
 
 # {{ page.title }}

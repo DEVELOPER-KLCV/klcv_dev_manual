@@ -18,5 +18,12 @@ The following methods are defined in the ImageButton class.
 
 |Name       | Description   |
 |----------	|---------------|
+|[ResetDisabledImage](/package/extension4/imagebutton/methods/resetdisabledimage) | |
 |[ResetImage](/package/extension4/imagebutton/methods/resetimage) | |
+|[ResetHoveredImage](/package/extension4/imagebutton/methods/resethoveredimage) | |
+|[ResetPushedImage](/package/extension4/imagebutton/methods/resetpushedimage) | |
+|[SetDisabledImage](/package/extension4/imagebutton/methods/setdisabledimage) | |
 |[SetImage](/package/extension4/imagebutton/methods/setimage) | |
+|[SetHoveredImage](/package/extension4/imagebutton/methods/sethoveredimage) | |
+|[SetPushedImage](/package/extension4/imagebutton/methods/setpushedimage) | |
+|[SetPushingImage](/package/extension4/imagebutton/methods/setpushingimage) | |

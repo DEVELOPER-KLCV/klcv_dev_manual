@@ -5,6 +5,7 @@ has_children: true
 title: Arithmetic Functions
 nav_order: 9
 permalink: /method/arithmetic
+has_toc: false
 ---
 
 # {{ page.title }}

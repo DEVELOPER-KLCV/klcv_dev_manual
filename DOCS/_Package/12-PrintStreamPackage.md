@@ -5,6 +5,7 @@ has_children: true
 title: 12. PrintStream Package
 nav_order: 12
 permalink: /package/printstreampackage
+has_toc: false
 ---
 
 # {{ page.title }}

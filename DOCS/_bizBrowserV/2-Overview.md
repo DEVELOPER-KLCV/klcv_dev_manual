@@ -4,6 +4,7 @@ has_children: true
 
 title: 2. Biz / Browser Overview
 nav_order: 2
+permalink: /bizBrowserV/2-Overview/
 ---
 
 # {{ page.title }}
