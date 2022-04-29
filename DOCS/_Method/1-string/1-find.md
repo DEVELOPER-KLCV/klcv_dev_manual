@@ -8,8 +8,6 @@ nav_order: 1
 permalink: /method/str/find
 ---
 
-
-
 # {{ page.title }}
 
 <table>
