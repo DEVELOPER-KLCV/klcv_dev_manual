@@ -1,7 +1,7 @@
 ---
 layout: default
 
-parent: Arithmetic Functions
+parent: 3. Arithmetic Functions
 
 title: int
 nav_order: 3

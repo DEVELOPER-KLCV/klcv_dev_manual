@@ -1,7 +1,7 @@
 ---
 layout: default
 
-parent: Financial Functions
+parent: 5. Financial Functions
 
 title: db
 nav_order: 2

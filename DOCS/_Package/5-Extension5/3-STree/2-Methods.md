@@ -15,3 +15,8 @@ permalink: /package/extension5/stree/methods
 # {{ page.title }}
 
 The following methods are defined in the STree class.
+
+|Name       |  Description   |
+|----------	|----------------|
+|[ResetImage](/package/extension5/stree/methods/resetimage) | |
+|[SetImage](/package/extension5/stree/methods/setimage) | |

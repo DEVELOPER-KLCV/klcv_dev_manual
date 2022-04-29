@@ -15,3 +15,11 @@ permalink: /package/extension5/stree/events
 # {{ page.title }}
 
 The following events are defined in the STree class.
+
+|Name       |  Description   |
+|----------	|----------------|
+|[Clicked](/package/extension5/stree/events/clicked) | |
+|[DoubleClicked](/package/extension5/stree/events/doubleclicked) | |
+|[Dropped](/package/extension5/stree/events/dropped) | |
+|[RClicked](/package/extension5/stree/events/rclicked) | |
+|[SelectChanged](/package/extension5/stree/events/selectchanged) | |

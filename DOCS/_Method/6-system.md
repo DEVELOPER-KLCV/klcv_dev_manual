@@ -2,8 +2,8 @@
 layout: default
 has_children: true
 
-title: System Functions
-nav_order: 12
+title: 6. System Functions
+nav_order: 6
 permalink: /method/system
 has_toc: false
 ---

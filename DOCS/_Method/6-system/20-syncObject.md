@@ -1,7 +1,7 @@
 ---
 layout: default
 
-parent: System Functions
+parent: 6. System Functions
 
 title: syncObject
 nav_order: 20

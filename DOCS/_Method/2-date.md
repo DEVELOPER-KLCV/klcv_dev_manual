@@ -2,8 +2,8 @@
 layout: default
 has_children: true
 
-title: Date Functions
-nav_order: 8
+title: 2. Date Functions
+nav_order: 2
 permalink: /method/date
 has_toc: false
 ---

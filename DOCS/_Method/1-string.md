@@ -2,8 +2,8 @@
 layout: default
 has_children: true
 
-title: String Manipulation
-nav_order: 7
+title: 1. String Manipulation
+nav_order: 1
 permalink: /method/str
 has_toc: false
 ---

@@ -1,11 +1,12 @@
 ---
 layout: default
 
-parent: String Manipulation
+parent: 1. String Manipulation
 
 title: find
 nav_order: 1
 permalink: /method/str/find
+has_toc: false
 ---
 
 # {{ page.title }}

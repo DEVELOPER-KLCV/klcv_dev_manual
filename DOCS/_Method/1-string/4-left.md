@@ -1,7 +1,7 @@
 ---
 layout: default
 
-parent: String Manipulation
+parent: 1. String Manipulation
 
 title: left
 nav_order: 4

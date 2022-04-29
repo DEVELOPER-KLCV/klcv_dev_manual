@@ -1,7 +1,7 @@
 ---
 layout: default
 
-parent: Statistical Functions
+parent: 4. Statistical Functions
 
 title: avg
 nav_order: 1

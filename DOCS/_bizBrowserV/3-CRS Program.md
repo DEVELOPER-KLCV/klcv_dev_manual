@@ -9,8 +9,6 @@ has_toc: false
 
 # {{ page.title }}
 
-{: .no_toc }
-
 The CRS language is a scripting language dedicated to Biz / Browser.
 
 The language specification is similar to JavaScript, and most of the statements and operators behave in the same way as JavaScript, so the knowledge that must be acquired when developing a Biz / Browser application is minimized.

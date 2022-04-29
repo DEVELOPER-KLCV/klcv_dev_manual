@@ -2,8 +2,8 @@
 layout: default
 has_children: true
 
-title: Financial Functions
-nav_order: 11
+title: 5. Financial Functions
+nav_order: 5
 permalink: /method/financial
 has_toc: false
 ---

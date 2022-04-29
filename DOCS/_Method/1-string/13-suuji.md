@@ -1,8 +1,7 @@
 ---
 layout: default
 
-parent: String Manipulation
-
+parent: 1. String Manipulation
 title: suuji
 nav_order: 13
 permalink: /method/str/suuji

@@ -1,7 +1,7 @@
 ---
 layout: default
 
-parent: Arithmetic Functions
+parent: 3. Arithmetic Functions
 
 title: round
 nav_order: 6

@@ -1,7 +1,7 @@
 ---
 layout: default
 
-parent: Statistical Functions
+parent: 4. Statistical Functions
 
 title: min
 nav_order: 3
