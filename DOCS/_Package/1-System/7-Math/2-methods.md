@@ -20,21 +20,21 @@ Static methods
 
 |Name       |Description |
 |----------	|--------------|
-|[abs](/package/system/math/methods/abs) | |
-|[acos](/package/system/math/methods/acos) | |
-|[asin](/package/system/math/methods/asin) | |
-|[atan](/package/system/math/methods/atan) | |
-|[atan2](/package/system/math/methods/atan2) | |
-|[ceil](/package/system/math/methods/ceil) | |
-|[cos](/package/system/math/methods/cos) | |
-|[exp](/package/system/math/methods/exp) | |
-|[floor](/package/system/math/methods/floor) | |
-|[log](/package/system/math/methods/log) | |
-|[max](/package/system/math/methods/max) | |
-|[min](/package/system/math/methods/min) | |
-|[pow](/package/system/math/methods/pow) | |
-|[random](/package/system/math/methods/random) | |
-|[round](/package/system/math/methods/round) | |
-|[sin](/package/system/math/methods/sin) | |
-|[sqrt](/package/system/math/methods/sqrt) | |
-|[tan](/package/system/math/methods/tan) | |
+|[abs](/package/system/math/methods/abs) | Find the absolute value|
+|[acos](/package/system/math/methods/acos) |Find the inverse cosine |
+|[asin](/package/system/math/methods/asin) |Find the inverse sine |
+|[atan](/package/system/math/methods/atan) |Find the inverse tangent |
+|[atan2](/package/system/math/methods/atan2) |Find the angle of the coordinates (x, y) |
+|[ceil](/package/system/math/methods/ceil) |Find the value rounded up to the nearest whole number |
+|[cos](/package/system/math/methods/cos) | Find the cosine|
+|[exp](/package/system/math/methods/exp) |Finds the power of e (base of natural logarithm) with the specified value as an exponent |
+|[floor](/package/system/math/methods/floor) |Finds the value rounded down to the nearest whole number |
+|[log](/package/system/math/methods/log) |Find the natural logarithm |
+|[max](/package/system/math/methods/max) |Find the maximum value |
+|[min](/package/system/math/methods/min) |Find the minimum value |
+|[pow](/package/system/math/methods/pow) |Find exponentiation |
+|[random](/package/system/math/methods/random) |Find a pseudo-random number |
+|[round](/package/system/math/methods/round) |Find the value rounded to the nearest whole number |
+|[sin](/package/system/math/methods/sin) |Find the sine |
+|[sqrt](/package/system/math/methods/sqrt) |Find the square root |
+|[tan](/package/system/math/methods/tan) |Find the tangent |
