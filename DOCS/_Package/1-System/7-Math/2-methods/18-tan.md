@@ -1,3 +1,4 @@
+@@ -1,49 +0,0 @@
 ---
 layout: default
 
@@ -41,9 +42,8 @@ print (v2, "￥ n");</code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/system/math/methods/atan">atan,<a href="/package/system/math/methods/atan2">atan2, <a href="/package/system/math/methods/cos">cos, <a href="/package/system/math/methods/sin">sin method</td>
+    <td><a href="/package/system/math/methods/atan">atan</a>, <a href="/package/system/math/methods/atan2">atan2</a>, <a href="/package/system/math/methods/cos">cos</a>, <a href="/package/system/math/methods/sin">sin</a> method</td>
   </tr>
 </table>
-
 
 

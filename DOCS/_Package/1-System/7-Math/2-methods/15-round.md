@@ -44,7 +44,7 @@ print (Math.round (-0.51), "￥ n"); / * -1 * /</code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/system/math/methods/ceil">ceil, </a> method<a href="/package/system/math/methods/floor">floor</a> method</td>
+    <td colspan="2"><a href="/package/system/math/methods/ceil">ceil </a>, <a href="/package/system/math/methods/floor">floor</a> methods</td>
   </tr>
 </table>
 

@@ -41,7 +41,7 @@ print (v2, "￥ n");</code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/system/math/methods/asin">asin, </a> method<a href="/package/system/math/methods/cos">cos</a>, </a> method<a href="/package/system/math/methods/tan">tan</a> methods</td>
+    <td colspan="2"><a href="/package/system/math/methods/asin">asin</a>, <a href="/package/system/math/methods/cos">cos</a>, <a href="/package/system/math/methods/tan">tan</a> methods</td>
   </tr>
 </table>
 

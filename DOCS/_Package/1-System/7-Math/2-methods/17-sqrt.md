@@ -41,7 +41,7 @@ print (v2, "\ n");</code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/system/math/methods/pow">pow method</td>
+    <td colspan="2"><a href="/package/system/math/methods/pow"></a>pow method</td>
   </tr>
 </table>
 
