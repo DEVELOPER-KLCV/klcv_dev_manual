@@ -1,7 +1,7 @@
 ---
 layout: default
 
-parent: System Functions
+parent: 6. System Functions
 
 title: getLocaleInfo
 nav_order: 10

@@ -1,7 +1,7 @@
 ---
 layout: default
 
-parent: System Functions
+parent: 6. System Functions
 
 title: changeProfile
 nav_order: 2

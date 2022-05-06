@@ -1,7 +1,7 @@
 ---
 layout: default
 
-parent: Financial Functions
+parent: 5. Financial Functions
 
 title: syd
 nav_order: 13

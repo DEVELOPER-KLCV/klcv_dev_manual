@@ -2,8 +2,8 @@
 layout: default
 has_children: true
 
-title: Arithmetic Functions
-nav_order: 9
+title: 3. Arithmetic Functions
+nav_order: 3
 permalink: /method/arithmetic
 has_toc: false
 ---

@@ -4,11 +4,10 @@ has_children: true
 
 title: 3. CRS Program
 nav_order: 3
+has_toc: false
 ---
 
 # {{ page.title }}
-
-{: .no_toc }
 
 The CRS language is a scripting language dedicated to Biz / Browser.
 

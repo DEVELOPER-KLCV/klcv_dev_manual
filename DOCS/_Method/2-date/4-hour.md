@@ -1,7 +1,7 @@
 ---
 layout: default
 
-parent: Date Functions
+parent: 2. Date Functions
 
 title: hour
 nav_order: 4

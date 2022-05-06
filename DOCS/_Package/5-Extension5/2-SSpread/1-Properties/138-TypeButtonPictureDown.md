@@ -1,0 +1,11 @@
+---
+layout: default
+
+grand_parent: SSpread Class
+parent: Properties
+has_children: false
+title: SSpread.TypeButtonPictureDown Property
+nav_order: 138
+permalink: /package/extension5/sspread/properties/TypeButtonPictureDown
+---
+# {{ page.title }}

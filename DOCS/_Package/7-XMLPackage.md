@@ -131,9 +131,9 @@ SVG (Scalable Vector Graphics) operations are realized by operating the XML node
 
 The XML package follows the W3C DOM Level2 Core Specification, and each class consists of the following inheritance relationships: (There is no derivation relationship in the Mobile version)
 
-<a href="/img/Biz Browser V/XMLPackage.png" target="_blank">
+<a href="/img/Biz Browser V/XMLPackage.PNG" target="_blank">
 
-<img src="/img/Biz Browser V/XMLPackage.png">
+<img src="/img/Biz Browser V/XMLPackage.PNG" alt="login image">
 
 <b>Compatibility with W3C DOM Level 2</b>
 

@@ -4,13 +4,10 @@ has_children: true
 
 title: 2. Biz / Browser Overview
 nav_order: 2
-permalink: /bizBrowserV/2-Overview/
+has_toc: false
 ---
 
 # {{ page.title }}
-
-
-{: .no_toc }
 
 Biz / Browser is executed by an interpreter with a built-in script written in a scripting language similar to JavaScript called CRS. Biz / Browser adopts HTTP as the basic input / output method, and can operate by downloading CRS (including script code, data, screen definition, etc.) from the WEB server.
 

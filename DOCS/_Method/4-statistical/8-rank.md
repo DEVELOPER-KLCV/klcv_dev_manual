@@ -1,8 +1,7 @@
 ---
 layout: default
 
-parent: Statistical Functions
-
+parent: 4. Statistical Functions
 title: rank
 nav_order: 8
 permalink: /method/statistical/rank

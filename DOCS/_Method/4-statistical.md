@@ -2,8 +2,8 @@
 layout: default
 has_children: true
 
-title: Statistical Functions
-nav_order: 10
+title: 4. Statistical Functions
+nav_order: 4
 permalink: /method/statistical
 has_toc: false
 ---

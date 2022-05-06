@@ -47,7 +47,7 @@ This is an extended GUI package added in Biz / Browser Ver5.0.
         <td>-</td>
     </tr>
     <tr>
-        <td><a href="/package/extension5/streeitem">StreeItem</a></td>
+        <td><a href="/package/extension5/streeitem">STreeItem</a></td>
         <td></td>
         <td>5.0.0</td>
         <td>-</td>
