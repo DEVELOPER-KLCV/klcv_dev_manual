@@ -38,11 +38,11 @@ permalink: /package/system/math/methods/tan
     <td colspan="2"><code><pre>var v1 = Math.tan (Math.PI / 2);
 print (v1, "￥　n");
 var v2 = Math.atan (v1);
-print (v2, "￥ n");</code></td>
+print (v2, "￥ n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td><a href="/package/system/math/methods/atan">atan</a>, <a href="/package/system/math/methods/atan2">atan2</a>, <a href="/package/system/math/methods/cos">cos</a>, <a href="/package/system/math/methods/sin">sin</a> method</td>
+    <td><a href="/package/system/math/methods/atan">atan</a>, <a href="/package/system/math/methods/atan2">atan2</a>, <a href="/package/system/math/methods/cos">cos</a>, <a href="/package/system/math/methods/sin">sin</a> methods</td>
   </tr>
 </table>
 

@@ -14,7 +14,7 @@ permalink: /package/system/number/methods/toprecision
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the value stored in the Number object as a string in exponential or fixed-point notation for the specified number of digits.<br>If the argument is omitted, the result equivalent to the <a href="/package/system/number/methods/tostring">ToString</a> method is returned.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -22,26 +22,26 @@ permalink: /package/system/number/methods/toprecision
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">String in exponential or fixed-point notation. <br>Returns the one with the shorter expression.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>integer <b>fractionDigits</b></td>
-    <td></td>
+    <td>Number of digits. <br>Specify 1 to 15.</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>Func-4</td>
-    <td></td>
+    <td>The argument value is invalid</td>
   </tr>
   <tr>
     <td>Example of use</td>
     <td colspan="2"><code><pre>var num = new Number;
 num.Value = 5678.12345;
-print(num.ToPrecision(3), "\n");
-print(num.ToPrecision(6), "\n");
+print(num.ToPrecision(3), "￥n");
+print(num.ToPrecision(6), "￥n");
  
----出力結果---
+---Output result---
 5.68e+003
 5678.12</pre></code></td>
   </tr>

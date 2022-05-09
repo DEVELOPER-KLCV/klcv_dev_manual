@@ -14,7 +14,7 @@ permalink: /package/system/object/methods/delete
 <table>
   <tr>
     <td>Explanation</td>
-    <td></td>
+    <td>Disconnects the object from the object tree.<br><br>If the disconnected object is not referenced from anywhere, all connected child objects will also be disconnected in a chain.<br>Objects that are disconnected from the object tree and no longer referenced anywhere are deleted.<br>See <a href="/package/system/object/methods/delete">Delete</a> for more information.<br><br><b>Array object</b><br>Calling the Delete method on an element of an array deletes only that element (and its child objects).<br> As a result, subsequent elements are carried down by the array number (index)<br><br><b>Object reuse</b><br>As a general rule, objects disconnected from the object tree cannot be reused. Please note that objects may not work properly when reconnecting and reusing the object tree. In particular, do not reuse each class that inherits the <a href="/package/standard/displayobject">DisplayObject</a> class, such as buttons and text boxes.</td>
   </tr>
   <tr>
     <td>Call format</td>

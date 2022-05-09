@@ -14,11 +14,11 @@ permalink: /package/system/number/methods/constructor
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Initialize the Number object.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var num = new Number( [ value ] )</td>
+    <td colspan="2">var num = new Number( [ <b>value</b> ] )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -36,7 +36,7 @@ permalink: /package/system/number/methods/constructor
   <tr>
     <td>Example of use</td>
     <td colspan="2"><code><pre>var num = new Number(5678);
-print(num, "\n");</pre></code></td>
+print(num, "￥n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>

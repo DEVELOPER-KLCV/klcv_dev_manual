@@ -35,13 +35,13 @@ permalink: /package/system/math/methods/sqrt
   <tr>
     <td>Example of use</td>
     <td colspan="2"><code><pre>var v1 = Math.sqrt (2);
-print (v1, "\ n");
+print (v1, "￥n");
 var v2 = Math.sqrt (16);
-print (v2, "\ n");</code></td>
+print (v2, "￥n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/system/math/methods/pow"></a>pow method</td>
+    <td colspan="2"><a href="/package/system/math/methods/pow">pow</a> method</td>
   </tr>
 </table>
 

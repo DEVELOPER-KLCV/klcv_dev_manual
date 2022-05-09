@@ -37,7 +37,7 @@ permalink: /package/system/math/methods/sin
     <td colspan="2"><code><pre>var v1 = Math.sin (Math.PI / 3);
 print (v1, "￥ n");
 var v2 = Math.asin (v1);
-print (v2, "￥ n");</code></td>
+print (v2, "￥ n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>

@@ -14,7 +14,7 @@ permalink: /package/system/object/methods/clearchild
 <table>
   <tr>
     <td>Explanation</td>
-    <td></td>
+    <td>Initializes the default properties of all child objects connected to the object.<br>See the <a href="/package/system/object/methods/clear">Clear</a> method for initializing the default properties. </td>
   </tr>
   <tr>
     <td>Call format</td>

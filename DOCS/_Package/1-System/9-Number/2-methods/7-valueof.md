@@ -14,7 +14,7 @@ permalink: /package/system/number/methods/valueof
 <table>
   <tr>
     <td>Explanation</td>
-    <td></td>
+    <td>Returns the value stored in the Number object.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -22,7 +22,7 @@ permalink: /package/system/number/methods/valueof
   </tr>
   <tr>
     <td>Return value</td>
-    <td></td>
+    <td>Number type value</td>
   </tr>  
   <tr>
     <td>Arguments</td>
@@ -37,7 +37,7 @@ permalink: /package/system/number/methods/valueof
     <td><code><pre>
     var num = new Number;
     num.Value = 5678;
-    print(num.ValueOf(), "\n");
+    print(num.ValueOf(), "￥n");
  </pre></code></td>
   </tr>
   <tr>

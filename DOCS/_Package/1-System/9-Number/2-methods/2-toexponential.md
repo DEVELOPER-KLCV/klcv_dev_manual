@@ -40,7 +40,7 @@ permalink: /package/system/number/methods/toexponential
 num.Value = 5678.12345;
 print(num.ToExponential(3), "\n");
  
----出力結果---
+--- Output result ---
 5.678e+003</pre></code></td>
   </tr>
   <tr>

@@ -14,7 +14,7 @@ permalink: /package/system/object/methods/deletechild
 <table>
   <tr>
     <td>Explanation</td>
-    <td></td>
+    <td>Disconnects all child objects connected to the object from the object tree.<br><br>See the <a href="/package/system/object/methods/delete">Delete</a> method for disconnecting from the object tree.</td>
   </tr>
   <tr>
     <td>Call format</td>

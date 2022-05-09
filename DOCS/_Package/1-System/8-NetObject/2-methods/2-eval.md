@@ -14,7 +14,7 @@ permalink: /package/system/netobject/methods/eval
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Run the CRS script. <br>Executing a script with the Eval method works the same as executing a Function from the caller. The CRS script to be executed can be given as a string by the <b>crs</b> argument, and the return value can be returned by the return statement, which is the return value of the Eval method.<br><small>Added since Version 4.2.0 <br>Not supported in Mobile</small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -22,12 +22,12 @@ permalink: /package/system/netobject/methods/eval
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Depends on the script's return statement</td>
   </tr>  
   <tr>
     <td>Argument</td>
     <td>String <b>crs</b></td>
-    <td></td>
+    <td>Specify the CRS script as a string.</td>
   </tr>
   <tr>
     <td>Exception</td>

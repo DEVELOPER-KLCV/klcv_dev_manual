@@ -14,7 +14,7 @@ permalink: /package/system/object/methods/findchild
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Finds a child object with the specified name.<br><br> <small> Added since Ver.4.0.0 <br>Additional functions after Ver.4.1.2---> If the class identifier for <b>name</b> is specified, the object of the specified class is searched. <--- Up to here<br><br> Not supported on mobile</small></td>
   </tr>
   <tr>
     <td>Call format</td>

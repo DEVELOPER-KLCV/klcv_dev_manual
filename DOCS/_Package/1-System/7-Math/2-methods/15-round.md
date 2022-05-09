@@ -40,7 +40,7 @@ print (Math.round (0.51), "￥ n");   / * 1 * /
  
 print (Math.round (-0.49), "￥ n"); / * 0 * /
 print (Math.round (-0.50), "￥ n"); / * 0 * /
-print (Math.round (-0.51), "￥ n"); / * -1 * /</code></td>
+print (Math.round (-0.51), "￥ n"); / * -1 * /</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>

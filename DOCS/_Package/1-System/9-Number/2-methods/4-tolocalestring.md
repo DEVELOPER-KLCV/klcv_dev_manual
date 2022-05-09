@@ -14,7 +14,7 @@ permalink: /package/system/number/methods/tolocalestring
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the value stored in the Number object as a locale-formatted string. <br>The current implementation returns the same value as the <a href="/package/system/number/methods/tostring">ToString</a> method.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -22,7 +22,7 @@ permalink: /package/system/number/methods/tolocalestring
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Locale format string</td>
   </tr>  
   <tr>
     <td>Arguments</td>
@@ -36,7 +36,7 @@ permalink: /package/system/number/methods/tolocalestring
     <td>Example of use</td>
     <td colspan="2"><code><pre>var num = new Number;
 num.Value = 5678;
-print(num.ToLocaleString(), "\n");</pre></code></td>
+print(num.ToLocaleString(), "￥n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
