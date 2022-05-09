@@ -34,9 +34,10 @@ permalink: /package/system/number/methods/valueof
   </tr>
   <tr>
     <td>Example of use</td>
-    <td><code><pre>var num = new Number;
-num.Value = 5678;
-print(num.ValueOf(), "\n");
+    <td><code><pre>
+    var num = new Number;
+    num.Value = 5678;
+    print(num.ValueOf(), "\n");
  </pre></code></td>
   </tr>
   <tr>

@@ -4,9 +4,9 @@ layout: default
 grand_parent: Math Class
 parent: Methods
 has_children: false
-title: Math.min methods
+title: Math.pow methods
 nav_order: 13
-permalink: /package/system/math/methods/min
+permalink: /package/system/math/methods/pow
 ---
 # {{ page.title }}
 

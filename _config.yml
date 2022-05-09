@@ -84,3 +84,4 @@ just_the_docs:
 #### EXCLUDE ####
 exclude:
 - about
+- node_modules
