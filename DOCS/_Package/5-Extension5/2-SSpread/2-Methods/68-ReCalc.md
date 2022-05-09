@@ -4,9 +4,9 @@ layout: default
 grand_parent: SSpread Class
 parent: Methods
 has_children: false
-title: SSpread.OpenExcel2007File Method
+title: SSpread.ReCalc Method
 nav_order: 68
-permalink: /package/extension5/sspread/methods/OpenExcel2007File
+permalink: /package/extension5/sspread/methods/ReCalc
 ---
 # {{ page.title }}
 
