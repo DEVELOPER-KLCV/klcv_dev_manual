@@ -137,7 +137,7 @@ The XML package follows the W3C DOM Level2 Core Specification, and each class co
 
 <b>Compatibility with W3C DOM Level 2</b>
 
-The XML package built into Biz / Browser is designed to be used as a business data representation for displaying or printing XML on the screen. Therefore, among the specifications defined by DOM Level 2, functions that are not normally required for this purpose and specifications that significantly impair execution performance have been deleted. It also adds useful features not defined in the W3C DOM, such as XML text loading and saving features and the [SelectNodes]() method.
+The XML package built into Biz / Browser is designed to be used as a business data representation for displaying or printing XML on the screen. Therefore, among the specifications defined by DOM Level 2, functions that are not normally required for this purpose and specifications that significantly impair execution performance have been deleted. It also adds useful features not defined in the W3C DOM, such as XML text loading and saving features and the [SelectNodes](/package/xmlpackage/xmlnode/methods/selectnodes) method.
 
 <b>About W3C DOM Level 3 support</b>
  
@@ -163,12 +163,12 @@ Xrefs are only resolved for SVG <image> elements.
 
 <b>Character code</b>
 
-The characters included in the DOM tree are converted to the SHIFT-JIS character code and constructed in consideration of compatibility with CRS scripts. The only encoding that can be saved with the [XmlDocument.Save]() method is SHIFT-JIS.
+The characters included in the DOM tree are converted to the SHIFT-JIS character code and constructed in consideration of compatibility with CRS scripts. The only encoding that can be saved with the [XmlDocument.Save](/package/xmlpackage/xmldocument/methods/save) method is SHIFT-JIS.
 
-However, the number that represents the length of the characters used in the [XmlCharacterData.Length]() property and the [XmlCharacterData.SubstringData]() method is not the number of bytes but the number of characters. If you need the number of bytes, use the Length of the global function.
+However, the number that represents the length of the characters used in the [XmlCharacterData.Length](/package/xmlpackage/xmlcharacterdata/properties/length) property and the [XmlCharacterData.SubstringData](/package/xmlpackage/xmlcharacterdata/methods/substringdata) method is not the number of bytes but the number of characters. If you need the number of bytes, use the Length of the global function.
 
 **<small>Added from Version 4.2.0 From here---&gt;</small>**<br>
-When the [XmlDOMImplementation]() object used when constructing the DOM tree is generated in Unicode mode, the character string included in the DOM tree is retained in Unicode, and the XML encoding method saved by the [XmlDocument.Save]() method is fixed to UTF-8. Become.
+When the [XmlDOMImplementation](/package/xmlpackage/xmldomimplementation) object used when constructing the DOM tree is generated in Unicode mode, the character string included in the DOM tree is retained in Unicode, and the XML encoding method saved by the [XmlDocument.Save](/package/xmlpackage/xmldocument/methods/save) method is fixed to UTF-8. Become.
 
 To generate an XmlDOMImplementation object in Unicode mode, specify XmlDOMImplementation.Unicode in the constructor.
 
