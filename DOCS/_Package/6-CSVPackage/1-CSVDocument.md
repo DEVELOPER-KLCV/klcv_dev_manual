@@ -25,7 +25,7 @@ The CSVDocument class has the following features.
 
 <b>Default properties and ValueType</b>
 
-The default property is [Value](/package/csvpackage/csvdocument/properties/Value). ValueType can be String, Number, Fixed, Date, UString.
+The default property is [Value](/package/csvpackage/csvdocument/properties/value). ValueType can be String, Number, Fixed, Date, UString.
 If ValueType is specified for UString, the internal character code will be Unicode.
 This is synonymous with specifying Unicode as the internal character code in the constructor.<br>
 **<small>Added since Version 5.0.3</small>**

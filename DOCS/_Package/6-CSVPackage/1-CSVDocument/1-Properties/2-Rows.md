@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: CSVDocument.Rows property
 nav_order: 2
-permalink: /package/csvpackage/csvdocument/properties/Rows
+permalink: /package/csvpackage/csvdocument/properties/rows
 ---
 # {{ page.title }}
