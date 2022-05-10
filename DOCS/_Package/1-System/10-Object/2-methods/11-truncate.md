@@ -14,7 +14,7 @@ permalink: /package/system/object/methods/truncate
 <table>
   <tr>
     <td>Explanation</td>
-    <td></td>
+    <td>Deletes all the elements of the arrayed object.<br><br>This method only attaches array objects. This method has no effect on non-arrayed objects.<br><br>It works faster than repeating the <a href="/package/system/object/methods/delete">Delete</a> method for individual array elements.<br>Unlike calling the <a href="/package/system/object/methods/delete">Delete</a> method on an array object, the definition is not deleted, so it it possible to recreate the array element with the <a href="/package/system/object/methods/insert">Insert</a> method later.</td>
   </tr>
   <tr>
     <td>Call format</td>

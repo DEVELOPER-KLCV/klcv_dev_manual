@@ -18,15 +18,15 @@ The following methods are defined in the RegexMatcher class.
 
 |  Name | Description |
 |-------|-------------|
-|[AppendReplacement](/package/system/regexmatcher/methods/appendReplacement)| |
-|[AppendTail](/package/system/regexmatcher/methods/appendTail)| |
-|[End](/package/system/regexmatcher/methods/end)| |
-|[Find](/package/system/regexmatcher/methods/find)| |
-|[GetInputString](/package/system/regexmatcher/methods/getinputstring)| |
-|[Group](/package/system/regexmatcher/methods/group)| |
-|[LookingAt](/package/system/regexmatcher/methods/lookingat)| |
-|[Matches](/package/system/regexmatcher/methods/matches)| |
-|[ReplaceAll](/package/system/regexmatcher/methods/replaceall)| |
-|[ReplaceFirst](/package/system/regexmatcher/methods/replacefirst)| |
-|[Reset](/package/system/regexmatcher/methods/reset)| |
-|[Start](/package/system/regexmatcher/methods/start)| |
+|[AppendReplacement](/package/system/regexmatcher/methods/appendReplacement)|Perform continuous addition and replacement |
+|[AppendTail](/package/system/regexmatcher/methods/appendTail)|Performs additional replacement |
+|[End](/package/system/regexmatcher/methods/end)|Gets the tail index of the matched result |
+|[Find](/package/system/regexmatcher/methods/find)|Searches the input string for the next matching substring to the regular expression pattern |
+|[GetInputString](/package/system/regexmatcher/methods/getinputstring)|Gets the input string set in the regular expression engine <br><small> Added since Ver.5.0.1</small> |
+|[Group](/package/system/regexmatcher/methods/group)|Gets the substring of the matched result |
+|[LookingAt](/package/system/regexmatcher/methods/lookingat)|Matches the regular expression pattern from the beginning of the input string |
+|[Matches](/package/system/regexmatcher/methods/matches)|Matches the entire input string with the regular expression pattern |
+|[ReplaceAll](/package/system/regexmatcher/methods/replaceall)|Replaces everything that matches the regular expression pattern with the specified string |
+|[ReplaceFirst](/package/system/regexmatcher/methods/replacefirst)|Replaces the first part that matches the regular expression pattern with the specified string |
+|[Reset](/package/system/regexmatcher/methods/reset)|Reset the regular expression engine |
+|[Start](/package/system/regexmatcher/methods/start)|Gets the leading index of the matched result |

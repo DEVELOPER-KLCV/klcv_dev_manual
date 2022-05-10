@@ -14,7 +14,7 @@ permalink: /package/system/regexmatcher/methods/group
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Gets the substring of the matched result.<br><br>If you specify <b>group</b>, you can get the substring forward-referenced by the group of regular expression patterns. Groups are numbered from 1 to right, with group 0 representing the entire pattern.<br><br>Regular expression patterns such as "(a) *" may match the empty string. In this case, an empty string is returned.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -22,21 +22,21 @@ permalink: /package/system/regexmatcher/methods/group
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">None</td>
+    <td colspan="2">Matched part or substring of forward reference group<br><small>From Ver.5.0.1, UString type string is returned in <a href="/package/system/regexpattern">Unicode mode</a>.</small></td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>integer <b>group</b></td>
-    <td></td>
+    <td>The number of the forward reference group you want to get<br>If omitted, it will be 0 (entire pattern).</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>Func 4</td>
-    <td></td>
+    <td>The argument value is invalid</td>
   </tr>
   <tr>
     <td>Func 14</td>
-    <td></td>
+    <td>The value cannot be referenced</td>
   </tr>
   <tr>
     <td>Example of use</td>

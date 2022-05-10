@@ -14,7 +14,7 @@ permalink: /package/system/regexmatcher/methods/appendtail
 <table>
   <tr>
     <td>Explanation</td>
-    <td></td>
+    <td>Behaves as a append-and-replace method.<br><br> Returns from the input string after appends it at the tail position.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -22,7 +22,7 @@ permalink: /package/system/regexmatcher/methods/appendtail
   </tr>
   <tr>
     <td>Return value</td>
-    <td>None</td>
+    <td>Character string from the input character string after the append position to the tail.<br><small>From Ver.5.0.1, UString type character string is returned in <a href="/package/system/regexpattern">Unicode mode</a>.</small></td>
   </tr>  
   <tr>
     <td>Argument</td>

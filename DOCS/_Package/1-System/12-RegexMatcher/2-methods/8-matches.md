@@ -14,7 +14,7 @@ permalink: /package/system/regexmatcher/methods/matches
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Matches the entire input string with the regular expression pattern.<br><br>If the match is successful, you can use the <a href="/package/system/regexmatcher/methods/start">Start</a>, <a href="/package/system/regexmatcher/methods/end">End</a>, <a href="/package/system/regexmatcher/methods/group">Group</a> methods to get more information.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -22,7 +22,7 @@ permalink: /package/system/regexmatcher/methods/matches
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">None</td>
+    <td colspan="2">$ TRUE if the entire input string and the regular expression pattern match exactly, $ FALSE if not</td>
   </tr>  
   <tr>
     <td>Arguments</td>

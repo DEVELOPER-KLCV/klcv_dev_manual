@@ -14,9 +14,8 @@ permalink: /package/system/object/methods/insert
 <table>
   <tr>
     <td>Explanation</td>
-    <td></td>
+    <td colspan="2">Add an element to the arrayed object.<br><br>This method is attached only to array objects and array elements. This method has no effect on non-arrayed objects.<br><br>Running on an array object inserts a new element at the end of the array.<br>When executed on an array element, a new element is inserted at the previous position.</td>
   </tr>
-  
   <tr>
     <td>Call format</td>
     <td>obj.Insert( [ <b>count</b> ] )<br>obj[ <b>index</b> ].Insert( [ <b>count</b> ] )</td>
@@ -28,11 +27,11 @@ permalink: /package/system/object/methods/insert
   <tr>
     <td rowspan="2">Arguments</td>
     <td>integer <b>count</b></td>
-    <td></td>
+    <td>Specifies the number of elements to insert. If omitted, one item will be inserted.</td>
   </tr>
   <tr>
     <td>integer <b>index</b></td>
-    <td></td>
+    <td>Specify the insertion position with a subscript. The element at the specified position must exist.</td>
   </tr>
   <tr>
     <td>Exception</td>
