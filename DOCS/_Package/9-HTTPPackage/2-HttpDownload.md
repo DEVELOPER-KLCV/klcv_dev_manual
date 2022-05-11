@@ -36,4 +36,4 @@ var down = new HttpDownload("http//PrintServer");
 var session = findHttpSession("http://PrintServer");
 var down = new HttpDownload(session); /* session must have a valid Protocol and Server set */ 
 ```
-See the [AddURL]() method for how to specify the URL.
+See the [AddURL](/package/httppackage/httpdownload/methods/addurl) method for how to specify the URL.

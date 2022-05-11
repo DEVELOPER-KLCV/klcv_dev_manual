@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.ScrollBarVColor Property
 nav_order: 105
-permalink: /package/extension5/sspread/properties/ScrollBarVColor
+permalink: /package/extension5/sspread/properties/scrollbarvcolor
 ---
 # {{ page.title }}

@@ -26,56 +26,56 @@ This is an extended GUI package added in Biz / Browser Ver3.0.
         <td>AI</td>
     </tr>
     <tr>
-        <td><a href="/package/extension3/DateEdit">DateEdit</a></td>
+        <td><a href="/package/extension3/dateedit">DateEdit</a></td>
         <td>Displays a text box dedicated to date input</td>
         <td>3.0.0</td>
         <td>2.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
-        <td><a href="/package/extension3/NumberEdit">NumberEdit</a></td>
+        <td><a href="/package/extension3/numberedit">NumberEdit</a></td>
         <td>Displays a text box dedicated to entering numerical values</td>
         <td>3.0.0</td>
         <td>2.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
-        <td><a href="/package/extension3/SVGButton">SVGButton</a></td>
+        <td><a href="/package/extension3/svgbutton">SVGButton</a></td>
         <td>Displays SVG button</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
-        <td><a href="/package/extension3/TabForm">TabForm</a></td>
+        <td><a href="/package/extension3/tabform">TabForm</a></td>
         <td>Defines each tab of the TabFrame class</td>
         <td>4.0.0</td>
         <td>4.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
-        <td><a href="/package/extension3/TabFrame">TabFrame</a></td>
+        <td><a href="/package/extension3/tabframe">TabFrame</a></td>
         <td>Display a dialog</td>
         <td>3.0.0</td>
         <td>2.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
-        <td><a href="/package/extension3/DisplayObject">DisplayObject</a></td>
+        <td><a href="/package/extension3/displayobject">DisplayObject</a></td>
         <td>Display tab controls</td>
         <td>3.0.0</td>
         <td>3.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
-        <td><a href="/package/extension3/TreeItem">TreeItem</a></td>
+        <td><a href="/package/extension3/treeitem">TreeItem</a></td>
         <td>Define each item in the TreeView class</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
-        <td><a href="/package/extension3/TreeView">TreeView</a></td>
+        <td><a href="/package/extension3/treeview">TreeView</a></td>
         <td>Display tree view</td>
         <td>3.0.0</td>
         <td>-</td>

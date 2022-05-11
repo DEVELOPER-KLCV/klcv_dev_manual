@@ -17,12 +17,12 @@ permalink: /package/httppackage/httpresponse
 
 A class that holds HTTP responses.
 
-Get the HttpResponse object as the return value of the [HttpSession.Get]() or [HttpSession.Post]() method.
+Get the HttpResponse object as the return value of the [HttpSession.Get](/package/httppackage/httpsession/methods/get) or [HttpSession.Post](/package/httppackage/httpsession/methods/post) method.
 
-Among the errors that occurred in the communication process, the error that occurred in the HTTP layer is identified by the [Status]() property of the HttpResponse object. Note that even if you receive an HttpResponse object as a result of the HttpSession.Get, Post method, the communication may not complete successfully.
+Among the errors that occurred in the communication process, the error that occurred in the HTTP layer is identified by the [Status](/package/httppackage/httpresponse/properties/status) property of the HttpResponse object. Note that even if you receive an HttpResponse object as a result of the HttpSession.Get, Post method, the communication may not complete successfully.
 
-Also, even if the Status property indicates an error such as $HTTP_NOT_FOUND, the [Body]() property may contain meaningless values ​​such as HTML containing the error message returned by the WEB server.
+Also, even if the Status property indicates an error such as $HTTP_NOT_FOUND, the [Body](/package/httppackage/httpresponse/properties/body) property may contain meaningless values ​​such as HTML containing the error message returned by the WEB server.
 
 **Default properties and ValueType**
  
-The default property is [Body](). The ValueType specification is invalid.
+The default property is [Body](/package/httppackage/httpresponse/properties/body). The ValueType specification is invalid.

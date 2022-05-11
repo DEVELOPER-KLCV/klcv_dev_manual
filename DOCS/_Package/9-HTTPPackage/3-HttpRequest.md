@@ -17,8 +17,8 @@ permalink: /package/httppackage/httprequest
 
 A class that holds HTTP requests.
 
-HttpRequest is created by the [HttpSession.CreateRequest]() method.
+HttpRequest is created by the [HttpSession.CreateRequest](/package/httppackage/httpsession/methods/createrequest) method.
 
 **Default properties and ValueType**
 
-The default property is the [URL](). The ValueType specification is invalid.
+The default property is the [URL](/package/httppackage/httprequest/properties/url). The ValueType specification is invalid.

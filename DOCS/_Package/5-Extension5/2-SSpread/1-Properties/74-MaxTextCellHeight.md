@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.MaxTextCellHeight Property
 nav_order: 74
-permalink: /package/extension5/sspread/properties/MaxTextCellHeight
+permalink: /package/extension5/sspread/properties/maxtextcellheight
 ---
 # {{ page.title }}

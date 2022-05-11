@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.ScrollBars Property
 nav_order: 101
-permalink: /package/extension5/sspread/properties/ScrollBars
+permalink: /package/extension5/sspread/properties/scrollbars
 ---
 # {{ page.title }}

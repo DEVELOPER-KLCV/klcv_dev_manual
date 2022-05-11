@@ -21,8 +21,8 @@ This class supports http, https, and file protocols, and is implicitly generated
 
 Biz / Browser maintains multiple objects of HttpSession class for each connection destination. Communication to the same destination reuses the already maintained HttpSession object.
 
-The HttpSession object can be obtained with the static method [GetSession]() or [FindSession]() and the global function [getHttpSession]() or [findHttpSession]().
+The HttpSession object can be obtained with the static method [GetSession](/package/httppackage/httpsession/methods/getsession) or [FindSession](/package/httppackage/httpsession/methods/findsession) and the global function [getHttpSession](/method/system/gethttpsession) or [findHttpSession](/method/system/findhttpsession).
 
 **Default properties and ValueType**
 
-The default property is [Server](). The ValueType specification is invalid.
+The default property is [Server](/package/httppackage/httpsession/properties/server). The ValueType specification is invalid.

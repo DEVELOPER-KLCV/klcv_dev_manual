@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.RetainSelBlock Property
 nav_order: 88
-permalink: /package/extension5/sspread/properties/RetainSelBlock
+permalink: /package/extension5/sspread/properties/retainselblock
 ---
 # {{ page.title }}

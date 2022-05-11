@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.RowHidden Property
 nav_order: 94
-permalink: /package/extension5/sspread/properties/RowHidden
+permalink: /package/extension5/sspread/properties/rowhidden
 ---
 # {{ page.title }}

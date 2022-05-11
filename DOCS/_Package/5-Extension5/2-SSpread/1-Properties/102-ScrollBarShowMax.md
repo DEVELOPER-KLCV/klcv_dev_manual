@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.ScrollBarShowMax Property
 nav_order: 102
-permalink: /package/extension5/sspread/properties/ScrollBarShowMax
+permalink: /package/extension5/sspread/properties/scrollbarshowmax
 ---
 # {{ page.title }}

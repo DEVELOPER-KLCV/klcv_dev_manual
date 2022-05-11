@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.NoBorder Property
 nav_order: 80
-permalink: /package/extension5/sspread/properties/NoBorder
+permalink: /package/extension5/sspread/properties/noborder
 ---
 # {{ page.title }}

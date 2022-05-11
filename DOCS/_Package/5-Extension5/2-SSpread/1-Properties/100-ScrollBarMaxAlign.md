@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.ScrollBarMaxAlign Property
 nav_order: 100
-permalink: /package/extension5/sspread/properties/ScrollBarMaxAlign
+permalink: /package/extension5/sspread/properties/scrollbarmaxalign
 ---
 # {{ page.title }}

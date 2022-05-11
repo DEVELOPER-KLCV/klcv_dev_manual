@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.RowHeadersShow Property
 nav_order: 92
-permalink: /package/extension5/sspread/properties/RowHeadersShow
+permalink: /package/extension5/sspread/properties/rowheadersshow
 ---
 # {{ page.title }}
