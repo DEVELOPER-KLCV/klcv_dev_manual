@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Form.VerticalScale property
 nav_order: 15
-permalink: /package/standard/form/properties/VerticalScale
+permalink: /package/standard/form/properties/verticalscale
 ---
 # {{ page.title }}
 

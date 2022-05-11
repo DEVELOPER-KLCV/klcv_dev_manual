@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: EditObject.IMEMode property
 nav_order: 10
-permalink: /package/standard/editobject/properties/IMEMode
+permalink: /package/standard/editobject/properties/imemode
 ---
 # {{ page.title }}
 

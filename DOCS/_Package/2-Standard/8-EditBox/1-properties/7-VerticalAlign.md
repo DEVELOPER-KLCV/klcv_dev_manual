@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: VerticalAlign property
 nav_order: 7
-permalink: /package/standard/editbox/properties/verticalAlign
+permalink: /package/standard/editbox/properties/verticalalign
 ---
 # {{ page.title }}
 

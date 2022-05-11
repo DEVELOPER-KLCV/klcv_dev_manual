@@ -6,7 +6,7 @@ has_children: true
 
 title: PulldownItem Class
 nav_order: 21
-permalink: /package/standard/puldownItem
+permalink: /package/standard/puldownitem
 
 ---
 {% assign img1 = "/img/Biz Browser V/CheckItem_1.png" %}

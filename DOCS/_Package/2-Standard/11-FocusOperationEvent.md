@@ -6,7 +6,7 @@ has_children: true
 
 title: FocusOperationEvent Class
 nav_order: 11
-permalink: /package/standard/focusoperationEvent
+permalink: /package/standard/focusoperationevent
 
 ---
 {% assign img1 = "/img/Biz Browser V/CheckItem_1.png" %}

@@ -6,7 +6,7 @@ has_children: true
 
 title: ContainerObject Class
 nav_order: 4
-permalink: /package/standard/containerObject
+permalink: /package/standard/containerobject
 
 ---
 {% assign img1 = "/img/Biz Browser V/CheckItem_1.png" %}

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: DisplayObject.SetCursor Method
 nav_order: 5
-permalink: /package/standard/displayobject/methods/SetCursor
+permalink: /package/standard/displayobject/methods/setcursor
 ---
 # {{ page.title }}
 
@@ -72,7 +72,7 @@ Function OnTouch(e) {
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/displayobject/methods/ResetCursor">ResetCursor</a> method</td>
+    <td colspan="2"><a href="/package/standard/displayobject/methods/resetcursor">ResetCursor</a> method</td>
   </tr>
 </table>
 

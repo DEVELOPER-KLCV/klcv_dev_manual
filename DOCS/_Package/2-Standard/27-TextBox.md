@@ -6,7 +6,7 @@ has_children: true
 
 title: TextBox Class
 nav_order: 27
-permalink: /package/standard/TextBox
+permalink: /package/standard/textbox
 
 ---
 {% assign img1 = "/img/Biz Browser V/CheckItem_1.png" %}

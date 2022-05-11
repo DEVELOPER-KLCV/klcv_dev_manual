@@ -20,22 +20,22 @@ The following properties are defined in the DisplayObject class.
 |----------	|--------|--------|---------------|--------------|
 |[Active](/package/standard/displayobject/properties/active) | CRW | boolean | $TRUE |  |
 |[Height](/package/standard/displayobject/properties/height) | CRW | integer | 100 |  |
-|[MouseOperation](/package/standard/displayobject/properties/MouseOperation) | CRW | integer | $STD |  |
-|[TabIndex](/package/standard/displayobject/properties/TabIndex) | CR | integer | 32767 |  |
+|[MouseOperation](/package/standard/displayobject/properties/mouseoperation) | CRW | integer | $STD |  |
+|[TabIndex](/package/standard/displayobject/properties/tabindex) | CR | integer | 32767 |  |
 |[Visible](/package/standard/displayobject/properties/visible) | CRW | boolean | $TRUE |  |
-|[VisualStyle](/package/standard/displayobject/properties/VisualStyle) | CR | boolean | $TRUE |  |
-|[Width](/package/standard/displayobject/properties/Width) | CRW | intger | 100 |  |
-|[X](/package/standard/displayobject/properties/X) | CRW | intger | 0 |  |
-|[Y](/package/standard/displayobject/properties/Y) | CRW | intger | 0 |  |
+|[VisualStyle](/package/standard/displayobject/properties/visualstyle) | CR | boolean | $TRUE |  |
+|[Width](/package/standard/displayobject/properties/width) | CRW | integer | 100 |  |
+|[X](/package/standard/displayobject/properties/x) | CRW | integer | 0 |  |
+|[Y](/package/standard/displayobject/properties/y) | CRW | integer | 0 |  |
 
 
 Properties added only to array objects
 
 |Name       | Access | Type   | Initial Value |  Description |
 |----------	|--------|--------|---------------|--------------|
-|[Layout](/package/standard/displayobject/properties/Layout) | CR | integer | $VERTICAL |  |
-|[LayoutMargin](/package/standard/displayobject/properties/LayoutMargin) | CR | integer | 0 |  |
-|[LayoutSpacing](/package/standard/displayobject/properties/LayoutSpacing) | CR | integer | 0 |  |
+|[Layout](/package/standard/displayobject/properties/layout) | CR | integer | $VERTICAL |  |
+|[LayoutMargin](/package/standard/displayobject/properties/layoutmargin) | CR | integer | 0 |  |
+|[LayoutSpacing](/package/standard/displayobject/properties/layoutspacing) | CR | integer | 0 |  |
 
 <u><b>Access</b></u><br>
 R: Readable

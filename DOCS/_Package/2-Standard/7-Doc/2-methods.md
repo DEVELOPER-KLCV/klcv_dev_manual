@@ -18,6 +18,6 @@ The following methods are defined in the Doc class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[GetPageFile](/package/standard/doc/methods/getPageFile)       | |
-|[GetPageReader](/package/standard/doc/methods/GetPageReader)       | |
-|[ShowPage](/package/standard/doc/methods/ShowPage)       | |
+|[GetPageFile](/package/standard/doc/methods/getpagefile)       | |
+|[GetPageReader](/package/standard/doc/methods/getpagereader)       | |
+|[ShowPage](/package/standard/doc/methods/showpage)       | |

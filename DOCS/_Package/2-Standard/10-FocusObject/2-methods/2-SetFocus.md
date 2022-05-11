@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: FocusObject.SetFocus Method
 nav_order: 2
-permalink: /package/standard/focusObject/methods/setFocus
+permalink: /package/standard/focusObject/methods/setfocus
 ---
 # {{ page.title }}
 

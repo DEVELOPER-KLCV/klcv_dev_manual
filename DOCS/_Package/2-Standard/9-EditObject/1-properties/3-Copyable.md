@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: EditObject.Copyable property
 nav_order: 3
-permalink: /package/standard/editobject/properties/Copyable
+permalink: /package/standard/editobject/properties/copyable
 ---
 # {{ page.title }}
 

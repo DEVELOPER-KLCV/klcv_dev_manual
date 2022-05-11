@@ -6,7 +6,7 @@ has_children: true
 
 title: GraphSeries Class
 nav_order: 15
-permalink: /package/standard/graphSeries
+permalink: /package/standard/graphseries
 
 ---
 {% assign img1 = "/img/Biz Browser V/CheckItem_1.png" %}

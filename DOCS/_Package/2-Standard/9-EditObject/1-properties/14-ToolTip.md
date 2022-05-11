@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: ToolTip property
 nav_order: 14
-permalink: /package/standard/editobject/properties/ToolTip
+permalink: /package/standard/editobject/properties/tooltip
 ---
 # {{ page.title }}
 

@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: RButtonUp Event
 nav_order: 9
-permalink: /package/standard/form/events/RButtonUp
+permalink: /package/standard/form/events/rbuttonup
 ---
 # {{ page.title }}

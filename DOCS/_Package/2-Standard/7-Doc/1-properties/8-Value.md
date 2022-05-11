@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Doc.Value property
 nav_order: 8
-permalink: /package/standard/doc/properties/Value
+permalink: /package/standard/doc/properties/value
 ---
 # {{ page.title }}
 

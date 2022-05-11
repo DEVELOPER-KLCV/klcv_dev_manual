@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Form.FindSVGElement Method
 nav_order: 1
-permalink: /package/standard/form/methods/FindSVGElement
+permalink: /package/standard/form/methods/findsvgelement
 ---
 # {{ page.title }}
 
@@ -48,7 +48,7 @@ Function OnClicked(e) {
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/form/properties/BgPattern">BgPattern</a> property<br><a href="/package/standard/form/methods/GetSVGElementPosition">GetSVGElementPosition</a> method<br><a href="">XmlElement</a> class<br></td>
+    <td colspan="2"><a href="/package/standard/form/properties/bgpattern">BgPattern</a> property<br><a href="/package/standard/form/methods/getsvgelementposition">GetSVGElementPosition</a> method<br><a href="/package/xmlpackage/xmlelement">XmlElement</a> class<br></td>
   </tr>
 </table>
 

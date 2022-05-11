@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: EditBox.SetMargins Method
 nav_order: 4
-permalink: /package/standard/editbox/methods/SetMargins
+permalink: /package/standard/editbox/methods/setmargins
 ---
 # {{ page.title }}
 

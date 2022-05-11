@@ -18,19 +18,19 @@ The following properties are defined in the Graph class.
 
 |Name       | Access | Type   |  Initial Value | Description  |
 |----------	|--------|--------|----------------|--------------|
-|[BgColor](/package/standard/graph/properties/bgColor) | CRW | integer | $STD | |
-|[Border](/package/standard/graph/properties/Border) | CR | boolean | $FALSE | |
-|[DataLabel](/package/standard/graph/properties/DataLabel) | CRW | integer | $STD | |
-|[Direction](/package/standard/graph/properties/Direction) | CRW | integer | $VERTICAL | |
-|[Example](/package/standard/graph/properties/Example) | CRW | integer | $STD | |
-|[FgColor](/package/standard/graph/properties/FgColor) | CRW | integer | $STD | |
-|[FontFace](/package/standard/graph/properties/FontFace) | CR | integer | $STD | |
-|[FontKind](/package/standard/graph/properties/FontKind) | CR | integer | $STD | |
-|[FontSize](/package/standard/graph/properties/FontSize) | CR | integer | 10 | |
-|[GraphType](/package/standard/graph/properties/GraphType) | CRW | integer | $BAR | |
-|[Title](/package/standard/graph/properties/Title) | CRW | String |  | |
-|[ToolTip](/package/standard/graph/properties/ToolTip) | CRW | String |  | |
-|[ToolTipDelayTime](/package/standard/graph/properties/ToolTipDelayTime) | CRW | integer | 0 | |
+|[BgColor](/package/standard/graph/properties/bgcolor) | CRW | integer | $STD | |
+|[Border](/package/standard/graph/properties/border) | CR | boolean | $FALSE | |
+|[DataLabel](/package/standard/graph/properties/datalabel) | CRW | integer | $STD | |
+|[Direction](/package/standard/graph/properties/direction) | CRW | integer | $VERTICAL | |
+|[Example](/package/standard/graph/properties/example) | CRW | integer | $STD | |
+|[FgColor](/package/standard/graph/properties/fgcolor) | CRW | integer | $STD | |
+|[FontFace](/package/standard/graph/properties/fontface) | CR | integer | $STD | |
+|[FontKind](/package/standard/graph/properties/fontkind) | CR | integer | $STD | |
+|[FontSize](/package/standard/graph/properties/fontsize) | CR | integer | 10 | |
+|[GraphType](/package/standard/graph/properties/graphtype) | CRW | integer | $BAR | |
+|[Title](/package/standard/graph/properties/title) | CRW | String |  | |
+|[ToolTip](/package/standard/graph/properties/tooltip) | CRW | String |  | |
+|[ToolTipDelayTime](/package/standard/graph/properties/tooltipdelaytime) | CRW | integer | 0 | |
 |[Value](/package/standard/graph/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date |  | |
 
 <u><b>Access</b></u><br>

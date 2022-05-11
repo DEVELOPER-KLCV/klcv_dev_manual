@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: DisplayObject.MessageBox Method
 nav_order: 1
-permalink: /package/standard/displayobject/methods/Messagebox
+permalink: /package/standard/displayobject/methods/messagebox
 ---
 # {{ page.title }}
 
@@ -43,13 +43,13 @@ permalink: /package/standard/displayobject/methods/Messagebox
   <tr>
     <td>Example of use</td>
     <td colspan="2"><code><pre>
-if (MessageBox("確認してください", "確認", $OKCANCEL) == OkSelected) {
+if (MessageBox("Please confirm", "Confirm", $OKCANCEL) == OkSelected) {
     :
 }
     </pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/displayobject/events/OkSelected">OkSelected</a>, <a href="/package/standard/displayobject/events/CancelSelected">CancelSelected</a>, <a href="/package/standard/displayobject/events/YesSelected">YesSelected</a>, <a href="/package/standard/displayobject/events/NoSelected">NoSelected</a>, <a href="/package/standard/displayobject/events/RetrySelected">RetrySelected</a> events</td>
+    <td colspan="2"><a href="/package/standard/displayobject/events/okselected">OkSelected</a>, <a href="/package/standard/displayobject/events/cancelselected">CancelSelected</a>, <a href="/package/standard/displayobject/events/yesselected">YesSelected</a>, <a href="/package/standard/displayobject/events/noselected">NoSelected</a>, <a href="/package/standard/displayobject/events/retryselected">RetrySelected</a> events</td>
   </tr>
 </table>

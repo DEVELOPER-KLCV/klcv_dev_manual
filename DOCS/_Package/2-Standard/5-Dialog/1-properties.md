@@ -18,20 +18,20 @@ The following properties are defined in the Dialog class.
 
 |Name       | Access | Type   | Initial Value |  Description |
 |----------	|--------|--------|---------------|--------------|
-|[BgColor](/package/standard/dialog/properties/BgColor) | CRW | integer | $STD |  |
+|[BgColor](/package/standard/dialog/properties/bgcolor) | CRW | integer | $STD |  |
 |[Border](/package/standard/dialog/properties/border) | CR | boolean | $FALSE| |
 |[CloseBox](/package/standard/dialog/properties/closebox) | CR | boolean | $TRUE| |
-|[ControlBox](/package/standard/dialog/properties/ControlBox) | CR | boolean | $TRUE| |
-|[Icon](/package/standard/dialog/properties/Icon) | CRW | integer | 0| |
-|[MaximizeBox](/package/standard/dialog/properties/MaximizeBox) | CR | boolean | $FALSE | |
-|[MinimizeBox](/package/standard/dialog/properties/MinimizeBox) | CR | boolean | $FALSE | |
-|[Modal](/package/standard/dialog/properties/Modal) | CR | boolean | $FALSE | |
-|[Opacity](/package/standard/dialog/properties/Opacity) |CRW | Number | 1.0 | |
-|[Resize](/package/standard/dialog/properties/Resize) |CR | boolean | $FALSE | |
-|[Scroll](/package/standard/dialog/properties/Scroll) |CR | integer | $AUTO | |
-|[Title](/package/standard/dialog/properties/Title) |CRW | String |  | |
-|[TitleBar](/package/standard/dialog/properties/TitleBar) |CR | boolean | $TRUE | |
-|[TransparencyKey](/package/standard/dialog/properties/TransparencyKey) |CRW | integer | $STD | |
+|[ControlBox](/package/standard/dialog/properties/controlbox) | CR | boolean | $TRUE| |
+|[Icon](/package/standard/dialog/properties/icon) | CRW | integer | 0| |
+|[MaximizeBox](/package/standard/dialog/properties/maximizebox) | CR | boolean | $FALSE | |
+|[MinimizeBox](/package/standard/dialog/properties/minimizebox) | CR | boolean | $FALSE | |
+|[Modal](/package/standard/dialog/properties/modal) | CR | boolean | $FALSE | |
+|[Opacity](/package/standard/dialog/properties/opacity) |CRW | Number | 1.0 | |
+|[Resize](/package/standard/dialog/properties/eesize) |CR | boolean | $FALSE | |
+|[Scroll](/package/standard/dialog/properties/scroll) |CR | integer | $AUTO | |
+|[Title](/package/standard/dialog/properties/title) |CRW | String |  | |
+|[TitleBar](/package/standard/dialog/properties/titlebar) |CR | boolean | $TRUE | |
+|[TransparencyKey](/package/standard/dialog/properties/transparencykey) |CRW | integer | $STD | |
 |[Value](/package/standard/dialog/properties/value)* |CRW | String<br>Number<br>Fixed<br>Date<br>UString |  | |
 
 

@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: EditObject.ShowCaret property
 nav_order: 13
-permalink: /package/standard/editobject/properties/ShowCaret
+permalink: /package/standard/editobject/properties/showcaret
 ---
 # {{ page.title }}
 

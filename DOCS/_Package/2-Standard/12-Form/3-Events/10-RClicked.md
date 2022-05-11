@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: RClicked Event
 nav_order: 10
-permalink: /package/standard/form/events/RClicked
+permalink: /package/standard/form/events/rclicked
 ---
 # {{ page.title }}

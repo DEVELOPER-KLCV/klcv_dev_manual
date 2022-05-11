@@ -18,10 +18,10 @@ The following properties are defined in the FocusObject class.
 
 |Name       | Access | Type   | Initial Value |  Description |
 |----------	|--------|--------|---------------|--------------|
-|[AutoTabFocus](/package/standard/focusobject/properties/autoTabFocus) | CRW | boolean | $TRUE |  |
-|[NextTabKey](/package/standard/focusobject/properties/NextTabKey) | CRW | integer | $STD |  |
-|[PrevTabKey](/package/standard/focusobject/properties/PrevTabKey) | CRW | integer | $STD |  |
-|[SkipTabFocus](/package/standard/focusobject/properties/SkipTabFocus) | CRW | boolean | $FALSE |  |
+|[AutoTabFocus](/package/standard/focusobject/properties/autotabfocus) | CRW | boolean | $TRUE |  |
+|[NextTabKey](/package/standard/focusobject/properties/nexttabkey) | CRW | integer | $STD |  |
+|[PrevTabKey](/package/standard/focusobject/properties/prevtabkey) | CRW | integer | $STD |  |
+|[SkipTabFocus](/package/standard/focusobject/properties/skiptabfocus) | CRW | boolean | $FALSE |  |
 
 <u><b>Access</b></u><br>
 R: Readable

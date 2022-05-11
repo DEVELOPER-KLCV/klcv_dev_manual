@@ -22,12 +22,12 @@ The following properties are defined in the Button class.
 |[FontFace](/package/standard/button/properties/fontface) | CR | integer | $STD | |
 |[FontKind](/package/standard/button/properties/fontkind) | CR | integer | $STD | |
 |[FontSize](/package/standard/button/properties/fontsize) | CR | integer | 10 | |
-|[HorizontalAlign](/package/standard/button/properties/horizontalAlign) | CR | integer | 10 | |
+|[HorizontalAlign](/package/standard/button/properties/horizontalalign) | CR | integer | 10 | |
 |[Title](/package/standard/button/properties/title) | CRW | String<br>UString(※) |  | |
 |[Tooltip](/package/standard/button/properties/tooltip) | CRW | String |  | |
 |[ToolTipDelayTime](/package/standard/button/properties/tooltipdelaytime) | CRW | integer | 0 | |
 |[Value](/package/standard/button/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date<br>UString |  | |
-|[VerticalAlign](/package/standard/button/properties/verticalAlign) | CR | integer | $STD | |
+|[VerticalAlign](/package/standard/button/properties/verticalalign) | CR | integer | $STD | |
 
 <u><b>Access</b></u><br>
 R: Readable

@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Dialog.SetImage Method
 nav_order: 4
-permalink: /package/standard/dialog/methods/SetImage
+permalink: /package/standard/dialog/methods/setimage
 ---
 # {{ page.title }}
 
@@ -48,6 +48,6 @@ Dialog1.Icon = 1;
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/dialog/properties/Icon">Icon</a> property<br><a href="/package/standard/dialog/methods/resetImage">ResetImage</a> method<br><a href="">ImageList</a> class</td>
+    <td colspan="2"><a href="/package/standard/dialog/properties/icon">Icon</a> property<br><a href="/package/standard/dialog/methods/resetimage">ResetImage</a> method<br><a href="/package/extension4/imagelist">ImageList</a> class</td>
   </tr>
 </table>

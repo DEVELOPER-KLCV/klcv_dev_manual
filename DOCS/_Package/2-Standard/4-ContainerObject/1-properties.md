@@ -18,8 +18,8 @@ The following properties are defined in the ContainerObject class.
 
 |Name       | Access | Type   | Initial Value |  Description |
 |----------	|--------|--------|---------------|--------------|
-|[NextTabKey](/package/standard/containerobject/properties/NextTabKey) | CRW | integer | $STD |  |
-|[PrevTabKey](/package/standard/containerobject/properties/PrevTabKey) | CRW | integer | $STD| |
+|[NextTabKey](/package/standard/containerobject/properties/nexttabkey) | CRW | integer | $STD |  |
+|[PrevTabKey](/package/standard/containerobject/properties/prevtabkey) | CRW | integer | $STD| |
 
 
 <u><b>Access</b></u><br>

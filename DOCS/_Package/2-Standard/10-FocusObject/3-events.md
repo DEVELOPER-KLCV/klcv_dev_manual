@@ -18,6 +18,6 @@ The following events are defined in the FocusObject class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[FocusOperation](/package/standard/focusobject/methods/focusOperation)       | |
-|[GetFocus](/package/standard/focusobject/methods/GetFocus)       | |
-|[LostFocus](/package/standard/focusobject/methods/lostFocus)       | |
+|[FocusOperation](/package/standard/focusobject/methods/focusoperation)       | |
+|[GetFocus](/package/standard/focusobject/methods/getfocus)       | |
+|[LostFocus](/package/standard/focusobject/methods/lostfocus)       | |

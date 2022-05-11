@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Graph.SetYAxis Method
 nav_order: 3
-permalink: /package/standard/graph/methods/SetYAxis
+permalink: /package/standard/graph/methods/setyaxis
 ---
 # {{ page.title }}
 
@@ -55,7 +55,7 @@ permalink: /package/standard/graph/methods/SetYAxis
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/graph/methods/SetXAxis">SetXAxis</a> method</td>
+    <td colspan="2"><a href="/package/standard/graph/methods/setxaxis">SetXAxis</a> method</td>
   </tr>
 </table>
 

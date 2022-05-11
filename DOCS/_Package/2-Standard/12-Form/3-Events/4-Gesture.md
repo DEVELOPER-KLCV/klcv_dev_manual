@@ -10,7 +10,7 @@ permalink: /package/standard/form/events/gesture
 ---
 # {{ page.title }}
 
-Occurs on gesture operations that meet the conditions specified in the [UseGesture](/package/standard/form/properties/UseGesture) property. Gesture operations can be detected by processing with the OnGesture event handler.
+Occurs on gesture operations that meet the conditions specified in the [UseGesture](/package/standard/form/properties/usegesture) property. Gesture operations can be detected by processing with the OnGesture event handler.
 
 The following child objects are attached to the Event object.
 

@@ -18,4 +18,4 @@ The following events are defined in the Doc class.
 
 Name       |  Description |
 |----------	|--------------|
-|[PageChange](/package/standard/doc/events/PageChange)       | |
+|[PageChange](/package/standard/doc/events/pagechange)       | |

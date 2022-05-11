@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Dialog.SetWindowState Method
 nav_order: 5
-permalink: /package/standard/dialog/methods/SetWindowState
+permalink: /package/standard/dialog/methods/setwindowstate
 ---
 # {{ page.title }}
 

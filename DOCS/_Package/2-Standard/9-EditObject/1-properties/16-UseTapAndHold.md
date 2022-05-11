@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: UseTapAndHold property
 nav_order: 16
-permalink: /package/standard/editobject/properties/UseTapAndHold
+permalink: /package/standard/editobject/properties/usetapandhold
 ---
 # {{ page.title }}
 

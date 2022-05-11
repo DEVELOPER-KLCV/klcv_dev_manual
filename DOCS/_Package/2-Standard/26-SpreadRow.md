@@ -6,7 +6,7 @@ has_children: true
 
 title: SpreadRow Class
 nav_order: 26
-permalink: /package/standard/spreadRow
+permalink: /package/standard/spreadrow
 
 ---
 {% assign img1 = "/img/Biz Browser V/CheckItem_1.png" %}

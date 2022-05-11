@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: FocusObject.LostFocus Event
 nav_order: 3
-permalink: /package/standard/focusObject/events/lostFocus
+permalink: /package/standard/focusObject/events/lostfocus
 ---
 # {{ page.title }}

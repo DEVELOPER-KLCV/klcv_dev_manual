@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Form.BgPatternCache property
 nav_order: 5
-permalink: /package/standard/form/properties/BgPatternCache
+permalink: /package/standard/form/properties/bgpatterncache
 ---
 # {{ page.title }}
 

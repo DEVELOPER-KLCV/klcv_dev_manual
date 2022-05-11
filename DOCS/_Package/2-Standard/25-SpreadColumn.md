@@ -6,7 +6,7 @@ has_children: true
 
 title: SpreadColumn Class
 nav_order: 25
-permalink: /package/standard/spreadColumn
+permalink: /package/standard/spreadcolumn
 
 ---
 {% assign img1 = "/img/Biz Browser V/CheckItem_1.png" %}

@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: FontSize property
 nav_order: 8
-permalink: /package/standard/editobject/properties/FontSize
+permalink: /package/standard/editobject/properties/fontsize
 ---
 # {{ page.title }}
 

@@ -19,5 +19,5 @@ The following methods are defined in the Form class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[FindSVGElement](/package/standard/form/methods/FindSVGElement)       | |
-|[GetSVGElementPosition](/package/standard/form/methods/GetSVGElementPosition)       | |
+|[FindSVGElement](/package/standard/form/methods/findsvgelement)       | |
+|[GetSVGElementPosition](/package/standard/form/methods/getsvgelementposition)       | |

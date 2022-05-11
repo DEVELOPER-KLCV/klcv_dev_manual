@@ -18,6 +18,6 @@ The following events are defined in the Graph class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[Clicked](/package/standard/graph/events/Clicked)       | |
-|[DoubleClicked](/package/standard/graph/events/DoubleClicked)       | |
-|[RClicked](/package/standard/graph/events/RClicked)       | |
+|[Clicked](/package/standard/graph/events/clicked)       | |
+|[DoubleClicked](/package/standard/graph/events/doubleclicked)       | |
+|[RClicked](/package/standard/graph/events/rclicked)       | |

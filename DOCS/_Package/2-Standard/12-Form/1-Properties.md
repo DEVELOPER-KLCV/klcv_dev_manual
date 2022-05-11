@@ -18,27 +18,27 @@ The following properties are defined in the Form class.
 
 |Name       | Access | Type   |  Initial Value | Description  |
 |----------	|--------|--------|----------------|--------------|
-|[AcceptDrop](/package/standard/form/properties/AcceptDrop) | CRW | integer | 0  | |
-|[BgColor](/package/standard/form/properties/BgColor) | CRW | integer | $STD |
-|[BgHighQuality](/package/standard/form/properties/BgHighQuality) | CRW | boolean | $FALSE |
-|[BgPattern](/package/standard/form/properties/BgPattern) | CRW | XmlDocument |  |
-|[BgPatternCache](/package/standard/form/properties/BgPatternCache) | CRW | boolean | $FALSE |
+|[AcceptDrop](/package/standard/form/properties/acceptdrop) | CRW | integer | 0  | |
+|[BgColor](/package/standard/form/properties/bgcolor) | CRW | integer | $STD |
+|[BgHighQuality](/package/standard/form/properties/bghighquality) | CRW | boolean | $FALSE |
+|[BgPattern](/package/standard/form/properties/bgpattern) | CRW | XmlDocument |  |
+|[BgPatternCache](/package/standard/form/properties/bgpatterncache) | CRW | boolean | $FALSE |
 |[Border](/package/standard/form/properties/border) | CR | boolean | $FALSE |
-|[FontScale](/package/standard/form/properties/fontScale) | CRW | Number | 1.0 |
-|[HorizontalScale](/package/standard/form/properties/HorizontalScale) | CRW | Number | 1.0 |
-|[Scroll](/package/standard/form/properties/Scroll) | CR | integer | $AUTO |
-|[Transparent](/package/standard/form/properties/Transparent) | CR | boolean | $FALSE |
-|[UseGesture](/package/standard/form/properties/UseGesture) | CRW | integer | $STD |
-|[UseMouseMove](/package/standard/form/properties/UseMouseMove) | CRW | integer | $STD |
-|[UseMouseWheel](/package/standard/form/properties/UseMouseWheel) | CRW | integer | $STD |
+|[FontScale](/package/standard/form/properties/fontscale) | CRW | Number | 1.0 |
+|[HorizontalScale](/package/standard/form/properties/horizontalscale) | CRW | Number | 1.0 |
+|[Scroll](/package/standard/form/properties/scroll) | CR | integer | $AUTO |
+|[Transparent](/package/standard/form/properties/transparent) | CR | boolean | $FALSE |
+|[UseGesture](/package/standard/form/properties/usegesture) | CRW | integer | $STD |
+|[UseMouseMove](/package/standard/form/properties/usemousemove) | CRW | integer | $STD |
+|[UseMouseWheel](/package/standard/form/properties/usemousewheel) | CRW | integer | $STD |
 |[Value](/package/standard/form/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date<br>UString |  |
-|[VerticalScale](/package/standard/form/properties/VerticalScale) | CRW | Number | 1.0 |
+|[VerticalScale](/package/standard/form/properties/verticalscale) | CRW | Number | 1.0 |
 
 Only for Mobile, Android version
 
 |Name       | Access | Type   |  Initial Value | Description  |
 |----------	|--------|--------|----------------|--------------|
-|[UseTapAndHold](/package/standard/form/properties/UseTapAndHold) | CRW | boolean | $FALSE  | |
+|[usetapandhold](/package/standard/form/properties/UseTapAndHold) | CRW | boolean | $FALSE  | |
 
 <u><b>Access</b></u><br>
 R: Readable

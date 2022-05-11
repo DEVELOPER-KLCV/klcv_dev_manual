@@ -6,7 +6,7 @@ has_children: true
 
 title: GraphAxis Class
 nav_order: 14
-permalink: /package/standard/graphAxis
+permalink: /package/standard/graphaxis
 
 ---
 {% assign img1 = "/img/Biz Browser V/CheckItem_1.png" %}

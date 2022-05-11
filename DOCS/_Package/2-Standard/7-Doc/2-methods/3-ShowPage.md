@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Doc.ShowPage Method
 nav_order: 3
-permalink: /package/standard/doc/methods/ShowPage
+permalink: /package/standard/doc/methods/showpage
 ---
 # {{ page.title }}
 

@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Button.HorizontalAlign property
 nav_order: 5
-permalink: /package/standard/button/properties/HorizontalAlign
+permalink: /package/standard/button/properties/horizontalalign
 ---
 # {{ page.title }}
 

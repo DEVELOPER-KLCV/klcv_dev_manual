@@ -24,4 +24,4 @@ Only for Mobile, Android version
 
 |Name       |  Description |
 |----------	|--------------|
-|[RClicked](/package/standard/editobject/events/RClicked)       | |
+|[RClicked](/package/standard/editobject/events/rclicked)       | |

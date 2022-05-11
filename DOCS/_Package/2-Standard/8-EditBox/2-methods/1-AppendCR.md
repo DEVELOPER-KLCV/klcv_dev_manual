@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: EditBox.AppendCR Method
 nav_order: 1
-permalink: /package/standard/editbox/methods/AppendCR
+permalink: /package/standard/editbox/methods/appendcr
 ---
 # {{ page.title }}
 

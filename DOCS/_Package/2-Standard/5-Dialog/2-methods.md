@@ -18,8 +18,8 @@ The following methods are defined in the Dialog class.
 
 |  Name | Description |
 |-------|-------------|
-|[ResetIcon](/package/standard/dialog/methods/resetIcon) | |
-|[ResetImage](/package/standard/dialog/methods/resetImage) | |
-|[SetIcon](/package/standard/dialog/methods/SetIcon) | |
-|[SetImage](/package/standard/dialog/methods/SetImage) | |
-|[SetWindowState](/package/standard/dialog/methods/SetWindowState) | |
+|[ResetIcon](/package/standard/dialog/methods/reseticon) | |
+|[ResetImage](/package/standard/dialog/methods/resetimage) | |
+|[SetIcon](/package/standard/dialog/methods/seticon) | |
+|[SetImage](/package/standard/dialog/methods/setimage) | |
+|[SetWindowState](/package/standard/dialog/methods/setwindowstate) | |

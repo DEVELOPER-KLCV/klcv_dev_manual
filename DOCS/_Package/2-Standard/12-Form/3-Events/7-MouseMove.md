@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: Form.MouseMove Event
 nav_order: 7
-permalink: /package/standard/form/events/MouseMove
+permalink: /package/standard/form/events/mousemove
 ---
 # {{ page.title }}

@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: Form.KeyDown Event
 nav_order: 5
-permalink: /package/standard/form/events/KeyDown
+permalink: /package/standard/form/events/keydown
 ---
 # {{ page.title }}

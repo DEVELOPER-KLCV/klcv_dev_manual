@@ -18,9 +18,9 @@ The following events are defined in the DisplayObject class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[OkSelected](/package/standard/displayobject/events/OkSelected)       | |
-|[CancelSelected](/package/standard/displayobject/events/CancelSelected)       | |
-|[YesSelected](/package/standard/displayobject/events/YesSelected)       | |
-|[NoSelected](/package/standard/displayobject/events/NoSelected)       | |
-|[RetrySelected](/package/standard/displayobject/events/RetrySelected)       | |
-|[Timer](/package/standard/displayobject/events/Timer)       | |
+|[OkSelected](/package/standard/displayobject/events/okselected)       | |
+|[CancelSelected](/package/standard/displayobject/events/cancelselected)       | |
+|[YesSelected](/package/standard/displayobject/events/yesselected)       | |
+|[NoSelected](/package/standard/displayobject/events/noselected)       | |
+|[RetrySelected](/package/standard/displayobject/events/retryselected)       | |
+|[Timer](/package/standard/displayobject/events/timer)       | |

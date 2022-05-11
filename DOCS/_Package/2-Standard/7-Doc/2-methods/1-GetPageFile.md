@@ -47,6 +47,6 @@ Form1.BgPattern = xmldoc;
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/doc/methods/getPageReader">GetPageReader</a> method</td>
+    <td colspan="2"><a href="/package/standard/doc/methods/getpagereader">GetPageReader</a> method</td>
   </tr>
 </table>

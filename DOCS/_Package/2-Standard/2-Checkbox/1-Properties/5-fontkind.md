@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: FontKind property
 nav_order: 5
-permalink: /package/standard/checkbox/properties/FontKind
+permalink: /package/standard/checkbox/properties/fontkind
 ---
 # {{ page.title }}
 

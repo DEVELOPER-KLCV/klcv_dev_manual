@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Dialog.TransparencyKey property
 nav_order: 14
-permalink: /package/standard/dialog/properties/TransparencyKey
+permalink: /package/standard/dialog/properties/transparencykey
 ---
 # {{ page.title }}
 

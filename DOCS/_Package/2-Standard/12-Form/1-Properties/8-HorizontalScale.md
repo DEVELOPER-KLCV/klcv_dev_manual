@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Form.HorizontalScale property
 nav_order: 8
-permalink: /package/standard/form/properties/HorizontalScale
+permalink: /package/standard/form/properties/horizontalscale
 ---
 # {{ page.title }}
 

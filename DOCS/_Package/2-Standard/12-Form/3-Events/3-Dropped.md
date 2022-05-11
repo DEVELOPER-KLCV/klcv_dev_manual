@@ -6,7 +6,7 @@ parent: Events
 has_children: false
 title: Dropped Event
 nav_order: 3
-permalink: /package/standard/form/events/Dropped
+permalink: /package/standard/form/events/dropped
 ---
 # {{ page.title }}
 

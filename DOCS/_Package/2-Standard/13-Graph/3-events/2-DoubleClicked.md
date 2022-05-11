@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: DoubleClicked Event
 nav_order: 2
-permalink: /package/standard/graph/events/DoubleClicked
+permalink: /package/standard/graph/events/doubleclicked
 ---
 # {{ page.title }}

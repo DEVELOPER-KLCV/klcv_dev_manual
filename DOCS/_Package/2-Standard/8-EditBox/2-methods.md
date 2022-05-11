@@ -18,7 +18,7 @@ The following methods are defined in the EditBox class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[AppendCR](/package/standard/editbox/methods/AppendCR)       | |
-|[GetSelection](/package/standard/editbox/methods/GetSelection)       | |
-|[SetSelection](/package/standard/editbox/methods/SetSelection)       | |
-|[SetMargins](/package/standard/editbox/methods/SetMargins)       | |
+|[AppendCR](/package/standard/editbox/methods/appendcr)       | |
+|[GetSelection](/package/standard/editbox/methods/getselection)       | |
+|[SetSelection](/package/standard/editbox/methods/setselection)       | |
+|[SetMargins](/package/standard/editbox/methods/setmargins)       | |

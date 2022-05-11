@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: DisplayObject.LayoutSpacing property
 nav_order: 12
-permalink: /package/standard/displayobject/properties/LayoutSpacing
+permalink: /package/standard/displayobject/properties/layoutspacing
 ---
 # {{ page.title }}
 

@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Border property
 nav_order: 6
-permalink: /package/standard/form/properties/Border
+permalink: /package/standard/form/properties/border
 ---
 # {{ page.title }}
 

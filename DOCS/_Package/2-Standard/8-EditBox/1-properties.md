@@ -19,12 +19,12 @@ The following properties are defined in the EditBox class.
 |Name       | Access | Type   | Initial Value |  Description |
 |----------	|--------|--------|---------------|--------------|
 |[Border](/package/standard/editbox/properties/border) | CR | boolean | $TRUE |  |
-|[HorizontalAlign](/package/standard/editbox/properties/horizontalAlign) | CR | integer | $STD |  |
-|[InputMode](/package/standard/editbox/properties/inputMode) | CR | integer |  |  |
-|[MaxLength](/package/standard/editbox/properties/maxLength) | CR | integer |  |  |
-|[ScrollBarPosition](/package/standard/editbox/properties/ScrollBarPosition) | CR | integer | $STD |  |
+|[HorizontalAlign](/package/standard/editbox/properties/horizontalalign) | CR | integer | $STD |  |
+|[InputMode](/package/standard/editbox/properties/inputmode) | CR | integer |  |  |
+|[MaxLength](/package/standard/editbox/properties/maxlength) | CR | integer |  |  |
+|[ScrollBarPosition](/package/standard/editbox/properties/scrollbarposition) | CR | integer | $STD |  |
 |[Value](/package/standard/editbox/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date<br>UString |  |  |
-|[VerticalAlign](/package/standard/editbox/properties/verticalAlign) | CR | integer | $STD |  |
+|[VerticalAlign](/package/standard/editbox/properties/verticalalign) | CR | integer | $STD |  |
 |[WordWrap](/package/standard/editbox/properties/wordwrap) | CR | integer | $TRUE |  |
 
 <u><b>Access</b></u><br>

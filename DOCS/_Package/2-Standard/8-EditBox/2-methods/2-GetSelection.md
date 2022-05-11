@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: EditBox.GetSelection Method
 nav_order: 2
-permalink: /package/standard/editbox/methods/GetSelection
+permalink: /package/standard/editbox/methods/getselection
 ---
 # {{ page.title }}
 
@@ -40,6 +40,6 @@ EditBox1.GetSelection();
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/editbox/methods/SetSelection">SetSelection</a> method</td>
+    <td colspan="2"><a href="/package/standard/editbox/methods/setselection">SetSelection</a> method</td>
   </tr>
 </table>

@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: Form.MouseWheel Event
 nav_order: 8
-permalink: /package/standard/form/events/MouseWheel
+permalink: /package/standard/form/events/mousewheel
 ---
 # {{ page.title }}

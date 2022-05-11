@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: FocusObject.GetFocus Event
 nav_order: 2
-permalink: /package/standard/focusObject/events/getFocus
+permalink: /package/standard/focusObject/events/getfocus
 ---
 # {{ page.title }}

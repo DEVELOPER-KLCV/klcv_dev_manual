@@ -48,6 +48,6 @@ Form1.BgPattern = xmldoc;
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/doc/methods/GetPageFile">GetPageFile</a> method</td>
+    <td colspan="2"><a href="/package/standard/doc/methods/getpagefile">GetPageFile</a> method</td>
   </tr>
 </table>

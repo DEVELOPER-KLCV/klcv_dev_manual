@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: ToolTipDelayTime property
 nav_order: 8
-permalink: /package/standard/button/properties/ToolTipDelayTime
+permalink: /package/standard/button/properties/tooltipdelaytime
 ---
 # {{ page.title }}
 

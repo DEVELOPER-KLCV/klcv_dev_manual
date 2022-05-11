@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Dialog.Modal property
 nav_order: 8
-permalink: /package/standard/dialog/properties/Modal
+permalink: /package/standard/dialog/properties/modal
 ---
 # {{ page.title }}
 

@@ -6,7 +6,7 @@ parent: Events
 has_children: false
 title: Dialog.WindowStateChanged Event
 nav_order: 3
-permalink: /package/standard/dialog/events/WindowStateChanged
+permalink: /package/standard/dialog/events/windowstatechanged
 ---
 # {{ page.title }}
 

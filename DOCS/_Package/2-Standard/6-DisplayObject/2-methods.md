@@ -19,8 +19,8 @@ The following methods are defined in the DisplayObject class.
 |Name       |  Description |
 |----------	|--------------|
 |[MessageBox](/package/standard/displayobject/methods/messagebox)       | |
-|[PopupMenu](/package/standard/displayobject/methods/PopupMenu)       | |
-|[RemoveTime](/package/standard/displayobject/methods/RemoveTime)       | |
-|[ResetCursor](/package/standard/displayobject/methods/ResetCursor)       | |
-|[SetCursor](/package/standard/displayobject/methods/SetCursor)       | |
-|[SetTimer](/package/standard/displayobject/methods/SetTimer)       | |
+|[PopupMenu](/package/standard/displayobject/methods/popupmenu)       | |
+|[RemoveTime](/package/standard/displayobject/methods/removetime)       | |
+|[ResetCursor](/package/standard/displayobject/methods/resetcursor)       | |
+|[SetCursor](/package/standard/displayobject/methods/setcursor)       | |
+|[SetTimer](/package/standard/displayobject/methods/settimer)       | |

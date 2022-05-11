@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: EditObject.IMECodeInput property
 nav_order: 9
-permalink: /package/standard/editobject/properties/IMECodeInput
+permalink: /package/standard/editobject/properties/imecodeinput
 ---
 # {{ page.title }}
 

@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Scroll property
 nav_order: 11
-permalink: /package/standard/dialog/properties/Scroll
+permalink: /package/standard/dialog/properties/scroll
 ---
 # {{ page.title }}
 

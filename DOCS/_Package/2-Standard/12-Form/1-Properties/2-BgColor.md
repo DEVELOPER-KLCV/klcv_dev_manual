@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Bgcolor property
 nav_order: 2
-permalink: /package/standard/form/properties/bgColor
+permalink: /package/standard/form/properties/bgcolor
 ---
 # {{ page.title }}
 

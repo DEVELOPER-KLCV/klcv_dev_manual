@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Dialog.SetIcon Method
 nav_order: 3
-permalink: /package/standard/dialog/methods/SetIcon
+permalink: /package/standard/dialog/methods/seticon
 ---
 # {{ page.title }}
 
@@ -45,6 +45,6 @@ Dialog1.SetIcon("/image/window.ico");
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/dialog/methods/resetIcon">ResetIcon</a> method</td>
+    <td colspan="2"><a href="/package/standard/dialog/methods/reseticon">ResetIcon</a> method</td>
   </tr>
 </table>

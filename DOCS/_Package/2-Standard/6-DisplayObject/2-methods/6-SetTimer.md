@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: DisplayObject.SetTimer Method
 nav_order: 6
-permalink: /package/standard/displayobject/methods/SetTimer
+permalink: /package/standard/displayobject/methods/settimer
 ---
 # {{ page.title }}
 
@@ -53,7 +53,7 @@ Function OnTimer(e) {
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/displayobject/methods/removeTimer">RemoveTimer</a> method<br><a href="/package/standard/displayobject/events/Timer">Timer</a> event</td>
+    <td colspan="2"><a href="/package/standard/displayobject/methods/removetimer">RemoveTimer</a> method<br><a href="/package/standard/displayobject/events/timer">Timer</a> event</td>
   </tr>
 </table>
 

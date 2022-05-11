@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Dialog.ResetImage Method
 nav_order: 2
-permalink: /package/standard/dialog/methods/ResetImage
+permalink: /package/standard/dialog/methods/resetimage
 ---
 # {{ page.title }}
 
@@ -39,6 +39,6 @@ Dialog1.ResetImage();
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/dialog/methods/setImage">SetImage</a> method</td>
+    <td colspan="2"><a href="/package/standard/dialog/methods/setimage">SetImage</a> method</td>
   </tr>
 </table>

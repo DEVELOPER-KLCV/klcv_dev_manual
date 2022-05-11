@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: WordWrap property
 nav_order: 8
-permalink: /package/standard/editbox/properties/wordWrap
+permalink: /package/standard/editbox/properties/wordwrap
 ---
 # {{ page.title }}
 

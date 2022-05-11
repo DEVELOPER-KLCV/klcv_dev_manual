@@ -16,9 +16,8 @@ permalink: /package/standard/graph/methods
 
 The following methods are defined in the Graph class.
 
-
 |Name       |  Description |
 |----------	|--------------|
-|[SetLabel](/package/standard/graph/methods/SetLabel)       | |
-|[SetXAxis](/package/standard/graph/methods/SetXAxis)       | |
-|[SetYAxis](/package/standard/graph/methods/SetYAxis)       | |
+|[SetLabel](/package/standard/graph/methods/setlabel)       | |
+|[SetXAxis](/package/standard/graph/methods/setxaxis)       | |
+|[SetYAxis](/package/standard/graph/methods/setyaxis)       | |

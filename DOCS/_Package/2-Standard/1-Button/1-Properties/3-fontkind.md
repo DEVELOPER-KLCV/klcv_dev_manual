@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: FontKind property
 nav_order: 3
-permalink: /package/standard/button/properties/FontKind
+permalink: /package/standard/button/properties/fontkind
 ---
 # {{ page.title }}
 

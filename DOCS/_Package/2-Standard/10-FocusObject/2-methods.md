@@ -19,5 +19,5 @@ The following methods are defined in the FocusObject class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[MoveFocus](/package/standard/focusobject/methods/moveFocus)       | |
-|[SetFocus](/package/standard/focusobject/methods/SetFocus)       | |
+|[MoveFocus](/package/standard/focusobject/methods/movefocus)       | |
+|[SetFocus](/package/standard/focusobject/methods/setfocus)       | |

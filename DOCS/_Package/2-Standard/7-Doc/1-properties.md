@@ -21,7 +21,7 @@ The following properties are defined in the Doc class.
 |[Format](/package/standard/doc/properties/format) | CR | String | "A4V" |  |
 |[Height](/package/standard/doc/properties/height) | CRW | integer |  |  |
 |[OverLay](/package/standard/doc/properties/overlay) | CRW | XmlDocument |  |  |
-|[PageNumber](/package/standard/doc/properties/PageNumber) | R | integer |  |  |
+|[PageNumber](/package/standard/doc/properties/pagenumber) | R | integer |  |  |
 |[Preview](/package/standard/doc/properties/preview) | CR | integer | $PRINTER |  |
 |[Printer](/package/standard/doc/properties/printer) | CR | String |  |  |
 |[Title](/package/standard/doc/properties/title) | CR | String |  |  |

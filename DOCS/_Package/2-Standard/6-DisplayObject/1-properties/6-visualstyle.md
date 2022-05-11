@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: DisplayObject.VisualStyle property
 nav_order: 6
-permalink: /package/standard/displayobject/properties/VisualStyle
+permalink: /package/standard/displayobject/properties/visualstyle
 ---
 # {{ page.title }}
 

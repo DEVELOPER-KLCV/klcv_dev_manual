@@ -6,7 +6,7 @@ parent: Events
 has_children: false
 title: DoubleClicked Event
 nav_order: 2
-permalink: /package/standard/form/events/DoubleClicked
+permalink: /package/standard/form/events/doubleclicked
 ---
 # {{ page.title }}
 

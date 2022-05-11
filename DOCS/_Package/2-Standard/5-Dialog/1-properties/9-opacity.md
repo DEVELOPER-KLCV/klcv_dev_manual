@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Dialog.Opacity property
 nav_order: 9
-permalink: /package/standard/dialog/properties/Opacity
+permalink: /package/standard/dialog/properties/opacity
 ---
 # {{ page.title }}
 

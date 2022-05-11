@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: DisplayObject.PopupMenu Method
 nav_order: 2
-permalink: /package/standard/displayobject/methods/PopupMenu
+permalink: /package/standard/displayobject/methods/popupmenu
 ---
 # {{ page.title }}
 
@@ -82,6 +82,7 @@ var id = PopupMenu(x);
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="">Append</a> method<br><a href="">XmlDocument</a> class</td>
+    <td colspan="2"><a href="/package/system/object/methods/append">Append</a> method<br><a href="/package/xmlpackage/xmldocument">XmlDocument</a> class</td>
   </tr>
 </table>
+
