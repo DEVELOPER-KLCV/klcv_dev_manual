@@ -18,13 +18,13 @@ The following methods are defined in the RegexPattern class.
 
 |  Name | Description |
 |-------|-------------|
-|[GetPattern](/package/system/regexpattern/methods/getpattern) | |
-|[Matcher](/package/system/regexpattern/methods/matcher) | |
-|[Split](/package/system/regexpattern/methods/split) | |
+|[GetPattern](/package/system/regexpattern/methods/getpattern) |Get the string of the compile source regular expression<br><small>Added since Ver5.0.1</small> |
+|[Matcher](/package/system/regexpattern/methods/matcher) |Create a RegexMatcher object that matches the regular expression pattern with the input string |
+|[Split](/package/system/regexpattern/methods/split) |Gets a String array split based on a match between the regular expression pattern and the input string |
 
 Static methods
 
 |  Name | Description |
 |-------|-------------|
-|[Compile](/package/system/regexpattern/methods/compile) | |
-|[Matches](/package/system/regexpattern/methods/matches) | |
+|[Compile](/package/system/regexpattern/methods/compile) |Compile the regular expression to create a RegexPattern object<br><small><a href="/package/system/regexpattern">Unicode mode</a> has been added from Ver5.0.1 |
+|[Matches](/package/system/regexpattern/methods/matches) |Matches the specified regular expression and string<br><small><a href="/package/system/regexpattern">Unicode mode</a> has been added from Ver5.0.1 |

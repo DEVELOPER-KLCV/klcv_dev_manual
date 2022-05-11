@@ -14,7 +14,7 @@ permalink: /package/system/regexpattern/methods/matcher
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Creates a RegexMatcher object that matches the regular expression pattern with the input string.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -27,7 +27,7 @@ permalink: /package/system/regexpattern/methods/matcher
   <tr>
     <td>Arguments</td>
     <td>String <b>input</b></td>
-    <td></td>
+    <td>Matching input string<br><small>From Ver.5.0.1, it is treated as UString type in <a href="/package/system/regexpattern">Unicode mode</a>.</td>
   </tr>
   <tr>
     <td>Exception</td>

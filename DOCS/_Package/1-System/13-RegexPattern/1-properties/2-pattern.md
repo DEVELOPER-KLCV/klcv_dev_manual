@@ -13,4 +13,4 @@ permalink: /package/system/regexpattern/properties/pattern
 The string of the regular expression from which it was compiled.
 This property is read-only.
  
-**<small>In <a>Unicode mode</a>, you can specify a UString type string for the regular expression, but this property is fixed to the String type. Use the <a>GetPattern</a> method to get it as a UString type.</small>**
+**<small>In <a href="/package/system/regexpattern">Unicode mode</a>, you can specify a UString type string for the regular expression, but this property is fixed to the String type. Use the <a href="/package/system/regexpattern/methods/getpattern">GetPattern</a> method to get it as a UString type.</small>**

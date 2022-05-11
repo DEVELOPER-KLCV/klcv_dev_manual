@@ -18,8 +18,8 @@ The following properties are defined in the RegexPattern class.
 
 |Name       | Access | Type   | Description |
 |----------	|--------|--------|-------------|
-|[Flags](/package/system/regexpattern/properties/flags) | R | integer | |
-|[Pattern](/package/system/regexpattern/properties/pattern)* | R|String | |
+|[Flags](/package/system/regexpattern/properties/flags) | R | integer |Match flag specified at compile time |
+|[Pattern](/package/system/regexpattern/properties/pattern)* | R|String |Regular expression string from the compile source |
 
 <u><b>Access</b></u><br>
 R: Readable

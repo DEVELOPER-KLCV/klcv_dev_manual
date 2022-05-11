@@ -14,7 +14,7 @@ permalink: /package/system/regexpattern/methods/getpattern
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Gets the string of the regular expression from which it was compiled.<br> <small>Added since Ver.5.0.1</small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -22,7 +22,7 @@ permalink: /package/system/regexpattern/methods/getpattern
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">None</td>
+    <td colspan="2">Regular expression string from the compile source<br> In <a href="/package/system/regexpattern">Unicode mode</a>, it returns as UString type, otherwise it returns as String type.</td>
   </tr>  
   <tr>
     <td>Arguments</td>

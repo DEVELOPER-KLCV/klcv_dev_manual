@@ -13,4 +13,4 @@ permalink: /package/system/regexpattern/properties/flags
 The match flag specified at compile time.
 This property is read-only.
 
-See the [Compile]() method argument flags for details.
+See the <a href="/package/system/regexpattern/methods/compile">Compile</a> method argument flags for details.
