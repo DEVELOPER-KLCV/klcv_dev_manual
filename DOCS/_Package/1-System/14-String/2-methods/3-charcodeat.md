@@ -13,7 +13,7 @@ permalink: /package/system/string/methods/charcodeat
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the character code of the character at the specified byte position.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/system/string/methods/charcodeat
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the character code of Shift_JIS as an integer value.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>integer <b>indx</b></td>
-    <td></td>
+    <td>Position of the character to be extracted<br>Specify a number starting from 0</td>
   </tr>
   <tr>
     <td>Exception</td>

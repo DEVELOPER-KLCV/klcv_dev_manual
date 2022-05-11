@@ -13,7 +13,7 @@ permalink: /package/system/string/methods/charat
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the character at the specified byte position.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/system/string/methods/charat
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns one character at the specified position as a String type.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>integer <b>indx</b></td>
-    <td></td>
+    <td>Position of the character to be extracted<br>Specify a number starting from 0.</td>
   </tr>
   <tr>
     <td>Exception</td>

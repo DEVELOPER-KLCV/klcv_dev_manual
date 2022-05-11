@@ -13,7 +13,7 @@ permalink: /package/system/string/methods/lastindexof
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Searches the specified string up to <b>pos</b> and returns the last found position.<br><br>This method searches without being aware of the character type of the target character string. Use the find function to search for double-byte characters in the target string</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/system/string/methods/lastindexof
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns a zero -based number that indicates the location found. Returns -1 if not found</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>String <b>find</b></td>
-    <td></td>
+    <td>Character string to search</td>
   </tr>
   <tr>
     <td>integer <b>pos</b></td>
-    <td></td>
+    <td>End position of search range<br>Specify a number starting from 0. If omitted, the search will be performed to the end.</td>
   </tr>
   <tr>
     <td>Exception</td>

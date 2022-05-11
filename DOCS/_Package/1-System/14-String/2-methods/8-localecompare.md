@@ -13,7 +13,7 @@ permalink: /package/system/string/methods/localecompare
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Compare strings based on locale.<br>The current implementation is byte-by-byte comparison regardless of locale.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/system/string/methods/localecompare
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns1if greater than <b>comp</b> <br>Returns-1if less than<b>comp</b> <br>Returns 0 if equal to <b>comp</b></td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>comp</b></td>
-    <td></td>
+    <td>String to compare</td>
   </tr>
   <tr>
     <td>Exception</td>

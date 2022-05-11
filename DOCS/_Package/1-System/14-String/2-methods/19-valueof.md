@@ -13,7 +13,7 @@ permalink: /package/system/string/methods/valueof
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the value stored in the String object.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/system/string/methods/valueof
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Value of String object</td>
   </tr>  
   <tr>
     <td>Arguments</td>

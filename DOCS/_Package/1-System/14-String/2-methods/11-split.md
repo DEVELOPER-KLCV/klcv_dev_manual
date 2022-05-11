@@ -13,7 +13,7 @@ permalink: /package/system/string/methods/split
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Divides the string by the specified characters and returns it as an array.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/system/string/methods/split
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">String array containing each element of the split string (does not include the delimiter)</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>String <b>separator</b></td>
-    <td></td>
+    <td>Delimiter to split a string</td>
   </tr>
   <tr>
     <td>integer <b>limit</b></td>
-    <td></td>
+    <td>Maximum number to divide<br>If omitted, it will be split up to the end of the character string.</td>
   </tr>
   <tr>
     <td>Exception</td>
