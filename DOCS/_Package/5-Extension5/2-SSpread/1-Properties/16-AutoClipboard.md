@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.AutoClipboard Property
 nav_order: 16
-permalink: /package/extension5/sspread/properties/AutoClipboard
+permalink: /package/extension5/sspread/properties/autoclipboard
 ---
 # {{ page.title }}

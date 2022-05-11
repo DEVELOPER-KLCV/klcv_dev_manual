@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.AppearanceStyle Property
 nav_order: 13
-permalink: /package/extension5/sspread/properties/AppearanceStyle
+permalink: /package/extension5/sspread/properties/appearancestyle
 ---
 # {{ page.title }}

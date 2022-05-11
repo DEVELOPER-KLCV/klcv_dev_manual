@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.BackColor Property
 nav_order: 17
-permalink: /package/extension5/sspread/properties/BackColor
+permalink: /package/extension5/sspread/properties/backcolor
 ---
 # {{ page.title }}

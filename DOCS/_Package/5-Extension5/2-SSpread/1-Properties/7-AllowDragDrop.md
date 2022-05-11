@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.AllowDragDrop Property
 nav_order: 7
-permalink: /package/extension5/sspread/properties/AllowDragDrop
+permalink: /package/extension5/sspread/properties/allowdragdrop
 ---
 # {{ page.title }}

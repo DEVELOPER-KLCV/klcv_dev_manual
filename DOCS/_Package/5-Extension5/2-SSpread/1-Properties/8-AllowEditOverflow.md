@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.AllowEditOverflow Property
 nav_order: 8
-permalink: /package/extension5/sspread/properties/AllowEditOverflow
+permalink: /package/extension5/sspread/properties/alloweditoverflow
 ---
 # {{ page.title }}

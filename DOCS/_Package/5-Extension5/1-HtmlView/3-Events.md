@@ -21,5 +21,5 @@ The following events are defined in the HtmlView class.
 |[BeforeNavigate](/package/extension5/htmlview/events/beforenavigate) | |
 |[DocumentComplete](/package/extension5/htmlview/events/documentcomplete) | |
 |[Dropped](/package/extension5/htmlview/events/dropped) | |
-|[NavigateError](/package/extension5/htmlview/events/navigateError) | |
+|[NavigateError](/package/extension5/htmlview/events/navigateerror) | |
 |[RClicked](/package/extension5/htmlview/events/rclicked) | |

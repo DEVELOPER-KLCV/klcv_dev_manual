@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.ArrowsExitEditMode Property
 nav_order: 14
-permalink: /package/extension5/sspread/properties/ArrowsExitEditMode
+permalink: /package/extension5/sspread/properties/arrowsexiteditmode
 ---
 # {{ page.title }}
