@@ -13,7 +13,7 @@ permalink: /package/system/string/methods/trim
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Remove spaces, tabs, line breaks, etc. from the front and back of the string.<br><br>The target character can be specified to be removed by specifying an argument.If the argument is omitted, tabs, single-byte spaces, and line breaks are targeted. (Full-width space is not applicable)<br>Unlike the <a href="">trim</a> function, it does not change anything other than before and after the string.<br><br>This method updates the value of the String object.<br><br><small>Added since Ver.5.0.0<br>Not available on Mobile</small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/system/string/methods/trim
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Character string with spaces removed</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>chars</b></td>
-    <td></td>
+    <td>Characters to be removed<br>Specify the character string in which the characters you want to remove are arranged.<br>If omitted, tabs, half-width spaces, and line breaks are targeted.<br><small>Since Ver.5.0.1, it is possible to specify double-byte characters.</small></td>
   </tr>
   <tr>
     <td>Exception</td>

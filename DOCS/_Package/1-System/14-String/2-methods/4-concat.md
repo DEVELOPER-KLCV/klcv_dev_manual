@@ -13,7 +13,7 @@ permalink: /package/system/string/methods/concat
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Concatenates the string specified in the argument to the original string.<br>This method updates the value of the String object.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/system/string/methods/concat
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Concatenated string</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>text_n</b></td>
-    <td></td>
+    <td>String to concatenate<br>If multiple specifications are specified, all will be concatenated.</td>
   </tr>
   <tr>
     <td>Exception</td>

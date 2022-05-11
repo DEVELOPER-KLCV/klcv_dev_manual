@@ -13,7 +13,7 @@ permalink: /package/system/string/methods/slice
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Cut out a part of the character string.<br><br>This method cuts out the character string without being aware of the character type of the target character string. Use the <br><a href="">mid</a> function to cut out a character string that contains double - byte characters in the target character string.<br><br>The difference with <a href="/package/system/string/methods/substring">Substring</a> method<br>When length is the length of a character string, if a negative value is specified for start, it will be processed as length + start. <br>If a negative value is specified for end, it will be processed as length + end.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/system/string/methods/slice
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Cut out character string</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>integer <b>start</b></td>
-    <td></td>
+    <td>Leading position to cut out<br>Specify a number starting from 0.</td>
   </tr>
   <tr>
     <td>integer <b>end</b></td>
-    <td></td>
+    <td>End position to cut out (cut out to the character before the specified position)<br>Specify a number starting from 0 . If omitted, it will be cut out to the end of the character string.</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -50,6 +50,6 @@ print(mid(str2, 3, 4), "\n");
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/system/string/methods/substring">Substring</a> method<br><a href="">mid</a> method</td>
+    <td colspan="2"><a href="/package/system/string/methods/substring">Substring</a> method<br><a href="">mid</a> function</td>
   </tr>
 </table>

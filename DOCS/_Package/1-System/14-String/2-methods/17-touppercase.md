@@ -13,7 +13,7 @@ permalink: /package/system/string/methods/touppercase
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Converts lowercase letters in the string to uppercase.<br>This method updates the value of the String object.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/system/string/methods/touppercase
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Converted string</td>
   </tr>  
   <tr>
     <td>Arguments</td>

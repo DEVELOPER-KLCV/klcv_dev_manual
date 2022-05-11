@@ -13,7 +13,7 @@ permalink: /package/system/string/methods/equalsignorecase
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Compare strings case-insensitive<br><small>Not supported on Mobile</small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/system/string/methods/equalsignorecase
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns $ TRUE if they match, $ FALSE if they do not match.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>s</b></td>
-    <td></td>
+    <td>String to compare</td>
   </tr>
   <tr>
     <td>Exception</td>
