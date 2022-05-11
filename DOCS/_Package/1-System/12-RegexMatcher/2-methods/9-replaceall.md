@@ -14,7 +14,7 @@ permalink: /package/system/regexmatcher/methods/replaceall
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Replaces everything that matches the regular expression pattern with the specified string.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -22,17 +22,17 @@ permalink: /package/system/regexmatcher/methods/replaceall
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">None</td>
+    <td colspan="2">Replaced result string<br><small>From Ver.5.0.1, UString type string is returned in <a href="/package/system/regexpattern">Unicode mode</a>.</small></td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>replacement</b></td>
-    <td></td>
+    <td>Replacement string<br>You can use a <a href="/package/system/regexmatcher">reference to a forward reference group by "$ n"</a> <br><small>From Ver.5.0.1, it is treated as UString type in <a href="/package/system/regexpattern">Unicode mode</a>.</small></td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>Func 14</td>
-    <td></td>
+    <td>The value cannot be referenced</td>
   </tr>
   <tr>
     <td>Example of use</td>

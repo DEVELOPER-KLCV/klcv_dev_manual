@@ -17,10 +17,10 @@ permalink: /package/system/regexmatcher/properties
 The following properties are defined in the RegexMatcher class.
 
 |Name       | Access | Type   | Description |
-|----------	|--------|--------|-------------|
-|[GroupCount](/package/system/regexmatcher/properties/groupcount) | R | integer | |
-|[InputString](/package/system/regexmatcher/properties/inputstring)* | R|String | |
-|[Pattern](/package/system/regexmatcher/properties/pattern) | R | RegexPattern | |
+|----------	|:--------:|--------|-------------|
+|[GroupCount](/package/system/regexmatcher/properties/groupcount) | R | integer |Number of forward reference groups specified in the regular expression pattern |
+|[InputString](/package/system/regexmatcher/properties/inputstring)* | R|String |Input string set in the regular expression engine |
+|[Pattern](/package/system/regexmatcher/properties/pattern) | R | RegexPattern |RegexPattern object from which the RegexMatcher object was created |
 
 <u><b>Access</b></u><br>
 R: Readable

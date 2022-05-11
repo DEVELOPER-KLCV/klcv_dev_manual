@@ -14,7 +14,7 @@ permalink: /package/system/regexmatcher/methods/lookingat
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Matches the regular expression pattern from the beginning of the input string.<br><br>It does not have to match the entire input string.<br><br>If the match is successful, you can use the <a href="/package/system/regexmatcher/methods/start">Start</a>, <a href="/package/system/regexmatcher/methods/end">End</a>, <a href="/package/system/regexmatcher/methods/group">Group</a> methods to get more information.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -22,7 +22,7 @@ permalink: /package/system/regexmatcher/methods/lookingat
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">None</td>
+    <td colspan="2">$ TRUE if it matches the regular expression pattern from the beginning of the input string, $ FALSE if not</td>
   </tr>  
   <tr>
     <td>Arguments</td>

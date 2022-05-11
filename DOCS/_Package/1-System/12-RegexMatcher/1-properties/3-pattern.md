@@ -9,3 +9,7 @@ nav_order: 3
 permalink: /package/system/regexmatcher/properties/pattern
 ---
 # {{ page.title }}
+
+The RegexPattern object from which the RegexMatcher object was created.
+
+This is a read-only property.

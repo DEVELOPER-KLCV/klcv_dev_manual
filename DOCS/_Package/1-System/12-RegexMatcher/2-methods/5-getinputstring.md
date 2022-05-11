@@ -14,7 +14,7 @@ permalink: /package/system/regexmatcher/methods/getinputstring
 <table>
   <tr>
     <td>Explanation</td>
-    <td></td>
+    <td>Gets the input string set in the regular expression engine.<br><small>Added since Ver.5.0.1</small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -22,7 +22,7 @@ permalink: /package/system/regexmatcher/methods/getinputstring
   </tr>
   <tr>
     <td>Return value</td>
-    <td>None</td>
+    <td>Input string set in the regular expression engine<br>In <a href="/package/system/regexpattern">Unicode mode</a>, it returns as UString type, otherwise it returns as String type.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
