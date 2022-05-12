@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.GetTimezoneOffset Method
 nav_order: 19
-permalink: /package/system/date/methods/GetTimezoneOffset
+permalink: /package/system/date/methods/gettimezoneoffset
 ---
 # {{ page.title }}
 

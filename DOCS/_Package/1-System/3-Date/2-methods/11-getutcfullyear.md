@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.GetUTCFullYear Method
 nav_order: 11
-permalink: /package/system/date/methods/GetUTCFullYear
+permalink: /package/system/date/methods/getutcfullyear
 ---
 # {{ page.title }}
 

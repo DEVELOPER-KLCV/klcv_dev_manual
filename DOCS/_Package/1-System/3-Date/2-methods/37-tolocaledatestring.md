@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.ToLocaleDateString Method
 nav_order: 37
-permalink: /package/system/date/methods/ToLocaleDateString
+permalink: /package/system/date/methods/tolocaledatestring
 ---
 # {{ page.title }}
 

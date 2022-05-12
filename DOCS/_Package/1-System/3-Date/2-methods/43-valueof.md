@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.ValueOf Method
 nav_order: 43
-permalink: /package/system/date/methods/ValueOf
+permalink: /package/system/date/methods/valueof
 ---
 # {{ page.title }}
 

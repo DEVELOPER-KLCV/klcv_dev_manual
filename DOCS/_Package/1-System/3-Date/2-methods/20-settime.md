@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.SetTime Method
 nav_order: 20
-permalink: /package/system/date/methods/SetTime
+permalink: /package/system/date/methods/settime
 ---
 # {{ page.title }}
 

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.SetSeconds Method
 nav_order: 26
-permalink: /package/system/date/methods/SetSeconds
+permalink: /package/system/date/methods/setseconds
 ---
 # {{ page.title }}
 

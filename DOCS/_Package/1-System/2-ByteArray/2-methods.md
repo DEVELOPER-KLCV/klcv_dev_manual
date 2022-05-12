@@ -19,6 +19,6 @@ The following methods are defined in the ByteArray class.
 |Name       | Description |
 |----------	|-------------|
 | [Constructor](/package/system/bytearray/methods/constructor)  |Initialize the ByteArray object |
-| [ByteAt](/package/system/bytearray/methods/byteAt) 	| Returns the byte value at the specified position as an integer value |
-| [ToString](/package/system/bytearray/methods/toString) 	| Convert to a string |
-| [ToUString](/package/system/bytearray/methods/toUString) 	|Convert to a Unicode string<br>**<small>Added since Version 5.0.1</small>**<br>**<small>Not supported in Mobile, AI</small>** |
+| [ByteAt](/package/system/bytearray/methods/byteat) 	| Returns the byte value at the specified position as an integer value |
+| [ToString](/package/system/bytearray/methods/tostring) 	| Convert to a string |
+| [ToUString](/package/system/bytearray/methods/toustring) 	|Convert to a Unicode string<br>**<small>Added since Version 5.0.1</small>**<br>**<small>Not supported in Mobile, AI</small>** |

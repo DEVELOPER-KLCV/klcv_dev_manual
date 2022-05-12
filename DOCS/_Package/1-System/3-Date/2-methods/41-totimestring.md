@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.ToTimeString Method
 nav_order: 41
-permalink: /package/system/date/methods/ToTimeString
+permalink: /package/system/date/methods/totimestring
 ---
 # {{ page.title }}
 

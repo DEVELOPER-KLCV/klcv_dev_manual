@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Exception.SourceOffset property
 nav_order: 4
-permalink: /package/system/exception/properties/SourceOffset
+permalink: /package/system/exception/properties/sourceoffset
 ---
 # {{ page.title }}
 

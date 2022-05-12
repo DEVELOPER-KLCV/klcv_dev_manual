@@ -16,7 +16,7 @@ permalink: /package/system/bytearray
 
 A class that holds a set of binary data.
 
-It is used when loading binary data with ReadBinary method from [File]() class, [HttpResponse]() class, etc.
+It is used when loading binary data with ReadBinary method from [File](/package/runtimepackage/file) class, [HttpResponse](/package/httppackage/httpresponse) class, etc.
 
 <b>Default properties and ValueType</b>
  

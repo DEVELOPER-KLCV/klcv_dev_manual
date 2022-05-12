@@ -19,7 +19,7 @@ The following methods are defined in the Fixed class.
 |Name       | Description |
 |----------	|-------------|
 | [Constructor](/package/system/fixed/methods/constructor)  |Initialize the Fixed object |
-| [ToString](/package/system/fixed/methods/ToString)| Returns a string |
+| [ToString](/package/system/fixed/methods/tostring)| Returns a string |
 
 Static methods
 

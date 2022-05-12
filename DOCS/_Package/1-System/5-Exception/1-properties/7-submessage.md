@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Exception.SubMessage property
 nav_order: 7
-permalink: /package/system/exception/properties/SubMessage
+permalink: /package/system/exception/properties/submessage
 ---
 # {{ page.title }}
 

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.ToUTCString Method
 nav_order: 42
-permalink: /package/system/date/methods/ToUTCString
+permalink: /package/system/date/methods/toutcstring
 ---
 # {{ page.title }}
 

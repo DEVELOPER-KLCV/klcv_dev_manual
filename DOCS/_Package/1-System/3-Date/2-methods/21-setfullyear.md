@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.SetFullYear Method
 nav_order: 21
-permalink: /package/system/date/methods/SetFullYear
+permalink: /package/system/date/methods/setfullyear
 ---
 # {{ page.title }}
 

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.ToInternetString Method
 nav_order: 36
-permalink: /package/system/date/methods/ToInternetString
+permalink: /package/system/date/methods/tointernetstring
 ---
 # {{ page.title }}
 

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Fixed.Round method
 nav_order: 3
-permalink: /package/system/fixed/methods/Round
+permalink: /package/system/fixed/methods/round
 ---
 # {{ page.title }}
 

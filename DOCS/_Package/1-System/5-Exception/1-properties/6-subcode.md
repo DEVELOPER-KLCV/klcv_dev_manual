@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Exception.SubCode property
 nav_order: 6
-permalink: /package/system/exception/properties/SubCode
+permalink: /package/system/exception/properties/subcode
 ---
 # {{ page.title }}
 

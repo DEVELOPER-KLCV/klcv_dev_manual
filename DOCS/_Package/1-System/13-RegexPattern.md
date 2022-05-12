@@ -44,25 +44,25 @@ The index that represents the position of the character ([Start](/package/system
 1. Match with the [Matches](/package/system/regexmatcher/methods/matches) method, [Find](/package/system/regexmatcher/methods/find) method, etc. of the RegexMatcher object generated in 2.
 
 ```
-/* 正規表現をコンパイルします */
+/* Compile the regular expression */
 var p = RegexPattern.Compile("Biz/([a-zA-Z]+)");
-/* 入力文字列を設定し正規表現エンジンを生成します */
+/* Set the input string and generate a regular expression engine */
 var m = p.Matcher("Biz/Browser, Biz/Designer");
  
-/* 部分一致検索を行います */
+/* Perform a partial match search */
 while (m.Find()) {
-    /* 部分一致した部分全体を表示 */
+    /* Show the entire partially matched part */
     print(m.Group());
-    /* 一つ目の前方参照グループを表示 */
+    /* Show first forward reference group */
     print(" [", m.Group(1) , "]", "\n");
 }
-/* 全体完全一致 */
+/* Fully matched */
 print("Matches:", m.Matches(), "\n");
  
-/* 先頭からのマッチ */
+/* Match from the beginning */
 print("LookingAt:", m.LookingAt(), "\n");
  
------ 実行結果 -----
+----- Execution result -----
 Biz/Browser [ Browser ]
 Biz/Designer [ Designer ]
 Matches: 0

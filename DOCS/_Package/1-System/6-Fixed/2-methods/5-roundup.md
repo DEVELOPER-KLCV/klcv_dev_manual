@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Fixed.RoundUp method
 nav_order: 5
-permalink: /package/system/fixed/methods/RoundUp
+permalink: /package/system/fixed/methods/roundup
 ---
 # {{ page.title }}
 

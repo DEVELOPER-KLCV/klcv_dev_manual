@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Event.Reason property
 nav_order: 3
-permalink: /package/system/event/properties/Reason
+permalink: /package/system/event/properties/reason
 ---
 # {{ page.title }}
 

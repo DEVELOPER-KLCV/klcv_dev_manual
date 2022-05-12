@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.GetDay Method
 nav_order: 6
-permalink: /package/system/date/methods/GetDay
+permalink: /package/system/date/methods/getday
 ---
 # {{ page.title }}
 

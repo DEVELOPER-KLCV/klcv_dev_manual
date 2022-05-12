@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.SetUTCMilliSeconds Method
 nav_order: 34
-permalink: /package/system/date/methods/SetUTCMilliSeconds
+permalink: /package/system/date/methods/setutcmilliseconds
 ---
 # {{ page.title }}
 

@@ -18,7 +18,7 @@ permalink: /package/system/event/methods/constructor
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var ev = new Event( <b>[ reason [, eventName ] ]</b> )<br>または<br>var ev = new Event( <b>eventName</b> ) <br> <small> Added since Ver.4.0.0 and Mobile Ver.3.2.0</small></td>
+    <td colspan="2">var ev = new Event( <b>[ reason [, eventName ] ]</b> )<br>OR<br>var ev = new Event( <b>eventName</b> ) <br> <small> Added since Ver.4.0.0 and Mobile Ver.3.2.0</small></td>
   </tr>
   <tr>
     <td>Return value</td>

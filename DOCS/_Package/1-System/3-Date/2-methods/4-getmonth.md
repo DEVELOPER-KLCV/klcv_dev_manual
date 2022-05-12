@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.GetMonth Method
 nav_order: 4
-permalink: /package/system/date/methods/GetMonth
+permalink: /package/system/date/methods/getmonth
 ---
 # {{ page.title }}
 

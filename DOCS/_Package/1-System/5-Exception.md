@@ -20,4 +20,4 @@ Exceptions can be received as Exception objects with the try… catch… stateme
 
 <b>Default properties and ValueType</b>
  
-The default property is [Message](/package/system/exception/properties/Message). The ValueType specification is invalid.
+The default property is [Message](/package/system/exception/properties/message). The ValueType specification is invalid.

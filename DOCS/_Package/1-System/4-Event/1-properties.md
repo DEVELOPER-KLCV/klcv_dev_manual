@@ -16,9 +16,9 @@ The following properties are defined in the Event class.
 
 |Name       | Access | Type   | Description |
 |----------	|--------|--------|-------------|
-| [EventName](/package/system/event/properties/EventName) 	| CR 	 |String  |Event name|
-| [From](/package/system/event/properties/From) 	| R 	 |reference  |Event source|
-| [Reason](/package/system/event/properties/Reason)* 	| CR 	 |integer  |Event type|
+| [EventName](/package/system/event/properties/eventname) 	| CR 	 |String  |Event name|
+| [From](/package/system/event/properties/from) 	| R 	 |reference  |Event source|
+| [Reason](/package/system/event/properties/reason)* 	| CR 	 |integer  |Event type|
 
 <u><b>Access</b></u><br>
 R: Readable

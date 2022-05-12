@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Exception.SourceURL property
 nav_order: 5
-permalink: /package/system/exception/properties/SourceURL
+permalink: /package/system/exception/properties/sourceurl
 ---
 # {{ page.title }}
 

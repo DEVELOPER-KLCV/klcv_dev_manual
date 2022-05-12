@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Fixed.RoundDown method
 nav_order: 4
-permalink: /package/system/fixed/methods/RoundDown
+permalink: /package/system/fixed/methods/rounddown
 ---
 # {{ page.title }}
 

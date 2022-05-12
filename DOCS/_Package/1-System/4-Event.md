@@ -20,4 +20,4 @@ It is also used when the [PostEvent](/package/system/object/methods/postevent) m
 
 <b>Default properties and ValueType</b>
  
-The default property is [Reason](/package/system/event/properties/Reason). The ValueType specification is invalid.
+The default property is [Reason](/package/system/event/properties/reason). The ValueType specification is invalid.

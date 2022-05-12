@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.SetMonth Method
 nav_order: 22
-permalink: /package/system/date/methods/SetMonth
+permalink: /package/system/date/methods/setmonth
 ---
 # {{ page.title }}
 

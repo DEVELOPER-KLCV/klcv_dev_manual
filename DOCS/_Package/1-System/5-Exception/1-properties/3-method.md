@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: Exception.Method property
 nav_order: 3
-permalink: /package/system/exception/properties/Method
+permalink: /package/system/exception/properties/method
 ---
 # {{ page.title }}
 

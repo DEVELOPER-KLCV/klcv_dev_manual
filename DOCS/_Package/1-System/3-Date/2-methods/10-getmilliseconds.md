@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Date.GetMilliSeconds Method
 nav_order: 10
-permalink: /package/system/date/methods/GetMilliSeconds
+permalink: /package/system/date/methods/getmilliseconds
 ---
 # {{ page.title }}
 
