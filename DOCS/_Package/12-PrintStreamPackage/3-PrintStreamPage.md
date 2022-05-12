@@ -2,7 +2,7 @@
 layout: default
 
 parent: 12. PrintStream Package
-has_children: true
+has_children: false
 
 title: PrintStreamPage Class
 nav_order: 3
@@ -15,7 +15,7 @@ permalink: /package/printstreampackage/printstreampage
 
 ---
 
-A class that holds each page of the [PrintStreamDocument]() class. It is returned as the return value of the [PrintStreamDocument.GetPage]() method.
+A class that holds each page of the [PrintStreamDocument](/package/printstreampackage/printstreamdocument) class. It is returned as the return value of the [PrintStreamDocument.GetPage](/package/printstreampackage/printstreamdocument/methods/getpage) method.
 
 There are no properties, methods or events specific to this class.
 
