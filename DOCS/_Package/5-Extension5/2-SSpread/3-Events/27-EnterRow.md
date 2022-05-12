@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.EnterRow Event
 nav_order: 27
-permalink: /package/extension5/sspread/events/EnterRow
+permalink: /package/extension5/sspread/events/enterrow
 ---
 # {{ page.title }}

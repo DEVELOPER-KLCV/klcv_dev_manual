@@ -14,28 +14,28 @@ permalink: /package/extension5/sspread/celldatatype_index/datetype
 A feature related to cells whose [CellType](/package/extension5/sspread/properties/celltype) property is $CellTypeDate.
 
 **Format**<br>
-[TypeDateCentury](/package/extension5/sspread/properties/TypeDateCentury) property<br>
-[TypeDateFormat](/package/extension5/sspread/properties/TypeDateFormat) property<br><br>
+[TypeDateCentury](/package/extension5/sspread/properties/typedatecentury) property<br>
+[TypeDateFormat](/package/extension5/sspread/properties/typedateformat) property<br><br>
 
 **Symbol character**<br>
-[TypeDateSeparator](/package/extension5/sspread/properties/TypeDateSeparator) property<br><br>
+[TypeDateSeparator](/package/extension5/sspread/properties/typedateseparator) property<br><br>
 
 **Range**<br>
-[TypeDateMin](/package/extension5/sspread/properties/TypeDateMin) property<br>
-[TypeDateMax](/package/extension5/sspread/properties/TypeDateMax) property<br><br>
+[TypeDateMin](/package/extension5/sspread/properties/typedatemin) property<br>
+[TypeDateMax](/package/extension5/sspread/properties/typedatemax) property<br><br>
 
 **Motion**<br>
-[TypeSpin](/package/extension5/sspread/properties/TypeSpin) property<br><br>
+[TypeSpin](/package/extension5/sspread/properties/typespin) property<br><br>
 
 **Display**<br>
-[TypeEllipses](/package/extension5/sspread/properties/TypeEllipses) property<br>
-[TypeTextOrient](/package/extension5/sspread/properties/TypeTextOrient) property<br>
-[TypeHAlign](/package/extension5/sspread/properties/TypeHAlign) property<br>
-[TypeVAlign](/package/extension5/sspread/properties/TypeVAlign) property<br><br>
+[TypeEllipses](/package/extension5/sspread/properties/typeellipses) property<br>
+[TypeTextOrient](/package/extension5/sspread/properties/typetextorient) property<br>
+[TypeHAlign](/package/extension5/sspread/properties/typehalign) property<br>
+[TypeVAlign](/package/extension5/sspread/properties/typevalign) property<br><br>
 
 **Current date display / calendar display**<br>
-[SetActionKey](/package/extension5/sspread/methods/SetActionKey) method<br>
-[GetActionKey](/package/extension5/sspread/methods/GetActionKey) method<br><br>
+[SetActionKey](/package/extension5/sspread/methods/setactionkey) method<br>
+[GetActionKey](/package/extension5/sspread/methods/getactionkey) method<br><br>
 
 **Year setting**<br>
-[TwoDigitYearMax](/package/extension5/sspread/properties/TwoDigitYearMax) property<br><br>
+[TwoDigitYearMax](/package/extension5/sspread/properties/twodigityearmax) property<br><br>

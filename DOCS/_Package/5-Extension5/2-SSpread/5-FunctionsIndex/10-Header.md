@@ -16,8 +16,8 @@ permalink: /package/extension5/sspread/functions_index/header
 [RowHeadersShow](/package/extension5/sspread/properties/rowheadersshow) property<br><br>
 
 **Display Format**<br>
-[ColHeadersAutoText](/package/extension5/sspread/properties/ColHeadersAutoText) property<br>
-[RowHeadersAutoText](/package/extension5/sspread/properties/RowHeadersAutoText) property<br><br>
+[ColHeadersAutoText](/package/extension5/sspread/properties/colheadersautotext) property<br>
+[RowHeadersAutoText](/package/extension5/sspread/properties/rowheadersautotext) property<br><br>
 
 **Starting Number**<br>
 [StartingColNumber](/package/extension5/sspread/properties/startingcolnumber) property<br>
@@ -30,7 +30,7 @@ permalink: /package/extension5/sspread/functions_index/header
 [ShadowText](/package/extension5/sspread/properties/shadowtext) property<br><br>
 
 **Header Operation**<br>
-[ColUserSortIndicator](/package/extension5/sspread/properties/ColUserSortIndicator) property<br>
+[ColUserSortIndicator](/package/extension5/sspread/properties/colusersortindicator) property<br>
 [UserColAction](/package/extension5/sspread/properties/usercolaction) property<br>
 [UserResize](/package/extension5/sspread/properties/userresize) property<br>
 [UserResizeCol](/package/extension5/sspread/properties/userresizecol) property<br>

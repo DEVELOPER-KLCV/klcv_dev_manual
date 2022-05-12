@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.EditModeOff Event
 nav_order: 25
-permalink: /package/extension5/sspread/events/EditModeOff
+permalink: /package/extension5/sspread/events/editmodeoff
 ---
 # {{ page.title }}

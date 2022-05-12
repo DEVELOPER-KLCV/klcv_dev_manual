@@ -12,22 +12,22 @@ permalink: /package/extension5/sspread/functions_index/keyoperation
 ---
 
 **Tab key**<br>
-[ProcessTab](/package/extension5/sspread/properties/ProcessTab) property<br>
-[Advance](/package/extension5/sspread/event/Advance) event<br><br>
+[ProcessTab](/package/extension5/sspread/properties/processtab) property<br>
+[Advance](/package/extension5/sspread/event/advance) event<br><br>
 
 **Enter key**<br>
-[EditEnterAction](/package/extension5/sspread/properties/EditEnterAction) property<br><br>
+[EditEnterAction](/package/extension5/sspread/properties/editenteraction) property<br><br>
 
 **Arrow keys**<br>
-[ArrowsExitEditMode](/package/extension5/sspread/properties/ArrowsExitEditMode) property<br>
-[Advance](/package/extension5/sspread/events/Advance) event<br><br>
+[ArrowsExitEditMode](/package/extension5/sspread/properties/arrowsexiteditmode) property<br>
+[Advance](/package/extension5/sspread/events/advance) event<br><br>
 
 **Clipboard shortcut keys**<br>
-[AutoClipboard](/package/extension5/sspread/properties/AutoClipboard) property<br><br>
+[AutoClipboard](/package/extension5/sspread/properties/autoclipboard) property<br><br>
 
 **Special key settings in input mode**<br>
-[GetActionKey](/package/extension5/sspread/methods/GetActionKey) method<br>
-[SetActionKey](/package/extension5/sspread/methods/SetActionKey) method<br><br>
+[GetActionKey](/package/extension5/sspread/methods/getactionkey) method<br>
+[SetActionKey](/package/extension5/sspread/methods/setactionkey) method<br><br>
 
 **Delete key**<br>
-[ProcessDelete](/package/extension5/sspread/properties/ProcessDelete) property<br><br>
+[ProcessDelete](/package/extension5/sspread/properties/processdelete) property<br><br>

@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.DragDropBlock Event
 nav_order: 21
-permalink: /package/extension5/sspread/events/DragDropBlock
+permalink: /package/extension5/sspread/events/dragdropblock
 ---
 # {{ page.title }}

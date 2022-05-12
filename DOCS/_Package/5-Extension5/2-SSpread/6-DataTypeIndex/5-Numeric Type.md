@@ -14,27 +14,27 @@ permalink: /package/extension5/sspread/celldatatype_index/numerictype
 A feature related to cells whose [CellType](/package/extension5/sspread/properties/celltype) property is $CellTypeNumber.
 
 **Format**<br>
-[TypeNumberDecPlaces](/package/extension5/sspread/properties/TypeNumberDecPlaces) property<br>
-[TypeNumberLeadingZero](/package/extension5/sspread/properties/TypeNumberLeadingZero) property<br>
-[TypeNumberNegStyle](/package/extension5/sspread/properties/TypeNumberNegStyle) property<br>
-[TypeNumberShowSep](/package/extension5/sspread/properties/TypeNumberShowSep) property<br><br>
+[TypeNumberDecPlaces](/package/extension5/sspread/properties/typenumberdecplaces) property<br>
+[TypeNumberLeadingZero](/package/extension5/sspread/properties/typenumberleadingzero) property<br>
+[TypeNumberNegStyle](/package/extension5/sspread/properties/typenumbernegstyle) property<br>
+[TypeNumberShowSep](/package/extension5/sspread/properties/typenumbershowsep) property<br><br>
 
 **Symbol character**<br>
-[TypeNumberDecimal](/package/extension5/sspread/properties/TypeNumberDecimal) property<br>
-[TypeNumberSeparator](/package/extension5/sspread/properties/TypeNumberSeparator) property<br><br>
+[TypeNumberDecimal](/package/extension5/sspread/properties/typenumberdecimal) property<br>
+[TypeNumberSeparator](/package/extension5/sspread/properties/typenumberseparator) property<br><br>
 
 **Range**<br>
-[TypeNumberMin](/package/extension5/sspread/properties/TypeNumberMin) property<br>
-[TypeNumberMax](/package/extension5/sspread/properties/TypeNumberMax) property<br><br>
+[TypeNumberMin](/package/extension5/sspread/properties/typenumbermin) property<br>
+[TypeNumberMax](/package/extension5/sspread/properties/typenumbermax) property<br><br>
 
 **Motion**<br>
-[TypeSpin](/package/extension5/sspread/properties/TypeSpin) property<br>
-[TypeSpinInc](/package/extension5/sspread/properties/TypeSpinInc) property<br>
-[TypeSpinWrap](/package/extension5/sspread/properties/TypeSpinWrap) property<br><br>
+[TypeSpin](/package/extension5/sspread/properties/typespin) property<br>
+[TypeSpinInc](/package/extension5/sspread/properties/typespininc) property<br>
+[TypeSpinWrap](/package/extension5/sspread/properties/typespinwrap) property<br><br>
 
 **Display**<br>
-[TypeEllipses](/package/extension5/sspread/properties/TypeEllipses) property<br>
-[TypeNegRed](/package/extension5/sspread/properties/TypeNegRed) property<br>
-[TypeTextOrient](/package/extension5/sspread/properties/TypeTextOrient) property<br>
-[TypeHAlign](/package/extension5/sspread/properties/TypeHAlign) property<br>
-[TypeVAlign](/package/extension5/sspread/properties/TypeVAlign) property<br><br>
+[TypeEllipses](/package/extension5/sspread/properties/typeellipses) property<br>
+[TypeNegRed](/package/extension5/sspread/properties/typenegred) property<br>
+[TypeTextOrient](/package/extension5/sspread/properties/typetextorient) property<br>
+[TypeHAlign](/package/extension5/sspread/properties/typehalign) property<br>
+[TypeVAlign](/package/extension5/sspread/properties/typevalign) property<br><br>

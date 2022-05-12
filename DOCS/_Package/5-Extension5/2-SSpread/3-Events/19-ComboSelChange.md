@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.ComboSelChange Event
 nav_order: 19
-permalink: /package/extension5/sspread/events/ComboSelChange
+permalink: /package/extension5/sspread/events/comboselchange
 ---
 # {{ page.title }}

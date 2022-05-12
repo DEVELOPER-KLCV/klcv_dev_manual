@@ -12,20 +12,20 @@ permalink: /package/extension5/sspread/functions_index/cellsdisplay
 ---
 
 **Colour**<br>
-[BackColor](/package/extension5/sspread/properties/BackColor) property<br>
-[ForeColor](/package/extension5/sspread/properties/ForeColor) property<br><br>
+[BackColor](/package/extension5/sspread/properties/backcolor) property<br>
+[ForeColor](/package/extension5/sspread/properties/forecolor) property<br><br>
 
 **Ruled line**<br>
-[GetCellBorder](/package/extension5/sspread/methods/GetCellBorder) method<br>
-[SetCellBorder](/package/extension5/sspread/methods/SetCellBorder) method<br><br>
+[GetCellBorder](/package/extension5/sspread/methods/getcellborder) method<br>
+[SetCellBorder](/package/extension5/sspread/methods/setcellborder) method<br><br>
 
 **Width and height**<br>
-[ColWidth](/package/extension5/sspread/properties/ColWidth) property<br>
-[RowHeight](/package/extension5/sspread/properties/RowHeight) property<br><br>
+[ColWidth](/package/extension5/sspread/properties/colwidth) property<br>
+[RowHeight](/package/extension5/sspread/properties/rowheight) property<br><br>
 
 **Highlight active cell**<br>
-[ActiveCellHighlightStyle](/package/extension5/sspread/properties/ActiveCellHighlightStyle) property<br><br>
+[ActiveCellHighlightStyle](/package/extension5/sspread/properties/activecellhighlightstyle) property<br><br>
 
 **Sticks out to the next cell**<br>
-[AllowCellOverflow](/package/extension5/sspread/properties/AllowCellOverflow) property<br>
-[AllowEditOverflow](/package/extension5/sspread/properties/AllowEditOverflow) property<br><br>
+[AllowCellOverflow](/package/extension5/sspread/properties/allowcelloverflow) property<br>
+[AllowEditOverflow](/package/extension5/sspread/properties/alloweditoverflow) property<br><br>

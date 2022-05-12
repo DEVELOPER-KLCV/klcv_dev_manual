@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.LeaveRow Event
 nav_order: 30
-permalink: /package/extension5/sspread/events/LeaveRow
+permalink: /package/extension5/sspread/events/leaverow
 ---
 # {{ page.title }}

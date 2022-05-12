@@ -14,25 +14,25 @@ permalink: /package/extension5/sspread/celldatatype_index/timetype
 A feature related to cells whose [CellType](/package/extension5/sspread/properties/celltype) property is $CellTypeTime.
 
 **Format**<br>
-[TypeTime24Hour](/package/extension5/sspread/properties/TypeTime24Hour) property<br>
-[TypeTimeSeconds](/package/extension5/sspread/properties/TypeTimeSeconds) property<br><br>
+[TypeTime24Hour](/package/extension5/sspread/properties/typetime24hour) property<br>
+[TypeTimeSeconds](/package/extension5/sspread/properties/typetimeseconds) property<br><br>
 
 **Symbol character**<br>
-[TypeTimeSeparator](/package/extension5/sspread/properties/TypeTimeSeparator) property<br><br>
+[TypeTimeSeparator](/package/extension5/sspread/properties/typetimeseparator) property<br><br>
 
 **Range**<br>
-[TypeTimeMin](/package/extension5/sspread/properties/TypeTimeMin) property<br>
-[TypeTimeMax](/package/extension5/sspread/properties/TypeTimeMax) property<br><br>
+[TypeTimeMin](/package/extension5/sspread/properties/typetimemin) property<br>
+[TypeTimeMax](/package/extension5/sspread/properties/typetimemax) property<br><br>
 
 **Motion**<br>
-[TypeSpin](/package/extension5/sspread/properties/TypeSpin) property<br>
+[TypeSpin](/package/extension5/sspread/properties/typespin) property<br>
 
 **Display**<br>
-[TypeEllipses](/package/extension5/sspread/properties/TypeEllipses) property<br>
-[TypeTextOrient](/package/extension5/sspread/properties/TypeTextOrient) property<br>
-[TypeHAlign](/package/extension5/sspread/properties/TypeHAlign) property<br>
-[TypeVAlign](/package/extension5/sspread/properties/TypeVAlign) property<br><br>
+[TypeEllipses](/package/extension5/sspread/properties/typeellipses) property<br>
+[TypeTextOrient](/package/extension5/sspread/properties/typetextorient) property<br>
+[TypeHAlign](/package/extension5/sspread/properties/typehalign) property<br>
+[TypeVAlign](/package/extension5/sspread/properties/typevalign) property<br><br>
 
 **Display of current time**<br>
-[SetActionKey](/package/extension5/sspread/methods/SetActionKey) method<br>
-[GetActionKey](/package/extension5/sspread/methods/GetActionKey) method<br><br>
+[SetActionKey](/package/extension5/sspread/methods/setactionkey) method<br>
+[GetActionKey](/package/extension5/sspread/methods/getactionkey) method<br><br>

@@ -12,22 +12,22 @@ permalink: /package/extension5/sspread/functions_index/inputmode
 ---
 
 **State**<br>
-[EditMode](/package/extension5/sspread/properties/EditMode) property<br><br>
+[EditMode](/package/extension5/sspread/properties/editmode) property<br><br>
 
 **Operation setting**<br>
-[AllowEditOverflow](/package/extension5/sspread/properties/AllowEditOverflow) property<br>
-[ArrowsExitEditMode](/package/extension5/sspread/properties/ArrowsExitEditMode) property<br>
-[EditModePermanent](/package/extension5/sspread/properties/EditModePermanent) property<br>
-[EditModeReplace](/package/extension5/sspread/properties/EditModeReplace) property<br><br>
+[AllowEditOverflow](/package/extension5/sspread/properties/alloweditoverflow) property<br>
+[ArrowsExitEditMode](/package/extension5/sspread/properties/arrowsexiteditmode) property<br>
+[EditModePermanent](/package/extension5/sspread/properties/editmodepermanent) property<br>
+[EditModeReplace](/package/extension5/sspread/properties/editmodereplace) property<br><br>
 
 **Operation when the input mode is ON**<br>
-[SelText](/package/extension5/sspread/properties/SelText) property<br>
-[SelStart](/package/extension5/sspread/properties/SelStart) property<br>
-[SelLength](/package/extension5/sspread/properties/SelLength) property<br>
-[EditChange](/package/extension5/sspread/events/EditChange) event<br><br>
+[SelText](/package/extension5/sspread/properties/seltext) property<br>
+[SelStart](/package/extension5/sspread/properties/selstart) property<br>
+[SelLength](/package/extension5/sspread/properties/sellength) property<br>
+[EditChange](/package/extension5/sspread/events/editchange) event<br><br>
 
 **State change event**<br>
-[BeforeEditMode](/package/extension5/sspread/events/BeforeEditMode) event<br>
-[EditModeOn](/package/extension5/sspread/events/EditModeOn) event<br>
-[EditModeOff](/package/extension5/sspread/events/EditModeOff) event<br>
-[EnterRow](/package/extension5/sspread/events/EnterRow) event<br><br>
+[BeforeEditMode](/package/extension5/sspread/events/beforeeditmode) event<br>
+[EditModeOn](/package/extension5/sspread/events/editmodeon) event<br>
+[EditModeOff](/package/extension5/sspread/events/editmodeoff) event<br>
+[EnterRow](/package/extension5/sspread/events/enterrow) event<br><br>

@@ -14,18 +14,18 @@ permalink: /package/extension5/sspread/celldatatype_index/exponentialtype
 A feature related to cells whose [CellType](/package/extension5/sspread/properties/celltype) property is $CellTypeScientific.
 
 **Format**<br>
-[TypeScientificDecPlaces](/package/extension5/sspread/properties/TypeScientificDecPlaces) property<br><br>
+[TypeScientificDecPlaces](/package/extension5/sspread/properties/typescientificdecplaces) property<br><br>
 
 **Symbol character**<br>
-[TypeScientificDecimal](/package/extension5/sspread/properties/TypeScientificDecimal) property<br><br>
+[TypeScientificDecimal](/package/extension5/sspread/properties/typescientificdecimal) property<br><br>
 
 **Range**<br>
-[TypeScientificMin](/package/extension5/sspread/properties/TypeScientificMin) property<br>
-[TypeScientificMax](/package/extension5/sspread/properties/TypeScientificMax) property<br><br>
+[TypeScientificMin](/package/extension5/sspread/properties/typescientificmin) property<br>
+[TypeScientificMax](/package/extension5/sspread/properties/typescientificmax) property<br><br>
 
 **Display**<br>
-[TypeEllipses](/package/extension5/sspread/properties/TypeEllipses) property<br>
-[TypeNegRed](/package/extension5/sspread/properties/TypeNegRed) property<br>
-[TypeTextOrient](/package/extension5/sspread/properties/TypeTextOrient) property<br>
-[TypeHAlign](/package/extension5/sspread/properties/TypeHAlign) property<br>
-[TypeVAlign](/package/extension5/sspread/properties/TypeVAlign) property<br><br>
+[TypeEllipses](/package/extension5/sspread/properties/typeellipses) property<br>
+[TypeNegRed](/package/extension5/sspread/properties/typenegred) property<br>
+[TypeTextOrient](/package/extension5/sspread/properties/typetextorient) property<br>
+[TypeHAlign](/package/extension5/sspread/properties/typehalign) property<br>
+[TypeVAlign](/package/extension5/sspread/properties/typevalign) property<br><br>

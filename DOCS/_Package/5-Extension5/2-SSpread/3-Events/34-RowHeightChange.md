@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.RowHeightChange Event
 nav_order: 34
-permalink: /package/extension5/sspread/events/RowHeightChange
+permalink: /package/extension5/sspread/events/rowheightchange
 ---
 # {{ page.title }}

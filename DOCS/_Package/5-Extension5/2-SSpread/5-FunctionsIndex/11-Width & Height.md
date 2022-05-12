@@ -20,14 +20,14 @@ permalink: /package/extension5/sspread/functions_index/widthheight
 [ScrollBarHeight](/package/extension5/sspread/properties/scrollbarheight) property<br><br>
 
 **Width and height of setting text**<br>
-[MaxTextCellWidth](/package/extension5/sspread/properties/MaxTextCellWidth) property<br>
-[MaxTextCellHeight](/package/extension5/sspread/properties/MaxTextCellHeight) property<br>
-[MaxTextColWidth](/package/extension5/sspread/properties/MaxTextColWidth) property<br>
-[MaxTextRowHeight](/package/extension5/sspread/properties/MaxTextRowHeight) property<br><br>
+[MaxTextCellWidth](/package/extension5/sspread/properties/maxtextcellwidth) property<br>
+[MaxTextCellHeight](/package/extension5/sspread/properties/maxtextcellheight) property<br>
+[MaxTextColWidth](/package/extension5/sspread/properties/maxtextcolwidth) property<br>
+[MaxTextRowHeight](/package/extension5/sspread/properties/maxtextcolheight) property<br><br>
 
 **Combo Box**<br>
-[TypeComboBoxWidth](/package/extension5/sspread/properties/TypeComboBoxWidth) property<br><br>
+[TypeComboBoxWidth](/package/extension5/sspread/properties/typecomboboxwidth) property<br><br>
 
 **Resize Event**<br>
-[ColWidthChange](/package/extension5/sspread/events/ColWidthChange) event<br>
-[RowHeightChange](/package/extension5/sspread/events/RowHeightChange) event<br><br>
+[ColWidthChange](/package/extension5/sspread/events/colwidthchange) event<br>
+[RowHeightChange](/package/extension5/sspread/events/rowheightchange) event<br><br>

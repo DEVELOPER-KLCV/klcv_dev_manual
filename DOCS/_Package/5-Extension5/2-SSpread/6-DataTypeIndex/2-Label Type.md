@@ -14,21 +14,21 @@ permalink: /package/extension5/sspread/celldatatype_index/labeltype
 A feature related to cells whose [CellType](/package/extension5/sspread/properties/celltype) property is $CellTypeStaticText.
 
 **Motion**<br>
-[TypeTextPrefix](/package/extension5/sspread/properties/TypeTextPrefix) property<br>
-[TypeTextWordWrap](/package/extension5/sspread/properties/TypeTextWordWrap) property<br><br>
+[TypeTextPrefix](/package/extension5/sspread/properties/typetextprefix) property<br>
+[TypeTextWordWrap](/package/extension5/sspread/properties/typetextwordwrap) property<br><br>
 
 **Display**<br>
-[TypeEllipses](/package/extension5/sspread/properties/TypeEllipses) property<br>
-[TypeTextOrient](/package/extension5/sspread/properties/TypeTextOrient) property<br>
-[TypeHAlign](/package/extension5/sspread/properties/TypeHAlign) property<br>
-[TypeVAlign](/package/extension5/sspread/properties/TypeVAlign) property<br><br>
+[TypeEllipses](/package/extension5/sspread/properties/typeellipses) property<br>
+[TypeTextOrient](/package/extension5/sspread/properties/typetextorient) property<br>
+[TypeHAlign](/package/extension5/sspread/properties/typehalign) property<br>
+[TypeVAlign](/package/extension5/sspread/properties/typevalign) property<br><br>
 
 **Exterior**<br>
-[TypeTextShadow](/package/extension5/sspread/properties/TypeTextShadow) property<br>
-[TypeTextShadowIn](/package/extension5/sspread/properties/TypeTextShadowIn) property<br><br>
+[TypeTextShadow](/package/extension5/sspread/properties/typetextshadow) property<br>
+[TypeTextShadowIn](/package/extension5/sspread/properties/typetextshadowin) property<br><br>
 
 **Colour**<br>
-[ShadowColor](/package/extension5/sspread/properties/ShadowColor) property<br>
-[ShadowDark](/package/extension5/sspread/properties/ShadowDark) property<br>
-[ShadowLight](/package/extension5/sspread/properties/ShadowLight) property<br>
-[ShadowText](/package/extension5/sspread/properties/ShadowText) property<br><br>
+[ShadowColor](/package/extension5/sspread/properties/shadowcolor) property<br>
+[ShadowDark](/package/extension5/sspread/properties/shadowdark) property<br>
+[ShadowLight](/package/extension5/sspread/properties/shadowlight) property<br>
+[ShadowText](/package/extension5/sspread/properties/shadowtext) property<br><br>

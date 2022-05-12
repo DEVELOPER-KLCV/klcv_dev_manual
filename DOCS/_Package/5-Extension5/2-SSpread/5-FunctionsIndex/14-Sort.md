@@ -17,7 +17,7 @@ permalink: /package/extension5/sspread/functions_index/sort
 [Sort](/package/extension5/sspread/methods/sort) method<br><br>
 
 **Sort by user operation**<br>
-[ColUserSortIndicator](/package/extension5/sspread/properties/ColUserSortIndicator) property<br>
-[UserColAction](/package/extension5/sspread/properties/UserColAction) property<br>
-[BeforeUserSort](/package/extension5/sspread/events/BeforeUserSort) event<br>
-[AfterUserSort](/package/extension5/sspread/events/AfterUserSort) event<br><br>
+[ColUserSortIndicator](/package/extension5/sspread/properties/colusersortindicator) property<br>
+[UserColAction](/package/extension5/sspread/properties/usercolaction) property<br>
+[BeforeUserSort](/package/extension5/sspread/events/beforeusersort) event<br>
+[AfterUserSort](/package/extension5/sspread/events/afterusersort) event<br><br>

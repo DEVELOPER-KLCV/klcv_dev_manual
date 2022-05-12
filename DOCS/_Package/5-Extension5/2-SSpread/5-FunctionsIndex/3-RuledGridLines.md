@@ -12,15 +12,15 @@ permalink: /package/extension5/sspread/functions_index/lines
 ---
 
 **Cell border**<br>
-[GetCellBorder](/package/extension5/sspread/methods/GetCellBorder) method<br>
-[SetCellBorder](/package/extension5/sspread/methods/SetCellBorder) method<br><br>
+[GetCellBorder](/package/extension5/sspread/methods/getcellborder) method<br>
+[SetCellBorder](/package/extension5/sspread/methods/setcellborder) method<br><br>
 
 **Grid line**<br>
-[GridColor](/package/extension5/sspread/properties/GridColor) property<br>
-[GridShowHoriz](/package/extension5/sspread/properties/GridShowHoriz) property<br>
-[GridShowVert](/package/extension5/sspread/properties/GridShowVert) property<br>
-[GridSolid](/package/extension5/sspread/properties/GridSolid) property<br>
-[BackColorStyle](/package/extension5/sspread/properties/BackColorStyle) property<br><br>
+[GridColor](/package/extension5/sspread/properties/gridcolor) property<br>
+[GridShowHoriz](/package/extension5/sspread/properties/gridshowhoriz) property<br>
+[GridShowVert](/package/extension5/sspread/properties/gridshowvert) property<br>
+[GridSolid](/package/extension5/sspread/properties/gridsolid) property<br>
+[BackColorStyle](/package/extension5/sspread/properties/backcolorstyle) property<br><br>
 
 **Cell area border**<br>
-[NoBorder](/package/extension5/sspread/properties/NoBorder) property<br><br>
+[NoBorder](/package/extension5/sspread/properties/noborder) property<br><br>

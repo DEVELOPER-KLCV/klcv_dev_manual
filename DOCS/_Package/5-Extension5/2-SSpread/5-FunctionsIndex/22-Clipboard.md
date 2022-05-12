@@ -12,12 +12,12 @@ permalink: /package/extension5/sspread/functions_index/clipboard
 ---
 
 **Use of shortcut keys**<br>
-[AutoClipboard](/package/extension5/sspread/properties/AutoClipboard) property<br>
+[AutoClipboard](/package/extension5/sspread/properties/autoclipboard) property<br>
 
 **Copy / paste operation settings**<br>
-[ClipboardOptions](/package/extension5/sspread/properties/ClipboardOptions) property<br><br>
+[ClipboardOptions](/package/extension5/sspread/properties/clipboardoptions) property<br><br>
 
 **Clipboard operation**<br>
-[ClipboardCopy](/package/extension5/sspread/methods/ClipboardCopy) method<br>
-[ClipboardCut](/package/extension5/sspread/methods/ClipboardCut) method<br>
-[ClipboardPaste](/package/extension5/sspread/methods/ClipboardPaste) method<br><br>
+[ClipboardCopy](/package/extension5/sspread/methods/clipboardcopy) method<br>
+[ClipboardCut](/package/extension5/sspread/methods/clipboardcut) method<br>
+[ClipboardPaste](/package/extension5/sspread/methods/clipboardpaste) method<br><br>

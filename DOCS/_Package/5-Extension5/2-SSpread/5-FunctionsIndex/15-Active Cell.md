@@ -12,15 +12,15 @@ permalink: /package/extension5/sspread/functions_index/activecell
 ---
 
 **Position**<br>
-[ActiveCol](/package/extension5/sspread/properties/ActiveCol) property<br>
-[ActiveRow](/package/extension5/sspread/properties/ActiveRow) property<br>
-[SetActiveCell](/package/extension5/sspread/methods/SetActiveCell) method<br><br>
+[ActiveCol](/package/extension5/sspread/properties/activecol) property<br>
+[ActiveRow](/package/extension5/sspread/properties/activerow) property<br>
+[SetActiveCell](/package/extension5/sspread/methods/setactivecell) method<br><br>
 
 **With or without highlighting**<br>
-[ActiveCellHighlightStyle](/package/extension5/sspread/properties/ActiveCellHighlightStyle) property<br><br>
+[ActiveCellHighlightStyle](/package/extension5/sspread/properties/activecellhighlightstyle) property<br><br>
 
 **Change event**<br>
-[LeaveCell](/package/extension5/sspread/events/LeaveCell) event<br>
-[LeaveRow](/package/extension5/sspread/events/LeaveRow) event<br>
-[AfterLeaveCell](/package/extension5/sspread/events/AfterLeaveCell) event<br>
-[AfterLeaveRow](/package/extension5/sspread/events/AfterLeaveRow) event<br><br>
+[LeaveCell](/package/extension5/sspread/events/leavecell) event<br>
+[LeaveRow](/package/extension5/sspread/events/leaverow) event<br>
+[AfterLeaveCell](/package/extension5/sspread/events/afterleavecell) event<br>
+[AfterLeaveRow](/package/extension5/sspread/events/afterleaverow) event<br><br>

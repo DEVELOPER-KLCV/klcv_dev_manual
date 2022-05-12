@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.SelChange Event
 nav_order: 35
-permalink: /package/extension5/sspread/events/SelChange
+permalink: /package/extension5/sspread/events/selchange
 ---
 # {{ page.title }}

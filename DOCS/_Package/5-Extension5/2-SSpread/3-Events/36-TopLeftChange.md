@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.TopLeftChange Event
 nav_order: 36
-permalink: /package/extension5/sspread/events/TopLeftChange
+permalink: /package/extension5/sspread/events/topleftchange
 ---
 # {{ page.title }}

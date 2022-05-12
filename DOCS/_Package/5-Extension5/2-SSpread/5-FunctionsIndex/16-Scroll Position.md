@@ -12,15 +12,15 @@ permalink: /package/extension5/sspread/functions_index/scrollposition
 ---
 
 **Cell position**<br>
-[LeftCol](/package/extension5/sspread/properties/LeftCol) property<br>
-[TopRow](/package/extension5/sspread/properties/TopRow) property<br>
-[GetBottomRightCell](/package/extension5/sspread/methods/GetBottomRightCell) method<br>
-[IsVisible](/package/extension5/sspread/methods/IsVisible) method<br><br>
+[LeftCol](/package/extension5/sspread/properties/leftcol) property<br>
+[TopRow](/package/extension5/sspread/properties/toprow) property<br>
+[GetBottomRightCell](/package/extension5/sspread/methods/getbottomrightcell) method<br>
+[IsVisible](/package/extension5/sspread/methods/isvisible) method<br><br>
 
 **Scroll operation**<br>
-[ShowCell](/package/extension5/sspread/methods/ShowCell) method<br>
-[TopLeftChange](/package/extension5/sspread/events/TopLeftChange) event<br><br>
+[ShowCell](/package/extension5/sspread/methods/showcell) method<br>
+[TopLeftChange](/package/extension5/sspread/events/topleftchange) event<br><br>
 
 **Cell coordinates**<br>
-[GetCellFromScreenCoord](/package/extension5/sspread/methods/GetCellFromScreenCoord) method<br>
-[GetCellPos](/package/extension5/sspread/methods/GetCellPos) method<br><br>
+[GetCellFromScreenCoord](/package/extension5/sspread/methods/getcellfromscreencoord) method<br>
+[GetCellPos](/package/extension5/sspread/methods/getcellpos) method<br><br>

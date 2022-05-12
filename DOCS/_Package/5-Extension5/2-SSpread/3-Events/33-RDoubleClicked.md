@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.RDoubleClicked Event
 nav_order: 33
-permalink: /package/extension5/sspread/events/RDoubleClicked
+permalink: /package/extension5/sspread/events/rdoubleclicked
 ---
 # {{ page.title }}

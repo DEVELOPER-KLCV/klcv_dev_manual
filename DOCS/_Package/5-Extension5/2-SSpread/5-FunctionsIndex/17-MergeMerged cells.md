@@ -12,10 +12,10 @@ permalink: /package/extension5/sspread/functions_index/merge
 ---
 
 ***Merge cells***<br>
-[AddCellSpan](/package/extension5/sspread/methods/AddCellSpan) method<br>
-[GetCellSpan](/package/extension5/sspread/methods/GetCellSpan) method<br>
-[RemoveCellSpan](/package/extension5/sspread/methods/RemoveCellSpan) method<br><br>
+[AddCellSpan](/package/extension5/sspread/methods/addcellspan) method<br>
+[GetCellSpan](/package/extension5/sspread/methods/getcellspan) method<br>
+[RemoveCellSpan](/package/extension5/sspread/methods/removecellspan) method<br><br>
 
 **Merge**<br>
-[ColMerge](/package/extension5/sspread/properties/ColMerge) property<br>
-[RowMerge](/package/extension5/sspread/properties/RowMerge) property<br><br>
+[ColMerge](/package/extension5/sspread/properties/colmerge) property<br>
+[RowMerge](/package/extension5/sspread/properties/rowmerge) property<br><br>

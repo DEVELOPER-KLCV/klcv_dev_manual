@@ -36,17 +36,17 @@ permalink: /package/extension5/sspread/functions_index/celldata
 [Change](/package/extension5/sspread/events/change) event<br><br>
 
 **Tag / ID**<br>
-[CellTag](/package/extension5/sspread/properties/CellTag) property<br>
-[ColID](/package/extension5/sspread/properties/ColID) property<br>
-[FindCellTag](/package/extension5/sspread/methods/FindCellTag) method<br><br>
+[CellTag](/package/extension5/sspread/properties/celltag) property<br>
+[ColID](/package/extension5/sspread/properties/colid) property<br>
+[FindCellTag](/package/extension5/sspread/methods/findcelltag) method<br><br>
 
 **Entered Position**<br>
-[DataColCnt](/package/extension5/sspread/properties/DataColCnt) property<br>
-[DataRowCnt](/package/extension5/sspread/properties/DataRowCnt) property<br>
+[DataColCnt](/package/extension5/sspread/properties/datacolcnt) property<br>
+[DataRowCnt](/package/extension5/sspread/properties/datarowcnt) property<br>
 
 **Input Limit**<br>
-[RestrictCols](/package/extension5/sspread/properties/RestrictCols) property<br>
-[RestrictRows](/package/extension5/sspread/properties/RestrictRows) property<br>
+[RestrictCols](/package/extension5/sspread/properties/restrictcols) property<br>
+[RestrictRows](/package/extension5/sspread/properties/restrictrows) property<br>
 [EditError](/package/extension5/sspread/events/editerror) event<br><br>
 
 **Lock**<br>
