@@ -1,12 +1,10 @@
 ---
 layout: default
 
-grand_parent: 
-parent: 12. PrintStream Package
-has_children: true
-
+grand_parent: 12. PrintStream Package
 parent: PrintStreamDocument Class
 has_children: true
+
 title: Properties
 nav_order: 1
 permalink: /package/printstreampackage/printstreamdocument/properties

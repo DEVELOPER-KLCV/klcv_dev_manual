@@ -1,12 +1,10 @@
 ---
 layout: default
 
-grand_parent: 
-parent: 14. Mail Package
-has_children: true
-
+grand_parent: 14. Mail Package
 parent: MailHeader Class
 has_children: true
+
 title: Methods
 nav_order: 2
 permalink: /package/mailpackage/mailheader/methods

@@ -1,12 +1,10 @@
 ---
 layout: default
 
-grand_parent: 
-parent: 14. Mail Package
-has_children: true
-
+grand_parent: 14. Mail Package
 parent: Pop3 Class
 has_children: true
+
 title: Properties
 nav_order: 1
 permalink: /package/mailpackage/pop3/properties

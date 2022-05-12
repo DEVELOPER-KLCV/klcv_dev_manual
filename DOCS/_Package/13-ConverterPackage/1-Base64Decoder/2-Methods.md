@@ -1,12 +1,10 @@
 ---
 layout: default
 
-grand_parent: 
-parent: 13. Converter Package
-has_children: true
-
+grand_parent: 13. Converter Package
 parent: Base64Decoder Class
 has_children: true
+
 title: Methods
 nav_order: 2
 permalink: /package/converterpackage/base64decoder/methods

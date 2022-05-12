@@ -1,10 +1,7 @@
 ---
 layout: default
 
-grand_parent: 
-parent: 12. PrintStream Package
-has_children: true
-
+grand_parent: 12. PrintStream Package
 parent: PreviewForm Class
 has_children: true
 title: Events

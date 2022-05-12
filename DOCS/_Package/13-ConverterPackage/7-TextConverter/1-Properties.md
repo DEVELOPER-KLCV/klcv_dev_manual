@@ -1,12 +1,10 @@
 ---
 layout: default
 
-grand_parent: 
-parent: 13. Converter Package
-has_children: true
-
+grand_parent: 13. Converter Package
 parent: TextConverter Class
 has_children: true
+
 title: Properties
 nav_order: 1
 permalink: /package/converterpackage/textconverter/properties
