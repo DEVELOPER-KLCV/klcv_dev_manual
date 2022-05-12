@@ -22,9 +22,9 @@ The following methods are defined in the Object class.
 |[Clear](/package/system/object/methods/clear)|Initializes the object's default properties |
 |[ClearChild](/package/system/object/methods/clearchild)|Initializes the default properties of all child objects |
 |[Delete](/package/system/object/methods/delete)|Disconnect the object from the object tree |
-|[DeleteChild](/package/system/object/methods/deleteChild)|Disconnects all child objects from the object tree |
-|[FindChild](/package/system/object/methods/findChild)|Finds a child object with the specified name<br><small>Added since Version 4.0.0<br> Not supported on mobile</small> |
-|[FindObject](/package/system/object/methods/findObject)|Find an object from the object tree<br><small>Added since Version 4.1.3<br> Not supported on mobile</small> |
+|[DeleteChild](/package/system/object/methods/deletechild)|Disconnects all child objects from the object tree |
+|[FindChild](/package/system/object/methods/findchild)|Finds a child object with the specified name<br><small>Added since Version 4.0.0<br> Not supported on mobile</small> |
+|[FindObject](/package/system/object/methods/findobject)|Find an object from the object tree<br><small>Added since Version 4.1.3<br> Not supported on mobile</small> |
 |[GetChildObjects](/package/system/object/methods/getchildobjects)|Gets all child objects<br><small>Added since Version 3.0.0</small> |
 |[PostEvent](/package/system/object/methods/postevent)|Send an event to the object |
 

@@ -22,10 +22,10 @@ The following methods are defined in the String class.
 |[CharAt](/package/system/string/methods/charat) |Returns the character at the specified position |
 |[CharCodeAt](/package/system/string/methods/charcodeat) |Returns the character code of the character at the specified position |
 |[Concat](/package/system/string/methods/concat) |Concatenate strings |
-|[EqualsIgnoreCase](/package/system/string/methods/equalsIgnoreCase) |Compare strings case insensitively <br><small>Not available on Mobile</small> |
-|[IndexOf](/package/system/string/methods/indexOf) |Search for a string from the beginning |
-|[LastIndexOf](/package/system/string/methods/lastIndexOf) |Search for strings from the back |
-|[LocaleCompare](/package/system/string/methods/localeCompare) | Compare strings based on locale|
+|[EqualsIgnoreCase](/package/system/string/methods/equalsignorecase) |Compare strings case insensitively <br><small>Not available on Mobile</small> |
+|[IndexOf](/package/system/string/methods/indexof) |Search for a string from the beginning |
+|[LastIndexOf](/package/system/string/methods/lastindexof) |Search for strings from the back |
+|[LocaleCompare](/package/system/string/methods/localecompare) | Compare strings based on locale|
 |[Replace](/package/system/string/methods/replace) |Replace string |
 |[Slice](/package/system/string/methods/slice) |Cut out a part of the character string |
 |[Split](/package/system/string/methods/split) |Split the string |

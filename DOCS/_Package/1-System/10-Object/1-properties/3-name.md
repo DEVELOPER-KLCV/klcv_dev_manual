@@ -14,7 +14,7 @@ Indicates the name of the object as a string. The name of the object is the name
 
 CRS allows you to access an object by multiple names by storing the object reference in the var variable. The Name property indicates the name given to the object when it is connected to the object tree, regardless of the name (label) of these var variables. The Name property of an object that is not connected to the object tree is usually an empty string and unnamed.
 
-The object name is specified in a regular object tree connection statement or in the [Append]() method.
+The object name is specified in a regular object tree connection statement or in the [Append](/package/system/object/methods/append) method.
 
 Object tree connection statement example
 

@@ -37,10 +37,10 @@ permalink: /package/system/netobject/methods/get
     <td>Exception</td>
     <td>CRS-331</td>
     <td>Communication error<br>The Exception object has the following structure.<br><code><pre>Exception {
-    String RequestURL;  /* 例外を起こしたリクエストのURL */
-    Number StatusCode;  /* HTTPステータスコード */
-    String ContentType; /* HTTPヘッダのContent-Type */
-    String Body;        /* レスポンスボディ */
+    String RequestURL;  /* URL of the request that caused the exception */
+    Number StatusCode;  /* HTTP status code */
+    String ContentType; /* Content-Type of HTTP header */
+    String Body;        /* Response body */
 }</pre></code></td>
   </tr>
   <tr>
@@ -52,7 +52,7 @@ permalink: /package/system/netobject/methods/get
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a>Cache</a>, <a>CSVDocument.Get</a> methods</td>
+    <td colspan="2"><a href="/package/system/netobject/methods/cache">Cache</a>, <a  href="/package/csvpackage/csvdocument/methods/get">CSVDocument.Get</a> methods</td>
   </tr>
 </table>
 

@@ -18,8 +18,8 @@ The following methods are defined in the RegexMatcher class.
 
 |  Name | Description |
 |-------|-------------|
-|[AppendReplacement](/package/system/regexmatcher/methods/appendReplacement)|Perform continuous addition and replacement |
-|[AppendTail](/package/system/regexmatcher/methods/appendTail)|Performs additional replacement |
+|[AppendReplacement](/package/system/regexmatcher/methods/appendreplacement)|Perform continuous addition and replacement |
+|[AppendTail](/package/system/regexmatcher/methods/appendtail)|Performs additional replacement |
 |[End](/package/system/regexmatcher/methods/end)|Gets the tail index of the matched result |
 |[Find](/package/system/regexmatcher/methods/find)|Searches the input string for the next matching substring to the regular expression pattern |
 |[GetInputString](/package/system/regexmatcher/methods/getinputstring)|Gets the input string set in the regular expression engine <br><small> Added since Ver.5.0.1</small> |

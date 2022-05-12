@@ -43,7 +43,7 @@ permalink: /package/system/string/methods/substring
 var str = new String("abcdefghi");
 print(str.Substring(1, 2), "\n");
  
-/* 対象文字列に2バイト文字を含む場合 */
+/* If the target character string contains double-byte characters */
 var str2 = new String("東京都千代田区千代田1番1号");
 print(mid(str2, 3, 4), "\n");
     </pre></code></td>

@@ -14,7 +14,7 @@ permalink: /package/system/object/methods/postevent
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2">Send an event to the object.<br><br>This method allows the CRS program to raise an event at any time.<br>Events are passed to the corresponding event handler via the event queue.See <a href="/bizBrowserV/3/3-7/">Events and Event Handlers</a> for more information.<br><br>When sending a user-defined event, use the event number of the <a href="package/system/event/properties/Reason">Reason</a> property after the code number indicated by UserEvent ( such as UserEvent + 1 ) so that it does not overlap with the system-defined event number.<br><br>When sending a system-defined event, you can specify the event name as is for <b>ev</b>.<br><br>The event can be forwarded to the parent object by calling the PostEvent method in the event handler with no arguments.</td>
+    <td colspan="2">Send an event to the object.<br><br>This method allows the CRS program to raise an event at any time.<br>Events are passed to the corresponding event handler via the event queue.See <a href="/bizBrowserV/3/3-7/">Events and Event Handlers</a> for more information.<br><br>When sending a user-defined event, use the event number of the <a href="package/system/event/properties/reason">Reason</a> property after the code number indicated by UserEvent ( such as UserEvent + 1 ) so that it does not overlap with the system-defined event number.<br><br>When sending a system-defined event, you can specify the event name as is for <b>ev</b>.<br><br>The event can be forwarded to the parent object by calling the PostEvent method in the event handler with no arguments.</td>
   </tr>
   <tr>
     <td>Call format</td>
