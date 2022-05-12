@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: ProgressBar.Create Method
 nav_order: 7
-permalink: /package/extension4/progressbar/methods/Create
+permalink: /package/extension4/progressbar/methods/create
 ---
 # {{ page.title }}
 
@@ -38,7 +38,7 @@ permalink: /package/extension4/progressbar/methods/Create
     pb.Width = 200;
     pb.Height = 20;
     pb.Step = 10;
-    pb.Title = "処理中";
+    pb.Title = "Loading";
     pb.Popup($TRUE);
     for (var i = 0; i < 10; i++) {
         ...

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: StyleEdit.EmptyUndoBuffer Method
 nav_order: 2
-permalink: /package/extension4/styleedit/methods/EmptyUndoBuffer
+permalink: /package/extension4/styleedit/methods/emptyundobuffer
 ---
 # {{ page.title }}
 

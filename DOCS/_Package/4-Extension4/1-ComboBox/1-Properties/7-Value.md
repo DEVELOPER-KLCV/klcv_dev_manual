@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: ComboBox.Value Property
 nav_order: 7
-permalink: /package/extension4/combobox/properties/Value
+permalink: /package/extension4/combobox/properties/value
 ---
 # {{ page.title }}

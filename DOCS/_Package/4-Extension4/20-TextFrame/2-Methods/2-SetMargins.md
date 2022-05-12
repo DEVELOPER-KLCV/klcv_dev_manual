@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: TextFrame.SetMargins Method
 nav_order: 2
-permalink: /package/extension4/textframe/methods/SetMargins
+permalink: /package/extension4/textframe/methods/setmargins
 ---
 # {{ page.title }}
 

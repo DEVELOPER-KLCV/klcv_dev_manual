@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.DeleteCols Method
 nav_order: 13
-permalink: /package/extension5/sspread/methods/DeleteCols
+permalink: /package/extension5/sspread/methods/deletecols
 ---
 # {{ page.title }}
 

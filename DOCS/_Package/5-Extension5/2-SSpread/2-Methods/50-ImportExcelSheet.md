@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.ImportExcelSheet Method
 nav_order: 50
-permalink: /package/extension5/sspread/methods/ImportExcelSheet
+permalink: /package/extension5/sspread/methods/importexcelsheet
 ---
 # {{ page.title }}
 
@@ -51,6 +51,6 @@ permalink: /package/extension5/sspread/methods/ImportExcelSheet
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/methods/ExportExcelBook">ExportExcelBook</a>, <a href="/package/extension5/sspread/methods/ExportExcelBookEx">ExportExcelBookEx</a>, <a href="/package/extension5/sspread/methods/exporttoexcel">ExportToExcel</a>, <a href="/package/extension5/sspread/methods/exporttoexcelex">ExportToExcelEx</a>, <a href="/package/extension5/sspread/methods/GetExcelSheetList">GetExcelSheetList</a> methods<br><a href="">HttpResponse</a> class</td>
+    <td colspan="2"><a href="/package/extension5/sspread/methods/exportexcelbook">ExportExcelBook</a>, <a href="/package/extension5/sspread/methods/exportexcelbookex">ExportExcelBookEx</a>, <a href="/package/extension5/sspread/methods/exporttoexcel">ExportToExcel</a>, <a href="/package/extension5/sspread/methods/exporttoexcelex">ExportToExcelEx</a>, <a href="/package/extension5/sspread/methods/getexcelsheetlist">GetExcelSheetList</a> methods<br><a href="/package/httppackage/httpresponse">HttpResponse</a> class</td>
   </tr>
 </table>

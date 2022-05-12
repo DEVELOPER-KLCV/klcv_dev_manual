@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeNumberDecPlaces Property
 nav_order: 182
-permalink: /package/extension5/sspread/properties/TypeNumberDecPlaces
+permalink: /package/extension5/sspread/properties/typenumberdecplaces
 ---
 # {{ page.title }}

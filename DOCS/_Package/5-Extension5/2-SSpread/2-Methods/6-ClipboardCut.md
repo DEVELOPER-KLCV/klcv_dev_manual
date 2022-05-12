@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.ClipboardCut Method
 nav_order: 6
-permalink: /package/extension5/sspread/methods/ClipboardCut
+permalink: /package/extension5/sspread/methods/clipboardcut
 ---
 # {{ page.title }}
 

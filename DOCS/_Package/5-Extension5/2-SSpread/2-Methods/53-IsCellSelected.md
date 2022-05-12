@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.IsCellSelected Method
 nav_order: 53
-permalink: /package/extension5/sspread/methods/IsCellSelected
+permalink: /package/extension5/sspread/methods/iscellselected
 ---
 # {{ page.title }}
 

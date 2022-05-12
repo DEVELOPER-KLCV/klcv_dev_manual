@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.SetActiveCell Method
 nav_order: 79
-permalink: /package/extension5/sspread/methods/SetActiveCell
+permalink: /package/extension5/sspread/methods/setactivecell
 ---
 # {{ page.title }}
 

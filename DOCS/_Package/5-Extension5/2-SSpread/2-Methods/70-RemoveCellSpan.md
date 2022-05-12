@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.RemoveCellSpan Method
 nav_order: 70
-permalink: /package/extension5/sspread/methods/RemoveCellSpan
+permalink: /package/extension5/sspread/methods/removecellspan
 ---
 # {{ page.title }}
 

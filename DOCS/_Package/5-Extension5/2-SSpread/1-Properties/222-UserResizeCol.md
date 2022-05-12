@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.UserResizeCol Property
 nav_order: 222
-permalink: /package/extension5/sspread/properties/UserResizeCol
+permalink: /package/extension5/sspread/properties/userresizecol
 ---
 # {{ page.title }}

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.ExportRangeToTextFile Method
 nav_order: 19
-permalink: /package/extension5/sspread/methods/ExportRangeToTextFile
+permalink: /package/extension5/sspread/methods/exportrangetotextfile
 ---
 # {{ page.title }}
 
@@ -80,6 +80,6 @@ permalink: /package/extension5/sspread/methods/ExportRangeToTextFile
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/methods/ExportRangeToTextFileU">ExportRangeToTextFileU</a>, <a href="/package/extension5/sspread/methods/exportToTextFile">exportToTextFile</a>, <a href="/package/extension5/sspread/methods/loadTextFile">LoadTextFile</a> methods</td>
+    <td colspan="2"><a href="/package/extension5/sspread/methods/exportrangetotextfileu">ExportRangeToTextFileU</a>, <a href="/package/extension5/sspread/methods/exporttotextfile">exportToTextFile</a>, <a href="/package/extension5/sspread/methods/loadtextfile">LoadTextFile</a> methods</td>
   </tr>
 </table>

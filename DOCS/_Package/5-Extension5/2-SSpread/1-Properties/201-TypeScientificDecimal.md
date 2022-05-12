@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeScientificDecimal Property
 nav_order: 201
-permalink: /package/extension5/sspread/properties/TypeScientificDecimal
+permalink: /package/extension5/sspread/properties/typescientificdecimal
 ---
 # {{ page.title }}

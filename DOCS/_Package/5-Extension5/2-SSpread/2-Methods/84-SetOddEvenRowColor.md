@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.SetOddEvenRowColor Method
 nav_order: 84
-permalink: /package/extension5/sspread/methods/SetOddEvenRowColor
+permalink: /package/extension5/sspread/methods/setoddevenrowcolor
 ---
 # {{ page.title }}
 
@@ -55,6 +55,6 @@ permalink: /package/extension5/sspread/methods/SetOddEvenRowColor
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/properties/backcolor">BackColor</a>, <a href="/package/extension5/sspread/properties/forecolor">ForeColor</a> properties<br><a href="/package/extension5/sspread/methods/GetOddEvenRowColor">GetOddEvenRowColor</a> method</td>
+    <td colspan="2"><a href="/package/extension5/sspread/properties/backcolor">BackColor</a>, <a href="/package/extension5/sspread/properties/forecolor">ForeColor</a> properties<br><a href="/package/extension5/sspread/methods/getoddevenrowcolor">GetOddEvenRowColor</a> method</td>
   </tr>
 </table>

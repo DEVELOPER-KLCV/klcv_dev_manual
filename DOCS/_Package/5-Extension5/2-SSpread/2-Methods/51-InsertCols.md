@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.InsertCols Method
 nav_order: 51
-permalink: /package/extension5/sspread/methods/InsertCols
+permalink: /package/extension5/sspread/methods/insertcols
 ---
 # {{ page.title }}
 
@@ -61,6 +61,6 @@ permalink: /package/extension5/sspread/methods/InsertCols
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/properties/maxcols">MaxCols</a> property<br><a href="/package/extension5/sspread/methods/DeleteCols">DeleteCols</a>, <a href="/package/extension5/sspread/methods/InsertRows">InsertRows</a> methods</td>
+    <td colspan="2"><a href="/package/extension5/sspread/properties/maxcols">MaxCols</a> property<br><a href="/package/extension5/sspread/methods/deletecols">DeleteCols</a>, <a href="/package/extension5/sspread/methods/insertrows">InsertRows</a> methods</td>
   </tr>
 </table>

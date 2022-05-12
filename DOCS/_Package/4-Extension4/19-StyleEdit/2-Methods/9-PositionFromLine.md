@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: StyleEdit.PositionFromLine Method
 nav_order: 9
-permalink: /package/extension4/styleedit/methods/PositionFromLine
+permalink: /package/extension4/styleedit/methods/positionfromline
 ---
 # {{ page.title }}
 
@@ -40,6 +40,6 @@ permalink: /package/extension4/styleedit/methods/PositionFromLine
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension4/styleedit/methods/LineFromPosition">LineFromPosition</a> method</td>
+    <td colspan="2"><a href="/package/extension4/styleedit/methods/linefromposition">LineFromPosition</a> method</td>
   </tr>
 </table>

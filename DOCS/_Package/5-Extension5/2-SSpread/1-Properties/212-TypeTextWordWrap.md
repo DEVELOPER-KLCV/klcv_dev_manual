@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeTextWordWrap Property
 nav_order: 212
-permalink: /package/extension5/sspread/properties/TypeTextWordWrap
+permalink: /package/extension5/sspread/properties/typetextwordwrap
 ---
 # {{ page.title }}

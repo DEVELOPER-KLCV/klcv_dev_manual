@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeTimeMax Property
 nav_order: 214
-permalink: /package/extension5/sspread/properties/TypeTimeMax
+permalink: /package/extension5/sspread/properties/typetimemax
 ---
 # {{ page.title }}

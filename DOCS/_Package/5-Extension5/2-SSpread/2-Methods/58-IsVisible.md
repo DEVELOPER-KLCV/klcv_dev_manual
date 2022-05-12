@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.IsVisible Method
 nav_order: 58
-permalink: /package/extension5/sspread/methods/IsVisible
+permalink: /package/extension5/sspread/methods/isvisible
 ---
 # {{ page.title }}
 

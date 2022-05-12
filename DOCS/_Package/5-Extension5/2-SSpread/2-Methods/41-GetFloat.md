@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.GetFloat Method
 nav_order: 41
-permalink: /package/extension5/sspread/methods/GetFloat
+permalink: /package/extension5/sspread/methods/getfloat
 ---
 # {{ page.title }}
 
@@ -51,6 +51,6 @@ permalink: /package/extension5/sspread/methods/GetFloat
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/properties/Clip">Clip</a>, <a href="/package/extension5/sspread/properties/ClipValue">ClipValue</a>, <a href="/package/extension5/sspread/properties/text">Text</a>, <a href="/package/extension5/sspread/properties/Value">Value</a> properties<br><a href="/package/extension5/sspread/methods/GetInteger">GetInteger</a>, <a href="/package/extension5/sspread/methods/GetText">GetText</a>, <a href="/package/extension5/sspread/methods/SetFloat">SetFloat</a> method</td>
+    <td colspan="2"><a href="/package/extension5/sspread/properties/clip">Clip</a>, <a href="/package/extension5/sspread/properties/clipvalue">ClipValue</a>, <a href="/package/extension5/sspread/properties/text">Text</a>, <a href="/package/extension5/sspread/properties/value">Value</a> properties<br><a href="/package/extension5/sspread/methods/getinteger">GetInteger</a>, <a href="/package/extension5/sspread/methods/gettext">GetText</a>, <a href="/package/extension5/sspread/methods/setfloat">SetFloat</a> method</td>
   </tr>
 </table>

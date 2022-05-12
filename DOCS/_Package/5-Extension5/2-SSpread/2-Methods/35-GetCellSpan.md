@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.GetCellSpan Method
 nav_order: 35
-permalink: /package/extension5/sspread/methods/GetCellSpan
+permalink: /package/extension5/sspread/methods/getcellspan
 ---
 # {{ page.title }}
 
@@ -49,6 +49,6 @@ permalink: /package/extension5/sspread/methods/GetCellSpan
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/methods/AddCellSpan">AddCellSpan</a>, <a href="/package/extension5/sspread/methods/RemoveCellSpan">RemoveCellSpan</a> methods</td>
+    <td colspan="2"><a href="/package/extension5/sspread/methods/addcellspan">AddCellSpan</a>, <a href="/package/extension5/sspread/methods/removecellspan">RemoveCellSpan</a> methods</td>
   </tr>
 </table>

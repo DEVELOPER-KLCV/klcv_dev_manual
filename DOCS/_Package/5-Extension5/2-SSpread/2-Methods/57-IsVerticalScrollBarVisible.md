@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.IsVerticalScrollBarVisible Method
 nav_order: 57
-permalink: /package/extension5/sspread/methods/IsVerticalScrollBarVisible
+permalink: /package/extension5/sspread/methods/isverticalscrollbarvisible
 ---
 # {{ page.title }}
 
@@ -41,6 +41,6 @@ permalink: /package/extension5/sspread/methods/IsVerticalScrollBarVisible
   </tr>
    <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/methods/IsHorizontalScrollBarVisible">IsHorizontalScrollBarVisible</a> method</td>
+    <td colspan="2"><a href="/package/extension5/sspread/methods/ishorizontalscrollbarvisible">IsHorizontalScrollBarVisible</a> method</td>
   </tr>
 </table>

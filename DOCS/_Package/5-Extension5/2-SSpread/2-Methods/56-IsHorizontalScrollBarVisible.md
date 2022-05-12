@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.IsHorizontalScrollBarVisible Method
 nav_order: 56
-permalink: /package/extension5/sspread/methods/IsHorizontalScrollBarVisible
+permalink: /package/extension5/sspread/methods/ishorizontalscrollbarvisible
 ---
 # {{ page.title }}
 

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.GetLastValidCell Method
 nav_order: 43
-permalink: /package/extension5/sspread/methods/GetLastValidCell
+permalink: /package/extension5/sspread/methods/getlastvalidcell
 ---
 # {{ page.title }}
 
@@ -41,6 +41,6 @@ permalink: /package/extension5/sspread/methods/GetLastValidCell
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/properties/CellType">CellType</a>, <a href="/package/extension5/sspread/properties/ColWidth">ColWidth</a>, <a href="/package/extension5/sspread/properties/EditModePermanent">EditModePermanent</a>, <a href="/package/extension5/sspread/properties/Lock">Lock</a>, <a href="/package/extension5/sspread/properties/RowHeight">RowHeight</a> properties<br><a href="/package/extension5/sspread/methods/GetFirstValidCell">GetFirstValidCell</a> method</td>
+    <td colspan="2"><a href="/package/extension5/sspread/properties/celltype">CellType</a>, <a href="/package/extension5/sspread/properties/colwidth">ColWidth</a>, <a href="/package/extension5/sspread/properties/editmodepermanent">EditModePermanent</a>, <a href="/package/extension5/sspread/properties/lock">Lock</a>, <a href="/package/extension5/sspread/properties/rowheight">RowHeight</a> properties<br><a href="/package/extension5/sspread/methods/getfirstvalidcell">GetFirstValidCell</a> method</td>
   </tr>
 </table>

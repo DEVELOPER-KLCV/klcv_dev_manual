@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: StyleEdit.InsertString Method
 nav_order: 7
-permalink: /package/extension4/styleedit/methods/InsertString
+permalink: /package/extension4/styleedit/methods/insertstring
 ---
 # {{ page.title }}
 

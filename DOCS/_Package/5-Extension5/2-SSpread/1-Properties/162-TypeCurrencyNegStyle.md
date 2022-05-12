@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeCurrencyNegStyle Property
 nav_order: 162
-permalink: /package/extension5/sspread/properties/TypeCurrencyNegStyle
+permalink: /package/extension5/sspread/properties/typecurrencynegstyle
 ---
 # {{ page.title }}

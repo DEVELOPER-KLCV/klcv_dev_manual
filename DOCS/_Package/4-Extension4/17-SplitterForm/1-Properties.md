@@ -16,4 +16,4 @@ permalink: /package/extension4/splitterform/properties
 
 There are no properties defined in the SplitterForm class.
 
-※ The [HorizontalScale](/package/standard/form/properties/HorizontalScale), [VerticalScale](/package/standard/form/properties/verticalScale), and [FontScale](/package/standard/form/properties/fontscale) properties of the Form class are not inherited by this class. If you want to use these features, place the Form inside the Splitter Form.
+※ The [HorizontalScale](/package/standard/form/properties/horizontalscale), [VerticalScale](/package/standard/form/properties/verticalscale), and [FontScale](/package/standard/form/properties/fontscale) properties of the Form class are not inherited by this class. If you want to use these features, place the Form inside the Splitter Form.

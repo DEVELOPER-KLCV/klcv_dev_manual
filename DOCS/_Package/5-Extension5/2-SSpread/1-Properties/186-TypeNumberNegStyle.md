@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeNumberNegStyle Property
 nav_order: 186
-permalink: /package/extension5/sspread/properties/TypeNumberNegStyle
+permalink: /package/extension5/sspread/properties/typenumbernegstyle
 ---
 # {{ page.title }}

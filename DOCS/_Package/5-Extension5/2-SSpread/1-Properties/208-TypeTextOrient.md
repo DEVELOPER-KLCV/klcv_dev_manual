@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeTextOrient Property
 nav_order: 208
-permalink: /package/extension5/sspread/properties/TypeTextOrient
+permalink: /package/extension5/sspread/properties/typetextorient
 ---
 # {{ page.title }}

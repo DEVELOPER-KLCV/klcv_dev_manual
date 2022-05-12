@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: TrayIcon.Value Property
 nav_order: 2
-permalink: /package/extension4/trayicon/property/Value
+permalink: /package/extension4/trayicon/property/value
 ---
 # {{ page.title }}

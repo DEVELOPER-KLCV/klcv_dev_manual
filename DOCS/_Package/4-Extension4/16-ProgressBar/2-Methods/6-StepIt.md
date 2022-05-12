@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: ProgressBar.StepIt Method
 nav_order: 6
-permalink: /package/extension4/progressbar/methods/StepIt
+permalink: /package/extension4/progressbar/methods/stepit
 ---
 # {{ page.title }}
 

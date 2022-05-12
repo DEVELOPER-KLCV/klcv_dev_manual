@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.ColNumberToLetter Method
 nav_order: 9
-permalink: /package/extension5/sspread/methods/ColNumberToLetter
+permalink: /package/extension5/sspread/methods/colnumbertoletter
 ---
 # {{ page.title }}
 

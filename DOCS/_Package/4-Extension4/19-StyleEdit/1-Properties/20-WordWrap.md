@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: StyleEdit.WordWrap Property
 nav_order: 20
-permalink: /package/extension4/styleedit/property/WordWrap
+permalink: /package/extension4/styleedit/property/wordwrap
 ---
 # {{ page.title }}

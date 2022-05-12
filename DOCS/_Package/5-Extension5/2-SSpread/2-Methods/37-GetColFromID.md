@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.GetColFromID Method
 nav_order: 37
-permalink: /package/extension5/sspread/methods/GetColFromID
+permalink: /package/extension5/sspread/methods/getcolfromid
 ---
 # {{ page.title }}
 

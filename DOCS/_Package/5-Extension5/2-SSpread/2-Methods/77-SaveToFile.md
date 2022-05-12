@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.SaveToFile Method
 nav_order: 77
-permalink: /package/extension5/sspread/methods/SaveToFile
+permalink: /package/extension5/sspread/methods/savetofile
 ---
 # {{ page.title }}
 
@@ -52,6 +52,6 @@ permalink: /package/extension5/sspread/methods/SaveToFile
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/methods/exporttotextfile">ExportToTextFile</a>, <a href="/package/extension5/sspread/methods/loadfromfile">LoadFromFile</a><a href="/package/extension5/sspread/methods/SaveTabFile">SaveTabFile</a> methods</td>
+    <td colspan="2"><a href="/package/extension5/sspread/methods/exporttotextfile">ExportToTextFile</a>, <a href="/package/extension5/sspread/methods/loadfromfile">LoadFromFile</a><a href="/package/extension5/sspread/methods/savetabfile">SaveTabFile</a> methods</td>
   </tr>
 </table>

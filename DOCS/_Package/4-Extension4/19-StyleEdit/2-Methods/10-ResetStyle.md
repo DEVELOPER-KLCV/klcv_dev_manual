@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: StyleEdit.ResetStyle Method
 nav_order: 10
-permalink: /package/extension4/styleedit/methods/ResetStyle
+permalink: /package/extension4/styleedit/methods/resetstyle
 ---
 # {{ page.title }}
 

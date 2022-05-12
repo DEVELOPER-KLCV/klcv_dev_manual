@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.GetMultiSelItem Method
 nav_order: 44
-permalink: /package/extension5/sspread/methods/GetMultiSelItem
+permalink: /package/extension5/sspread/methods/getmultiselitem
 ---
 # {{ page.title }}
 

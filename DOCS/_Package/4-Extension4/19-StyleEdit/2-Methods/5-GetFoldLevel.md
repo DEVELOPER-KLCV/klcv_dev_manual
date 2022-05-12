@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: StyleEdit.GetFoldLevel Method
 nav_order: 5
-permalink: /package/extension4/styleedit/methods/GetFoldLevel
+permalink: /package/extension4/styleedit/methods/getfoldlevel
 ---
 # {{ page.title }}
 

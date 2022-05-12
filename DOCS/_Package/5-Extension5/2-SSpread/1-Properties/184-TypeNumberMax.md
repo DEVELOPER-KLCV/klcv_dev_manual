@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeNumberMax Property
 nav_order: 184
-permalink: /package/extension5/sspread/properties/TypeNumberMax
+permalink: /package/extension5/sspread/properties/typenumbermax
 ---
 # {{ page.title }}

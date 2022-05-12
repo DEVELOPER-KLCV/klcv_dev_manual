@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeScientificDecPlaces Property
 nav_order: 202
-permalink: /package/extension5/sspread/properties/TypeScientificDecPlaces
+permalink: /package/extension5/sspread/properties/typescientificdecplaces
 ---
 # {{ page.title }}

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: ProgressBar.PopupClose Method
 nav_order: 5
-permalink: /package/extension4/progressbar/methods/PopupClose
+permalink: /package/extension4/progressbar/methods/popupclose
 ---
 # {{ page.title }}
 
@@ -38,7 +38,7 @@ permalink: /package/extension4/progressbar/methods/PopupClose
     pb.Width = 200;
     pb.Height = 20;
     pb.Step = 10;
-    pb.Title = "処理中";
+    pb.Title = "Loading";
     pb.Popup($TRUE);
     for (var i = 0; i < 10; i++) {
         ...

@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeCurrencyMin Property
 nav_order: 161
-permalink: /package/extension5/sspread/properties/TypeCurrencyMin
+permalink: /package/extension5/sspread/properties/typecurrencymin
 ---
 # {{ page.title }}

@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: TextFrame.WordWrap Property
 nav_order: 7
-permalink: /package/extension4/textframe/property/WordWrap
+permalink: /package/extension4/textframe/property/wordwrap
 ---
 # {{ page.title }}

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.SaveBlockToBuffer Method
 nav_order: 72
-permalink: /package/extension5/sspread/methods/SaveBlockToBuffer
+permalink: /package/extension5/sspread/methods/saveblocktobuffer
 ---
 # {{ page.title }}
 
@@ -58,6 +58,6 @@ permalink: /package/extension5/sspread/methods/SaveBlockToBuffer
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/methods/LoadBlockFromBuffer">LoadBlockFromBuffer</a> method</td>
+    <td colspan="2"><a href="/package/extension5/sspread/methods/loadblockfrombuffer">LoadBlockFromBuffer</a> method</td>
   </tr>
 </table>

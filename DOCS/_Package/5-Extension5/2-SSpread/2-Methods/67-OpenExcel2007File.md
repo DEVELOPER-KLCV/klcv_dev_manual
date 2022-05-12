@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.OpenExcel2007File Method
 nav_order: 67
-permalink: /package/extension5/sspread/methods/OpenExcel2007File
+permalink: /package/extension5/sspread/methods/openexcel2007file
 ---
 # {{ page.title }}
 
@@ -63,6 +63,6 @@ permalink: /package/extension5/sspread/methods/OpenExcel2007File
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/methods/isexcel2007file">IsExcel2007File</a>, <a href="/package/extension5/sspread/methods/saveexcel2007file">SaveExcel2007File</a> methods<br><a href="">HttpResponse</a> class</td>
+    <td colspan="2"><a href="/package/extension5/sspread/methods/isexcel2007file">IsExcel2007File</a>, <a href="/package/extension5/sspread/methods/saveexcel2007file">SaveExcel2007File</a> methods<br><a href="/package/httppackage/httpresponse">HttpResponse</a> class</td>
   </tr>
 </table>

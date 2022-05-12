@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.LoadTabFile Method
 nav_order: 62
-permalink: /package/extension5/sspread/methods/LoadTabFile
+permalink: /package/extension5/sspread/methods/loadtabfile
 ---
 # {{ page.title }}
 

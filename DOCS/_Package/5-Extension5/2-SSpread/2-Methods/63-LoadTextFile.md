@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.LoadTextFile Method
 nav_order: 63
-permalink: /package/extension5/sspread/methods/LoadTextFile
+permalink: /package/extension5/sspread/methods/loadtextfile
 ---
 # {{ page.title }}
 
@@ -63,6 +63,6 @@ permalink: /package/extension5/sspread/methods/LoadTextFile
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/methods/exportrangetotextfile">ExportRangeToTextFile</a>, <a href="/package/extension5/sspread/methods/ExportToTextFile">ExportToTextFile</a>, <a href="/package/extension5/sspread/methods/loadfromfile">LoadFromFile</a>, <a href="/package/extension5/sspread/methods/loadtabfile">LoadTabFile</a> methods<br><a href="">HttpResponse</a> class</td>
+    <td colspan="2"><a href="/package/extension5/sspread/methods/exportrangetotextfile">ExportRangeToTextFile</a>, <a href="/package/extension5/sspread/methods/exporttotextfile">ExportToTextFile</a>, <a href="/package/extension5/sspread/methods/loadfromfile">LoadFromFile</a>, <a href="/package/extension5/sspread/methods/loadtabfile">LoadTabFile</a> methods<br><a href="/package/httppackage/httpresponse">HttpResponse</a> class</td>
   </tr>
 </table>

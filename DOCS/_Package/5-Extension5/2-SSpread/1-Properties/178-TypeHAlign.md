@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeHAlign Property
 nav_order: 178
-permalink: /package/extension5/sspread/properties/TypeHAlign
+permalink: /package/extension5/sspread/properties/typehalign
 ---
 # {{ page.title }}

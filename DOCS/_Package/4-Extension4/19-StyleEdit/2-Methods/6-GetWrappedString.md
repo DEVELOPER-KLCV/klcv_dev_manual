@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: StyleEdit.GetWrappedString Method
 nav_order: 6
-permalink: /package/extension4/styleedit/methods/GetWrappedString
+permalink: /package/extension4/styleedit/methods/getwrappedstring
 ---
 # {{ page.title }}
 

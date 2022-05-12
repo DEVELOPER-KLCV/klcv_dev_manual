@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: StyleEdit.SetKeywordStyle Method
 nav_order: 11
-permalink: /package/extension4/styleedit/methods/SetKeywordStyle
+permalink: /package/extension4/styleedit/methods/setkeywordstyle
 ---
 # {{ page.title }}
 
@@ -85,7 +85,7 @@ permalink: /package/extension4/styleedit/methods/SetKeywordStyle
 
 <b>Regular expressions that can be used with StyleEdit</b>
  
-The regular expression specifications that can be used in the StyleEdit class are as follows. (Specifications are different from the regular expression of [RegexPattern]() class)
+The regular expression specifications that can be used in the StyleEdit class are as follows. (Specifications are different from the regular expression of [RegexPattern](/package/system/regexpattern) class)
 
 | .. | Any character |
 | [] | One character in parentheses<br>[abc] matches a, b, c.<br>[A-Z] matches all uppercase alphabets. |

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.LoadFromBuffer Method
 nav_order: 61
-permalink: /package/extension5/sspread/methods/LoadFromFile
+permalink: /package/extension5/sspread/methods/loadfromfile
 ---
 # {{ page.title }}
 
@@ -48,6 +48,6 @@ permalink: /package/extension5/sspread/methods/LoadFromFile
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/methods/loadtabfile">LoadTabFile</a>, <a href="/package/extension5/sspread/methods/loadtextfile">LoadTextFile</a>, <a href="/package/extension5/sspread/methods/savetofile">SaveToFile</a> methods<br><a href="">HttpResponse</a> class</td>
+    <td colspan="2"><a href="/package/extension5/sspread/methods/loadtabfile">LoadTabFile</a>, <a href="/package/extension5/sspread/methods/loadtextfile">LoadTextFile</a>, <a href="/package/extension5/sspread/methods/savetofile">SaveToFile</a> methods<br><a href="/package/httppackage/httpresponse">HttpResponse</a> class</td>
   </tr>
 </table>

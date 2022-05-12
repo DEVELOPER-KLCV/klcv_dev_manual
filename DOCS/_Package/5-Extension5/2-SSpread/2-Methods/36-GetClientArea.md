@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.GetClientArea Method
 nav_order: 36
-permalink: /package/extension5/sspread/methods/GetClientArea
+permalink: /package/extension5/sspread/methods/getclientarea
 ---
 # {{ page.title }}
 

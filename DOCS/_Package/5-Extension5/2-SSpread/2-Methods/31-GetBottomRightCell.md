@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.GetBottomRightCell Method
 nav_order: 31
-permalink: /package/extension5/sspread/methods/GetBottomRightCell
+permalink: /package/extension5/sspread/methods/getbottomrightcell
 ---
 # {{ page.title }}
 

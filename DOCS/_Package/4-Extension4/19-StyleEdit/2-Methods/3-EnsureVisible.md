@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: StyleEdit.EnsureVisible Method
 nav_order: 3
-permalink: /package/extension4/styleedit/methods/EnsureVisible
+permalink: /package/extension4/styleedit/methods/ensurevisible
 ---
 # {{ page.title }}
 

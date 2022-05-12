@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeComboBoxList Property
 nav_order: 153
-permalink: /package/extension5/sspread/properties/TypeComboBoxList
+permalink: /package/extension5/sspread/properties/typecomboboxlist
 ---
 # {{ page.title }}

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.GetText Method
 nav_order: 49
-permalink: /package/extension5/sspread/methods/GetText
+permalink: /package/extension5/sspread/methods/gettext
 ---
 # {{ page.title }}
 
@@ -51,6 +51,6 @@ permalink: /package/extension5/sspread/methods/GetText
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/properties/text">Text</a>, <a href="/package/extension5/sspread/properties/value">Value</a> property<br><a href="/package/extension5/sspread/methods/GetFloat">GetFloat</a>, <a href="/package/extension5/sspread/methods/GetInteger">GetInteger</a>, <a href="/package/extension5/sspread/methods/SetText">SetText</a> methods</td>
+    <td colspan="2"><a href="/package/extension5/sspread/properties/text">Text</a>, <a href="/package/extension5/sspread/properties/value">Value</a> property<br><a href="/package/extension5/sspread/methods/getfloat">GetFloat</a>, <a href="/package/extension5/sspread/methods/getinteger">GetInteger</a>, <a href="/package/extension5/sspread/methods/settext">SetText</a> methods</td>
   </tr>
 </table>

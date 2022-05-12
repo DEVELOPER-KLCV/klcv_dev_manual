@@ -51,6 +51,6 @@ permalink: /package/extension4/flexview/flexlabel/methods/setimage
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension4/flexview/flexlabel/properties/icon">Icon</a> property<br><a href="/package/extension4/flexview/flexlabel/methods/resetimage">ResetImage</a> method<br><a href="">ImageList</a> class<br></td>
+    <td colspan="2"><a href="/package/extension4/flexview/flexlabel/properties/icon">Icon</a> property<br><a href="/package/extension4/flexview/flexlabel/methods/resetimage">ResetImage</a> method<br><a href="/package/extension4/imagelist">ImageList</a> class<br></td>
   </tr>
 </table>

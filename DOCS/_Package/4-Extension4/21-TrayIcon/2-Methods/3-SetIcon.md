@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: TrayIcon.SetIcon Method
 nav_order: 3
-permalink: /package/extension4/trayicon/methods/SetIcon
+permalink: /package/extension4/trayicon/methods/seticon
 ---
 # {{ page.title }}
 

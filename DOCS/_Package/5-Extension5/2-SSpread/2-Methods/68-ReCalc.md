@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.ReCalc Method
 nav_order: 68
-permalink: /package/extension5/sspread/methods/ReCalc
+permalink: /package/extension5/sspread/methods/recalc
 ---
 # {{ page.title }}
 
@@ -45,6 +45,6 @@ permalink: /package/extension5/sspread/methods/ReCalc
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/properties/autocalc">AutoCalc</a>, <a href="/package/extension5/sspread/properties/formula">Formula</a> properties<br><a href="/package/extension5/sspread/methods/ReCalcCell">ReCalcCell</a> method</td>
+    <td colspan="2"><a href="/package/extension5/sspread/properties/autocalc">AutoCalc</a>, <a href="/package/extension5/sspread/properties/formula">Formula</a> properties<br><a href="/package/extension5/sspread/methods/recalccell">ReCalcCell</a> method</td>
   </tr>
 </table>

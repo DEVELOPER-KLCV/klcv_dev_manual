@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.AfterLeaveCell Event
 nav_order: 3
-permalink: /package/extension5/sspread/events/AfterLeaveCell
+permalink: /package/extension5/sspread/events/afterleavecell
 ---
 # {{ page.title }}

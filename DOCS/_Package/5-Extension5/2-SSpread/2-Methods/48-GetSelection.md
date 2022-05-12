@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.GetSelection Method
 nav_order: 48
-permalink: /package/extension5/sspread/methods/GetSelection
+permalink: /package/extension5/sspread/methods/getselection
 ---
 # {{ page.title }}
 
@@ -47,6 +47,6 @@ permalink: /package/extension5/sspread/methods/GetSelection
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/properties/allowmultiblocks">AllowMultiBlocks</a>, <a href="/package/extension5/sspread/properties/selectioncount">SelectionCount</a> property<br><a href="/package/extension5/sspread/methods/AddSelection">AddSelection</a> method</td>
+    <td colspan="2"><a href="/package/extension5/sspread/properties/allowmultiblocks">AllowMultiBlocks</a>, <a href="/package/extension5/sspread/properties/selectioncount">SelectionCount</a> property<br><a href="/package/extension5/sspread/methods/addselection">AddSelection</a> method</td>
   </tr>
 </table>

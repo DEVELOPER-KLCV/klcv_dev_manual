@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: StyleEdit.TabSize Property
 nav_order: 14
-permalink: /package/extension4/styleedit/property/TabSize
+permalink: /package/extension4/styleedit/property/tabsize
 ---
 # {{ page.title }}

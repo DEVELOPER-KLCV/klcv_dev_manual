@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.StartingColNumber Property
 nav_order: 126
-permalink: /package/extension5/sspread/properties/StartingColNumber
+permalink: /package/extension5/sspread/properties/startingcolnumber
 ---
 # {{ page.title }}

@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeMaxEditLen Property
 nav_order: 179
-permalink: /package/extension5/sspread/properties/TypeMaxEditLen
+permalink: /package/extension5/sspread/properties/typemaxeditlen
 ---
 # {{ page.title }}

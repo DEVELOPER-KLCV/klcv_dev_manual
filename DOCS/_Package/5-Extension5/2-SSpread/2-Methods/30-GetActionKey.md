@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.GetActionKey Method
 nav_order: 30
-permalink: /package/extension5/sspread/methods/GetActionKey
+permalink: /package/extension5/sspread/methods/getactionkey
 ---
 # {{ page.title }}
 
@@ -54,6 +54,6 @@ permalink: /package/extension5/sspread/methods/GetActionKey
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/methods/setActionKey">SetActionKey</a> method</td>
+    <td colspan="2"><a href="/package/extension5/sspread/methods/setactionkey">SetActionKey</a> method</td>
   </tr>
 </table>

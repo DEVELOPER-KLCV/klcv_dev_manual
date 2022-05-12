@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.SetRowItemData Method
 nav_order: 86
-permalink: /package/extension5/sspread/methods/SetRowItemData
+permalink: /package/extension5/sspread/methods/setrowitemdata
 ---
 # {{ page.title }}
 
@@ -54,6 +54,6 @@ permalink: /package/extension5/sspread/methods/SetRowItemData
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/properties/celltag">CellTag</a> property<br><a href="/package/extension5/sspread/methods/GetColItemData">GetColItemData</a>, <a href="/package/extension5/sspread/methods/GetRowItemData">GetRowItemData</a>, <a href="/package/extension5/sspread/methods/SetColItemData">SetColItemData</a> methods</td>
+    <td colspan="2"><a href="/package/extension5/sspread/properties/celltag">CellTag</a> property<br><a href="/package/extension5/sspread/methods/getcolitemdata">GetColItemData</a>, <a href="/package/extension5/sspread/methods/getrowitemdata">GetRowItemData</a>, <a href="/package/extension5/sspread/methods/setcolitemdata">SetColItemData</a> methods</td>
   </tr>
 </table>

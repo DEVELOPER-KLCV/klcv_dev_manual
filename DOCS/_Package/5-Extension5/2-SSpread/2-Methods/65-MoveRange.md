@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.MoveRange Method
 nav_order: 65
-permalink: /package/extension5/sspread/methods/MoveRange
+permalink: /package/extension5/sspread/methods/moverange
 ---
 # {{ page.title }}
 

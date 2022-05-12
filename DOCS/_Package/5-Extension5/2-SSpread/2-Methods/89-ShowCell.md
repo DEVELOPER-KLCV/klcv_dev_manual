@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.ShowCell Method
 nav_order: 89
-permalink: /package/extension5/sspread/methods/ShowCell
+permalink: /package/extension5/sspread/methods/showcell
 ---
 # {{ page.title }}
 
@@ -55,6 +55,6 @@ permalink: /package/extension5/sspread/methods/ShowCell
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/properties/leftcol">LeftCol</a>, <a href="/package/extension5/sspread/properties/toprow">TopRow</a> properties<br><a href="/package/extension5/sspread/methods/GetBottomRightCell">GetBottomRightCell</a>, <a href="/package/extension5/sspread/methods/SetActiveCell">SetActiveCell</a> methods<br><a href="/package/extension5/sspread/events/topleftchange">TopLeftChange</a> event</td>
+    <td colspan="2"><a href="/package/extension5/sspread/properties/leftcol">LeftCol</a>, <a href="/package/extension5/sspread/properties/toprow">TopRow</a> properties<br><a href="/package/extension5/sspread/methods/getbottomrightcell">GetBottomRightCell</a>, <a href="/package/extension5/sspread/methods/setactivecell">SetActiveCell</a> methods<br><a href="/package/extension5/sspread/events/topleftchange">TopLeftChange</a> event</td>
   </tr>
 </table>

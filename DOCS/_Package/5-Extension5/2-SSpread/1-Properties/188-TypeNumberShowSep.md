@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeNumberShowSep Property
 nav_order: 188
-permalink: /package/extension5/sspread/properties/TypeNumberShowSep
+permalink: /package/extension5/sspread/properties/typenumbershowsep
 ---
 # {{ page.title }}

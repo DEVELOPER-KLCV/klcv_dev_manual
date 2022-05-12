@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.FindCellTag Method
 nav_order: 29
-permalink: /package/extension5/sspread/methods/FindCellTag
+permalink: /package/extension5/sspread/methods/findcelltag
 ---
 # {{ page.title }}
 

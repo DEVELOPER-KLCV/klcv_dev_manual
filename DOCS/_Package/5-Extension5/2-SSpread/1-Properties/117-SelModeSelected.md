@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.SelModeSelected Property
 nav_order: 117
-permalink: /package/extension5/sspread/properties/SelModeSelected
+permalink: /package/extension5/sspread/properties/selmodeselected
 ---
 # {{ page.title }}

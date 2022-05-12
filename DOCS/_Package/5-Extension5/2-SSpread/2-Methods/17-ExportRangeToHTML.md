@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.ExportRangeToHTML Method
 nav_order: 17
-permalink: /package/extension5/sspread/methods/ExportRangeToHTML
+permalink: /package/extension5/sspread/methods/exportrangetohtml
 ---
 # {{ page.title }}
 

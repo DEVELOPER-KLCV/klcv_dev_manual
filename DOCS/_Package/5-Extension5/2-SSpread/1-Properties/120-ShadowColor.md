@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.ShadowColor Property
 nav_order: 120
-permalink: /package/extension5/sspread/properties/ShadowColor
+permalink: /package/extension5/sspread/properties/shadowcolor
 ---
 # {{ page.title }}

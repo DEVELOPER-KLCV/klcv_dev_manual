@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: StyleEdit.LineFromPosition Method
 nav_order: 8
-permalink: /package/extension4/styleedit/methods/LineFromPosition
+permalink: /package/extension4/styleedit/methods/linefromposition
 ---
 # {{ page.title }}
 

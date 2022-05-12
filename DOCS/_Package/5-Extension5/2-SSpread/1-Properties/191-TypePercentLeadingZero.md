@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypePercentLeadingZero Property
 nav_order: 191
-permalink: /package/extension5/sspread/properties/TypePercentLeadingZero
+permalink: /package/extension5/sspread/properties/typepercentleadingzero
 ---
 # {{ page.title }}

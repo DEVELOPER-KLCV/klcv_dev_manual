@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.MoveColRange Method
 nav_order: 64
-permalink: /package/extension5/sspread/methods/MoveColRange
+permalink: /package/extension5/sspread/methods/movecolrange
 ---
 # {{ page.title }}
 

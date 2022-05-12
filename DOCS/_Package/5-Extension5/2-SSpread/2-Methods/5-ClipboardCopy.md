@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.ClipboardCopy Method
 nav_order: 5
-permalink: /package/extension5/sspread/methods/ClipboardCopy
+permalink: /package/extension5/sspread/methods/clipboardcopy
 ---
 # {{ page.title }}
 

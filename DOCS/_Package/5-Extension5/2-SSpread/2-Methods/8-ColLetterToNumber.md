@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.ColLetterToNumber Method
 nav_order: 8
-permalink: /package/extension5/sspread/methods/ColLetterToNumber
+permalink: /package/extension5/sspread/methods/collettertonumber
 ---
 # {{ page.title }}
 

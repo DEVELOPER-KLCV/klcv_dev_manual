@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.CopyRowRange Method
 nav_order: 12
-permalink: /package/extension5/sspread/methods/CopyRowRange
+permalink: /package/extension5/sspread/methods/copyrowrange
 ---
 # {{ page.title }}
 

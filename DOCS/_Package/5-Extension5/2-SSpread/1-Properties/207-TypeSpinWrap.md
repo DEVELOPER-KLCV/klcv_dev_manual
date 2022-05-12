@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeSpinWrap Property
 nav_order: 207
-permalink: /package/extension5/sspread/properties/TypeSpinWrap
+permalink: /package/extension5/sspread/properties/typespinwrap
 ---
 # {{ page.title }}

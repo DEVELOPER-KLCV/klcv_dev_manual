@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.AfterRowMove Event
 nav_order: 5
-permalink: /package/extension5/sspread/events/AfterRowMove
+permalink: /package/extension5/sspread/events/afterrowmove
 ---
 # {{ page.title }}

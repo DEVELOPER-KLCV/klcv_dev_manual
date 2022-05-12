@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeCheckCenter Property
 nav_order: 143
-permalink: /package/extension5/sspread/properties/TypeCheckCenter
+permalink: /package/extension5/sspread/properties/typecheckcenter
 ---
 # {{ page.title }}

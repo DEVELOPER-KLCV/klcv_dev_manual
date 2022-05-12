@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: TextFrame.AppendCR Method
 nav_order: 1
-permalink: /package/extension4/textframe/methods/AppendCR
+permalink: /package/extension4/textframe/methods/appendcr
 ---
 # {{ page.title }}
 

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.SetText Method
 nav_order: 88
-permalink: /package/extension5/sspread/methods/SetText
+permalink: /package/extension5/sspread/methods/settext
 ---
 # {{ page.title }}
 
@@ -55,6 +55,6 @@ permalink: /package/extension5/sspread/methods/SetText
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/properties/text">Text</a>, <a href="/package/extension5/sspread/properties/value">Value</a> properties<br><a href="/package/extension5/sspread/methods/GetText">GetText</a>, <a href="/package/extension5/sspread/methods/SetFloat">SetFloat</a>, <a href="/package/extension5/sspread/methods/SetInteger">SetInteger</a> methods</td>
+    <td colspan="2"><a href="/package/extension5/sspread/properties/text">Text</a>, <a href="/package/extension5/sspread/properties/value">Value</a> properties<br><a href="/package/extension5/sspread/methods/gettext">GetText</a>, <a href="/package/extension5/sspread/methods/setfloat">SetFloat</a>, <a href="/package/extension5/sspread/methods/setinteger">SetInteger</a> methods</td>
   </tr>
 </table>

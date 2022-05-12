@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypePictPicture Property
 nav_order: 199
-permalink: /package/extension5/sspread/properties/TypePictPicture
+permalink: /package/extension5/sspread/properties/typepicpicture
 ---
 # {{ page.title }}

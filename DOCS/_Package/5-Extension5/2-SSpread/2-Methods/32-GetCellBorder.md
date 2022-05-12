@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.GetCellBorder Method
 nav_order: 32
-permalink: /package/extension5/sspread/methods/GetCellBorder
+permalink: /package/extension5/sspread/methods/getcellborder
 ---
 # {{ page.title }}
 
@@ -61,6 +61,6 @@ permalink: /package/extension5/sspread/methods/GetCellBorder
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/methods/SetCellBorder">SetCellBorder</a> method</td>
+    <td colspan="2"><a href="/package/extension5/sspread/methods/setcellborder">SetCellBorder</a> method</td>
   </tr>
 </table>

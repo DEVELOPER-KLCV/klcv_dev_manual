@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.SaveTabFile Method
 nav_order: 74
-permalink: /package/extension5/sspread/methods/SaveTabFile
+permalink: /package/extension5/sspread/methods/savetabfile
 ---
 # {{ page.title }}
 

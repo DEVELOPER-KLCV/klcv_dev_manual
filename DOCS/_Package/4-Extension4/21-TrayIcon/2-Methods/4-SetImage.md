@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: TrayIcon.SetImage Method
 nav_order: 4
-permalink: /package/extension4/trayicon/methods/SetImage
+permalink: /package/extension4/trayicon/methods/setimage
 ---
 # {{ page.title }}
 
@@ -48,6 +48,6 @@ permalink: /package/extension4/trayicon/methods/SetImage
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension4/trayicon/property/Icon">Icon</a> property<br><a href="/package/extension4/trayicon/methods/ResetImage">ResetImage</a> method<br><a href="/package/extension4/imagelist">ImageList</a> class</td>
+    <td colspan="2"><a href="/package/extension4/trayicon/property/icon">Icon</a> property<br><a href="/package/extension4/trayicon/methods/resetimage">ResetImage</a> method<br><a href="/package/extension4/imagelist">ImageList</a> class</td>
   </tr>
 </table>

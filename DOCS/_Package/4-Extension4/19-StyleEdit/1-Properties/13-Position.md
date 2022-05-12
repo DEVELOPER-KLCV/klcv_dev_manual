@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: StyleEdit.Position Property
 nav_order: 13
-permalink: /package/extension4/styleedit/property/Position
+permalink: /package/extension4/styleedit/property/position
 ---
 # {{ page.title }}

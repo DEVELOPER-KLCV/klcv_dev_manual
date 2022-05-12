@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.ClearRange Method
 nav_order: 3
-permalink: /package/extension5/sspread/methods/ClearRange
+permalink: /package/extension5/sspread/methods/clearrange
 ---
 # {{ page.title }}
 

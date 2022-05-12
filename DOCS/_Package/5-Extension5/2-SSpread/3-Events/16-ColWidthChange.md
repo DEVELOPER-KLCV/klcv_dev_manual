@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.ColWidthChange Event
 nav_order: 16
-permalink: /package/extension5/sspread/events/ColWidthChange
+permalink: /package/extension5/sspread/events/colwidthchange
 ---
 # {{ page.title }}

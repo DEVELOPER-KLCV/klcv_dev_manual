@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeButtonAlign Property
 nav_order: 133
-permalink: /package/extension5/sspread/properties/TypeButtonAlign
+permalink: /package/extension5/sspread/properties/typebuttonalign
 ---
 # {{ page.title }}

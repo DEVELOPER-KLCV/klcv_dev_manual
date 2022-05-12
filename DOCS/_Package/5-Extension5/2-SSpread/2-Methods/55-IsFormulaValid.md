@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.IsFormulaValid Method
 nav_order: 55
-permalink: /package/extension5/sspread/methods/IsFormulaValid
+permalink: /package/extension5/sspread/methods/isformulavalid
 ---
 # {{ page.title }}
 

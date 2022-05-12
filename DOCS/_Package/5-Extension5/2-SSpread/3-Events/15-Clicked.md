@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.Clicked Event
 nav_order: 15
-permalink: /package/extension5/sspread/events/Clicked
+permalink: /package/extension5/sspread/events/clicked
 ---
 # {{ page.title }}

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: TrayIcon.ResetImage Method
 nav_order: 2
-permalink: /package/extension4/trayicon/methods/ResetImage
+permalink: /package/extension4/trayicon/methods/resetimage
 ---
 # {{ page.title }}
 

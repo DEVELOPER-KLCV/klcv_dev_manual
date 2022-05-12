@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.BlockSelected Event
 nav_order: 11
-permalink: /package/extension5/sspread/events/BlockSelected
+permalink: /package/extension5/sspread/events/blockselected
 ---
 # {{ page.title }}

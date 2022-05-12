@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.Sort Method
 nav_order: 90
-permalink: /package/extension5/sspread/methods/Sort
+permalink: /package/extension5/sspread/methods/sort
 ---
 # {{ page.title }}
 
@@ -83,6 +83,6 @@ permalink: /package/extension5/sspread/methods/Sort
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/properties/sortkey">SortKey</a>, <a href="/package/extension5/sspread/properties/SortKeyOrder">SortKeyOrder</a> properties</td>
+    <td colspan="2"><a href="/package/extension5/sspread/properties/sortkey">SortKey</a>, <a href="/package/extension5/sspread/properties/sortkeyorder">SortKeyOrder</a> properties</td>
   </tr>
 </table>

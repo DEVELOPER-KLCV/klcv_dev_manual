@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypePercentMax Property
 nav_order: 192
-permalink: /package/extension5/sspread/properties/TypePercentMax
+permalink: /package/extension5/sspread/properties/typepercentmax
 ---
 # {{ page.title }}

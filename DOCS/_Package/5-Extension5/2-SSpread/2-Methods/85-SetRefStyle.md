@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.SetRefStyle Method
 nav_order: 85
-permalink: /package/extension5/sspread/methods/SetRefStyle
+permalink: /package/extension5/sspread/methods/setrefstyle
 ---
 # {{ page.title }}
 
@@ -48,6 +48,6 @@ permalink: /package/extension5/sspread/methods/SetRefStyle
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/properties/formula">Formula</a> property<br><a href="/package/extension5/sspread/methods/GetRefStyle">GetRefStyle</a>, <a href="/package/extension5/sspread/methods/ReCalcCell">GetRefStyleReCalcCell</a> methods</td>
+    <td colspan="2"><a href="/package/extension5/sspread/properties/formula">Formula</a> property<br><a href="/package/extension5/sspread/methods/getrefstyle">GetRefStyle</a>, <a href="/package/extension5/sspread/methods/recalccell">GetRefStyleReCalcCell</a> methods</td>
   </tr>
 </table>

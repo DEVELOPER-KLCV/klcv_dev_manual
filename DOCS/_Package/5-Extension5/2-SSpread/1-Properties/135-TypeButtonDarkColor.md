@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeButtonDarkColor Property
 nav_order: 135
-permalink: /package/extension5/sspread/properties/TypeButtonDarkColor
+permalink: /package/extension5/sspread/properties/typebuttondarkcolor
 ---
 # {{ page.title }}

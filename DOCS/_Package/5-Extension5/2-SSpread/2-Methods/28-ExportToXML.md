@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.ExportToXML Method
 nav_order: 28
-permalink: /package/extension5/sspread/methods/ExportToXML
+permalink: /package/extension5/sspread/methods/exporttoxml
 ---
 # {{ page.title }}
 

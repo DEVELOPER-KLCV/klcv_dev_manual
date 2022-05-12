@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.GetCellFromScreenCoord Method
 nav_order: 33
-permalink: /package/extension5/sspread/methods/GetCellFromScreenCoord
+permalink: /package/extension5/sspread/methods/getcellfromscreencoord
 ---
 # {{ page.title }}
 
@@ -45,6 +45,6 @@ permalink: /package/extension5/sspread/methods/GetCellFromScreenCoord
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/methods/GetCellPos">GetCellPos</a> method</td>
+    <td colspan="2"><a href="/package/extension5/sspread/methods/getcellpos">GetCellPos</a> method</td>
   </tr>
 </table>

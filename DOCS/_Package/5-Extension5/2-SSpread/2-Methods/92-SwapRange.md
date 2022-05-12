@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.SwapRange Method
 nav_order: 92
-permalink: /package/extension5/sspread/methods/SwapRange
+permalink: /package/extension5/sspread/methods/swaprange
 ---
 # {{ page.title }}
 
@@ -76,6 +76,6 @@ permalink: /package/extension5/sspread/methods/SwapRange
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/methods/clearrange">ClearRange</a>, <a href="/package/extension5/sspread/methods/CopyRange">CopyRange</a>, <a href="/package/extension5/sspread/methods/MoveRange">MoveRange</a>, <a href="/package/extension5/sspread/methods/SwapColRange">SwapColRange</a>, <a href="/package/extension5/sspread/methods/SwapRowRange">SwapRowRange</a> methods</td>
+    <td colspan="2"><a href="/package/extension5/sspread/methods/clearrange">ClearRange</a>, <a href="/package/extension5/sspread/methods/copyrange">CopyRange</a>, <a href="/package/extension5/sspread/methods/moverange">MoveRange</a>, <a href="/package/extension5/sspread/methods/swapcolrange">SwapColRange</a>, <a href="/package/extension5/sspread/methods/swaprowrange">SwapRowRange</a> methods</td>
   </tr>
 </table>

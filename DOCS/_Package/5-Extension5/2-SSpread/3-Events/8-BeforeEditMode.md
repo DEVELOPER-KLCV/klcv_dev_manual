@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SSpread.BeforeEditMode Event
 nav_order: 8
-permalink: /package/extension5/sspread/events/BeforeEditMode
+permalink: /package/extension5/sspread/events/beforeeditmode
 ---
 # {{ page.title }}

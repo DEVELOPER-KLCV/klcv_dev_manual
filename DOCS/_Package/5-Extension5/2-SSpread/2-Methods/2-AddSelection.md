@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.AddSelection Method
 nav_order: 2
-permalink: /package/extension5/sspread/methods/AddSelection
+permalink: /package/extension5/sspread/methods/addselection
 ---
 # {{ page.title }}
 

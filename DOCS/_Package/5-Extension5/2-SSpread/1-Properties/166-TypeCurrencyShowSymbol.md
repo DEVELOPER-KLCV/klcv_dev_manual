@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeCurrencyShowSymbol Property
 nav_order: 166
-permalink: /package/extension5/sspread/properties/TypeCurrencyShowSymbol
+permalink: /package/extension5/sspread/properties/typecurrencyshowsymbol
 ---
 # {{ page.title }}

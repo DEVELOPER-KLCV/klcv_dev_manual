@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.ExportToTextFileU Method
 nav_order: 27
-permalink: /package/extension5/sspread/methods/ExportToTextFileU
+permalink: /package/extension5/sspread/methods/exporttotextfileu
 ---
 # {{ page.title }}
 

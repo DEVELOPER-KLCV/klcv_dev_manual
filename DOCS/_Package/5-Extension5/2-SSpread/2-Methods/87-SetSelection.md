@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.SetSelection Method
 nav_order: 87
-permalink: /package/extension5/sspread/methods/SetSelection
+permalink: /package/extension5/sspread/methods/setselection
 ---
 # {{ page.title }}
 
@@ -55,6 +55,6 @@ permalink: /package/extension5/sspread/methods/SetSelection
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/properties/SelBlockCol">SelBlockCol</a>, <a href="/package/extension5/sspread/properties/SelBlockCol2">SelBlockCol2</a>, <a href="/package/extension5/sspread/properties/SelBlockRow">SelBlockRow</a>, <a href="/package/extension5/sspread/properties/SelBlockRow2">SelBlockRow2</a> properties<br><a href="/package/extension5/sspread/methods/ClearSelection">ClearSelection</a> method</td>
+    <td colspan="2"><a href="/package/extension5/sspread/properties/selblockcol">SelBlockCol</a>, <a href="/package/extension5/sspread/properties/selblockcol2">SelBlockCol2</a>, <a href="/package/extension5/sspread/properties/selblockrow">SelBlockRow</a>, <a href="/package/extension5/sspread/properties/selblockrow2">SelBlockRow2</a> properties<br><a href="/package/extension5/sspread/methods/clearselection">ClearSelection</a> method</td>
   </tr>
 </table>

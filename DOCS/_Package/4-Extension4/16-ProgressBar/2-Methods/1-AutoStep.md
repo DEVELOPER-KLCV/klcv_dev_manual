@@ -10,18 +10,6 @@ permalink: /package/extension4/progressbar/methods/autostep
 ---
 # {{ page.title }}
 
----
-layout: default
-
-grand_parent: MaskEdit Class
-parent: Methods
-has_children: false
-title: MaskEdit.SetMargins Method
-nav_order: 1
-permalink: /package/extension4/maskedit/methods/setmargins
----
-# {{ page.title }}
-
 <table>
   <tr>
     <td>Explanation</td>

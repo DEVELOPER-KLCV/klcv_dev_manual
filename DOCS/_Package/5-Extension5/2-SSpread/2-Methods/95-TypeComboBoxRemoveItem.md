@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.TypeComboBoxRemoveItem Method
 nav_order: 95
-permalink: /package/extension5/sspread/methods/TypeComboBoxRemoveItem
+permalink: /package/extension5/sspread/methods/typecomboboxremoveitem
 ---
 # {{ page.title }}
 
@@ -59,6 +59,6 @@ permalink: /package/extension5/sspread/methods/TypeComboBoxRemoveItem
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension5/sspread/properties/celltype">CellType</a> property<br><a href="/package/extension5/sspread/methods/TypeComboBoxClear">TypeComboBoxClear</a> method</td>
+    <td colspan="2"><a href="/package/extension5/sspread/properties/celltype">CellType</a> property<br><a href="/package/extension5/sspread/methods/typecomboboxclear">TypeComboBoxClear</a> method</td>
   </tr>
 </table>

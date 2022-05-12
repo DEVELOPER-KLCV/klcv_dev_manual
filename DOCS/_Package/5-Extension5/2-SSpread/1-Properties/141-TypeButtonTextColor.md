@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SSpread.TypeButtonTextColor Property
 nav_order: 141
-permalink: /package/extension5/sspread/properties/TypeButtonTextColor
+permalink: /package/extension5/sspread/properties/typebuttontextcolor
 ---
 # {{ page.title }}

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.SaveToBuffer Method
 nav_order: 76
-permalink: /package/extension5/sspread/methods/SaveToBuffer
+permalink: /package/extension5/sspread/methods/savetobuffer
 ---
 # {{ page.title }}
 

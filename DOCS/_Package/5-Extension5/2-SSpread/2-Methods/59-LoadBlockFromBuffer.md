@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.LoadBlockFromBuffer Method
 nav_order: 59
-permalink: /package/extension5/sspread/methods/LoadBlockFromBuffer
+permalink: /package/extension5/sspread/methods/loadblockfrombuffer
 ---
 # {{ page.title }}
 

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: SSpread.Reset Method
 nav_order: 71
-permalink: /package/extension5/sspread/methods/Reset
+permalink: /package/extension5/sspread/methods/reset
 ---
 # {{ page.title }}
 
