@@ -25,7 +25,7 @@ permalink: /package/system/date/methods/setminutes
     <td colspan="2">None</td>
   </tr>  
   <tr>
-    <td rowspan="2">Arguments</td>
+    <td rowspan="3">Arguments</td>
     <td>integer  <b><i>value</i></b></td>
     <td>Specify the minute numerically.</td>
   </tr>

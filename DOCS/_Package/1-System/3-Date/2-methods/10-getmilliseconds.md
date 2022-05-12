@@ -28,6 +28,7 @@ permalink: /package/system/date/methods/getmilliseconds
     <td>Argument</td>
     <td colspan="2">None</td>
   </tr>
+  <tr>
     <td>Exception</td>
     <td colspan="2">None</td>
   </tr>

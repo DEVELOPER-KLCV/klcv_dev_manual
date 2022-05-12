@@ -59,7 +59,7 @@ permalink: /method/system/importConnectionLicense
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/method/statistical/hasConnectionLicense">hasConnectionLicense</a> function</td>
+    <td colspan="2"><a href="/method/system/hasConnectionLicense">hasConnectionLicense</a> function</td>
   </tr>
 </table>
 

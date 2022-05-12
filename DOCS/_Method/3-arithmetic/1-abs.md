@@ -36,10 +36,12 @@ permalink: /method/arithmetic/abs
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre>var a;
-var b;
-b = -123;
-a = abs(b);    /* aは123となる */</pre></code></td>
+    <td colspan="2"><code><pre>
+    var a;
+    var b;
+    b = -123;
+    a = abs(b);    /* a becomes 123 */
+    </pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>

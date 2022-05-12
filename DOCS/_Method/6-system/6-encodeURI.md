@@ -43,7 +43,7 @@ print (url, "￥ n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/method/statistical/decodeURL">decodeURL</a> function</td>
+    <td colspan="2"><a href="/method/system/decodeURL">decodeURL</a> function</td>
   </tr>
 </table>
 

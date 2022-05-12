@@ -41,7 +41,7 @@ permalink: /method/arithmetic/and
   <tr>
     <td>Example of use</td>
     <td colspan="2"><code><pre>var a;
-a = and(0x0000FFFF, 0x4000C000);    /* aは0x0000C000となる */</pre></code></td>
+a = and(0x0000FFFF, 0x4000C000);    /* a becomes 0x0000C000 */</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>

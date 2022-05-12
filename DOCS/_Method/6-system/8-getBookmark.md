@@ -14,4 +14,4 @@ permalink: /method/system/getBookmark
 
 Get the bookmark list.
 
-<small> From Ver.4.0.1, it works the same as the Root.GetBookmark method. See the description of the [Root.GetBookmark]()  method for more information. </small>
+<small> From Ver.4.0.1, it works the same as the Root.GetBookmark method. See the description of the [Root.GetBookmark](/package/standard/root/methods/getbookmark)  method for more information. </small>

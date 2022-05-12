@@ -23,7 +23,7 @@ permalink: /method/system/hasConnectionLicense
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">$ TRUE is returned if a connection license to the <b>URL</b> is registered, otherwise$ FALSE is returned.</td>
+    <td colspan="2">$TRUE is returned if a connection license to the <b>URL</b> is registered, otherwise $FALSE is returned.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
@@ -42,7 +42,7 @@ permalink: /method/system/hasConnectionLicense
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/method/statistical/importConnectionLicense">importConnectionLicense</a> function</td>
+    <td colspan="2"><a href="/method/system/importConnectionLicense">importConnectionLicense</a> function</td>
   </tr>
 </table>
 

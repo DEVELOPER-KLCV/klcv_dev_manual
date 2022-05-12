@@ -16,4 +16,4 @@ Returns the running CRS downloaded session as an [HttpSession](/package/httppack
 
  
 
-<small>Ver.4.0.0 now works the same as the HttpSession.GetSession method . See the description of the [HttpSession.GetSession](/package/httppackage/httpsession.methods/getsession) method for more information. </small>
+<small>Ver.4.0.0 now works the same as the HttpSession.GetSession method . See the description of the [HttpSession.GetSession](/package/httppackage/httpsession/methods/getsession) method for more information. </small>

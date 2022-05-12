@@ -8,8 +8,6 @@ nav_order: 10
 permalink: /method/system/getLocaleInfo
 ---
 
-
-
 # {{ page.title }}
 
 <table>

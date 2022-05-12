@@ -15,7 +15,7 @@ permalink: /method/system/debugMessage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"> Display debug messages in Biz / Designer. Ignored except during debugging on Biz / Designer. <br> The abbreviation <a href="/method/statistical/print">print</a>  function is also available.</td>
+    <td colspan="2"> Display debug messages in Biz / Designer. Ignored except during debugging on Biz / Designer. <br> The abbreviation <a href="/method/system/print">print</a>  function is also available.</td>
   </tr>
   <tr>
     <td>Call format</td>

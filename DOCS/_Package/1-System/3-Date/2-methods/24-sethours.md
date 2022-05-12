@@ -25,7 +25,7 @@ permalink: /package/system/date/methods/sethours
     <td colspan="2">None</td>
   </tr>  
   <tr>
-    <td rowspan="2">Arguments</td>
+    <td rowspan="4">Arguments</td>
     <td>integer  <b><i>value</i></b></td>
     <td>Specify the hour as a 24 -hour clock.</td>
   </tr>

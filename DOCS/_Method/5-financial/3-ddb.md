@@ -8,14 +8,12 @@ nav_order: 3
 permalink: /method/financial/ddb
 ---
 
-
-
 # {{ page.title }}
 
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"><b>Finds the depreciation amount for the specified annual multiple depreciation method. <b><small> Added from Mobile Ver.2.0.0</small></b></td>
+    <td colspan="2">Finds the depreciation amount for the specified annual multiple depreciation method. <b><small> Added from Mobile Ver.2.0.0</small></b></td>
   </tr>
   <tr>
     <td>Call format</td>

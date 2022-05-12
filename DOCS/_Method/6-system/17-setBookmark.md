@@ -14,4 +14,4 @@ permalink: /method/system/setBookmark
 
 Add or change bookmark entries.
 
-<small>Ver.4.0.1 works the same as the Root.SetBookmark method. See the description of the [Root.SetBookmark]() method description for more information. </small>
+<small>Ver.4.0.1 works the same as the Root.SetBookmark method. See the description of the [Root.SetBookmark](/package/standard/root/methods/setbookmark) method description for more information. </small>

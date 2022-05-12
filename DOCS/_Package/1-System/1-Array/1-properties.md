@@ -7,6 +7,7 @@ has_children: true
 title: Properties
 nav_order: 1
 permalink: /package/system/array/properties
+has_toc: false
 ---
 # {{ page.title }}
 

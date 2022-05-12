@@ -41,7 +41,7 @@ print (url, "\ n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/method/statistical/encodeURL">encodeURL</a> function</td>
+    <td colspan="2"><a href="/method/system/encodeURL">encodeURL</a> function</td>
   </tr>
 </table>
 

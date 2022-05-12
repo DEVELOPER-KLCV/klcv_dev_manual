@@ -8,8 +8,6 @@ nav_order: 1
 permalink: /method/system/cachedate
 ---
 
-
-
 # {{ page.title }}
 
 <table>

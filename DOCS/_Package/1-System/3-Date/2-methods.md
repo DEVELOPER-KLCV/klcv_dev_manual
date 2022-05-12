@@ -26,8 +26,8 @@ The following methods are defined in the Date class.
 | [GetDay](/package/system/date/methods/getday) 	|Returns the day of the week for a date in local time |
 | [GetHours](/package/system/date/methods/gethours) 	| Returns the hour part of local time|
 | [GetMinutes](/package/system/date/methods/getminutes) 	| Returns the minutes part of local time|
-| [Getseconds](/package/system/date/methods/getseconds) 	|Returns the seconds part of local time |
-| [getmilliSeconds](/package/system/date/methods/getmilliseconds) 	| Returns the millisecond portion of local time |
+| [GetSeconds](/package/system/date/methods/getseconds) 	|Returns the seconds part of local time |
+| [GetMilliSeconds](/package/system/date/methods/getmilliseconds) 	| Returns the millisecond portion of local time |
 | [GetUTCFullYear](/package/system/date/methods/getutcfullyear) 	| Returns the year of the date in UTC |
 | [GetUTCMonth](/package/system/date/methods/getutcmonth) 	| Returns the month of the date in UTC |
 | [GetUTCDate](/package/system/date/methods/getutcdate) 	| Returns the day part of a date in UTC |

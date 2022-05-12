@@ -40,7 +40,7 @@ permalink: /method/system/deleteCache
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/method/statistical/cachedate">cachedate</a> function <br> <a href="/method/statistical/Root.DeleteCache">Root.DeleteCache</a> method</td>
+    <td colspan="2"><a href="/method/system/cachedate">cachedate</a> function <br> <a href="/package/standard/root/methods/deletecache">Root.DeleteCache</a> method</td>
   </tr>
 </table>
 

@@ -25,7 +25,7 @@ permalink: /package/system/date/methods/setutcmilliseconds
     <td colspan="2">None</td>
   </tr>  
   <tr>
-    <td rowspan="2">Arguments</td>
+    <td>Arguments</td>
     <td>integer <b><i>value</i></b></td>
     <td>Specify the number of milliseconds.</td>
   </tr>

@@ -32,7 +32,7 @@ permalink: /method/str/str
   </tr>
   <tr>
     <td>String <b>format string</b></td>
-    <td>Refer to <a>Format</b> property (optional)</td>
+    <td>Refer to <a href="">Format</a> property (optional)</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -50,7 +50,7 @@ print(str(d, "WSWYY.MM.DD"), "\n");</pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/method/str/val">val</a> method<br><a>Format</a> property</td>
+    <td colspan="2"><a href="/method/str/val">val</a> method<br><a href="">Format</a> property</td>
   </tr>
 </table>
 

@@ -8,8 +8,6 @@ nav_order: 4
 permalink: /method/date/hour
 ---
 
-
-
 # {{ page.title }}
 
 <table>
@@ -35,7 +33,7 @@ permalink: /method/date/hour
     <td colspan="2">None</td>
   </tr>
   <tr>
-    <td>Example of use</td>a
+    <td>Example of use</td>
     <td colspan="2"><code><pre>var d = sysdate();
 var h = hour(d);</pre></code></td>
   </tr>
