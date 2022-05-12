@@ -13,7 +13,7 @@ permalink: /package/system/ustring/methods/lastindexof
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Finds the specified string up to <b>pos</b> and returns the last found position.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/system/ustring/methods/lastindexof
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns a zero -based number indicating the location found . Returns -1 if not found.</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>UString <b>find</b></td>
-    <td></td>
+    <td>Character string to find</td>
   </tr>
   <tr>
     <td>integer <b>pos</b></td>
-    <td></td>
+    <td>End position of search range<br>Specify a number starting from 0. If omitted, the search will be performed to the end.</td>
   </tr>
   <tr>
     <td>Exception</td>

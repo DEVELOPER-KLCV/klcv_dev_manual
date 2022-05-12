@@ -10,10 +10,10 @@ permalink: /package/system/string/methods/substring
 ---
 # {{ page.title }}
 
-<table>
+<table> 
   <tr>
     <td>Explanation</td>
-    <td colspan="2">Cut out a part of the character string.<br><br>This method cuts out the character string without being aware of the character type of the target character string. Use the <br><a href="">mid</a> function to cut out a character string that contains double - byte characters in the target character string.<br><br>The difference with <a href="/package/system/string/methods/slice">Slice</a> method<br>The smaller value of <b>start</b> and <b>end</b> is the start position of the character string to be acquired. (Substring (0, 3) and Substring (3, 0) have the same result)<br>If a negative value is specified for the argument, it is replaced with 0.</td>
+    <td colspan="2">Cut out a part of the character string.<br><br>This method cuts out the character string without being aware of the character type of the target character string. Use the <br><a href="/method/str/mid">mid</a> function to cut out a character string that contains double - byte characters in the target character string.<br><br>The difference with <a href="/package/system/string/methods/slice">Slice</a> method<br>The smaller value of <b>start</b> and <b>end</b> is the start position of the character string to be acquired. (Substring (0, 3) and Substring (3, 0) have the same result)<br>If a negative value is specified for the argument, it is replaced with 0.</td>
   </tr>
   <tr>
     <td>Call format</td>

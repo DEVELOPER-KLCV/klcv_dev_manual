@@ -13,7 +13,7 @@ permalink: /package/system/ustring/methods/indexof
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Finds the specified string after <b>pos</b> and returns the first found position.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/system/ustring/methods/indexof
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns a zero -based number that indicates the location found. Returns -1 if not found.</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>UString <b>find</b></td>
-    <td></td>
+    <td>Character string to search</td>
   </tr>
   <tr>
     <td>integer <b>pos</b></td>
-    <td></td>
+    <td>Search range start position<br>Specify a number starting from 0 . If omitted, the search starts from the beginning.</td>
   </tr>
   <tr>
     <td>Exception</td>

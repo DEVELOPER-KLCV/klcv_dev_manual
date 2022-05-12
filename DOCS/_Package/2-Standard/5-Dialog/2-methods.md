@@ -18,8 +18,22 @@ The following methods are defined in the Dialog class.
 
 |  Name | Description |
 |-------|-------------|
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+|[ResetIcon](/package/standard/dialog/methods/resetIcon) |Discard the icon file set by the SetIcon method<br><small>Added since Ver.5.0.0<br>Not available in Mobile & AI</small> |
+|[ResetImage](/package/standard/dialog/methods/resetImage) |Discard the image list set by the SetImage method <br><small>Added since Ver.4.1.3<br>Not available in Mobile & AI</small>|
+|[SetIcon](/package/standard/dialog/methods/SetIcon) |Set the icon file used to display the icon of the dialog title<br><small>Added since Ver.5.0.0<br>Not available in Mobile & AI</small> |
+|[SetImage](/package/standard/dialog/methods/SetImage) |Set the image list used to display the dialog title icon<br><small>Added since Ver.4.1.3<br>Not available in Mobile & AI</small> |
+|[SetWindowState](/package/standard/dialog/methods/SetWindowState) |Set the state of the dialog<br><small>Added since Ver.4.1.3<br>Not available in Mobile & AI</small> |
+=======
+>>>>>>> Stashed changes
 |[ResetIcon](/package/standard/dialog/methods/reseticon) | |
 |[ResetImage](/package/standard/dialog/methods/resetimage) | |
 |[SetIcon](/package/standard/dialog/methods/seticon) | |
 |[SetImage](/package/standard/dialog/methods/setimage) | |
 |[SetWindowState](/package/standard/dialog/methods/setwindowstate) | |
+<<<<<<< Updated upstream
+=======
+>>>>>>> 5246edd5b09f257eeb1465739da50515b694d4e9
+>>>>>>> Stashed changes

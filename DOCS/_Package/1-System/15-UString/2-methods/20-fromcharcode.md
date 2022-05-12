@@ -13,7 +13,7 @@ permalink: /package/system/ustring/methods/fromcharcode
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Create a character string from the character code.<br>This method is a static method. It can be called without creating an object.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/system/ustring/methods/fromcharcode
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Created string</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>integer <b>code_n</b></td>
-    <td></td>
+    <td>Shift_JIS character code<br>Only the lower 16 bits (2 bytes) are valid.</td>
   </tr>
   <tr>
     <td>Exception</td>

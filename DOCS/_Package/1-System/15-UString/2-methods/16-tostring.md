@@ -13,7 +13,7 @@ permalink: /package/system/ustring/methods/tostring
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the string of the UString object as is.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/system/ustring/methods/tostring
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">UString object string</td>
   </tr>  
   <tr>
     <td>Arguments</td>

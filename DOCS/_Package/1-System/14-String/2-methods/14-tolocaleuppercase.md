@@ -10,7 +10,7 @@ permalink: /package/system/string/methods/tolocaleuppercase
 ---
 # {{ page.title }}
 
-<table>
+<table> 
   <tr>
     <td>Explanation</td>
     <td colspan="2">Converts lowercase letters in strings to uppercase based on the locale.<br>In the current implementation, it is synonymous with the <a href="/package/system/string/methods/touppercase">ToUpperCase</a> method<br><br>This method updates the value of the String object.</td>

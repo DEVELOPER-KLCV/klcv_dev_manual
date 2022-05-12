@@ -13,7 +13,7 @@ permalink: /package/system/ustring/methods/replace
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Finds the specified string and replaces everything found with another string.<br><br>This method updates the value of the String object.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/system/ustring/methods/replace
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Character string as a result of replacement</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>UString <b>search</b></td>
-    <td></td>
+    <td>Character string to search</td>
   </tr>
   <tr>
     <td>UString <b>replace</b></td>
-    <td></td>
+    <td>String to replace</td>
   </tr>
   <tr>
     <td>Exception</td>

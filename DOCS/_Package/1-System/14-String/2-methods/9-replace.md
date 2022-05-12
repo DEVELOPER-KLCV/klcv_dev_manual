@@ -9,7 +9,7 @@ nav_order: 9
 permalink: /package/system/string/methods/replace
 ---
 # {{ page.title }}
-
+ 
 <table>
   <tr>
     <td>Explanation</td>

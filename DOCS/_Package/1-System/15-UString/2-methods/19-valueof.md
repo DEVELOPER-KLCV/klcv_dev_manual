@@ -13,7 +13,7 @@ permalink: /package/system/ustring/methods/valueof
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the value stored in the UString object.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/system/ustring/methods/valueof
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Value of UString object</td>
   </tr>  
   <tr>
     <td>Arguments</td>

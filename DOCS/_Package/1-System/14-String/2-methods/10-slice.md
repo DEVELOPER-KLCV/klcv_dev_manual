@@ -9,7 +9,7 @@ nav_order: 10
 permalink: /package/system/string/methods/slice
 ---
 # {{ page.title }}
-
+ 
 <table>
   <tr>
     <td>Explanation</td>

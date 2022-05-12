@@ -9,7 +9,7 @@ nav_order: 13
 permalink: /package/system/string/methods/tolocalelowercase
 ---
 # {{ page.title }}
-
+ 
 <table>
   <tr>
     <td>Explanation</td>

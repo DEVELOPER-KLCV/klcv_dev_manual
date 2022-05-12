@@ -10,7 +10,7 @@ permalink: /package/system/string/methods/tolowercase
 ---
 # {{ page.title }}
 
-<table>
+<table> 
   <tr>
     <td>Explanation</td>
     <td colspan="2">Converts uppercase letters in strings to lowercase letters.<br>This method updates the value of the String object.</td>

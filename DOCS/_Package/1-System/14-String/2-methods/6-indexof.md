@@ -13,7 +13,7 @@ permalink: /package/system/string/methods/indexof
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2">Searches the specified string after <b>pos</b> and returns the first found position.<br><br>This method searches without being aware of the character type of the target character string. Use the <a href="/method/str/find">Find</a> function to search for double-byte characters in the target string</td>
+    <td colspan="2">Finds the specified string after <b>pos</b> and returns the first found position.<br><br>This method finds without being aware of the character type of the target character string. Use the <a href="/method/str/find">Find</a> function to search for double-byte characters in the target string</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,7 +26,7 @@ permalink: /package/system/string/methods/indexof
   <tr>
     <td rowspan="2">Arguments</td>
     <td>String <b>find</b></td>
-    <td>Character string to search</td>
+    <td>Character string to find</td>
   </tr>
   <tr>
     <td>integer <b>pos</b></td>

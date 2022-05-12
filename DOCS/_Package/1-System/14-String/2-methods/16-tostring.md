@@ -10,7 +10,7 @@ permalink: /package/system/string/methods/tostring
 ---
 # {{ page.title }}
 
-<table>
+<table> 
   <tr>
     <td>Explanation</td>
     <td colspan="2">String Returns the string of the object as is.</td>

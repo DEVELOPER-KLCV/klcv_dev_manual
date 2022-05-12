@@ -10,7 +10,7 @@ permalink: /package/system/string/methods/trim
 ---
 # {{ page.title }}
 
-<table>
+<table> 
   <tr>
     <td>Explanation</td>
     <td colspan="2">Remove spaces, tabs, line breaks, etc. from the front and back of the string.<br><br>The target character can be specified to be removed by specifying an argument.If the argument is omitted, tabs, single-byte spaces, and line breaks are targeted. (Full-width space is not applicable)<br>Unlike the <a href="/method/str/trim">trim</a> function, it does not change anything other than before and after the string.<br><br>This method updates the value of the String object.<br><br><small>Added since Ver.5.0.0<br>Not available on Mobile</small></td>

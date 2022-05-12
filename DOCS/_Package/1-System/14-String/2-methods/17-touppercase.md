@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default 
 
 grand_parent: String Class
 parent: Properties

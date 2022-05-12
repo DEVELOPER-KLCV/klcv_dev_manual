@@ -9,7 +9,7 @@ nav_order: 11
 permalink: /package/system/string/methods/split
 ---
 # {{ page.title }}
-
+ 
 <table>
   <tr>
     <td>Explanation</td>
