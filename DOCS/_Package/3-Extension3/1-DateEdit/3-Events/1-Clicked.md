@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: DateEdit.Clicked Event
 nav_order: 1
-permalink: /package/extension3/DateEdit/events/Clicked
+permalink: /package/extension3/DateEdit/events/clicked
 ---
 # {{ page.title }}

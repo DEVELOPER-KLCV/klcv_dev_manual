@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: TabFrame.Value Property
 nav_order: 11
-permalink: /package/extension3/tabframe/properties/Value
+permalink: /package/extension3/tabframe/properties/value
 ---
 # {{ page.title }}

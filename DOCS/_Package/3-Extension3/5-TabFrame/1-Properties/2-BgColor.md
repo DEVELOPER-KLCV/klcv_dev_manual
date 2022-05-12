@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: BgColor Property
 nav_order: 2
-permalink: /package/extension3/tabframe/properties/BgColor
+permalink: /package/extension3/tabframe/properties/bgcolor
 ---
 # {{ page.title }}

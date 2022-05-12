@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: BgColor Event
 nav_order: 1
-permalink: /package/extension3/SVGButton/properties/BgColor
+permalink: /package/extension3/svgbutton/properties/bgcolor
 ---
 # {{ page.title }}

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: TreeView.CreateItem Methods
 nav_order: 1
-permalink: /package/extension3/TreeView/methods/CreateItem
+permalink: /package/extension3/treeview/methods/createitem
 ---
 # {{ page.title }}
 
@@ -49,6 +49,6 @@ permalink: /package/extension3/TreeView/methods/CreateItem
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension3/TreeItem">TreeItem</a> class<br><a href="/package/system/object/methods/append">Object.Append</a> method</td>
+    <td colspan="2"><a href="/package/extension3/treeitem">TreeItem</a> class<br><a href="/package/system/object/methods/append">Object.Append</a> method</td>
   </tr>
 </table>

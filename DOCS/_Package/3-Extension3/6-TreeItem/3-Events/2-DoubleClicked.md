@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: TreeItem.DoubleClicked Event
 nav_order: 2
-permalink: /package/extension3/treeitem/events/DoubleClicked
+permalink: /package/extension3/treeitem/events/doubleclicked
 ---
 # {{ page.title }}

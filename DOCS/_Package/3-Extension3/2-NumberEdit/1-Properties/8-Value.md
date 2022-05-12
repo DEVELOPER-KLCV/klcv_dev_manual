@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: NumberEdit.Value Event
 nav_order: 8
-permalink: /package/extension3/NumberEdit/properties/Value
+permalink: /package/extension3/numberedit/properties/value
 ---
 # {{ page.title }}

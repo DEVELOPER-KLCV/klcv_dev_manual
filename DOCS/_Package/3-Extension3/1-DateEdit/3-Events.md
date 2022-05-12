@@ -6,7 +6,7 @@ parent: DateEdit Class
 
 title: Events
 nav_order: 3
-permalink: /package/extension3/DateEdit/events
+permalink: /package/extension3/dateedit/events
 
 ---
 {% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/core/core1.files/image001.gif" %}
@@ -18,6 +18,6 @@ The following events are defined in the DateEdit class.
 
 |Name       | Description |
 |----------	|-------------|
-|[Clicked](/package/extension3/DateEdit/events/clicked)||
-|[DoubleClicked](/package/extension3/DateEdit/events/doubleclicked)||
-|[Touch](/package/extension3/DateEdit/events/touch)||
+|[Clicked](/package/extension3/dateedit/events/clicked)||
+|[DoubleClicked](/package/extension3/dateedit/events/doubleclicked)||
+|[Touch](/package/extension3/dateedit/events/touch)||

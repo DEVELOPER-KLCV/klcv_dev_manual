@@ -29,6 +29,6 @@ The following events are defined in the TreeItem class.
 
 <b>Precautions when referencing selection items</b>
 
-Do not use the [Value]() property of the parent object [TreeView]() class to refer to the selected item number in the handler of the event that occurred in the TreeItem class. (The selected item number may not be reflected.)
+Do not use the [Value](/package/extension3/treeview/properties/value) property of the parent object [TreeView](/package/extension3/treeview) class to refer to the selected item number in the handler of the event that occurred in the TreeItem class. (The selected item number may not be reflected.)
 
-To refer to the selected item, use the [From]() property (TreeItem object) of the Event object passed as an argument of the event handler.
+To refer to the selected item, use the [From](/package/system/event/properties/from) property (TreeItem object) of the Event object passed as an argument of the event handler.

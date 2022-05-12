@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: NumberEdit.SetMargins Method
 nav_order: 1
-permalink: /package/extension3/NumberEdit/methods/SetMargins
+permalink: /package/extension3/numberedit/methods/setmargins
 ---
 # {{ page.title }}
 

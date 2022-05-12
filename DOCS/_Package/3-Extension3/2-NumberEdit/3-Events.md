@@ -6,7 +6,7 @@ parent: NumberEdit Class
 
 title: Events
 nav_order: 3
-permalink: /package/extension3/NumberEdit/events
+permalink: /package/extension3/numberedit/events
 
 ---
 {% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/core/core1.files/image001.gif" %}
@@ -18,5 +18,5 @@ The following events are defined in the NumberEdit class.
 
 |Name       | Description |
 |----------	|-------------|
-|[Clicked](/package/extension3/NumberEdit/events/clicked)||
-|[Touch](/package/extension3/NumberEdit/events/touch)||
+|[Clicked](/package/extension3/numberedit/events/clicked)||
+|[Touch](/package/extension3/numberedit/events/touch)||

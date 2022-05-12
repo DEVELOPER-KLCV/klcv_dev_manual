@@ -6,7 +6,7 @@ parent: SVGButton Class
 
 title: Events
 nav_order: 3
-permalink: /package/extension3/SVGButton/events
+permalink: /package/extension3/svgbutton/events
 
 ---
 {% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/core/core1.files/image001.gif" %}

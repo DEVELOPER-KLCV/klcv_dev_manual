@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: TreeView.ResetImage Methods
 nav_order: 5
-permalink: /package/extension3/TreeView/methods/ResetImage
+permalink: /package/extension3/treeview/methods/resetimage
 ---
 # {{ page.title }}
 
@@ -39,6 +39,6 @@ permalink: /package/extension3/TreeView/methods/ResetImage
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension3/TreeView/methods/setimage">SetImage</a> method</td>
+    <td colspan="2"><a href="/package/extension3/treeview/methods/setimage">SetImage</a> method</td>
   </tr>
 </table>

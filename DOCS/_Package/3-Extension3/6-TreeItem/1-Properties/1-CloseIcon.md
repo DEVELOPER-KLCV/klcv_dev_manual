@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: TreeItem.CloseIcon Property
 nav_order: 1
-permalink: /package/extension3/treeitem/properties/CloseIcon
+permalink: /package/extension3/treeitem/properties/closeicon
 ---
 # {{ page.title }}

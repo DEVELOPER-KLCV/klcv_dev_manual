@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: NumberEdit.ShowHelper Method
 nav_order: 2
-permalink: /package/extension3/NumberEdit/methods/ShowHelper
+permalink: /package/extension3/numberedit/methods/showhelper
 ---
 # {{ page.title }}
 

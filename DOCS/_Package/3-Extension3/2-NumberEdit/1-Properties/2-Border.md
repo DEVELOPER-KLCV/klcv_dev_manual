@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: Border Event
 nav_order: 2
-permalink: /package/extension3/NumberEdit/properties/Border
+permalink: /package/extension3/numberedit/properties/border
 ---
 # {{ page.title }}

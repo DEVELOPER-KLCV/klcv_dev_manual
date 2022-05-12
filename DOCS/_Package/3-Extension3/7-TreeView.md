@@ -6,7 +6,7 @@ has_children: true
 
 title: TreeView Class
 nav_order: 7
-permalink: /package/extension3/TreeView
+permalink: /package/extension3/treeview
 
 ---
 {% assign img1 = "/img/Biz Browser V/Package_Button.png" %}

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: TreeItem.GetParentItem Method
 nav_order: 2
-permalink: /package/extension3/treeitem/methods/GetParentItem
+permalink: /package/extension3/treeitem/methods/getparentitem
 ---
 # {{ page.title }}
 
@@ -40,6 +40,6 @@ permalink: /package/extension3/treeitem/methods/GetParentItem
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension3/TreeView">TreeView</a> class</td>
+    <td colspan="2"><a href="/package/extension3/treeview">TreeView</a> class</td>
   </tr>
 </table>

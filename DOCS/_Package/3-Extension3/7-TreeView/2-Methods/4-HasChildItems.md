@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: TreeView.HasChildItems Methods
 nav_order: 4
-permalink: /package/extension3/TreeView/methods/HasChildItems
+permalink: /package/extension3/treeview/methods/haschilditems
 ---
 # {{ page.title }}
 
@@ -41,6 +41,6 @@ permalink: /package/extension3/TreeView/methods/HasChildItems
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension3/TreeView/methods/GetChildItems">GetChildItems</a> method<br><a href="/package/extension3/treeitem/methods/HasChildItems">TreeItem.HasChildItems</a> method</td>
+    <td colspan="2"><a href="/package/extension3/treeview/methods/getchilditems">GetChildItems</a> method<br><a href="/package/extension3/treeitem/methods/haschilditems">TreeItem.HasChildItems</a> method</td>
   </tr>
 </table>

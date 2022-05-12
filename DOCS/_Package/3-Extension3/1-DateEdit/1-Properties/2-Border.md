@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: Border Property
 nav_order: 2
-permalink: /package/extension3/DateEdit/properties/Border
+permalink: /package/extension3/DateEdit/properties/border
 ---
 # {{ page.title }}

@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: NumberEdit.HorizontalAlign Event
 nav_order: 5
-permalink: /package/extension3/NumberEdit/properties/HorizontalAlign
+permalink: /package/extension3/numberedit/properties/horizontalalign
 ---
 # {{ page.title }}

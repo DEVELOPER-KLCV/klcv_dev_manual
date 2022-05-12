@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: DateEdit.EditText Property
 nav_order: 5
-permalink: /package/extension3/DateEdit/properties/EditText
+permalink: /package/extension3/DateEdit/properties/edittext
 ---
 # {{ page.title }}

@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: TabFrame.TabStyle Property
 nav_order: 9
-permalink: /package/extension3/tabframe/properties/TabStyle
+permalink: /package/extension3/tabframe/properties/tabstyle
 ---
 # {{ page.title }}

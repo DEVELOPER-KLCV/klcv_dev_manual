@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: NoPrefix Event
 nav_order: 8
-permalink: /package/extension3/SVGButton/properties/NoPrefix
+permalink: /package/extension3/svgbutton/properties/noprefix
 ---
 # {{ page.title }}

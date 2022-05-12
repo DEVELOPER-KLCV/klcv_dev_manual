@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: TreeItem.OpenIcon Property
 nav_order: 3
-permalink: /package/extension3/treeitem/properties/OpenIcon
+permalink: /package/extension3/treeitem/properties/openicon
 ---
 # {{ page.title }}

@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: DateEdit.ShowFormat Property
 nav_order: 9
-permalink: /package/extension3/DateEdit/properties/ShowFormat
+permalink: /package/extension3/DateEdit/properties/showformat
 ---
 # {{ page.title }}

@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: TreeItem.RClicked Event
 nav_order: 7
-permalink: /package/extension3/treeitem/events/RClicked
+permalink: /package/extension3/treeitem/events/rclicked
 ---
 # {{ page.title }}

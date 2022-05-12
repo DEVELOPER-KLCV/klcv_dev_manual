@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: DateEdit.ShowHelper Method
 nav_order: 2
-permalink: /package/extension3/DateEdit/methods/ShowHelper
+permalink: /package/extension3/DateEdit/methods/showhelper
 ---
 # {{ page.title }}
 

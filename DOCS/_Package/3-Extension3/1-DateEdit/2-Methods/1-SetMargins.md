@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: DateEdit.SetMargins Method
 nav_order: 1
-permalink: /package/extension3/DateEdit/methods/SetMargins
+permalink: /package/extension3/DateEdit/methods/setmargins
 ---
 # {{ page.title }}
 

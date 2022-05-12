@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: NumberEdit.DisableHelper Event
 nav_order: 3
-permalink: /package/extension3/NumberEdit/properties/DisableHelper
+permalink: /package/extension3/numberedit/properties/disablehelper
 ---
 # {{ page.title }}

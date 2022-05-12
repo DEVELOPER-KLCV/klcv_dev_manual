@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: Border Property
 nav_order: 3
-permalink: /package/extension3/TreeView/properties/Border
+permalink: /package/extension3/treeview/properties/border
 ---
 # {{ page.title }}

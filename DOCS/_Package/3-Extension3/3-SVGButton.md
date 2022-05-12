@@ -6,7 +6,7 @@ has_children: true
 
 title: SVGButton Class
 nav_order: 3
-permalink: /package/extension3/SVGButton
+permalink: /package/extension3/svgbutton
 
 ---
 {% assign img1 = "/img/Biz Browser V/Package_Button.png" %}

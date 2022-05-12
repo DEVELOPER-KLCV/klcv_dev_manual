@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: NumberEdit.Touch Event
 nav_order: 2
-permalink: /package/extension3/NumberEdit/events/Touch
+permalink: /package/extension3/numberedit/events/touch
 ---
 # {{ page.title }}

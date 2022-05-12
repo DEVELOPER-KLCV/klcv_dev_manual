@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: TabForm.Width Event
 nav_order: 6
-permalink: /package/extension3/TabForm/properties/Width
+permalink: /package/extension3/tabform/properties/width
 ---
 # {{ page.title }}

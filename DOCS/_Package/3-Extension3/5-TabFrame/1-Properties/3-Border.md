@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: Border Property
 nav_order: 3
-permalink: /package/extension3/tabframe/properties/Border
+permalink: /package/extension3/tabframe/properties/border
 ---
 # {{ page.title }}

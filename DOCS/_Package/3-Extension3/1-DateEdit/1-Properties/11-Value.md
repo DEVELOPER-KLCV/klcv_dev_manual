@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: DateEdit.Value Property
 nav_order: 11
-permalink: /package/extension3/DateEdit/properties/Value
+permalink: /package/extension3/DateEdit/properties/value
 ---
 # {{ page.title }}
