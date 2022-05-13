@@ -13,7 +13,7 @@ permalink: /package/standard/dialog/methods/setimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the image list used to display the icon of the dialog title<br><small>Added since Ver.4.1.3<br>Not supported in Mobile, AI</small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,12 +26,13 @@ permalink: /package/standard/dialog/methods/setimage
   <tr>
     <td>Arguments</td>
     <td>ImageList <b>img</b></td>
-    <td></td>
+    <td><a href="/package/extension4/imagelist">ImageList</a> object that holds the image list you want to display<br>Set the <a href="/package/extension4/imagelist/properties/maskuse">MaskUse</a> property to $ TRUE for the specified ImageList object. In the case of $ FALSE, the background part of the image may not be transparent and the expected drawing may not be performed.</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-5</td>
-    <td></td>
+    <td>	
+ImageList reference is abnormal</td>
   </tr>
   <tr>
     <td>Example of use</td>

@@ -13,7 +13,7 @@ permalink: /package/standard/dialog/methods/seticon
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the icon file ( * .ico ) used to display the icon of the dialog title.<br><small>Added since Ver 5.0.0<br>Not supported in Mobile, AI</small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,16 +26,16 @@ permalink: /package/standard/dialog/methods/seticon
   <tr>
     <td>Arguments</td>
     <td><b>URL or reader</b></td>
-    <td></td>
+    <td>URL or <a href="/base/readerwriter#reader-object">Reader</a></td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>PKG-59</td>
-    <td></td>
+    <td>The argument of SetIcon is invalid</td>
   </tr>
   <tr>
     <td>PKG-60</td>
-    <td></td>
+    <td>Unable to create temporary file</td>
   </tr>
   <tr>
     <td>Example of use</td>
