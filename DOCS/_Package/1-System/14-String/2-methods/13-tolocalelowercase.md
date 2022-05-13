@@ -2,7 +2,7 @@
 layout: default
 
 grand_parent: String Class
-parent: Properties
+parent: Methods
 has_children: false
 title: String.ToLocaleLowerCase Method
 nav_order: 13

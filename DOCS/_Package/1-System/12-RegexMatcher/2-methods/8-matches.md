@@ -22,7 +22,7 @@ permalink: /package/system/regexmatcher/methods/matches
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">$ TRUE if the entire input string and the regular expression pattern match exactly, $ FALSE if not</td>
+    <td colspan="2">$TRUE if the entire input string and the regular expression pattern match exactly, $FALSE if not</td>
   </tr>  
   <tr>
     <td>Arguments</td>

@@ -2,7 +2,7 @@
 layout: default
 
 grand_parent: UString Class
-parent: Properties
+parent: Methods
 has_children: false
 title: UString Constructor
 nav_order: 1

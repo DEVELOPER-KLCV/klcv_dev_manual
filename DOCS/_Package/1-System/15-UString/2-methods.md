@@ -23,10 +23,10 @@ The following methods are defined in the UString class.
 |[CharAt](/package/system/ustring/methods/charat) |Returns the character at the specified position |
 |[CharCodeAt](/package/system/ustring/methods/charcodeat) |Returns the character code of the character at the specified position |
 |[Concat](/package/system/ustring/methods/concat) |Concatenate strings |
-|[EqualsIgnoreCase](/package/system/ustring/methods/equalsIgnoreCase) |Compare strings case insensitive |
-|[IndexOf](/package/system/ustring/methods/indexOf) |Search for a string from the beginning|
-|[LastIndexOf](/package/system/ustring/methods/lastIndexOf) |Search for strings from the back |
-|[LocaleCompare](/package/system/ustring/methods/localeCompare) |Compare strings based on locale |
+|[EqualsIgnoreCase](/package/system/ustring/methods/equalsignorecase) |Compare strings case insensitive |
+|[IndexOf](/package/system/ustring/methods/indexof) |Search for a string from the beginning|
+|[LastIndexOf](/package/system/ustring/methods/lastindexof) |Search for strings from the back |
+|[LocaleCompare](/package/system/ustring/methods/localecompare) |Compare strings based on locale |
 |[Replace](/package/system/ustring/methods/replace) |Replace string |
 |[Slice](/package/system/ustring/methods/slice) |Cut out a part of the character string |
 |[Split](/package/system/ustring/methods/split) |Split the string |

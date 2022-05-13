@@ -2,7 +2,7 @@
 layout: default
 
 grand_parent: UString Class
-parent: Properties
+parent: Methods
 has_children: false
 title: UString.EqualsIgnoreCase Method
 nav_order: 5
@@ -21,7 +21,7 @@ permalink: /package/system/ustring/methods/equalsignorecase
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">Returns $ TRUE if they match, $ FALSE if they do not match.</td>
+    <td colspan="2">Returns $TRUE if they match, $FALSE if they do not match.</td>
   </tr>  
   <tr>
     <td>Arguments</td>

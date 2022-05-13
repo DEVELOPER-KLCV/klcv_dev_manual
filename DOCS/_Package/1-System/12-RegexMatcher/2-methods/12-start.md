@@ -22,7 +22,7 @@ permalink: /package/system/regexmatcher/methods/start
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">Matched part or start index of forward reference group<br><small>From Ver.5.0.1, the index is in character units in <a href="/package/system/regexpattern">Unicode mode</a>. Other than that, it is in bytes.</small></td>
+    <td colspan="2">Matched part or start index of forward reference group<br><small>From Ver.5.0.1, the index is in character units in <a href="/package/system/regexpattern/#about-unicode-mode">Unicode mode</a>. Other than that, it is in bytes.</small></td>
   </tr>  
   <tr>
     <td>Arguments</td>

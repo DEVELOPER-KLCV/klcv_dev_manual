@@ -2,7 +2,7 @@
 layout: default
 
 grand_parent: String Class
-parent: Properties
+parent: Methods
 has_children: false
 title: String.Trim Method
 nav_order: 18

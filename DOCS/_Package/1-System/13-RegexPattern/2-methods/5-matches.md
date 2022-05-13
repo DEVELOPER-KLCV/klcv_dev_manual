@@ -27,18 +27,18 @@ permalink: /package/system/regexpattern/methods/matches
   <tr>
     <td rowspan="4">Arguments</td>
     <td>String <b>regex</b></td>
-    <td>Regular expressions<br><small>Since Ver.5.0.1, UString type array is returned in <a href="/package/system/regexpattern">Unicode mode</a>
+    <td>Regular expressions<br><small>Since Ver.5.0.1, UString type array is returned in <a href="/package/system/regexpattern/#about-unicode-mode">Unicode mode</a>
   
   <tr>
     <td>String <b>input</b></td>
-    <td>Matching input string<br><small>Since Ver.5.0.1, UString type array is returned in <a href="/package/system/regexpattern">Unicode mode</a>
+    <td>Matching input string<br><small>Since Ver.5.0.1, UString type array is returned in <a href="/package/system/regexpattern/#about-unicode-mode">Unicode mode</a>
   <tr>
     <td>integer <b>flags</b></td>
     <td>Match flag<br>See <a href="/package/system/regexpattern/methods/compile">Compile</a> method for details.<br>If omitted, it is 0 (not specified).</td>
   </tr>
   <tr>
     <td>integer <b>mode</b></td>
-    <td>If you want to generate the regular expression engine in <a href="/package/system/regexpattern">Unicode mode</a>, specify RegexPattern.Unicode</td>
+    <td>If you want to generate the regular expression engine in <a href="/package/system/regexpattern/#about-unicode-mode">Unicode mode</a>, specify RegexPattern.Unicode</td>
   </tr>
   <tr>
     <td>Exception</td>

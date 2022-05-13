@@ -22,7 +22,7 @@ permalink: /package/system/regexmatcher/methods/appendtail
   </tr>
   <tr>
     <td>Return value</td>
-    <td>Character string from the input character string after the append position to the tail.<br><small>From Ver.5.0.1, UString type character string is returned in <a href="/package/system/regexpattern">Unicode mode</a>.</small></td>
+    <td>Character string from the input character string after the append position to the tail.<br><small>From Ver.5.0.1, UString type character string is returned in <a href="/package/system/regexpattern/#about-unicode-mode">Unicode mode</a>.</small></td>
   </tr>  
   <tr>
     <td>Argument</td>

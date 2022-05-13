@@ -2,7 +2,7 @@
 layout: default
 
 grand_parent: String Class
-parent: Properties
+parent: Methods
 has_children: false
 title: String Constructor
 nav_order: 1

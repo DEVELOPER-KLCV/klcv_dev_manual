@@ -2,7 +2,7 @@
 layout: default
 
 grand_parent: String Class
-parent: Properties
+parent: Methods
 has_children: false
 title: String.LastIndexOf Method
 nav_order: 7
@@ -59,6 +59,6 @@ print(last, "\n");
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/system/string/methods/indexof">IndexOf</a> method<br><a href="">find</a> method</td>
+    <td colspan="2"><a href="/package/system/string/methods/indexof">IndexOf</a> method<br><a href="/method/str/find">find</a> method</td>
   </tr>
 </table>

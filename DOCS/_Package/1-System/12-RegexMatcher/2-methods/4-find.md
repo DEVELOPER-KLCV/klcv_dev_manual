@@ -27,7 +27,7 @@ permalink: /package/system/regexmatcher/methods/find
   <tr>
     <td>Arguments</td>
     <td>integer <b>start</b></td>
-    <td>Search start position<br><small>From Ver.5.0.1, in <a href="/package/system/regexpattern">Unicode mode</a>, specify the start position in character units. Otherwise, specify in bytes.</small></td>
+    <td>Search start position<br><small>From Ver.5.0.1, in <a href="/package/system/regexpattern/#about-unicode-mode">Unicode mode</a>, specify the start position in character units. Otherwise, specify in bytes.</small></td>
   </tr>
   <tr>
     <td>Exception</td>

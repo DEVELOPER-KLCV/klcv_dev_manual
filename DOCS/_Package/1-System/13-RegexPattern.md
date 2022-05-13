@@ -27,7 +27,7 @@ The default property is [Pattern](/package/system/regexpattern/properties/patter
 
 **<small>A Unicode mode has been added that handles more Unicode strings. -></small>**
 
-<b>About Unicode mode</b>
+### About Unicode mode
 
 If you specify RegexPattern.Unicode as an argument of [Compile](/package/system/regexpattern/methods/compile) method and [Matches](/package/system/regexpattern/methods/matches) method, you can generate a regular expression engine in Unicode mode.
 

@@ -22,7 +22,7 @@ permalink: /package/system/regexpattern/methods/getpattern
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">Regular expression string from the compile source<br> In <a href="/package/system/regexpattern">Unicode mode</a>, it returns as UString type, otherwise it returns as String type.</td>
+    <td colspan="2">Regular expression string from the compile source<br> In <a href="/package/system/regexpattern/#about-unicode-mode">Unicode mode</a>, it returns as UString type, otherwise it returns as String type.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
@@ -41,6 +41,6 @@ print(p.GetPattern(), "\n");
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/system/regexpattern/properties/pattern">Pattern</a> property<br><a href="/package/system/regexpattern/methods/getpattern">Compile</a> method</td>
+    <td colspan="2"><a href="/package/system/regexpattern/properties/pattern">Pattern</a> property<br><a href="/package/system/regexpattern/methods/compile">Compile</a> method</td>
   </tr>
 </table>

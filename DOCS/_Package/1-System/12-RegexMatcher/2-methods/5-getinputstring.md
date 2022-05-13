@@ -22,7 +22,7 @@ permalink: /package/system/regexmatcher/methods/getinputstring
   </tr>
   <tr>
     <td>Return value</td>
-    <td>Input string set in the regular expression engine<br>In <a href="/package/system/regexpattern">Unicode mode</a>, it returns as UString type, otherwise it returns as String type.</td>
+    <td>Input string set in the regular expression engine<br>In <a href="/package/system/regexpattern/#about-unicode-mode">Unicode mode</a>, it returns as UString type, otherwise it returns as String type.</td>
   </tr>  
   <tr>
     <td>Arguments</td>

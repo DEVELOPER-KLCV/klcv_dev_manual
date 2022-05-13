@@ -22,7 +22,7 @@ permalink: /package/system/regexmatcher/methods/end
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">End index of matched part or forward reference group.<br>(The tail index points to the next position at the end of the string).<br><small>From Ver.5.0.1, the index is in character units in <a href="/package/system/regexpattern">Unicode mode</a>.Other than that, it is in bytes.</small></td>
+    <td colspan="2">End index of matched part or forward reference group.<br>(The tail index points to the next position at the end of the string).<br><small>From Ver.5.0.1, the index is in character units in <a href="/package/system/regexpattern/#about-unicode-mode">Unicode mode</a>.Other than that, it is in bytes.</small></td>
   </tr>  
   <tr>
     <td>Arguments</td>

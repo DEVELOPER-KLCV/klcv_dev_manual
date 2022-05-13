@@ -26,5 +26,5 @@ Static methods
 
 |  Name | Description |
 |-------|-------------|
-|[Compile](/package/system/regexpattern/methods/compile) |Compile the regular expression to create a RegexPattern object<br><small><a href="/package/system/regexpattern">Unicode mode</a> has been added from Ver5.0.1 |
-|[Matches](/package/system/regexpattern/methods/matches) |Matches the specified regular expression and string<br><small><a href="/package/system/regexpattern">Unicode mode</a> has been added from Ver5.0.1 |
+|[Compile](/package/system/regexpattern/methods/compile) |Compile the regular expression to create a RegexPattern object<br><small><a href="/package/system/regexpattern/#about-unicode-mode">Unicode mode</a> has been added from Ver5.0.1 |
+|[Matches](/package/system/regexpattern/methods/matches) |Matches the specified regular expression and string<br><small><a href="/package/system/regexpattern/#about-unicode-mode">Unicode mode</a> has been added from Ver5.0.1 |

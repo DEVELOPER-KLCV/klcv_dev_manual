@@ -18,13 +18,13 @@ A regular expression engine for interpreting regular expression patterns and per
 
 Objects of RegexMatcher class are created by [Matcher](/package/system/regexpattern/methods/matcher) method of [RegexPattern](/package/system/regexpattern) class. The RegexMatcher class has various methods for match and replace operations.
 
-**<small>[Unicode mode]() can now handle Unicode strings (UString).</small>**
+**<small><a href="/package/system/regexpattern/#about-unicode-mode">Unicode mode</a> can now handle Unicode strings (UString).</small>**
 
 <b>Default properties and ValueType</b>
 
 The default property is [InputString](/package/system/regexmatcher/properties/inputstring). The ValueType specification is invalid.
 
-<b>About the reference to the forward reference group of the replace operation method</b>
+### About the reference to the forward reference group of the replace operation method
  
 You can refer to the substring of the forward reference group by writing "$n" in the replacement string specified by the [AppendReplacement](/package/system/regexmatcher/methods/appendreplacement), [ReplaceAll](/package/system/regexmatcher/methods/replaceall), and [ReplaceFirst](/package/system/regexmatcher/methods/replacefirst) methods. Describe the group number in n. For example, to refer to group 1, write "$1".
 
