@@ -36,15 +36,15 @@ permalink: /package/standard/root/methods/decidevalue
     <td colspan="2">
     <code><pre>
     Form frm1 {
-   :
-   TextBox tb {
       :
-   }
-   Function OnClicked(e) {
-      //.DecideValue();
-      MessageBox("入力値は" + tb.Value + "です");
-   }
-}
+      TextBox tb {
+          :
+      }
+      Function OnClicked(e) {
+          //.DecideValue();
+          MessageBox("The input value is" + tb.Value );
+      }
+    }
     </pre></code></td>
   </tr>
   <tr>

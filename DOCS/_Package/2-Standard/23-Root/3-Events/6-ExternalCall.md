@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: Root.ExternalCall Event
 nav_order: 6
-permalink: /package/standard/root/events/ExternalCall
+permalink: /package/standard/root/events/externalcall
 ---
 # {{ page.title }}

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Spread.GetLabel Property
 nav_order: 3
-permalink: /package/standard/spread/methods/GetLabel
+permalink: /package/standard/spread/methods/getlabel
 ---
 # {{ page.title }}
 

@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SpreadColumn.RClicked Event
 nav_order: 3
-permalink: /package/standard/SpreadColumn/events/RClicked
+permalink: /package/standard/spreadcolumn/events/rclicked
 ---
 # {{ page.title }}

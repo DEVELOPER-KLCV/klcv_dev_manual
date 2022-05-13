@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: FgColor Property
 nav_order: 2
-permalink: /package/standard/SpreadRow/properties/FgColor
+permalink: /package/standard/spreadrow/properties/fgcolor
 ---
 # {{ page.title }}

@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: FgColor Property
 nav_order: 6
-permalink: /package/standard/PulldownList/properties/fgcolor
+permalink: /package/standard/pulldownlist/properties/fgcolor
 ---
 # {{ page.title }}

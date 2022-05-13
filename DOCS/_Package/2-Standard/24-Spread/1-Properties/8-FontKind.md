@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: FontKind Property
 nav_order: 8
-permalink: /package/standard/spread/properties/Fontkind
+permalink: /package/standard/spread/properties/fontkind
 ---
 # {{ page.title }}

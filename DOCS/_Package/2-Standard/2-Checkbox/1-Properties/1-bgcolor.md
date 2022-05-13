@@ -10,4 +10,4 @@ permalink: /package/standard/checkbox/properties/bgcolor
 ---
 # {{ page.title }}
 
-Specify the background color with a [color constant]().
+Specify the background color with a [color constant](/base/color).

@@ -18,30 +18,29 @@ The following properties are defined in the Label class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[AcceptDrop](/package/standard/label/properties/acceptDrop) | CRW | integer | 0  |             |
-|[BgColor](/package/standard/label/properties/BgColor) | CRW | integer | $STD  |             |
-|[Border](/package/standard/label/properties/Border) | CRW | boelean | $FALSE  |             |
-|[BorderStyle](/package/standard/label/properties/BorderStyle) | CRW | integer | $SUNKEN  |             |
-|[FgColor](/package/standard/label/properties/FgColor) | CRW | integer | $STD  |             |
-|[FontFace](/package/standard/label/properties/FontFace) | CR | integer | $STD  |             |
-|[FontKind](/package/standard/label/properties/FontKind) | CR | integer | $STD  |             |
-|[FontSize](/package/standard/label/properties/FontSize) | CR | integer | 10  |             |
-|[Format](/package/standard/label/properties/Format) | CR | String |   |             |
-|[HorizontalAlign](/package/standard/label/properties/HorizontalAlign) | CR | integer | $STD  |             |
-|[NoPrefix](/package/standard/label/properties/NoPrefix) | CRW | boolean | $FALSE  |             |
-|[ToolTip](/package/standard/label/properties/ToolTip) | CRW | String |   |             |
-|[ToolTipDelayTime](/package/standard/label/properties/ToolTipDelayTime) | CRW | integer | 0  |             |
-|[Transparent](/package/standard/label/properties/Transparent) | CRW | boolean | $FALSE  |             |
-|[Transparent](/package/standard/label/properties/Transparent) | CRW | boolean | $FALSE  |             |
+|[AcceptDrop](/package/standard/label/properties/acceptdrop) | CRW | integer | 0  |             |
+|[BgColor](/package/standard/label/properties/bgcolor) | CRW | integer | $STD  |             |
+|[Border](/package/standard/label/properties/border) | CRW | boelean | $FALSE  |             |
+|[BorderStyle](/package/standard/label/properties/borderstyle) | CRW | integer | $SUNKEN  |             |
+|[FgColor](/package/standard/label/properties/fgcolor) | CRW | integer | $STD  |             |
+|[FontFace](/package/standard/label/properties/fontface) | CR | integer | $STD  |             |
+|[FontKind](/package/standard/label/properties/fontkind) | CR | integer | $STD  |             |
+|[FontSize](/package/standard/label/properties/fontsize) | CR | integer | 10  |             |
+|[Format](/package/standard/label/properties/format) | CR | String |   |             |
+|[HorizontalAlign](/package/standard/label/properties/horizontalalign) | CR | integer | $STD  |             |
+|[NoPrefix](/package/standard/label/properties/noprefix) | CRW | boolean | $FALSE  |             |
+|[ToolTip](/package/standard/label/properties/tooltip) | CRW | String |   |             |
+|[ToolTipDelayTime](/package/standard/label/properties/tooltipdelaytime) | CRW | integer | 0  |             |
+|[Transparent](/package/standard/label/properties/transparent) | CRW | boolean | $FALSE  |             |
 |[Value](/package/standard/label/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date<br>UString |   |             |
-|[VerticalAlign](/package/standard/label/properties/verticalAlign) | CR | integer | $STD  |             |
-|[WordWrap](/package/standard/label/properties/WordWrap) | CRW | boolean | $TRUE  |             |
+|[VerticalAlign](/package/standard/label/properties/verticalalign) | CR | integer | $STD  |             |
+|[WordWrap](/package/standard/label/properties/wordwrap) | CRW | boolean | $TRUE  |             |
 
 Only available for Mobile, Android version
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[UseTapAndHold](/package/standard/label/properties/useTapAndHold) | CRW | boolean | $FALSE  |             |
+|[UseTapAndHold](/package/standard/label/properties/usetapandhold) | CRW | boolean | $FALSE  |             |
 
 <u><b>Access</b></u><br>
 R: Readable

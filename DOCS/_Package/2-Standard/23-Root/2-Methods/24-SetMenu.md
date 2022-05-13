@@ -37,32 +37,32 @@ permalink: /package/standard/root/methods/setmenu
     <td colspan="2">
     <code><pre>
     var x = new XmlDocument();
-x << xml <<-
-    &lt;?xml version="1.0" encoding="SHIFT_JIS"?&gt;
-    &lt;menudefine&gt;
-        &lt;menu title="ファイル"&gt;
-            &lt;menuitem id="11" title="トップ" /&gt;
-            &lt;separator /&gt;
-            &lt;menuitem id="18" title="設定" /&gt;
-            &lt;menuitem id="19" title="終了" /&gt;
-        &lt;/menu&gt;
-        &lt;menu title="業務"&gt;
-            &lt;menuitem id="31" title="日報入力" /&gt;
-            &lt;menuitem id="32" title="出勤入力" /&gt;
-            &lt;menuitem id="33" title="販売管理" /&gt;
-        &lt;/menu&gt;
-        &lt;menu title="マスタ管理"&gt;
-            &lt;menuitem id="91" title="ユーザー情報"&gt;
-            &lt;/menuitem&gt;
-        &lt;/menu&gt;
-    &lt;/menudefine&gt;
-->>;
-//.SetMenu(x);
+    x << xml <<-
+        &lt;?xml version="1.0" encoding="SHIFT_JIS"?&gt;
+        &lt;menudefine&gt;
+            &lt;menu title="File"&gt;
+                &lt;menuitem id="11" title="Top" /&gt;
+                &lt;separator /&gt;
+                &lt;menuitem id="18" title="Setting" /&gt;
+                &lt;menuitem id="19" title="End" /&gt;
+            &lt;/menu&gt;
+            &lt;menu title="Business"&gt;
+                &lt;menuitem id="31" title="Daily report entry" /&gt;
+                &lt;menuitem id="32" title="Attendance input" /&gt;
+                &lt;menuitem id="33" title="Sales management" /&gt;
+            &lt;/menu&gt;
+            &lt;menu title="Master Admin"&gt;
+                &lt;menuitem id="91" title="User information"&gt;
+                &lt;/menuitem&gt;
+            &lt;/menu&gt;
+        &lt;/menudefine&gt;
+    ->>;
+    //.SetMenu(x);
     </pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/root/events/menuselected">MenuSelected</a> event<br><a href="">XmlDocument</a> class</td>
+    <td colspan="2"><a href="/package/standard/root/events/menuselected">MenuSelected</a> event<br><a href="/package/xmlpackage/xmldocument/">XmlDocument</a> class</td>
   </tr>
 </table>
 

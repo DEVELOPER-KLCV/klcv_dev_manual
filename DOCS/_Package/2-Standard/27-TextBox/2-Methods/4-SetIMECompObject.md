@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: TextBox.SetIMECompObject Method
 nav_order: 4
-permalink: /package/standard/TextBox/methods/SetIMECompObject
+permalink: /package/standard/textbox/methods/setimecompobject
 ---
 # {{ page.title }}
 

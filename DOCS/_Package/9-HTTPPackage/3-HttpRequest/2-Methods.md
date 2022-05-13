@@ -14,7 +14,7 @@ has_toc: false
 The following methods are defined in the HttpRequest class.
 
 |Name       | Description     |
-|----------	|--------_--------|
+|----------	|-----------------|
 | [AddBody](/package/httppackage/httprequest/methods/addbody) |  |
 | [AddParam](/package/httppackage/httprequest/methods/addparam) | |
 | [SetHeader](/package/httppackage/httprequest/methods/setheader) | |

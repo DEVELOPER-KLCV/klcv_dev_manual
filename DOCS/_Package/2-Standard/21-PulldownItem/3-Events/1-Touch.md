@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: PulldownItem.Touch Property
 nav_order: 1
-permalink: /package/standard/puldownItem/events/touch
+permalink: /package/standard/pulldownitem/events/touch
 ---
 # {{ page.title }}

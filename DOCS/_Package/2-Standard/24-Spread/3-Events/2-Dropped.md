@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: Dropped Event
 nav_order: 2
-permalink: /package/standard/spread/events/Dropped
+permalink: /package/standard/spread/events/dropped
 ---
 # {{ page.title }}

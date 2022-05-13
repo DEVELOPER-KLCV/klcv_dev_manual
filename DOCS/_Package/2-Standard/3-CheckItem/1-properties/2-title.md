@@ -12,7 +12,7 @@ permalink: /package/standard/checkitem/properties/title
 
 The character to be displayed as a choice.
 
-In the PC version and Mobile version, the "&" symbol is treated as an underline. See the [display string and the "&" symbol]() for details.
+In the PC version and Mobile version, the "&" symbol is treated as an underline. See the [display string and the "&" symbol](/base/ampersand) for details.
 
 If you specify UString for ValueType, this property behaves as a UString type. 
 **<small>Added since Version 5.0.3</small>**

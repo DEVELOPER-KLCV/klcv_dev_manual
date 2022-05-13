@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: Dropped Property
 nav_order: 1
-permalink: /package/standard/PulldownList/events/dropped
+permalink: /package/standard/pulldownlist/events/dropped
 ---
 # {{ page.title }}

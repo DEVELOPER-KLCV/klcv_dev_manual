@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: SpreadColumn.Touch Event
 nav_order: 4
-permalink: /package/standard/SpreadColumn/events/Touch
+permalink: /package/standard/spreadcolumn/events/touch
 ---
 # {{ page.title }}

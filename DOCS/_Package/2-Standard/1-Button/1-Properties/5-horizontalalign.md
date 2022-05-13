@@ -10,7 +10,7 @@ permalink: /package/standard/button/properties/horizontalalign
 ---
 # {{ page.title }}
 
-Performs horizontal alignment. $ STD is centered.
+Performs horizontal alignment. $STD is centered.
 
 |Constant | Value | Description |
 |---------|-------|-------------|

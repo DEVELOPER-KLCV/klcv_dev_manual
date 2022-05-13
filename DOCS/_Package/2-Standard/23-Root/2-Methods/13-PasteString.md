@@ -36,7 +36,7 @@ permalink: /package/standard/root/methods/pastestring
     <td colspan="2">
     <code><pre>
     vat t = //.PasteString();
-print(t, "\n");
+    print(t, "\n");
     </pre></code></td>
   </tr>
   <tr>

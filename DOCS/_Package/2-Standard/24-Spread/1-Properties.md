@@ -40,7 +40,7 @@ The following properties are defined in the Spread class.
 |[ShowLabel](/package/standard/spread/properties/showlabel) | CRW | boolean | $TRUE | |
 |[ShowNumber](/package/standard/spread/properties/shownumber) | CRW | boolean | $TRUE | |
 |[ToolTip](/package/standard/spread/properties/tooltip) | CRW | String |  | |
-|[ToolTipDelayTime](/package/standard/spread/properties/ToolTipDelayTime) | CRW | integer | 0 | |
+|[ToolTipDelayTime](/package/standard/spread/properties/tooltipdelaytime) | CRW | integer | 0 | |
 |[Value](/package/standard/spread/properties/value)* | CRW | integer |  | |
 |[VScroll](/package/standard/spread/properties/vscroll) | CR | integer | $AUTO | |
 

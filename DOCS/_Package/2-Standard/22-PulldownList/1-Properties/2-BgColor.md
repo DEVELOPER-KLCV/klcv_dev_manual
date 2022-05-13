@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: BgColor Property
 nav_order: 2
-permalink: /package/standard/PulldownList/properties/bgcolor
+permalink: /package/standard/pulldownlist/properties/bgcolor
 ---
 # {{ page.title }}

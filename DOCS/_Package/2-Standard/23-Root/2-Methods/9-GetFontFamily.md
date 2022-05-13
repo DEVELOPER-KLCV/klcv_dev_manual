@@ -46,8 +46,8 @@ permalink: /package/standard/root/methods/getfontfamily
     <td colspan="2">
     <code><pre>
     for (var i = $FONT2; i <= $FONT7; i++) {
-    print(i, //.GetFontFamily(i, $STD), "\n");
-}
+        print(i, //.GetFontFamily(i, $STD), "\n");
+    }
     </pre></code></td>
   </tr>
   <tr>

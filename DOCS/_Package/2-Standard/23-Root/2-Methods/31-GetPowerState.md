@@ -37,7 +37,7 @@ permalink: /package/standard/root/methods/getpowerstate
     <code><pre>
     var state = //.GetPowerState();
     if (state.BatteryLifeLevel >= 0) {
-        print("バッテリレベル ", state.BatteryLifeLevel, "%\n");
+        print("Battery level ", state.BatteryLifeLevel, "%\n");
     }
     </pre></code></td>
   </tr>

@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SpreadColumn.HorizontalAlign Property
 nav_order: 6
-permalink: /package/standard/SpreadColumn/properties/HorizontalAlign
+permalink: /package/standard/spreadcolumn/properties/horizontalalign
 ---
 # {{ page.title }}

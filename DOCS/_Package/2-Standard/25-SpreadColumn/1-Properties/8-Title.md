@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SpreadColumn.Title Property
 nav_order: 8
-permalink: /package/standard/SpreadColumn/properties/Title
+permalink: /package/standard/spreadcolumn/properties/title
 ---
 # {{ page.title }}

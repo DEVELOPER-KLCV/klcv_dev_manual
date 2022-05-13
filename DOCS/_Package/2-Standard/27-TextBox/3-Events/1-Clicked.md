@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: TextBox.Clicked Event
 nav_order: 1
-permalink: /package/standard/TextBox/events/Clicked
+permalink: /package/standard/textbox/events/clicked
 ---
 # {{ page.title }}

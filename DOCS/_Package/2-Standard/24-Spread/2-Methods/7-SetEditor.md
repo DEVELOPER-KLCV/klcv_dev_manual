@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Spread.SetEditor Property
 nav_order: 7
-permalink: /package/standard/spread/methods/SetEditor
+permalink: /package/standard/spread/methods/seteditor
 ---
 # {{ page.title }}
 

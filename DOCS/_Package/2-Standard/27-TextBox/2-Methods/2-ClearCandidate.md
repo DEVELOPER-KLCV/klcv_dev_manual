@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: TextBox.ClearCandidate Method
 nav_order: 2
-permalink: /package/standard/TextBox/methods/ClearCandidate
+permalink: /package/standard/textbox/methods/clearcandidate
 ---
 # {{ page.title }}
 
@@ -38,7 +38,7 @@ permalink: /package/standard/TextBox/methods/ClearCandidate
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/TextBox/methods/AddCandidate">AddCandidate</a> method</td>
+    <td colspan="2"><a href="/package/standard/textbox/methods/addcandidate">AddCandidate</a> method</td>
   </tr>
 </table>
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-has_children: true
+has_children: false
 
 title: Key specification
 nav_order: 1

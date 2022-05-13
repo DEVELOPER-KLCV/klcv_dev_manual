@@ -49,7 +49,7 @@ permalink: /package/standard/root/methods/setimage
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/root/properties/icon">Icon</a> property<br><a href="/package/standard/root/methods/resetimage">ResetImage</a> method<br><a href="">ImageList</a> class</td>
+    <td colspan="2"><a href="/package/standard/root/properties/icon">Icon</a> property<br><a href="/package/standard/root/methods/resetimage">ResetImage</a> method<br><a href="/package/extension4/imagelist/">ImageList</a> class</td>
   </tr>
 </table>
 

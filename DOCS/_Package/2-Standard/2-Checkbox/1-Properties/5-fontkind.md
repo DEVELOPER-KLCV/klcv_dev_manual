@@ -15,7 +15,7 @@ Specify the font type.
  
 You can specify $STD and $FONT1 - $FONT7 as the font type.
 
-$STD is a Gothic font, $FONT1 is a Mincho font, and $FONT2 - $FONT7 use the font specified by the [Root.SetFontFamily]() method. The display result is undefined if the font not assigned by the SetFontFamily method in $FONT2 - $FONT7 or the assigned font is not registered in the computer.
+$STD is a Gothic font, $FONT1 is a Mincho font, and $FONT2 - $FONT7 use the font specified by the [Root.SetFontFamily](/package/standard/root/methods/setfontfamily) method. The display result is undefined if the font not assigned by the SetFontFamily method in $FONT2 - $FONT7 or the assigned font is not registered in the computer.
 
 
 <table>
@@ -37,7 +37,7 @@ $STD is a Gothic font, $FONT1 is a Mincho font, and $FONT2 - $FONT7 use the font
     <tr>
         <td>$FONT2</td>
         <td>2</td>
-        <td rowspan="6">Font set by <a href="">Root.SetFontFamily</a> method</td>
+        <td rowspan="6">Font set by <a href="/package/standard/root/methods/setfontfamily">Root.SetFontFamily</a> method</td>
     </tr>
     <tr>
         <td>$FONT3</td>

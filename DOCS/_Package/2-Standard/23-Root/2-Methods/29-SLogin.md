@@ -46,7 +46,7 @@ permalink: /package/standard/root/methods/slogin
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/root/methods/login">Login</a>, <a href="/package/standard/root/methods/logout">Logout</a> methods<br><a href="">HttpSession.IsLoginSession</a> method</td>
+    <td colspan="2"><a href="/package/standard/root/methods/login">Login</a>, <a href="/package/standard/root/methods/logout">Logout</a> methods<br><a href="/package/httppackage/httpsession/methods/isloginsession">HttpSession.IsLoginSession</a> method</td>
   </tr>
 </table>
 

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: TextBox.AddCandidate Method
 nav_order: 1
-permalink: /package/standard/TextBox/methods/AddCandidate
+permalink: /package/standard/textbox/methods/addcandidate
 ---
 # {{ page.title }}
 
@@ -35,13 +35,13 @@ permalink: /package/standard/TextBox/methods/AddCandidate
   <tr>
     <td>Example of use</td>
     <td colspan="2"><code><pre>
-    TextBox1.AddCandidate("候補");
-    TextBox1.AddCandidate("候補一覧");
+    TextBox1.AddCandidate("Candidate");
+    TextBox1.AddCandidate("Candidate List");
     </pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/TextBox/methods/clearcandidate">ClearCandidate</a> method</td>
+    <td colspan="2"><a href="/package/standard/textbox/methods/clearcandidate">ClearCandidate</a> method</td>
   </tr>
 </table>
 

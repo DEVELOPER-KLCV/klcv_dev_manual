@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: TextBox.Password Property
 nav_order: 8
-permalink: /package/standard/TextBox/properties/Password
+permalink: /package/standard/textbox/properties/password
 ---
 # {{ page.title }}

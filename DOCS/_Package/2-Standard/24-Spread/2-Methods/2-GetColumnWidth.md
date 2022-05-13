@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Spread.GetColumnWidth Property
 nav_order: 2
-permalink: /package/standard/spread/methods/GetColumnWidth
+permalink: /package/standard/spread/methods/getvolumnwidth
 ---
 # {{ page.title }}
 

@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: TextBox.Value Property
 nav_order: 9
-permalink: /package/standard/TextBox/properties/Value
+permalink: /package/standard/textbox/properties/value
 ---
 # {{ page.title }}

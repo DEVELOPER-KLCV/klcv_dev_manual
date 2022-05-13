@@ -18,17 +18,17 @@ The following properties are defined in the ListBox class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[AcceptDrop](/package/standard/listbox/properties/acceptDrop) | CRW | integer | 0  |             |
-|[BgColor](/package/standard/listbox/properties/BgColor) | CRW | integer | $STD  |             |
-|[Border](/package/standard/listbox/properties/Border) | CR | boelean | $FALSE  |             |
-|[FgColor](/package/standard/listbox/properties/FgColor) | CRW | integer | $STD  |             |
-|[FontFace](/package/standard/listbox/properties/FontFace) | CR | integer | $STD  |             |
-|[FontKind](/package/standard/listbox/properties/FontKind) | CR | integer | $STD  |             |
-|[FontSize](/package/standard/listbox/properties/FontSize) | CR | integer | 10  |             |
+|[AcceptDrop](/package/standard/listbox/properties/acceptdrop) | CRW | integer | 0  |             |
+|[BgColor](/package/standard/listbox/properties/bgcolor) | CRW | integer | $STD  |             |
+|[Border](/package/standard/listbox/properties/border) | CR | boelean | $FALSE  |             |
+|[FgColor](/package/standard/listbox/properties/fgcolor) | CRW | integer | $STD  |             |
+|[FontFace](/package/standard/listbox/properties/fontface) | CR | integer | $STD  |             |
+|[FontKind](/package/standard/listbox/properties/fontkind) | CR | integer | $STD  |             |
+|[FontSize](/package/standard/listbox/properties/fontsize) | CR | integer | 10  |             |
 |[Scroll](/package/standard/listbox/properties/scroll) | CR | integer | $AUTO | |
 |[SelectionMode](/package/standard/listbox/properties/tooltip) | CRW | String | | |
-|[ToolTip](/package/standard/listbox/properties/ToolTip) | CRW | String |   |             |
-|[ToolTipDelayTime](/package/standard/listbox/properties/ToolTipDelayTime) | CRW | integer | 0  |             |
+|[ToolTip](/package/standard/listbox/properties/tooltip) | CRW | String |   |             |
+|[ToolTipDelayTime](/package/standard/listbox/properties/tooltipdelaytime) | CRW | integer | 0  |             |
 |[Value](/package/standard/listbox/properties/value)* | CRW | integer |   |             |
 
 <u><b>Access</b></u><br>

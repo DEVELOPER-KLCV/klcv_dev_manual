@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: TextBox.SetMargins Method
 nav_order: 5
-permalink: /package/standard/TextBox/methods/SetMargins
+permalink: /package/standard/textbox/methods/setmargins
 ---
 # {{ page.title }}
 

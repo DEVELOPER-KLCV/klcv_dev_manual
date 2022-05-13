@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: Spread.StopEdit Event
 nav_order: 7
-permalink: /package/standard/spread/events/StopEdit
+permalink: /package/standard/spread/events/stopedit
 ---
 # {{ page.title }}

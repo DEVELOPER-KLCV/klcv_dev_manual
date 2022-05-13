@@ -41,7 +41,7 @@ permalink: /package/standard/root/methods/setreloginUrl
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/root/properties/ReLoggedIn">ReLoggedIn</a> property</td>
+    <td colspan="2"><a href="/package/standard/root/properties/reloggedin">ReLoggedIn</a> property</td>
   </tr>
 </table>
 

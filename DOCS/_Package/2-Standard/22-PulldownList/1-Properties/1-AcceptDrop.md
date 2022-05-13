@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: AcceptDrop Property
 nav_order: 1
-permalink: /package/standard/PulldownList/properties/acceptdrop
+permalink: /package/standard/pulldownlist/properties/acceptdrop
 ---
 # {{ page.title }}

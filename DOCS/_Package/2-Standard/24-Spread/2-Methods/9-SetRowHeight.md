@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Spread.SetRowHeight Property
 nav_order: 9
-permalink: /package/standard/spread/methods/SetRowHeight
+permalink: /package/standard/spread/methods/setrowheight
 ---
 # {{ page.title }}
 

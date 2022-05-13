@@ -18,6 +18,6 @@ The following events are defined in the Dialog class.
 
 |  Name | Description |
 |-------|-------------|
-|[Clicked](/package/standard/dialog/events/Clicked) |Occurs when the left mouse button is pressed |
-|[Close](/package/standard/dialog/events/Close) |Occurs when closing a dialog |
-|[WindowStateChanged](/package/standard/dialog/events/WindowStateChanged) |Occurs when the dialog state changes<br><small>Added since Ver.4.1.3<br>Not available in Mobile & AI</small> |
+|[Clicked](/package/standard/dialog/events/clicked) |Occurs when the left mouse button is pressed |
+|[Close](/package/standard/dialog/events/close) |Occurs when closing a dialog |
+|[WindowStateChanged](/package/standard/dialog/events/windowstatechanged) |Occurs when the dialog state changes<br><small>Added since Ver.4.1.3<br>Not available in Mobile & AI</small> |

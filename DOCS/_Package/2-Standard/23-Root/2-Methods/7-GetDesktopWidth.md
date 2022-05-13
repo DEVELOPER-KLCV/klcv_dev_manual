@@ -36,7 +36,7 @@ permalink: /package/standard/root/methods/getdesktopwidth
     <td colspan="2">
     <code><pre>
     Form1.X = (//.GetDesktopWidth() - Form1.Width) / 2;
-Form1.Y = (//.GetDesktopHeight() - Form1.Height) / 2;
+    Form1.Y = (//.GetDesktopHeight() - Form1.Height) / 2;
     </pre></code></td>
   </tr>
   <tr>

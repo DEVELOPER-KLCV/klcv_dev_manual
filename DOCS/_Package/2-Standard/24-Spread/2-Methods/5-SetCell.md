@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Spread.SetCell Property
 nav_order: 5
-permalink: /package/standard/spread/methods/SetCell
+permalink: /package/standard/spread/methods/setcell
 ---
 # {{ page.title }}
 

@@ -18,10 +18,10 @@ The following events are defined in the Spread class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[ColSizeChange](/package/standard/spread/methods/ColSizeChange) | |
-|[Droppped](/package/standard/spread/methods/Droppped) | |
-|[LabelClicked](/package/standard/spread/methods/LabelClicked) | |
-|[NumberClicked](/package/standard/spread/methods/NumberClicked) | |
-|[Scrolled](/package/standard/spread/methods/Scrolled) | |
-|[StartEdit](/package/standard/spread/methods/StartEdit) | |
-|[StopEdit](/package/standard/spread/methods/StopEdit) | |
+|[ColSizeChange](/package/standard/spread/methods/colsizechange) | |
+|[Droppped](/package/standard/spread/methods/droppped) | |
+|[LabelClicked](/package/standard/spread/methods/labelclicked) | |
+|[NumberClicked](/package/standard/spread/methods/numberclicked) | |
+|[Scrolled](/package/standard/spread/methods/scrolled) | |
+|[StartEdit](/package/standard/spread/methods/startedit) | |
+|[StopEdit](/package/standard/spread/methods/stopedit) | |

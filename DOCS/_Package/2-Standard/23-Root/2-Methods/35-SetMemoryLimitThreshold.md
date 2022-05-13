@@ -41,7 +41,7 @@ permalink: /package/standard/root/methods/setmemorylimitthreshold
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/root/properties/ReLoggedIn">ReLoggedIn</a> property, <a href="/package/standard/root/events/MemoryLimitExceeded">MemoryLimitExceeded</a> event</td>
+    <td colspan="2"><a href="/package/standard/root/properties/reloggedin">ReLoggedIn</a> property, <a href="/package/standard/root/events/memorylimitexceeded">MemoryLimitExceeded</a> event</td>
   </tr>
 </table>
 

@@ -14,7 +14,7 @@ has_toc: false
 The following methods are defined in the HttpResponse class.
 
 |Name       | Description     |
-|----------	|--------_--------|
+|----------	|-----------------|
 |[GetHeader](/package/httppackage/httpresponse/methods/getheader) | |
 |[GetHeaderList](/package/httppackage/httpresponse/methods/getheaderlist) | |
 |[Read](/package/httppackage/httpresponse/methods/read) | |

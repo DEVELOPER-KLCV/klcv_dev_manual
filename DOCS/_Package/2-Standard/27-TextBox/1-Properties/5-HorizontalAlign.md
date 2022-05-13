@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: TextBox.HorizontalAlign Property
 nav_order: 5
-permalink: /package/standard/TextBox/properties/HorizontalAlign
+permalink: /package/standard/textbox/properties/horizontalalign
 ---
 # {{ page.title }}

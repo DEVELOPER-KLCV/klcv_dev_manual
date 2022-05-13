@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: Spread.StartEdit Event
 nav_order: 6
-permalink: /package/standard/spread/events/StartEdit
+permalink: /package/standard/spread/events/startedit
 ---
 # {{ page.title }}

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Spread.SetColumnWidth Property
 nav_order: 6
-permalink: /package/standard/spread/methods/SetColumnWidth
+permalink: /package/standard/spread/methods/setcolumnwidth
 ---
 # {{ page.title }}
 

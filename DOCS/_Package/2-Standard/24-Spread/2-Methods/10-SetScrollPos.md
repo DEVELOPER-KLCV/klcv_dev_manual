@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Spread.SetScrollPos Property
 nav_order: 10
-permalink: /package/standard/spread/methods/SetScrollPos
+permalink: /package/standard/spread/methods/setscrollpos
 ---
 # {{ page.title }}
 

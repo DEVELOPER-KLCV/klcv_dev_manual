@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: Label.HorizontalAlign Property
 nav_order: 10
-permalink: /package/standard/label/properties/horizontalAlign
+permalink: /package/standard/label/properties/horizontalalign
 ---
 # {{ page.title }}

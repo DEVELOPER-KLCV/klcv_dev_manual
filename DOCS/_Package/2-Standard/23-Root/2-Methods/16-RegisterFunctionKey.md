@@ -48,20 +48,20 @@ permalink: /package/standard/root/methods/registerfunctionkey
     <td>Example of use</td>
     <td colspan="2">
     <code><pre>
-    Number BSKEY = RegisterFunctionKey(0x8, $TRUE); /* Shift + BackSpaceキー */
-Form frmKeyDown {
-       X = 0;
-       Y = 0;
-       Width = 400;
-       Height = 300;
-       TextBox TextBox1 {
-               X = 8;
-               Y = 16;
-               Width = 336;
-               Height = 24;
-               PrevTabKey = //.BSKEY; /* Shift + BackSpaceで前の項目へ */
-       }
-}
+    Number BSKEY = RegisterFunctionKey(0x8, $TRUE); /* Shift + BackSpace Key */
+    Form frmKeyDown {
+          X = 0;
+          Y = 0;
+          Width = 400;
+          Height = 300;
+          TextBox TextBox1 {
+                  X = 8;
+                  Y = 16;
+                  Width = 336;
+                  Height = 24;
+                  PrevTabKey = //.BSKEY; /* Shift + Go to the previous item with BackSpace */
+          }
+    }
     </pre></code></td>
   </tr>
   <tr>

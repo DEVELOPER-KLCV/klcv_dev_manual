@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: Spread.GetCell Property
 nav_order: 1
-permalink: /package/standard/spread/methods/GetCell
+permalink: /package/standard/spread/methods/getcell
 ---
 # {{ page.title }}
 
@@ -42,7 +42,7 @@ permalink: /package/standard/spread/methods/GetCell
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/spread/methods/GetCell">SetCell</a> method</td>
+    <td colspan="2"><a href="/package/standard/spread/methods/setcell">SetCell</a> method</td>
   </tr>
 </table>
 

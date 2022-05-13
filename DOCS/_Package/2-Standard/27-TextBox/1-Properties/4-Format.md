@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: Format Property
 nav_order: 4
-permalink: /package/standard/TextBox/properties/Format
+permalink: /package/standard/textbox/properties/format
 ---
 # {{ page.title }}

@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: ListBox.SelectionMode Property
 nav_order: 9
-permalink: /package/standard/listbox/properties/selectionMode
+permalink: /package/standard/listbox/properties/selectionmode
 ---
 # {{ page.title }}

@@ -23,7 +23,7 @@ Specify a combination of the following values.
 |$FIXED  | 8   | Monospaced (fixed pitch) font |
 
 
-**<small>There are limits in AI. Please refer to <a href="">the features and restrictions of the Android version</a>.</small>**
+**<small>There are limits in AI. Please refer to <a href="/bizBrowserV/2/2-5/">the features and restrictions of the Android version</a>.</small>**
 
 $BOLD + $ITALIC is displayed in highlighted italics.
 If $FIXED is not specified, it is a proportional font.

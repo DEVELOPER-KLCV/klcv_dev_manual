@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: ToolTip Property
 nav_order: 12
-permalink: /package/standard/label/properties/ToolTip
+permalink: /package/standard/label/properties/tooltip
 ---
 # {{ page.title }}

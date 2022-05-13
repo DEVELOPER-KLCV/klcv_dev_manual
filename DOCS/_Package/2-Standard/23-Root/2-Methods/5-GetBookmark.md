@@ -36,9 +36,9 @@ permalink: /package/standard/root/methods/getbookmark
     <td colspan="2">
     <code><pre>
     var list = //.GetBookmark();
-for (var n = 0; n < list.length; n++) {
-    print(list[n].url, list[n].title, "\n");
-}
+    for (var n = 0; n < list.length; n++) {
+        print(list[n].url, list[n].title, "\n");
+    }
     </pre></code></td>
   </tr>
   <tr>

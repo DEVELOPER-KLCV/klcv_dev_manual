@@ -42,7 +42,7 @@ obj.Title = "Focus Now.";
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/focusObject/methods/setFocus">FocusObject.SetFocus</a> method</td>
+    <td colspan="2"><a href="/package/standard/focusObject/methods/setfocus">FocusObject.SetFocus</a> method</td>
   </tr>
 </table>
 

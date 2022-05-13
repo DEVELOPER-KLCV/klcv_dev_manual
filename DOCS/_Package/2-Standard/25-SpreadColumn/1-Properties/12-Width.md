@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: SpreadColumn.Width Property
 nav_order: 12
-permalink: /package/standard/SpreadColumn/properties/Width
+permalink: /package/standard/spreadcolumn/properties/width
 ---
 # {{ page.title }}

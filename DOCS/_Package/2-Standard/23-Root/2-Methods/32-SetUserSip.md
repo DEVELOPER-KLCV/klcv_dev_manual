@@ -45,7 +45,7 @@ permalink: /package/standard/root/methods/setusersip
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/root/methods/showsip">ShowSIP</a> method<br><a href="/package/standard/editobject/properties/IMEMode">EditObject.IMEMode</a> property</td>
+    <td colspan="2"><a href="/package/standard/root/methods/showsip">ShowSIP</a> method<br><a href="/package/standard/editobject/properties/imemode">EditObject.IMEMode</a> property</td>
   </tr>
 </table>
 

@@ -6,6 +6,6 @@ parent: Properties
 has_children: false
 title: Spread.Value Property
 nav_order: 24
-permalink: /package/standard/spread/properties/Value
+permalink: /package/standard/spread/properties/value
 ---
 # {{ page.title }}

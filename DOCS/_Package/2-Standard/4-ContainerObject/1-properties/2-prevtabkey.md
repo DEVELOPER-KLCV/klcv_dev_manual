@@ -20,10 +20,10 @@ Also, if the key specified in the PrevTabKey property is used as a unique functi
 
  
 
-For the values ​​that can be specified for the PrevTabKey property, refer to [Key specification]().<br><br>
+For the values ​​that can be specified for the PrevTabKey property, refer to [Key specification](/base/key).<br><br>
 
  
 
-For the priority when multiple meanings are assigned to one key operation, refer to [Priority in key operation]().
+For the priority when multiple meanings are assigned to one key operation, refer to [Priority in key operation](/base/key#priority-order-for-key-operations).
 
-<small>There are restrictions on the keys that can be specified in AI. See [Android version features and constraints]()</small>
+<small>There are restrictions on the keys that can be specified in AI. See [Android version features and constraints](/bizBrowserV/2/2-5/)</small>

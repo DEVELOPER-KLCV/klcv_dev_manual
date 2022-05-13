@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: Root.MemoryLimitExceeded Event
 nav_order: 8
-permalink: /package/standard/root/events/MemoryLimitExceeded
+permalink: /package/standard/root/events/memorylimitexceeded
 ---
 # {{ page.title }}

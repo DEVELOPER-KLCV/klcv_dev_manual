@@ -19,9 +19,9 @@ The following events are defined in the Label class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[Clicked](/package/standard/label/events/Clicked)       | |
-|[DoubleClicked](/package/standard/label/events/DoubleClicked)       | |
-|[Dropped](/package/standard/label/events/Dropped)       | |
-|[LButtonUp](/package/standard/label/events/LButtonUp)       | |
-|[RButtonUp](/package/standard/label/events/RButtonUp)       | |
-|[RClicked](/package/standard/label/events/RClicked)       | |
+|[Clicked](/package/standard/label/events/clicked)       | |
+|[DoubleClicked](/package/standard/label/events/doubleclicked)       | |
+|[Dropped](/package/standard/label/events/dropped)       | |
+|[LButtonUp](/package/standard/label/events/lbuttonup)       | |
+|[RButtonUp](/package/standard/label/events/rbuttonup)       | |
+|[RClicked](/package/standard/label/events/rclicked)       | |

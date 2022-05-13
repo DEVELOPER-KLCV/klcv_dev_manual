@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: TextBox.SetSelection Method
 nav_order: 6
-permalink: /package/standard/TextBox/methods/SetSelection
+permalink: /package/standard/textbox/methods/setselection
 ---
 # {{ page.title }}
 
@@ -44,7 +44,7 @@ permalink: /package/standard/TextBox/methods/SetSelection
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/standard/TextBox/methods/GetSelection">GetSelection</a> method</td>
+    <td colspan="2"><a href="/package/standard/textbox/methods/getselection">GetSelection</a> method</td>
   </tr>
 </table>
 

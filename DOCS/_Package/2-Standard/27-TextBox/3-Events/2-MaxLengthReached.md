@@ -6,6 +6,6 @@ parent: Events
 has_children: false
 title: TextBox.MaxlengthReached Event
 nav_order: 2
-permalink: /package/standard/TextBox/events/MaxlengthReached
+permalink: /package/standard/textbox/events/maxlengthreached
 ---
 # {{ page.title }}

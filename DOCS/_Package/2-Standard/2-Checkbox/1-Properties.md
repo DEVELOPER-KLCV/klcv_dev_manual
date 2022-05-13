@@ -20,7 +20,7 @@ The following properties are defined in the CheckBox class.
 |----------	|--------|--------|---------------|--------------|
 |[BgColor](/package/standard/checkbox/properties/bgcolor) | CRW | integer | $STD | Background color |
 |[Border](/package/standard/checkbox/properties/border) | CR | boolean | $FALSE | border display |
-|[FgColor](/package/standard/checkbox/properties/fgColor) | CRW | integer | $STD | Font color |
+|[FgColor](/package/standard/checkbox/properties/fgcolor) | CRW | integer | $STD | Font color |
 |[FontFace](/package/standard/checkbox/properties/fontface) | CR | integer | $STD | Font decoration attributes<br>**<small>There are limits in AI</small>**|
 |[FontKind](/package/standard/checkbox/properties/fontkind) | CR | integer | $STD | Font type<br>**<small>Supported fonts have been added from Version2</small>**<br>**<small>Not supported in Mobile</small>**<br>**<small>There are limits in AI</small>**|
 |[FontSize](/package/standard/checkbox/properties/fontsize) | CR | integer | 10 | Font size |
