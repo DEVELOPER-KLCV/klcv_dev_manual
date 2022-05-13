@@ -26,8 +26,21 @@ permalink: /method/financial/syd
     <td colspan="2">Returns the depreciation amount in the annual arithmetic series method specified by the <b>number of years of use.</b></td>
   </tr>  
   <tr>
-    <td>Arguments</td>
-    <td>Number <b>acquisition cost</b> <br> Number <b>remaining price</b> <br> Number <b>of lifespan</b><br> Number <b>years of use</b></td>
+    <td rowspan="4">Arguments</td>
+    <td>Number <b>acquisition cost</b></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Number <b>remaining price</b></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Number <b>of lifespan</b></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Number <b>years of use</b></td>
+    <td></td>
   </tr>
   <tr>
     <td>Exception</td>

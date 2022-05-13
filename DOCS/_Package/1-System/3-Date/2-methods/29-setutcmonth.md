@@ -29,7 +29,7 @@ permalink: /package/system/date/methods/setutcmonth
     <td>integer  <b><i>value</i></b></td>
     <td>Specify the month as a month number with January as 0.</td>
   </tr>
-    <tr>
+  <tr>
     <td>integer  <b><i>date</i></b></td>
     <td>Specify the day numerically.</td>
   </tr>
@@ -39,10 +39,12 @@ permalink: /package/system/date/methods/setutcmonth
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre>var d = new Date ();
-print (d, "￥ n");
-d.SetUTCMonth (10);
-print (d, "￥ n");</pre></code></td>
+    <td colspan="2"><code><pre>
+    var d = new Date ();
+    print (d, "￥ n");
+    d.SetUTCMonth (10);
+    print (d, "￥ n");
+    </pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>

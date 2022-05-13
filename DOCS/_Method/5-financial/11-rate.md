@@ -26,8 +26,17 @@ permalink: /method/financial/rate
     <td colspan="2">Returns the interest rate for the principal to reach the target amount in the number of terms.</td>
   </tr>  
   <tr>
-    <td>Arguments</td>
-    <td>Number <b>target amount</b> <br> Number <b>capital</b> <br> Number <b>of term</b></td>
+    <td rowspan="3">Arguments</td>
+    <td>Number <b>target amount</b></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Number <b>capital</b></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Number <b>of term</b></td>
+    <td></td>
   </tr>
   <tr>
     <td>Exception</td>

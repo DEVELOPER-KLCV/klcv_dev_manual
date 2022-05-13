@@ -25,7 +25,7 @@ permalink: /package/system/date/methods/setmilliseconds
     <td colspan="2">None</td>
   </tr>  
   <tr>
-    <td rowspan="2">Arguments</td>
+    <td>Arguments</td>
     <td>integer  <b><i>ms</i></b></td>
     <td>Specify the millisecond.</td>
   </tr>

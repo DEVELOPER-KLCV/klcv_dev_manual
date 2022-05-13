@@ -25,7 +25,7 @@ permalink: /package/system/fixed/methods/constructor
     <td colspan="2">Fixed object</td>
   </tr>  
   <tr>
-    <td rowspan="2">Arguments</td>
+    <td rowspan="3">Arguments</td>
     <td>Number <b>value</b></td>
     <td>Format to specify the value to be initialized by Number</td>
   </tr>

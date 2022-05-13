@@ -2,7 +2,7 @@
 layout: default
 
 grand_parent: Dialog Class
-parent: Properties
+parent: Methods
 has_children: false
 title: Dialog.ResetImage Method
 nav_order: 2

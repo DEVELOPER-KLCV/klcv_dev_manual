@@ -10,6 +10,6 @@ permalink: /package/system/exception/properties/method
 ---
 # {{ page.title }}
 
-The identifier of the function that caused the exception. Exceptions can be uniquely identified by the Method and [Code]() properties.
+The identifier of the function that caused the exception. Exceptions can be uniquely identified by the Method and [Code](/package/system/exception/properties/code) properties.
 
 This property is read-only and cannot be changed.

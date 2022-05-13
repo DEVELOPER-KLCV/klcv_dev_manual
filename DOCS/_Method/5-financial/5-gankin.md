@@ -25,9 +25,18 @@ permalink: /method/financial/gankin
     <td>Return value</td>
     <td colspan="2">Return interest on equal repayment of principal.</td>
   </tr>  
-    <tr>
-    <td>Arguments</td>
-    <td>Number <b>of borrowing amount</b> <br> Number <b>of interest rate</b><br>Number <b>of repayment frequency</b><br> Number <b>of term</b></td>
+  <tr>
+    <td rowspan="4">Arguments</td>
+    <td>Number <b>of borrowing amount</b></td>
+  </tr>
+  <tr>
+    <td>Number <b>of interest rate</b></td>
+  </tr>
+  <tr>
+    <td>Number <b>of repayment frequency</b></td>
+  </tr>
+  <tr>
+    <td>Number <b>of term</b></td>
   </tr>
   <tr>
     <td>Exception</td>

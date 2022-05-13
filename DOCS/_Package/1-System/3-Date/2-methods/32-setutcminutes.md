@@ -10,7 +10,6 @@ permalink: /package/system/date/methods/setutcminutes
 ---
 # {{ page.title }}
 
-
 <table>
   <tr>
     <td>Explanation</td>
@@ -25,7 +24,7 @@ permalink: /package/system/date/methods/setutcminutes
     <td colspan="2">None</td>
   </tr>  
   <tr>
-    <td rowspan="2">Arguments</td>
+    <td rowspan="3">Arguments</td>
     <td>integer  <b><i>value</i></b></td>
     <td>Specify the minute numerically.</td>
   </tr>
@@ -43,10 +42,13 @@ permalink: /package/system/date/methods/setutcminutes
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre>var d = new Date ();
-print (d, "￥ n");
-d.SetUTCMinutes (0);
-print (d, "￥ n");</pre></code></td>
+    <td colspan="2">
+    <code><pre>
+    var d = new Date ();
+    print (d, "￥ n");
+    d.SetUTCMinutes (0);
+    print (d, "￥ n");
+    </pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>

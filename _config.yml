@@ -64,6 +64,9 @@ collections:
   Package:
     permalink: "/:collection/:path/"
     output: true
+  Base:
+    permalink: "/:collection/:path/"
+    output: true
 
 just_the_docs:
   collections:
@@ -79,7 +82,10 @@ just_the_docs:
       name: Package and Class
       nav_exclude: false
       search_exclude: false
-    
+    Base:
+      name: Base
+      nav_exclude: true
+      search_exclude: false
 
 #### EXCLUDE ####
 exclude:

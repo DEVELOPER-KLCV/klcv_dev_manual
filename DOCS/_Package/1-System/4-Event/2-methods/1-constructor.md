@@ -1,10 +1,10 @@
 ---
 layout: default
 
-grand_parent: Date Class
+grand_parent: Event Class
 parent: Methods
 has_children: false
-title: Event constructor
+title: Event Constructor
 nav_order: 1
 permalink: /package/system/event/methods/constructor
 ---

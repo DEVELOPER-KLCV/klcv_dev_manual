@@ -25,7 +25,7 @@ permalink: /package/system/exception/methods/constructor
     <td colspan="2">Exception object</td>
   </tr>  
   <tr>
-    <td rowspan="2">Arguments</td>
+    <td rowspan="3">Arguments</td>
     <td>String <b>method</b></td>
     <td>Specifies the value of the Method property.</td>
   </tr>

@@ -18,4 +18,4 @@ The following methods are defined in the Event class.
 
 |Name       | Description |
 |----------	|-------------|
-| [Constructor](/package/system/date/event/constructor)  |Initialize the Event object |
+| [Constructor](/package/system/event/methods/constructor)  |Initialize the Event object |

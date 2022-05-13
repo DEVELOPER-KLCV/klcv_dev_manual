@@ -25,7 +25,7 @@ permalink: /package/system/date/methods/setutcdate
     <td colspan="2">None</td>
   </tr>  
   <tr>
-    <td rowspan="2">Arguments</td>
+    <td>Arguments</td>
     <td>integer <b><i>value</i></b></td>
     <td>Specify the day numerically.</td>
   </tr>
@@ -35,10 +35,13 @@ permalink: /package/system/date/methods/setutcdate
   </tr>
   <tr>
     <td>Example of use</td>
-    <td colspan="2"><code><pre>var d = new Date ();
-print (d, "￥ n");
-d.SetUTCDate (10);
-print (d, "￥ n");</pre></code></td>
+    <td colspan="2">
+    <code><pre>
+    var d = new Date ();
+    print (d, "￥ n");
+    d.SetUTCDate (10);
+    print (d, "￥ n");
+    </pre></code></td>
   </tr>
   <tr>
     <td>Related item</td>

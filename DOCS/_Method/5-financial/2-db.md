@@ -26,8 +26,21 @@ permalink: /method/financial/db
     <td colspan="2">Returns the period (year) until the <b>target maturity is reached when the principal</b> is invested at the interest rate.</td>
   </tr>  
   <tr>
-    <td>Arguments</td>
-    <td>Number <b>Acquisition cost</b> <br> Number <b>Remaining price</b><br>Number <b>lifespan</b><br> Number <b>years of use</b></td>
+    <td rowspan="4">Arguments</td>
+    <td>Number <b>Acquisition cost</b></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Number <b>Remaining price</b></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Number <b>lifespan</b></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Number <b>years of use</b></td>
+    <td></td>
   </tr>
   <tr>
     <td>Exception</td>

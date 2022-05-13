@@ -48,7 +48,7 @@ permalink: /package/system/netobject/methods/cache
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a>Get</a> method<br><a>Root.CacheSetup</a> method<br><a>Root.CacheMode</a> property</td>
+    <td colspan="2"><a href="/package/system/netobject/methods/get">Get</a> method<br><a href="/package/standard/root/methods/cachesetup">Root.CacheSetup</a> method<br><a href="/package/standard/root/properties/cachemode">Root.CacheMode</a> property</td>
   </tr>
 </table>
 

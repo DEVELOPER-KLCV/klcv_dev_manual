@@ -18,9 +18,6 @@ The following properties are defined in the Dialog class.
 
 |Name       | Access | Type   | Initial Value |  Description |
 |----------	|--------|--------|---------------|--------------|
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 |[BgColor](/package/standard/dialog/properties/BgColor) | CRW | integer | $STD |Background color  |
 |[Border](/package/standard/dialog/properties/border) | CR | boolean | $FALSE|Display frame |
 |[CloseBox](/package/standard/dialog/properties/closebox) | CR | boolean | $TRUE|Close button active / inactive<br><small>Added since Ver.5.0.0<br>Not available in Mobile & AI</small> |
@@ -36,8 +33,6 @@ The following properties are defined in the Dialog class.
 |[TitleBar](/package/standard/dialog/properties/TitleBar) |CR | boolean | $TRUE |Show or hide the title bar<br><small>Added since Ver.5.0.3<br>Not available in Mobile & AI</small> |
 |[TransparencyKey](/package/standard/dialog/properties/TransparencyKey) |CRW | integer | $STD |Color to apply transparency effect <br><small>Added since Ver.5.0.3<br>Not available in Mobile & AI</small>|
 |[Value](/package/standard/dialog/properties/value)* |CRW | String<br>Number<br>Fixed<br>Date<br>UString |  |Object value<br><small>Added since Ver.4.2.0</small> |
-=======
->>>>>>> Stashed changes
 |[BgColor](/package/standard/dialog/properties/bgcolor) | CRW | integer | $STD |  |
 |[Border](/package/standard/dialog/properties/border) | CR | boolean | $FALSE| |
 |[CloseBox](/package/standard/dialog/properties/closebox) | CR | boolean | $TRUE| |
@@ -53,8 +48,6 @@ The following properties are defined in the Dialog class.
 |[TitleBar](/package/standard/dialog/properties/titlebar) |CR | boolean | $TRUE | |
 |[TransparencyKey](/package/standard/dialog/properties/transparencykey) |CRW | integer | $STD | |
 |[Value](/package/standard/dialog/properties/value)* |CRW | String<br>Number<br>Fixed<br>Date<br>UString |  | |
->>>>>>> 5246edd5b09f257eeb1465739da50515b694d4e9
-
 
 <small>X, Y, Visible properties can be specified since Ver.4.0.0.<br>X and Y properties can now be specified from Mobile Ver.3.0.0<br>AI does not support specifying X and Y properties</small>
 
