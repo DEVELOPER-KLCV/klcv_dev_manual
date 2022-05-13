@@ -32,6 +32,7 @@ Objects and arrays as values ​​are in the form of Array stored in the elemen
 
 <img src="/img/Biz Browser V/JSONData.PNG" alt="json data image">
 
+
 **Default properties and ValueType**
  
 The default property is [Value](/package/jsonpackage/jsondocument/properties/value). ValueType can be String, Number, Fixed, Date, UString.

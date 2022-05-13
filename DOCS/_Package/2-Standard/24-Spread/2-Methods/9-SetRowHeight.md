@@ -4,7 +4,7 @@ layout: default
 grand_parent: Spread Class
 parent: Methods
 has_children: false
-title: Spread.SetRowHeight Property
+title: Spread.SetRowHeight Method
 nav_order: 9
 permalink: /package/standard/spread/methods/setrowheight
 ---

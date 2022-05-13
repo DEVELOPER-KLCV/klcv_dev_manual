@@ -14,7 +14,7 @@ has_toc: false
 The following methods are defined in the File class.
 
 |Name       | Description     |
-|----------	|--------_--------|
+|----------	|-----------------|
 |[Close](/package/runtimepackage/file/methods/close) | |
 |[Read](/package/runtimepackage/file/methods/read) | |
 |[ReadBinary](/package/runtimepackage/file/methods/readbinary) | |

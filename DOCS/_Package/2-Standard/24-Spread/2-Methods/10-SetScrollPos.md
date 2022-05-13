@@ -4,7 +4,7 @@ layout: default
 grand_parent: Spread Class
 parent: Methods
 has_children: false
-title: Spread.SetScrollPos Property
+title: Spread.SetScrollPos Method
 nav_order: 10
 permalink: /package/standard/spread/methods/setscrollpos
 ---

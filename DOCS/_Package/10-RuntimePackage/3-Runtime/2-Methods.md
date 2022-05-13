@@ -14,7 +14,7 @@ has_toc: false
 The following methods are defined in the Runtime class.
 
 |Name       | Description     |
-|----------	|--------_--------|
+|----------	|-----------------|
 |[Constructor](/package/runtimepackage/runtime/methods/constructor) | |
 |[DeleteUUID](/package/runtimepackage/runtime/methods/deleteuuid) | |
 |[Exec](/package/runtimepackage/runtime/methods/exec) | |
@@ -30,20 +30,20 @@ The following methods are defined in the Runtime class.
 **Only for Mobile Version**
 
 |Name       | Description     |
-|----------	|--------_--------|
+|----------	|-----------------|
 |[CallDll](/package/runtimepackage/runtime/methods/calldll) | |
 
 **Only for Android Version**
 
 |Name       | Description     |
-|----------	|--------_--------|
+|----------	|-----------------|
 |[StartLocationMeasure](/package/runtimepackage/runtime/methods/startlocationmeasure) | |
 |[StopLocationMeasure](/package/runtimepackage/runtime/methods/stoplocationmeasure) | |
 
 Static Method
 
 |Name       | Description     |
-|----------	|--------_--------|
+|----------	|-----------------|
 |[GetMaxMemory](/package/runtimepackage/runtime/methods/getmaxmemory) | |
 |[GetLastKnownLocation](/package/runtimepackage/runtime/methods/getlastknownlocation) | |
 |[ShowLocationSettings](/package/runtimepackage/runtime/methods/showlocationsettings) | |

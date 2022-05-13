@@ -31,7 +31,7 @@ Static Methods
 |Name       | Description |
 |----------	|-------------|
 |[GetPropStatic](/package/extobjectpackage/extobjjava/methods/getpropstatic) |  |
-|[Invoketatic](/package/extobjectpackage/extobjjava/methods/invokestatic) |  |
+|[InvokeStatic](/package/extobjectpackage/extobjjava/methods/invokestatic) |  |
 |[SetPropStatic](/package/extobjectpackage/extobjjava/methods/setpropstatic) |  |
 |[LoadJar](/package/extobjectpackage/extobjjava/methods/loadjar) |  |
 |[IsLibraryIdUsed](/package/extobjectpackage/extobjjava/methods/islibraryidused) |  |

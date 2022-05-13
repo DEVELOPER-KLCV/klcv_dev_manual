@@ -4,7 +4,7 @@ layout: default
 grand_parent: Spread Class
 parent: Methods
 has_children: false
-title: Spread.SetCell Property
+title: Spread.SetCell Method
 nav_order: 5
 permalink: /package/standard/spread/methods/setcell
 ---

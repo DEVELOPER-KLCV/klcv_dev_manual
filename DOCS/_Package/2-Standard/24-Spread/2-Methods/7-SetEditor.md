@@ -4,7 +4,7 @@ layout: default
 grand_parent: Spread Class
 parent: Methods
 has_children: false
-title: Spread.SetEditor Property
+title: Spread.SetEditor Method
 nav_order: 7
 permalink: /package/standard/spread/methods/seteditor
 ---

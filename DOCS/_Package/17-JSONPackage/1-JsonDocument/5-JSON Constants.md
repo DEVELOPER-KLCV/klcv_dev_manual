@@ -32,10 +32,10 @@ j << json <<-
 {
     "data": [
         {
-            "title": "レコード１",
-            "item1": "アイテム１",
-            "item2": "アイテム１",
-            "item3": "アイテム１"
+            "title": "Record １",
+            "item1": "Item １",
+            "item2": "Item １",
+            "item3": "Item １"
         }
     ]
 }

@@ -4,7 +4,7 @@ layout: default
 grand_parent: Spread Class
 parent: Methods
 has_children: false
-title: Spread.SetColumnWidth Property
+title: Spread.SetColumnWidth Method
 nav_order: 6
 permalink: /package/standard/spread/methods/setcolumnwidth
 ---

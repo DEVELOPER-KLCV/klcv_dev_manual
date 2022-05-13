@@ -4,7 +4,7 @@ layout: default
 grand_parent: Spread Class
 parent: Methods
 has_children: false
-title: Spread.SetLabel Property
+title: Spread.SetLabel Method
 nav_order: 8
 permalink: /package/standard/spread/methods/setlabel
 ---

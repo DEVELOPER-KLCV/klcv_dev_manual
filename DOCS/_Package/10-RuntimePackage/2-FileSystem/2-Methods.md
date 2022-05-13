@@ -14,7 +14,7 @@ has_toc: false
 The following methods are defined in the FileSystem class.
 
 |Name       | Description     |
-|----------	|--------_--------|
+|----------	|-----------------|
 |[Constructor](/package/runtimepackage/filesystem/methods/constructor) | |
 |[ChangeDir](/package/runtimepackage/filesystem/methods/changedir) | |
 |[copy](/package/runtimepackage/filesystem/methods/copy) | |

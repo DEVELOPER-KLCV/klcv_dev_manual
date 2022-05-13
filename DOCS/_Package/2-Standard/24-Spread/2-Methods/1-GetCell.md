@@ -4,7 +4,7 @@ layout: default
 grand_parent: Spread Class
 parent: Methods
 has_children: false
-title: Spread.GetCell Property
+title: Spread.GetCell Method
 nav_order: 1
 permalink: /package/standard/spread/methods/getcell
 ---

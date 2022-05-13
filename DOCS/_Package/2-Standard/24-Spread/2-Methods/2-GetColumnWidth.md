@@ -4,7 +4,7 @@ layout: default
 grand_parent: Spread Class
 parent: Methods
 has_children: false
-title: Spread.GetColumnWidth Property
+title: Spread.GetColumnWidth Method
 nav_order: 2
 permalink: /package/standard/spread/methods/getvolumnwidth
 ---
