@@ -11,3 +11,4 @@ permalink: /package/standard/dialog/properties/title
 # {{ page.title }}
 
 
+The character to display in the title bar of the dialog.

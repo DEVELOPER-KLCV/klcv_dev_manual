@@ -10,4 +10,3 @@ permalink: /package/standard/dialog/properties/bgcolor
 ---
 # {{ page.title }}
 
-

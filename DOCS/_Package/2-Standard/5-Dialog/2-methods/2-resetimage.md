@@ -13,7 +13,7 @@ permalink: /package/standard/dialog/methods/resetimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Discard the image list set by the <a href="/package/standard/dialog/methods/setimage">SetImage</a> method.<br><br><small>Added since Ver.4.1.3 <br> Not supported in Mobile, AI</small><br></td>
   </tr>
   <tr>
     <td>Call format</td>

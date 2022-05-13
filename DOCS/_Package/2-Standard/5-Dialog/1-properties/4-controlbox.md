@@ -11,3 +11,6 @@ permalink: /package/standard/dialog/properties/controlbox
 # {{ page.title }}
 
 
+Shows or hides the buttons and icons that exist in the dialog title bar.
+
+<small>Added since Ver.5.0.0 <br> Not supported in Mobile, AI</small>

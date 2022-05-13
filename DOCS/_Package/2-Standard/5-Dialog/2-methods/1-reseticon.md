@@ -13,7 +13,7 @@ permalink: /package/standard/dialog/methods/reseticon
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Discard the icon file set by the <a href="/package/standard/dialog/methods/seticon">SetIcon</a> method.<br><br><small>Added since Ver.5.0.0 <br> Not supported in Mobile, AI</small><br></td>
   </tr>
   <tr>
     <td>Call format</td>

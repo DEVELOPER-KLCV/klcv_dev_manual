@@ -11,3 +11,11 @@ permalink: /package/standard/dialog/properties/titlebar
 # {{ page.title }}
 
 
+Specifies whether to show or hide the dialog title bar.
+
+ 
+
+The initial value is $ TRUE .
+
+
+<small>Added since Ver.5.0.3 <br> Not supported in Mobile, AI</small>

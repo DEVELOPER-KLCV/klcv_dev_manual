@@ -11,3 +11,6 @@ permalink: /package/standard/dialog/properties/closebox
 # {{ page.title }}
 
 
+Switches the active / inactive state of the close button on the upper right of the dialog.
+
+ <small>Added since Ver.5.0.0 <br> Not supported in Mobile, AI</small>
