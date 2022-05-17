@@ -9,7 +9,7 @@ nav_order: 1
 permalink: /package/standard/button
 
 ---
-{% assign img1 = "/img/Biz Browser V/Package_Button.png" %}
+{% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/pac/std/std2.files/image001.gif" %}
 
 
 # {{ page.title }}
@@ -36,3 +36,4 @@ Nothing in particular
 <b>Precautions when scaling</b>
  
 Nothing in particular
+
