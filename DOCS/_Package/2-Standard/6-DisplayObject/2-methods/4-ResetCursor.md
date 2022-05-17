@@ -13,7 +13,7 @@ permalink: /package/standard/displayobject/methods/resetcursor
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the mouse cursor changed by the <a href="/package/standard/displayobject/methods/setcursor">SetCursor</a> method to the standard.<br><br><b>Mobile version , Android version</b><br>Cancels the wait cursor display.<br>Unlike the PC version, it does not distinguish between objects.<br><br><small><p style="color:red">Added since Ver.4.1.0, Mobile Ver.3.0.0, AI Ver.1.0.1</p></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -30,7 +30,7 @@ permalink: /package/standard/displayobject/methods/resetcursor
   <tr>
     <td>Exception</td>
     <td>PKG-57</td>
-    <td></td>
+    <td>Cannot setCursor or ResetCursor on array definition</td>
   </tr>
   <tr>
     <td>Example of use</td>

@@ -11,14 +11,21 @@ permalink: /package/standard/button
 ---
 {% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/pac/std/std2.files/image001.gif" %}
 
-
 # {{ page.title }}
+
+<a href="/img/cvnet/1-1-common/common-login.PNG" target="_blank">
+
+
+<a href="/img/Package/Standard-Button.PNG" target="blank"><img src="/img/Package/Standard-Button.PNG" alt="Standard-Button"></a>
+
+
 
 A class that displays buttons. The surface displays the value of the [Title](/package/standard/button/properties/title) property.
 
 <b>Screen display example</b>
 
 <a href="{{ img1 }}" target="_blank"> <img src="{{ img1 }}" alt="{{img1}}"></a>
+
 
 <b>Printer output by Doc class</b>
 
@@ -31,9 +38,8 @@ The default property is [Value](/package/standard/button/properties/value). Valu
 
 <b>Restrictions when visual style is enabled</b>
 
-Nothing in particular
+◆ Visual style specification is invalid
 
 <b>Precautions when scaling</b>
  
 Nothing in particular
-

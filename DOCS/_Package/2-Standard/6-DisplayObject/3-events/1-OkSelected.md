@@ -10,6 +10,12 @@ permalink: /package/standard/displayobject/events/okselected
 ---
 # {{ page.title }}
 
+Occurs when the OK button is selected in the message box.
+
+ 
+
+The <a href="/package/standard/displayobject/methods/messagebox">MessageBox</a> method returns the same return value as the event that occurs. The selected state of the message box can be obtained by either the return value or the event handler.
 
 
 
+ 

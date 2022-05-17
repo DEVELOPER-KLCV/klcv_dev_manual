@@ -14,6 +14,9 @@ permalink: /package/standard/checkbox
 
 # {{ page.title }}
 
+<a href="/img/Package/Standard-Checkbox.PNG" target="blank"><img src="/img/Package/Standard-Checkbox.PNG" alt="Standard-Checkbox"></a>
+
+
 A class that displays a checkbox that allows you to select any number from multiple choices.
 
 The CheckBox class works in tandem with the [CheckItem](/package/standard/checkitem) class.

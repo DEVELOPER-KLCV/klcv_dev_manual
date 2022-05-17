@@ -13,6 +13,8 @@ permalink: /package/standard/checkitem
 
 # {{ page.title }}
 
+<a href="/img/Package/Standard-Checkitem.PNG" target="blank"><img src="/img/Package/Standard-Checkitem.PNG" alt="Standard-CheckItem"></a>
+
 A class that defines the choices of the [CheckBox](/package/standard/checkbox) class. Be sure to array and use it as a child object of CheckBox class.
 
 <b>Screen display example</b>

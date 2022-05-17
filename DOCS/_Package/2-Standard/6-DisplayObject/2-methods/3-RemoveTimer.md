@@ -13,7 +13,7 @@ permalink: /package/standard/displayobject/methods/removetimer
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Cancels the timer set by the <a href="/package/standard/displayobject/methods/settimer">SetTimer</a> method.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -50,5 +50,5 @@ Function OnTimer(e) {
     <td>Related item</td>
     <td colspan="2"><a href="/package/standard/displayobject/methods/settimer">SetTimer</a> method<br><a href="/package/standard/displayobject/events/timer">Timer</a> event</td>
   </tr>
-</table>
+</table> 
 
