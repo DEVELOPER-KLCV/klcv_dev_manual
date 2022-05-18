@@ -11,5 +11,7 @@ permalink: /package/standard/doc/properties/title
 # {{ page.title }}
 
 
+The title of the document.
 
+This is the document name of the print job.
 

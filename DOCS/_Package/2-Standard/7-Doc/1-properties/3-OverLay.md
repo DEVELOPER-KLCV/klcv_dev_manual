@@ -12,4 +12,10 @@ permalink: /package/standard/doc/properties/overlay
 
 
 
+SVG to print to the front of the document .
+
+ 
+
+Specifies the <a href="/package/xmlpackage/xmldocument">XmlDocument</a> object that contains the SVG . XmlDocument whose <a href="/package/xmlpackage/xmldomimplementation/methods/constructor">internal character code is Unicode</a>  cannot be specified.
+
 

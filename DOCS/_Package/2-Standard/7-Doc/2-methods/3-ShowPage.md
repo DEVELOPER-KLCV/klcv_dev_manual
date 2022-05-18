@@ -13,7 +13,7 @@ permalink: /package/standard/doc/methods/showpage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Breaks the page and sends the page to the printer.<br><br>For a one -page document, a call to the ShowPage method prints that page. Nothing is printed unless you call the ShowPage method.<br><br>For multi-page documents, all but the last page will be printed automatically, but the last page will not be printed unless you call the ShowPage method.</td>
   </tr>
   <tr>
     <td>Call format</td>

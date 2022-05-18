@@ -11,5 +11,7 @@ permalink: /package/standard/doc/properties/pagenumber
 # {{ page.title }}
 
 
+Browse to the current page number. This value is read-only.
 
+Page numbers are not printed automatically.
 

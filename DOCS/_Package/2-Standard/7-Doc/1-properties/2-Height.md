@@ -10,6 +10,7 @@ permalink: /package/standard/doc/properties/height
 ---
 # {{ page.title }}
 
+The height of the paper.
 
-
+See the <a href="/package/standard/displayobject/properties/width">Width</a>  property for details.
 

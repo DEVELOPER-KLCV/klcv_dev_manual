@@ -13,7 +13,7 @@ permalink: /package/standard/editbox/methods/appendcr
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Format the line feed code and unify it to CR + LF </td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/standard/editbox/methods/appendcr
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Character string with formatted line feed code</td>
   </tr>  
   <tr>
     <td>Arguments</td>

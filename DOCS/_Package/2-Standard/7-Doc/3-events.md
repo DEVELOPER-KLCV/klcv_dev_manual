@@ -16,6 +16,7 @@ permalink: /package/standard/doc/events
 
 The following events are defined in the Doc class.
 
-Name       |  Description |
-|----------	|--------------|
-|[PageChange](/package/standard/doc/events/pagechange)       | |
+
+| Name       | Description                  |
+|------------|------------------------------|
+| [PageChange](/package/standard/doc/events/pagechange) | Occurs when the page changes |

@@ -18,4 +18,4 @@ The following events are defined in the EditBox class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[Touch](/package/standard/editbox/events/touch)       | |
+|[Touch](/package/standard/editbox/events/touch)       |Occurs when the value entered in the edit box is confirmed |

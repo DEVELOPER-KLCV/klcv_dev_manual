@@ -18,6 +18,6 @@ The following methods are defined in the Doc class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[GetPageFile](/package/standard/doc/methods/getpagefile)       | |
-|[GetPageReader](/package/standard/doc/methods/getpagereader)       | |
-|[ShowPage](/package/standard/doc/methods/showpage)       | |
+|[GetPageFile](/package/standard/doc/methods/getpagefile)       | Returns the SVG of the specified page as a string|
+|[GetPageReader](/package/standard/doc/methods/getpagereader)       | Returns the File object of the SVG file for the specified page<br><small><span style="color:red">Added since Ver.4.0.5</span></small>|
+|[ShowPage](/package/standard/doc/methods/showpage)       | Break pages and send pages to the printer|
