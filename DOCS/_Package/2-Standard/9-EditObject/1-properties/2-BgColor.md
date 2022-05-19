@@ -11,5 +11,5 @@ permalink: /package/standard/editobject/properties/bgcolor
 # {{ page.title }}
 
 
-
+Specify the background color with a <a href="/base/color">color constant</a>.
 

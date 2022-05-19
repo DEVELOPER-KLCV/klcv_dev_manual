@@ -3,7 +3,7 @@ layout: default
 has_children: true
 
 title: Reader Object and Writer Object
-nav_order: 1
+nav_order: 6
 permalink: /base/readerwriter
 has_toc: false
 ---

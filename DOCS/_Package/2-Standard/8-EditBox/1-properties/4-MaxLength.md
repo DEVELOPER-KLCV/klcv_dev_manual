@@ -11,5 +11,7 @@ permalink: /package/standard/editbox/properties/maxlength
 # {{ page.title }}
 
 
+Set the maximum number of input bytes (UString type, Mobile version, Android version : number of characters).
 
+The maximum value is 3000.
 

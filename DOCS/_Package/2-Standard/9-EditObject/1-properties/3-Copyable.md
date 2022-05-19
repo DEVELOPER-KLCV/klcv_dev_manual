@@ -11,5 +11,14 @@ permalink: /package/standard/editobject/properties/copyable
 # {{ page.title }}
 
 
+Set whether the edited contents such as text can be copied to the clipboard.
 
+ 
+
+Specify $ TRUE to allow copying and $ FALSE to prohibit copying .
+
+The initial value is $ TRUE .
+
+<br><small><span style="color:red">Added since Ver.5.0.0 </span></small>
+<br><small><span style="color:blue">Not supported in Mobile, AI</span></small>
 

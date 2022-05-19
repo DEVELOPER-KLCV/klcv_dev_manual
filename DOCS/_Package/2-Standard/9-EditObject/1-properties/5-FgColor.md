@@ -11,5 +11,5 @@ permalink: /package/standard/editobject/properties/fgcolor
 # {{ page.title }}
 
 
-
+Specify the text color with a <a href="/base/color">color constant</a>.
 

@@ -10,6 +10,12 @@ permalink: /package/standard/editobject/properties/editable
 ---
 # {{ page.title }}
 
+Specifies whether to allow or prohibit editing.
 
+ 
+
+Specify $ TRUE to allow editing.
+
+Specifying $ FALSE prohibits editing.
 
 
