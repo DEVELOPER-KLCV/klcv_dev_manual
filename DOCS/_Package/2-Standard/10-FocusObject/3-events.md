@@ -18,6 +18,6 @@ The following events are defined in the FocusObject class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[FocusOperation](/package/standard/focusobject/methods/focusoperation)       | |
-|[GetFocus](/package/standard/focusobject/methods/getfocus)       | |
-|[LostFocus](/package/standard/focusobject/methods/lostfocus)       | |
+|[FocusOperation](/package/standard/focusobject/methods/focusoperation)       | It is caused by the operation that causes the focus to move.<br><img src="https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/ver_images/ver-add410.gif" alt="Image" width="50" height="12"><img src="https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/ver_images/mver-add200.gif" alt="Image" width="86" height="12">|
+|[GetFocus](/package/standard/focusobject/methods/getfocus)       | Occurs when receiving keyboard focus|
+|[LostFocus](/package/standard/focusobject/methods/lostfocus)       |Occurs when keyboard focus is lost |

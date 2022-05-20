@@ -18,7 +18,7 @@ The following properties are defined in the TextBox class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[AutoComplete](/package/standard/textbox/properties/autocomplete) | CRW | boolean | $FALSE | |
+|[AutoComplete](/package/standard/textbox/properties/autocomplete) | CRW | boolean | $FALSE |  |
 |[AutoTab](/package/standard/textbox/properties/autotab) | CRW | boolean | $FALSE | |
 |[Border](/package/standard/textbox/properties/border) | CR | boolean | $TRUE | |
 |[Format](/package/standard/textbox/properties/format) | CR | String |  | |

@@ -6,7 +6,7 @@ parent: Methods
 has_children: false
 title: FocusObject.MoveFocus Method
 nav_order: 1
-permalink: /package/standard/focusObject/methods/movefocus
+permalink: /package/standard/focusobject/methods/movefocus
 ---
 # {{ page.title }}
 

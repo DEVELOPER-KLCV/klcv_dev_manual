@@ -6,6 +6,10 @@ parent: Events
 has_children: false
 title: FocusObject.GetFocus Event
 nav_order: 2
-permalink: /package/standard/focusObject/events/getfocus
+permalink: /package/standard/focusobject/events/getfocus
 ---
 # {{ page.title }}
+
+ 
+
+Occurs when keyboard focus is received.

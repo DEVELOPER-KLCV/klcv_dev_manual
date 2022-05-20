@@ -11,5 +11,6 @@ permalink: /package/standard/editobject/properties/tooltip
 # {{ page.title }}
 
 
+When the mouse cursor hovers over an object, the specified string is displayed as a tooltip.
 
-
+<br><small><span style="color:blue">Not supported in Mobile, AI</span></small>

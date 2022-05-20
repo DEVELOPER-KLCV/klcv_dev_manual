@@ -6,6 +6,8 @@ parent: Events
 has_children: false
 title: FocusObject.LostFocus Event
 nav_order: 3
-permalink: /package/standard/focusObject/events/lostfocus
+permalink: /package/standard/focusobject/events/lostfocus
 ---
 # {{ page.title }}
+
+Occurs when keyboard focus is lost.

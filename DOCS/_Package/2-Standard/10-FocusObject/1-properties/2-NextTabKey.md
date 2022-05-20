@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: FocusObject.NextTabKey property
 nav_order: 2
-permalink: /package/standard/focusObject/properties/nexttabkey
+permalink: /package/standard/focusobject/properties/nexttabkey
 ---
 # {{ page.title }}
 
