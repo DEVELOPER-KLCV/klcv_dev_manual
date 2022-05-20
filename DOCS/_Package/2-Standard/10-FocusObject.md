@@ -6,7 +6,7 @@ has_children: true
 
 title: FocusObject Class
 nav_order: 10
-permalink: /package/standard/focusObject
+permalink: /package/standard/focusobject
 
 ---
 
