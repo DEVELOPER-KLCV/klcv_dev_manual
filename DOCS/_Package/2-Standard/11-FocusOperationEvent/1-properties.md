@@ -18,8 +18,8 @@ The following properties are defined in the FocusOperationEvent class.
 
 |Name       | Access | Type   |  Description  |
 |----------	|--------|--------|---------------|
-|[Direction](/package/standard/focusoperationevent/properties/direction) | R | integer |   |
-|[Key](/package/standard/focusoperationevent/properties/key) | R | String |   |
+|[Direction](/package/standard/focusoperationevent/properties/direction) | R | integer | Focus movement direction   |
+|[Key](/package/standard/focusoperationevent/properties/key) | R | String | The key that caused the focus movement  |
 
 
 <u><b>Access</b></u><br>

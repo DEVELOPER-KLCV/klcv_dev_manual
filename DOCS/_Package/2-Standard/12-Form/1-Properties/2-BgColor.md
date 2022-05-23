@@ -12,4 +12,5 @@ permalink: /package/standard/form/properties/bgcolor
 
 
 
-
+<br><br>
+Specify the background color with a <a href="/base/color">Color Constant</a>.

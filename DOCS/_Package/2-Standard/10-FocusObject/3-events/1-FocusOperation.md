@@ -20,7 +20,7 @@ The FocusOperation event does not occur for operations other than these .
 
  
 
-The FocusOperation event occurs exclusively with focus movement, as specified by the <a href="/package/standard/focusobject/properties/autotabfocus">AutoTabFocus</a> property, which directs automatic focus movement .
+The  <a href="/package/standard/focusoperationevent">FocusOperationEvent</a> event occurs exclusively with focus movement, as specified by the <a href="/package/standard/focusobject/properties/autotabfocus">AutoTabFocus</a> property, which directs automatic focus movement .
 
 If the AutoTabFocus property is $ TRUE , the operation that causes the focus move will move the focus and the FocusOperation event will not be fired.
 
