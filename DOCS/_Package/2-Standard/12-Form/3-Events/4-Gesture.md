@@ -110,5 +110,5 @@ The following child objects are attached to the Event object.
     </tr>
 </table>
 
-<br>**<small>Added since Version 5.0.4</small>**
-<br>**<small>Not supported in Mobile, AI</small>**
+<br><small><span style="color:red">Added since Version 5.0.4</span></small>
+<br><small><span style="color:blue">Not supported in Mobile, AI</span></small>
