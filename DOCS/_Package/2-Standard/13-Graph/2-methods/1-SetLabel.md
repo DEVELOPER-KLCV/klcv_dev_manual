@@ -13,7 +13,7 @@ permalink: /package/standard/graph/methods/setlabel
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Renames the specified data.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,11 +26,11 @@ permalink: /package/standard/graph/methods/setlabel
   <tr>
     <td rowspan="2">Arguments</td>
     <td>integer <b>index</b></td>
-    <td></td>
+    <td>The position of the data to be changed. <br> 0 is the first data. The next data is obtained each time the value increases by 1.</td>
   </tr>
   <tr>
     <td>String <b>name</b></td>
-    <td></td>
+    <td>New name</td>
   </tr>
   <tr>
     <td>Exception</td>

@@ -10,3 +10,13 @@ permalink: /package/standard/graph/properties/graphtype
 ---
 # {{ page.title }}
 
+<br>
+
+Controls the type of graph.
+
+| Constant | Value | Description |
+|:--------:|:-----:|:-----------:|
+|   $ STD  |   0   |  bar graph  |
+|   $ PIE  |   1   |  pie graph  |
+|  $ LINE  |   2   |  line graph |
+

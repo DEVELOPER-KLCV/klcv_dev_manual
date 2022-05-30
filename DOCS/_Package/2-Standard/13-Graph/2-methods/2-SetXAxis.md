@@ -13,7 +13,7 @@ permalink: /package/standard/graph/methods/setxaxis
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the display method for the horizontal axis of the graph.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -25,12 +25,12 @@ permalink: /package/standard/graph/methods/setxaxis
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
-    <td>String <b>label</b></td>
+    <td>String <b>label</b>Label displayed on the horizontal axis</td>
     <td></td>
   </tr>
   <tr>
     <td>integer <b>grid</b></td>
-    <td></td>
+    <td>1 : Hide the scale line on the horizontal axis<br> 0 : Display the scale line on the horizontal axis</td>
   </tr>
   <tr>
     <td>Exception</td>

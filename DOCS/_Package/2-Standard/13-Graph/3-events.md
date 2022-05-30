@@ -18,6 +18,6 @@ The following events are defined in the Graph class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[Clicked](/package/standard/graph/events/clicked)       | |
-|[DoubleClicked](/package/standard/graph/events/doubleclicked)       | |
-|[RClicked](/package/standard/graph/events/rclicked)       | |
+|[Clicked](/package/standard/graph/events/clicked)       | Occurs when the left mouse button is clicked|
+|[DoubleClicked](/package/standard/graph/events/doubleclicked)       |Occurs when the left mouse button is double-clicked |
+|[RClicked](/package/standard/graph/events/rclicked)       |Occurs when the right mouse button is clicked |

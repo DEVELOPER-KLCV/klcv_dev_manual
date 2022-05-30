@@ -13,7 +13,7 @@ permalink: /package/standard/graph/methods/setyaxis
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the display method for the vertical axis of the graph.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,23 +26,23 @@ permalink: /package/standard/graph/methods/setyaxis
   <tr>
     <td rowspan="5">Arguments</td>
     <td>String <b>label</b></td>
-    <td></td>
+    <td>Label displayed on the vertical axis</td>
   </tr>
   <tr>
     <td>String <b>format</b></td>
-    <td></td>
+    <td>Edit method of the numerical value to be displayed on the vertical scale<br>Specify it as a character string in the same format as the Format property.</td>
   </tr>
   <tr>
     <td>Number <b>min</b></td>
-    <td></td>
+    <td>Minimum value to graph</td>
   </tr>
   <tr>
     <td>Number <b>max</b></td>
-    <td></td>
+    <td>Maximum value to graph</td>
   </tr>
   <tr>
     <td>integer <b>grid</b></td>
-    <td></td>
+    <td>-1 : Hide the scale line on the vertical axis<br> 0 : Auto-display the scale line on the vertical axis<br> > 0 : Scales on the vertical axis are displayed at specified intervals</td>
   </tr>
   <tr>
     <td>Exception</td>

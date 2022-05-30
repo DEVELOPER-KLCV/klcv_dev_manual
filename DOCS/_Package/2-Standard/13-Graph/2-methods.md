@@ -18,6 +18,6 @@ The following methods are defined in the Graph class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[SetLabel](/package/standard/graph/methods/setlabel)       | |
-|[SetXAxis](/package/standard/graph/methods/setxaxis)       | |
-|[SetYAxis](/package/standard/graph/methods/setyaxis)       | |
+|[SetLabel](/package/standard/graph/methods/setlabel)       |Renames the specified data |
+|[SetXAxis](/package/standard/graph/methods/setxaxis)       |Set the display method of the horizontal axis of the graph |
+|[SetYAxis](/package/standard/graph/methods/setyaxis)       |Set the display method of the vertical axis of the graph |

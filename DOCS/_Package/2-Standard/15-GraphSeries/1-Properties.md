@@ -19,7 +19,7 @@ The following properties are defined in the GraphSeries class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[Title](/package/standard/graphseries/properties/title) | CRW | String |   |             |
+|[Title](/package/standard/graphseries/properties/title) | CRW | String |   | Column title characters            |
 |[Value](/package/standard/graphseries/properties/value)* | CRW |Number | 0 | Graph value |
 
 <u><b>Access</b></u><br>

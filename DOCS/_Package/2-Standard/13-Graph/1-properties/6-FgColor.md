@@ -10,3 +10,6 @@ permalink: /package/standard/graph/properties/fgcolor
 ---
 # {{ page.title }}
 
+<br>
+
+Specify the font color with a <a href="/base/color">color constant</a>.

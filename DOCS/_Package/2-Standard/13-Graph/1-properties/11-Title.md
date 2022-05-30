@@ -10,3 +10,6 @@ permalink: /package/standard/graph/properties/title
 ---
 # {{ page.title }}
 
+<br>
+
+Specify the characters to be displayed in the title.
