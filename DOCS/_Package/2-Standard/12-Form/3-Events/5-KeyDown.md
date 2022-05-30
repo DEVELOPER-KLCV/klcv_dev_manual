@@ -72,6 +72,9 @@ Function OnKeyDown(e) {
 }
  
  ```
+
+ <br><br>
+
 ***Value stored in the Key object (special key)***
 
 
@@ -218,6 +221,7 @@ For the KeyDown event, the type of key operation that occurs and the object that
  
 
 The source object for the KeyDown event is the Form object in which the object is located, if the object has keyboard focus. If the keyboard focus is not on any object, it originates from the top Form object.
+<br><br>
 
 ***Priority order for key operations***
 
@@ -232,18 +236,44 @@ When multiple meanings are assigned to one key operation and the key operation i
 
 4. The KeyDown event is raised.
 
-<br><br>
+<br>
 
 * The operation that occurs in one key operation is one of focus movement, object-specific operation, AltKey property operation, and KeyDown event issuance.
 
+<br><br>
 
 ***Precautions when using the KeyDown event***
 
+- It is recommended not to use special keys (Kanji, no conversion, BackSpace , etc.) used for character input in the KeyDown event because they are strongly affected by the type of IME and the state of the object.
+
+ 
+
+- It is recommended not to use the same key as the system key (system menu Alt + Space , window switching Alt + Tab , etc.) as it may cause confusion in operability.
+
+ 
+
+- It is recommended that you do not use keys that have unique meanings, such as PrintScreen and Pause , as they can cause confusion.
+
+ 
+
+- The KeyDown event occurs for key operations recognized by Windows . Windows keystroke recognition is affected by keyboard hardware. For example, there is a model in which the NumLock key and the ScrollLock key are used together with one button and selected with the Shift key. Shift + ScrollLock does not occur on these keyboards .
+
+ 
+
+- Depending on the model, special keys such as Pause and NumLock may be recognized as different keys when pressed at the same time as the Ctrl , Shift , and Alt keys. When using these special keys, make sure that the KeyDown event is fired correctly on the keyboard you are actually using .
+
+ 
+
+- The KeyDown event may not occur depending on the type of object that is focused on the key press.
+
+<br><br>
+
+***Restrictions on Android version***
 
 
+In the Android version, there are restrictions on the objects that generate key events and the keys that can be used.
 
-
-
+For details , refer to the <a href="/bizBrowserV/2/2-5/">Android Version Features and Restrictions</a>.
 
 
 
