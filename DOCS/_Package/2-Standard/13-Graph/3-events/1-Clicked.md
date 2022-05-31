@@ -29,7 +29,7 @@ The following child objects are attached to the Event object.
 Example of use
 
 ```
-Function OnClicked (e) {
-    MessageBox (strf (" clicked on (% 1,% 2) ", e.xPos, e.yPos));
+Function OnClicked(e) {
+    MessageBox(strf("(%1,%2)でクリックされました", e.xPos, e.yPos));
 }
 ```

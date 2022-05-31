@@ -12,7 +12,7 @@ permalink: /package/standard/form/properties/transparent
 
 <br>
 
-$ TRUE disables the BgColor property and makes the background transparent.
+$ TRUE disables the <a href="/package/standard/form/properties/bgcolor">BgColor</a> property and makes the background transparent.
 
 It does not work for root and Form directly under Dialog (the specification is ignored).
 
@@ -25,4 +25,4 @@ This function is realized by interrupting the drawing mechanism of the OS. There
 
 - If a transparent Form is placed on a Form that has child objects, the hierarchical relationship between the child objects on each Form may not be expressed correctly.
 
-<br><small><span style="color:red">Added since Ver.5.0.4</span></small><br><small><span style="color:blue">Not supported in Mobile, AI</span></small>
+<br><small><span style="color:red">Added since Ver.5.0.4</span></small><br><small><span style="color:blue">Not supported in Mobile, AI</span></small> 
