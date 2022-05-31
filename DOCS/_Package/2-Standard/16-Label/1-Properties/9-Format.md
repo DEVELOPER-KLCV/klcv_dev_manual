@@ -76,6 +76,6 @@ Specify the format of the edit string for each data type.
 
 ※ WS, WR, WYY can be used only in areas where the Japanese calendar is valid.
 
-※ * When using the year of the Japanese calendar with WS, WR, and WYY, it is necessary to set the year information in advance with the <a href="/package/standard/root/methods/setwareki">Root.SetWareki</a> method. It is set automatically from Meiji to Reiwa.
+※ When using the year of the Japanese calendar with WS, WR, and WYY, it is necessary to set the year information in advance with the <a href="/package/standard/root/methods/setwareki">Root.SetWareki</a> method. It is set automatically from Meiji to Reiwa.
 
 ※ It is not possible to specify a day such as DAY or-/,.;: alone. Be sure to use these in combination with the formats that you can enter.

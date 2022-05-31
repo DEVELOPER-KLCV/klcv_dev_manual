@@ -19,4 +19,4 @@ The following events are defined in the ListBox class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[Dropped](/package/standard/listbox/events/dropped)       | |
+|[Dropped](/package/standard/listbox/events/dropped)       |Occurs when dropped by drag and drop <br><small><span style="color:red">Added since Ver.4.1.0</span></small><br><small><span style="color:red">Not supported in Mobile, AI</span></small>|
