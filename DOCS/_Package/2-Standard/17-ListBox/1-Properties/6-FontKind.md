@@ -11,57 +11,77 @@ permalink: /package/standard/listbox/properties/fontkind
 # {{ page.title }}
 
 
+<br>
+
 Specify the font type.
- 
-You can specify $STD and $FONT1 - $FONT7 as the font type.
 
-$STD is a Gothic font, $FONT1 is a Mincho font, and $FONT2 - $FONT7 use the font specified by the [Root.SetFontFamily]() method. The display result is undefined if the font not assigned by the SetFontFamily method in $FONT2 - $FONT7 or the assigned font is not registered in the computer.
+The font type can be specified as $ STD, $ FONT1 to $ FONT7.
 
+The font type can be specified as $ STD, $ FONT1 to $ FONT7.
 
-<table>
-    <tr>
-        <td>Constant</td>
-        <td>Value</td>
-        <td>Description</td>
-    </tr>
-    <tr>
-        <td>$STD</td>
-        <td>0</td>
-        <td>Gothic</td>
-    </tr>
-    <tr>
-        <td>$FONT1</td>
-        <td>1</td>
-        <td>Mincho</td>
-    </tr>
-    <tr>
-        <td>$FONT2</td>
-        <td>2</td>
-        <td rowspan="6">Font set by <a href="">Root.SetFontFamily</a> method</td>
-    </tr>
-    <tr>
-        <td>$FONT3</td>
-        <td>3</td>
-    </tr>
-    <tr>
-        <td>$FONT4</td>
-        <td>4</td>
-    </tr>
-    <tr>
-        <td>$FONT5</td>
-        <td>5</td>
-    </tr>
-    <tr>
-        <td>$FONT6</td>
-        <td>6</td>
-    </tr>
-    <tr>
-        <td>$FONT7</td>
-        <td>7</td>
-    </tr>
+$ STD is a Gothic font, $ FONT1 is a Mincho font, and $ FONT2 to $ FONT7 use the font specified by the <a href="/package/standard/root/methods/setfontfamily">Root.SetFontFamily</a> method. The display result is undefined if the font not assigned by the SetFontFamily method in $ FONT2 to $ FONT7 or the assigned font is not registered in the computer.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cqgq{background-color:#c0c0c0;border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;text-align:center;
+  vertical-align:top}
+.tg .tg-0ss8{background-color:#c0c0c0;border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;text-align:left;
+  vertical-align:top}
+.tg .tg-lcf4{border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;text-align:center;vertical-align:top}
+.tg .tg-j5n6{border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-cqgq">Constant</th>
+    <th class="tg-cqgq">Value</th>
+    <th class="tg-0ss8">Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-lcf4">$STD</td>
+    <td class="tg-lcf4">0</td>
+    <td class="tg-j5n6">Gothic</td>
+  </tr>
+  <tr>
+    <td class="tg-lcf4">$ FONT1</td>
+    <td class="tg-lcf4">1</td>
+    <td class="tg-j5n6">Mincho</td>
+  </tr>
+  <tr>
+    <td class="tg-lcf4">$FONT2</td>
+    <td class="tg-lcf4">2</td>
+    <td class="tg-j5n6" rowspan="6">Font set by <a href="/package/standard/root/methods/setfontfamily">Root.SetFontFamily</a> method</td>
+  </tr>
+  <tr>
+    <td class="tg-lcf4">$FONT3</td>
+    <td class="tg-lcf4">3</td>
+  </tr>
+  <tr>
+    <td class="tg-lcf4">$ FONT4</td>
+    <td class="tg-lcf4">4</td>
+  </tr>
+  <tr>
+    <td class="tg-lcf4">$FONT5</td>
+    <td class="tg-lcf4">5</td>
+  </tr>
+  <tr>
+    <td class="tg-lcf4">$FONT6</td>
+    <td class="tg-lcf4">6</td>
+  </tr>
+  <tr>
+    <td class="tg-lcf4">$FONT7</td>
+    <td class="tg-lcf4">7</td>
+  </tr>
+</tbody>
 </table>
 
-**<small>The Mincho constant has changed from $BOLD to $FONT1 since Version 4.1.0. <br>$BOLD constant compatibility is valid</small>**
-<br>**<small>Added constants for $FONT2-7 since Version 4.1.0</small>**
-<br>**<small>Not supported in Mobile</small>**
-<br>**<small>$FONT2-7 constants are not supported in AI</small>**
+<br><small><span style="color:green">Since Ver.4.1.0, the constant corresponding to Mincho has been changed from $ BOLD to $ FONT1. $ BOLD constant compatibility is valid.</span></small>
+<br><small><span style="color:red">Since Ver.4.1.0, constants of $ FONT2-7 have been added.</span></small>
+<br><small><span style="color:blue">Not supported in Mobile</span></small>
+<br><small><span style="color:blue">AI does not support $ FONT2-7 constants</span></small>

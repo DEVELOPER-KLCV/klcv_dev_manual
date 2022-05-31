@@ -27,7 +27,7 @@ The following properties are defined in the ListBox class.
 |[FontKind](/package/standard/listbox/properties/fontkind) | CR | integer | $STD  |   Font type <br><small><span style="color:green">Supported fonts have been added since Ver.4.1.0</span></small><br><small><span style="color:blue">Not supported in Mobile</span></small><br><small><span style="color:blue">There's a limit in AI</span></small>         |
 |[FontSize](/package/standard/listbox/properties/fontsize) | CR | integer | 10  |  font size           |
 |[Scroll](/package/standard/listbox/properties/scroll) | CR | integer | $AUTO | 	Scroll bar display control <br><small><span style="color:blue">There's a limit in Mobile</span></small><br><small><span style="color:green">No more restriction since Mobile Ver.3.0.0</span></small>|
-|[SelectionMode](/package/standard/listbox/properties/tooltip) | CRW | String | | Selection mode |
+|[SelectionMode](/package/standard/listbox/properties/selectionmode) | CRW | String | | Selection mode |
 |[ToolTip](/package/standard/listbox/properties/tooltip) | CRW | String |   |  Tooltip   <br><small><span style="color:blue">Not supported in Mobile, AI</span></small>         |
 |[ToolTipDelayTime](/package/standard/listbox/properties/tooltipdelaytime) | CRW | integer | 0  |  Tooltip display time    <br><small><span style="color:red">Added since Ver.4.2.0</span></small><br><small><span style="color:blue">Not supported in Mobile, AI</span></small>  |
 |[Value](/package/standard/listbox/properties/value)* | CRW | integer |   |   	Selected position          |
@@ -37,4 +37,4 @@ R: Readable
 W: Writable
 C: Initializable
 
-*: default property
+*: default property 

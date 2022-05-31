@@ -19,5 +19,5 @@ The following events are defined in the ListItem class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[Touch](/package/standard/listitem/events/touch)       | |
-|[DoubleClicked](/package/standard/listitem/events/doubleclicked)       | |
+|[Touch](/package/standard/listitem/events/touch)       | Occurs when selecting an item in a list box|
+|[DoubleClicked](/package/standard/listitem/events/doubleclicked)       |Occurs with a double click of the mouse |
