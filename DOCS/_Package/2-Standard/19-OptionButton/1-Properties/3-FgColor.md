@@ -9,3 +9,6 @@ nav_order: 3
 permalink: /package/standard/optionbutton/properties/fgcolor
 ---
 # {{ page.title }}
+<br>
+
+Specify the font color with a <a href="/base/color">color constant</a>.

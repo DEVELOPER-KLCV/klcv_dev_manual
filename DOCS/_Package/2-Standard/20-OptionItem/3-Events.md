@@ -19,4 +19,4 @@ The following events are defined in the OptionItem class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[Touch](/package/standard/optionitem/events/touch)       | |
+|[Touch](/package/standard/optionitem/events/touch)       |Occurs when changing the options of the option button |

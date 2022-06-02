@@ -18,11 +18,11 @@ The following properties are defined in the OptionItem class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[Selected](/package/standard/optionitem/properties/selected) | CRW | boolean | $FALSE  |             |
-|[Title](/package/standard/optionitem/properties/title) | CRW | String<br>UString(※) |   |             |
-|[ToolTip](/package/standard/optionitem/properties/tooltip) | CRW | String |   |             |
-|[ToolTipDelayTime](/package/standard/optionitem/properties/tooltipdelaytime) | CRW | integer | 0  |             |
-|[Value](/package/standard/optionitem/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date<br>UString |   |             |
+|[Selected](/package/standard/optionitem/properties/selected) | CRW | boolean | $FALSE  |    Item selection status         |
+|[Title](/package/standard/optionitem/properties/title) | CRW | String<br>UString(※) |   |   Character string displayed in the options<br>(※)When ValueType is UString <br><br><small><span style="color:red">Added since Ver.5.0.3</span></small>           |
+|[ToolTip](/package/standard/optionitem/properties/tooltip) | CRW | String |   | Tooltip   <br><small><span style="color:blue">Not supported in Mobile, AI</span></small>                |
+|[ToolTipDelayTime](/package/standard/optionitem/properties/tooltipdelaytime) | CRW | integer | 0  |    Tooltip display time <br><small><span style="color:red">Added since Ver.4.2.0</span></small> <br><small><span style="color:blue">Not supported in Mobile, AI</span></small>           |
+|[Value](/package/standard/optionitem/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date<br>UString |   |   Object Value <br><br><small><span style="color:green">Added UString since Ver.4.2.0           |
 
 <u><b>Access</b></u><br>
 R: Readable
