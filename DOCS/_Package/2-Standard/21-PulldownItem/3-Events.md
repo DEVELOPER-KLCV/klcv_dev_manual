@@ -19,4 +19,4 @@ The following events are defined in the PulldownItem class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[Touch](/package/standard/pulldownitem/events/touch)       | |
+|[Touch](/package/standard/pulldownitem/events/touch)       |Occurs when selecting an item in the pull-down list |

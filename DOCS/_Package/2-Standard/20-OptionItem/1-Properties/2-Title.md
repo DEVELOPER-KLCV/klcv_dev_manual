@@ -19,6 +19,6 @@ In the PC version and Mobile version, the "&" symbol is treated as an underline.
 
  
 
-If you specify UString for ValueType, this property behaves as a UString type. 
+If UString is specified for ValueType, this property behaves as UString type.
 
 <br><small><span style="color:red">Added since Ver.5.0.3</span></small>

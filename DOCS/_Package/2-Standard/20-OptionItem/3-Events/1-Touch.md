@@ -19,7 +19,7 @@ It occurs regardless of the operation from the screen or the operation from the 
 
  
 
-***Note***
+***Note***<br>
 In the handler of the event that occurred in the OptionItem class, do not use the <a href="/package/standard/optionbutton/properties/value">Value</a>
  property of the parent object <a href="/package/standard/optionbutton">OptionButton</a> class to refer to the selected item number. (The selected item number may not be reflected.)
 
