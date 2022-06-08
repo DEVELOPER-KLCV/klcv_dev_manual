@@ -13,7 +13,7 @@ permalink: /package/standard/root/methods/copystring
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Copy the string to the clipboard. <br>No copy is done if the clipboard is locked by another application. <br> <i><b>Restrictions on Mobile version</b></i> <br>Characters that are in Unicode but not in Shift-JIS are "?" because the characters are converted from Unicode to Shift-JIS during acquisition. <br><small><span style="color:red">Added since Ver.4.1.1</span></small><br><small><span style="color:blue">Not supported in AI</span></small> </td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,7 +26,7 @@ permalink: /package/standard/root/methods/copystring
   <tr>
     <td>Arguments</td>
     <td>String <b>text</b></td>
-    <td></td>
+    <td>Specify the character string to copy</td>
   </tr>
   <tr>
     <td>Exception</td>

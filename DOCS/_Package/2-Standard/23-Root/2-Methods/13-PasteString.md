@@ -13,7 +13,8 @@ permalink: /package/standard/root/methods/pastestring
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Get the string from the clipboard.<br><br>If the clipboard is locked by another application, or if the clipboard does not contain a string, an empty string is returned.<br><br><small><span style="color:red">Added since Ver.4.1.1, Mobile Ver.3.2.1</span></small><br><small><span style="color:blue">Not supported in AI</span></small>
+ </td>
   </tr>
   <tr>
     <td>Call format</td>

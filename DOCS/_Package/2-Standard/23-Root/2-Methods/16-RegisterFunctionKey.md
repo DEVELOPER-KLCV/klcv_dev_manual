@@ -13,7 +13,7 @@ permalink: /package/standard/root/methods/registerfunctionkey
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Register the key in Biz / Browser and get the internal key ID.<br>This key ID can be used to specify keys such as the AltKey and NextTabKey properties.<br><br>An error will occur if you specify a combination of keys that has already been registered.<br><br>The specification is valid until you log out.<br><small><span style="color:red">Added since Ver.5.0.3</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,24 +21,24 @@ permalink: /package/standard/root/methods/registerfunctionkey
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Biz / Browser internal key ID</td>
   </tr>  
   <tr>
     <td rowspan="4">Arguments</td>
     <td>integer <b>KeyCode</b></td>
-    <td></td>
+    <td>Specify the Windows virtual key code.<br>Please refer to sites such as MSDN for virtual key codes.</td>
   </tr>
   <tr>
     <td>boolean <b>shift</b></td>
-    <td></td>
+    <td>Specify the combination with pressing the Shift key with $ TRUE.<br> If omitted, it is considered as $ FALSE.</td>
   </tr>
   <tr>
     <td>boolean <b>ctrl</b></td>
-    <td></td>
+    <td>Specify the combination with pressing the Ctrl key with $ TRUE.<br> If omitted, it is considered as $ FALSE.</td>
   </tr>
   <tr>
     <td>boolean <b>alt</b></td>
-    <td></td>
+    <td>Specify the combination with pressing the Alt key with $ TRUE.<br> If omitted, it is considered as $ FALSE.</td>
   </tr>
   <tr>
     <td>Exception</td>

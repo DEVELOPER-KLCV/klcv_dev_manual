@@ -45,5 +45,5 @@ permalink: /package/xmlpackage/xmldomimplementation/methods/constructor
   </tr>
 </table>
 
-
+### About XML with a Unicode internal character code
 

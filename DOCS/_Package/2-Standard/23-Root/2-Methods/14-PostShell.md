@@ -13,7 +13,7 @@ permalink: /package/standard/root/methods/postshellevent
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Sends an event to IEConnect with the same ID as the <a href="/package/standard/root/properties/shellid">ShellId</a> property.<br> Events can be retrieved as BizEvent events on HTML pages with IEConnect embedded and processed with JavaScript, etc.<br> If you set the UserValue property of IEConnect, you can receive it as the return value of PostShellEvent.<br><br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,25 +21,25 @@ permalink: /package/standard/root/methods/postshellevent
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the string set in the IEConnect UserValue property.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>str</b></td>
-    <td></td>
+    <td>Any string that accompanies BizEvent.<br> It can be received by a script in HTML.</td>
   </tr>
   <tr>
     <td rowspan="3">Exception</td>
     <td>PKG-2</td>
-    <td></td>
+    <td>There is no object to send shell events to</td>
   </tr>
   <tr>
     <td>PKG-3</td>
-    <td></td>
+    <td>No object with ID ='xx'</td>
   </tr>
   <tr>
     <td>PKG-4</td>
-    <td></td>
+    <td>Failed to send event'% s'to object with ID ='xx'</td>
   </tr>
   <tr>
     <td>Example of use</td>

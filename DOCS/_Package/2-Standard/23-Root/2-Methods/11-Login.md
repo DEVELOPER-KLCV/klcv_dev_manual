@@ -13,7 +13,8 @@ permalink: /package/standard/root/methods/login
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Log in to the specified server.<br><br>	For login, refer to the <a href="/bizBrowserV/4/4-4/">behavior when logging in to Biz / Browser</a>. If all parameters are omitted, the login screen will be displayed.<br><br>All current sessions will be disconnected and all existing objects will be deleted.Since Biz / Browser is initialized by calling the Login method, the CRS program described after the Login method will not be executed.Describe the operation after login in the CRS program specified in the <b><i>URI</i></b>.
+ </td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,11 +27,11 @@ permalink: /package/standard/root/methods/login
   <tr>
     <td rowspan="2">Arguments</td>
     <td>String <b>server</b></td>
-    <td></td>
+    <td>Connection destination server URL</td>
   </tr>
   <tr>
     <td>String <b>URI</b></td>
-    <td></td>
+    <td>Path of resource to connect</td>
   </tr>
   <tr>
     <td>Exception</td>

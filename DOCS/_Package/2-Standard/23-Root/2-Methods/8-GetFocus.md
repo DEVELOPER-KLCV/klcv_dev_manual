@@ -13,7 +13,7 @@ permalink: /package/standard/root/methods/getfocus
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Gets the focused object in the currently displayed form.<br><small><span style="color:red">Added since Ver.5.0.0</span></small><br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/standard/root/methods/getfocus
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Return the object that is currently in focus.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>boolean <b>focus</b></td>
-    <td></td>
+    <td>In the case of $ FALSE, it returns null if it does not actually have the focus of the OS.<br>In the case of $ TRUE, it returns the focus-owned object that Biz / Browser holds internally even if it does not actually have the focus of the OS.<br>If omitted, the operation is $ FALSE.</td>
   </tr>
   <tr>
     <td>Exception</td>
@@ -37,7 +37,7 @@ permalink: /package/standard/root/methods/getfocus
     <td colspan="2">
     <code><pre>
     var obj = //.GetFocus();
-obj.Title = "Focus Now.";
+    obj.Title = "Focus Now.";
     </pre></code></td>
   </tr>
   <tr>

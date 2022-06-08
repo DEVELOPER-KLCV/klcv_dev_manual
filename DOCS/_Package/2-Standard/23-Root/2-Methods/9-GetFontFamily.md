@@ -13,7 +13,7 @@ permalink: /package/standard/root/methods/getfontfamily
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Gets the font name added by the <a href="/package/standard/root/methods/setfontfamily">SetFontFamily</a> method.<br><small><span style="color:red">Added since Ver.4.1.0</span></small><br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,25 +21,25 @@ permalink: /package/standard/root/methods/getfontfamily
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Return the font name as a string. If undefined, an empty string is returned.</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>integer <b>kind</b></td>
-    <td></td>
+    <td>Setting value of FontKind property to which font is assigned<br>Specify $ FONT2 to $ FONT7.</td>
   </tr>
   <tr>
     <td>integer <b>face</b></td>
-    <td></td>
+    <td>Font type to acquire<br>Specify $ STD (for proportional display) or $ FIXED (for fixed pitch display)</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>PKG-59</td>
-    <td></td>
+    <td>Invalid FontKind argument</td>
   </tr>
   <tr>
     <td>PKG-59</td>
-    <td></td>
+    <td>Invalid FontName argument</td>
   </tr>
   <tr>
     <td>Example of use</td>

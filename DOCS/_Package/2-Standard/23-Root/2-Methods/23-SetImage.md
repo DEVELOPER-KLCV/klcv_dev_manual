@@ -13,7 +13,7 @@ permalink: /package/standard/root/methods/setimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Sets the image list used to display the window title icon<br><small><span style="color:red">Added since Ver.4.1.3</span></small><br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -23,15 +23,14 @@ permalink: /package/standard/root/methods/setimage
     <td>Return value</td>
     <td colspan="2">None</td>
   </tr>  
-  <tr>
+    <tr>
     <td>Arguments</td>
-    <td>ImageList <b>img</b></td>
-    <td></td>
+    <td colspan="2"><a href="/package/extension4/imagelist/">ImageList</a> object that holds the image list you want to display<br>Set the <a href="/package/extension4/imagelist/properties/maskuse">MaskUse</a> property to $ TRUE for the specified ImageList object. If $ FALSE, the background of the image may not be transparent and the expected drawing may not be performed.</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-5</td>
-    <td></td>
+    <td>ImageList reference is abnormal</td>
   </tr>
   <tr>
     <td>Example of use</td>

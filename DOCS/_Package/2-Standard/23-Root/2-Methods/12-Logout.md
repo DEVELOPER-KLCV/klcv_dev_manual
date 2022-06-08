@@ -13,7 +13,7 @@ permalink: /package/standard/root/methods/logout
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Log out and display the login screen.<br><br>All current sessions will be disconnected and all existing objects will be deleted. Since Biz / Browser is initialized by calling the Logout method, the CRS program described after the Logout method will not be executed.</td>
   </tr>
   <tr>
     <td>Call format</td>

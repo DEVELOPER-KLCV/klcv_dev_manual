@@ -13,11 +13,11 @@ permalink: /package/standard/root/methods/rembookmark
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Delete the bookmark entry.<br><br>Specify a URL that is already registered in the bookmark and delete the bookmark.<br><br>When running a test from Biz / Designer, the edited bookmarks are not saved and will be restored at the end of the test run.<br><small><span style="color:red">Added since Ver.4.0.1</span></small><br><small><span style="color:blue">Not supported in Mobile</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">//.RemBookmark( [ <b>URL</b> ] )<br>**<small>Arguments can now be omitted since Version 5.0.0</small>**</td>
+    <td colspan="2">//.RemBookmark( [ <b>URL</b> ] )<br><small><span style="color:green">Arguments can now be omitted since Version 5.0.0</span></small></td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -26,7 +26,7 @@ permalink: /package/standard/root/methods/rembookmark
   <tr>
     <td>Arguments</td>
     <td>String <b>URL</b></td>
-    <td></td>
+    <td>URL of the bookmark to be deleted<br><br><small><span style="color:green">The following specifications have been added since Version 5.0.0</span></small><br>If omitted, or if an empty string is specified, all bookmarks will be deleted.</td>
   </tr>
   <tr>
     <td>Exception</td>

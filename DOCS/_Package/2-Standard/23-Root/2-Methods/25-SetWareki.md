@@ -13,7 +13,7 @@ permalink: /package/standard/root/methods/setwareki
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Specify the year and period of the Japanese calendar.<br><br>The year specified using this method will be applied until the Biz / Browser is restarted or the Login method is called. Please note that the year cannot be deleted or changed during execution.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,15 +26,15 @@ permalink: /package/standard/root/methods/setwareki
   <tr>
     <td rowspan="3">Arguments</td>
     <td>String <b>sym</b></td>
-    <td></td>
+    <td>Year string</td>
   </tr>
   <tr>
     <td>String <b>sym2</b></td>
-    <td></td>
+    <td>Year abbreviation</td>
   </tr>
   <tr>
     <td>String <b>from</b></td>
-    <td></td>
+    <td>Specify the start date of the year specified by sym in Date type. The specified date is included in the year specified by sym.</td>
   </tr>
   <tr>
     <td>Exception</td>

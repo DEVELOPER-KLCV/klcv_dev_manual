@@ -13,7 +13,7 @@ permalink: /package/standard/root/methods/decidevalue
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Forced to confirmed the value of an object whose input is unconfirmed.<br><br>Derived classes of the <a href="/package/standard/editobject">EditObject</a> class determine the value you are typing when keyboard focus is lost or when you press the Enter or Function key. Prior to that, the value entered on the screen will not be set in the Value property and will be in an undetermined state.<br><br>The DecideValue method forces the value of such an undetermined object to the Value property.Used when handling input values in event handlers that do not involve input confirmation behavior, such as the Label object's Clicked and Timer events.<br><br>By calling the DecideValue method, events related to value changes such as Touch event and Change event may occur.</td>
   </tr>
   <tr>
     <td>Call format</td>

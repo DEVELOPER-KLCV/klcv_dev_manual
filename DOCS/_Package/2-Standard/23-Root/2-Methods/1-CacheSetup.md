@@ -13,7 +13,7 @@ permalink: /package/standard/root/methods/cachesetup
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Displays the cache setting dialog.</td>
   </tr>
   <tr>
     <td>Call format</td>
