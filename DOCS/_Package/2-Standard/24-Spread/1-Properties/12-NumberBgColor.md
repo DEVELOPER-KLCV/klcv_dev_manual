@@ -9,3 +9,6 @@ nav_order: 12
 permalink: /package/standard/spread/properties/numberbgcolor
 ---
 # {{ page.title }}
+<br>
+
+Specify the background color of the row header with a <a href="/base/color">color constant</a.

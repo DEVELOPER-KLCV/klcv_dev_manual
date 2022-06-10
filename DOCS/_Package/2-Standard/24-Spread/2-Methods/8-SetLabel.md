@@ -13,11 +13,11 @@ permalink: /package/standard/spread/methods/setlabel
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the value of the column header.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">Spread1.SetLabel( <b>col</b>, <b>collabel</b> )</td>
+    <td colspan="2">Spread1.SetLabel( <b><i>col</i></b>, <b><i>collabel</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,12 +25,12 @@ permalink: /package/standard/spread/methods/setlabel
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
-    <td>integer <b>col</b></td>
-    <td></td>
+    <td>integer <b><i>col</i></b></td>
+    <td>Column position to set<br>0 is the leftmost column. Every time the value increases by 1, it becomes the column to the right.</td>
   </tr>
   <tr>
-    <td>String <b>collabel</b></td>
-    <td></td>
+    <td>String <b><i>collabel</i></b></td>
+    <td>New column header value</td>
   </tr>
   <tr>
     <td>Exception</td>

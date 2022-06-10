@@ -13,7 +13,7 @@ permalink: /package/standard/spread/methods/seteditor
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Paste the specified object into the cell being edited.<br><br>The object is not always displayed, it is displayed only at the cell position when the SetEditor method is executed, and when the cursor moves, the <a href="/package/standard/spread/events/stopedit">StopEdit</a> event is fired and released.<br><br>Make sure to execute the SetEditor method from within the event handler of the <a href="/package/standard/spread/events/startedit">StartEdit</a> event. It is possible to call SetEditor at other times, but it will be easier to control if it is processed by the StartEdit and StopEdit events.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -25,8 +25,8 @@ permalink: /package/standard/spread/methods/seteditor
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>Object <b>obj</b></td>
-    <td></td>
+    <td>Object <b><i>obj</i></b></td>
+    <td>Specify the object you want to paste for editing.<br>If obj is not specified, the current setting will be canceled.</td>
   </tr>
   <tr>
     <td>Exception</td>

@@ -13,11 +13,11 @@ permalink: /package/standard/spread/methods/setcolumnwidth
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the column width.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">Spread1.SetColumnWidth( <b>col</b>, <b>width</b> )</td>
+    <td colspan="2">Spread1.SetColumnWidth( <b><i>col</i></b>, <b><i>width</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,12 +25,12 @@ permalink: /package/standard/spread/methods/setcolumnwidth
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
-    <td>integer <b>col</b></td>
-    <td></td>
+    <td>integer <b><i>col</i></b></td>
+    <td>Column position to set<br>0 is the leftmost column. Every time the value increases by 1, it becomes the column to the right.</td>
   </tr>
   <tr>
-    <td>integer <b>width</b></td>
-    <td></td>
+    <td>integer <b><i>width</i></b></td>
+    <td>New column width</td>
   </tr>
   <tr>
     <td>Exception</td>

@@ -13,11 +13,11 @@ permalink: /package/standard/spread/methods/setrowheight
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the row height.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">Spread1.SetRowHeight( <b>row</b>, <b>height</b> )</td>
+    <td colspan="2">Spread1.SetRowHeight( <b><i>row</i></b>, <b><i>height</i></b> )<br>0 is the top row. Every time the value increases by 1 , it goes down one row.</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,12 +25,12 @@ permalink: /package/standard/spread/methods/setrowheight
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
-    <td>integer <b>row</b></td>
-    <td></td>
+    <td>integer <b><i>row</i></b></td>
+    <td>Row position to set</td>
   </tr>
   <tr>
-    <td>integer <b>height</b></td>
-    <td></td>
+    <td>integer <b><i>height</i></b></td>
+    <td>New row height</td>
   </tr>
   <tr>
     <td>Exception</td>

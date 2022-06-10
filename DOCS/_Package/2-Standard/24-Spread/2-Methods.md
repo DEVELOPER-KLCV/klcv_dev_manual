@@ -1,4 +1,3 @@
-
 ---
 layout: default
 
@@ -10,22 +9,20 @@ nav_order: 2
 permalink: /package/standard/spread/methods
 
 ---
-{% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/core/core1.files/image001.gif" %}
-
 
 # {{ page.title }}
 
 The following methods are defined in the Spread class.
 
-|Name       |  Description |
+|Name       |  Description | 
 |----------	|--------------|
-|[GetCell](/package/standard/spread/methods/getcell) | |
-|[GetColumnWidth](/package/standard/spread/methods/getcolumnwidth) | |
-|[GetLabel](/package/standard/spread/methods/getlabel) | |
-|[GetScrollPos](/package/standard/spread/methods/getscrollpos) | |
-|[SetCell](/package/standard/spread/methods/setcell) | |
-|[SetColumnWidth](/package/standard/spread/methods/setcolumnwidth) | |
-|[SetEditor](/package/standard/spread/methods/seteditor) | |
-|[SetLabel](/package/standard/spread/methods/setlabel) | |
-|[SetRowHeight](/package/standard/spread/methods/setrowheight) | |
-|[SetScrollPos](/package/standard/spread/methods/setscrollpos) | |
+|[GetCell](/package/standard/spread/methods/getcell) |Get cell data |
+|[GetColumnWidth](/package/standard/spread/methods/getcolumnwidth) |Get column width |
+|[GetLabel](/package/standard/spread/methods/getlabel) |Gets the value of the column header |
+|[GetScrollPos](/package/standard/spread/methods/getscrollpos) |Gets the current scroll position |
+|[SetCell](/package/standard/spread/methods/setcell) |Set the cell data |
+|[SetColumnWidth](/package/standard/spread/methods/setcolumnwidth) | Set the column width|
+|[SetEditor](/package/standard/spread/methods/seteditor) |Paste the specified object into the cell |
+|[SetLabel](/package/standard/spread/methods/setlabel) |Set the value of the column header |
+|[SetRowHeight](/package/standard/spread/methods/setrowheight) |Set the row height |
+|[SetScrollPos](/package/standard/spread/methods/setscrollpos) |Set the scroll position |

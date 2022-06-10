@@ -13,20 +13,20 @@ permalink: /package/standard/spread/methods/getlabel
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Get the value of the column header.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var s = Spread1.GetLabel( <b>col</b> )</td>
+    <td colspan="2">var s = Spread1.GetLabel( <b><i>col</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Column header value specified by <b><i>col</i></b></td>
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>integer <b>col</b></td>
-    <td></td>
+    <td>integer <b><i>col</i></b></td>
+    <td>Column position to retrieve<br>0 is the leftmost column. Every time the value increases by 1, it becomes the column to the right.</td>
   </tr>
   <tr>
     <td>Exception</td>

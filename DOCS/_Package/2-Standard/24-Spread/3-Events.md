@@ -18,10 +18,10 @@ The following events are defined in the Spread class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[ColSizeChange](/package/standard/spread/methods/colsizechange) | |
-|[Droppped](/package/standard/spread/methods/droppped) | |
-|[LabelClicked](/package/standard/spread/methods/labelclicked) | |
-|[NumberClicked](/package/standard/spread/methods/numberclicked) | |
-|[Scrolled](/package/standard/spread/methods/scrolled) | |
-|[StartEdit](/package/standard/spread/methods/startedit) | |
-|[StopEdit](/package/standard/spread/methods/stopedit) | |
+|[ColSizeChange](/package/standard/spread/events/colsizechange) |Occurs when the column width is changed by user interaction |
+|[Dropped](/package/standard/spread/events/dropped) | Occurs when dropped by drag and drop<br>Added since <img src="https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/ver_images/ver-add410.gif" alt="Image" width="50" height="12">|
+|[LabelClicked](/package/standard/spread/events/labelclicked) |Occurs when clicking on a column header |
+|[NumberClicked](/package/standard/spread/events/numberclicked) | Occurs when clicking on a row header|
+|[Scrolled](/package/standard/spread/events/scrolled) | Occurs when the window scrolls|
+|[StartEdit](/package/standard/spread/events/startedit) |Occurs when the cursor moves to a new cell |
+|[StopEdit](/package/standard/spread/events/stopedit) | Occurs when the edit window is hidden|

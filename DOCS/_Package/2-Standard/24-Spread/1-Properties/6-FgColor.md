@@ -9,3 +9,6 @@ nav_order: 6
 permalink: /package/standard/spread/properties/fgcolor
 ---
 # {{ page.title }}
+<br>
+
+Specify the font color with a <a href="/base/color">color constant</a>.

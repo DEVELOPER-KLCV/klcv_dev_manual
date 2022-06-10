@@ -9,3 +9,6 @@ nav_order: 14
 permalink: /package/standard/spread/properties/labelbgcolor
 ---
 # {{ page.title }}
+<br>
+
+Specify the background color of the column header with a <a href="/base/color">color constant</a.

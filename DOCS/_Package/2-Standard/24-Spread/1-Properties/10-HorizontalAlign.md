@@ -9,3 +9,6 @@ nav_order: 10
 permalink: /package/standard/spread/properties/horizontalalign
 ---
 # {{ page.title }}
+<br>
+
+It doesn't work in this class. Remained for compatibility.
