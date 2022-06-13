@@ -18,10 +18,10 @@ The following properties are defined in the SpreadRow class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[BgColor](/package/standard/spreadrow/properties/bgcolor) | CRW | integer | $STD | |
-|[FgColor](/package/standard/spreadrow/properties/fgcolor) | CRW | integer | $STD | |
-|[Height](/package/standard/spreadrow/properties/height) | CRW | integer | 100 | |
-|[Title](/package/standard/spreadrow/properties/title) | CRW | String |  | |
+|[BgColor](/package/standard/spreadrow/properties/bgcolor) | CRW | integer | $STD | Background color|
+|[FgColor](/package/standard/spreadrow/properties/fgcolor) | CRW | integer | $STD | Text color|
+|[Height](/package/standard/spreadrow/properties/height) | CRW | integer | 100 | Height|
+|[Title](/package/standard/spreadrow/properties/title) | CRW | String |  | The value to display in the row header <br><small><span style="color:red">Added since Ver.4.0.0</span></small> |
 
 <u><b>Access</b></u><br>
 R: Readable

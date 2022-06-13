@@ -9,3 +9,6 @@ nav_order: 12
 permalink: /package/standard/spreadcolumn/properties/width
 ---
 # {{ page.title }}
+<br>
+
+Indicates the width of the column. Negative values cannot be set.

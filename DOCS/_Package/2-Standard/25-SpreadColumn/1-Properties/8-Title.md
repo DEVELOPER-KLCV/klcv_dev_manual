@@ -9,3 +9,6 @@ nav_order: 8
 permalink: /package/standard/spreadcolumn/properties/title
 ---
 # {{ page.title }}
+<br>
+
+The text of the column header.

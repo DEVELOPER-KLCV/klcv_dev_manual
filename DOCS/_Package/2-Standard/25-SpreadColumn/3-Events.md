@@ -18,7 +18,7 @@ The following events are defined in the SpreadColumn class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[Clicked](/package/standard/spreadcolumn/methods/clicked) | |
-|[DoubleClicked](/package/standard/spreadcolumn/methods/doubleclicked) | |
-|[RClicked](/package/standard/spreadcolumn/methods/rclicked) | |
-|[Touch](/package/standard/spreadcolumn/methods/touch) | |
+|[Clicked](/package/standard/spreadcolumn/events/clicked) |Occurs when clicking a cell |
+|[DoubleClicked](/package/standard/spreadcolumn/events/doubleclicked) |Occurs when double-clicking a cell |
+|[RClicked](/package/standard/spreadcolumn/events/rclicked) |Occurs when right-clicking on a cell |
+|[Touch](/package/standard/spreadcolumn/events/touch) |Occurs when selecting a cell|

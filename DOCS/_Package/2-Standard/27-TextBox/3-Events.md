@@ -18,6 +18,6 @@ The following events are defined in the TextBox class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[Clicked](/package/standard/textbox/events/clicked) | |
-|[MaxLengthReached](/package/standard/textbox/events/maxlengthreached) | |
-|[Touch](/package/standard/textbox/events/touch) | |
+|[Clicked](/package/standard/textbox/events/clicked) | Occurs when the left mouse button is clicked|
+|[MaxLengthReached](/package/standard/textbox/events/maxlengthreached) | Occurs when keyboard input reaches the value of the MaxLength property <br><small><span style="color:red">Added since Ver.5.0.0</span></small><br><small><span style="color:blue">Connot be used in Mobile, AI</span></small> |
+|[Touch](/package/standard/textbox/events/touch) |Occurs when the value entered in the text box is confirmed |
