@@ -13,7 +13,7 @@ permalink: /package/standard/textbox/methods/clearcandidate
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Initialize the set candidate list.<br><small><span style="color:red">Added since Ver.5.0.0</span></small><br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,7 +26,7 @@ permalink: /package/standard/textbox/methods/clearcandidate
   <tr>
     <td>Arguments</td>
     <td colspan="2">None</td>
-  </tr>
+  </tr> 
   <tr>
     <td>Exception</td>
     <td colspan="2">None</td>

@@ -9,3 +9,6 @@ nav_order: 1
 permalink: /package/standard/textbox/events/clicked
 ---
 # {{ page.title }}
+<br>
+
+Occurs when the left mouse button is clicked.

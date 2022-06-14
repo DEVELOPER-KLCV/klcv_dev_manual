@@ -29,7 +29,7 @@ The following properties are defined in the TextBox class.
 |[Value](/package/standard/textbox/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date<br>UString |  | Value to display in the text box<br><small><span style="color:green">Added UString since Ver.4.2.0</span></small>|
 |[VerticalAlign](/package/standard/textbox/properties/verticalalign) | CR | integer | $STD |Vertical alignment (only when printing)<br><small><span style="color:blue">Connot be used in Mobile, AI</span></small> |
 
-<u><b>Access</b></u><br>
+<u><b>Access</b></u><br> 
 R: Readable
 W: Writable
 C: Initializable

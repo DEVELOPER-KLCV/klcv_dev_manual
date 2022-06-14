@@ -18,18 +18,18 @@ The following properties are defined in the DateEdit class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[AutoTab](/package/extension3/DateEdit/properties/autotab) | CRW | boolean | $FALSE | |
-|[Border](/package/extension3/DateEdit/properties/border) | CR | boolean | $TRUE | |
-|[DisableHelper](/package/extension3/DateEdit/properties/disablehelper) | CRW | boolean | $FALSE | |
-|[DisableToday](/package/extension3/DateEdit/properties/disabletoday) | CRW | boolean | $FALSE | |
-|[EditText](/package/extension3/DateEdit/properties/edittext) | CR | String |  | |
-|[Format](/package/extension3/DateEdit/properties/format) | CR | String |  | |
-|[HorizontalAlign](/package/extension3/DateEdit/properties/horizontalalign) | CR | integer | $STD | |
-|[InvalidDate](/package/extension3/DateEdit/properties/invaliddate) | R | boolean | $FALSE | |
-|[ShowFormat](/package/extension3/DateEdit/properties/showformat) | CR | boolean | $FALSE | |
-|[UndecidedStyle](/package/extension3/DateEdit/properties/undecidedstyle) | CR | integer | $STD | |
-|[Value](/package/extension3/DateEdit/properties/value)* | CRW | Date |  | |
-|[VerticalAlign](/package/extension3/DateEdit/properties/verticalalign) | CR | integer | $STD | |
+|[AutoTab](/package/extension3/dateedit/properties/autotab) | CRW | boolean | $FALSE |Automatically move focus by entering all digits <br><small><span style="color:green">Can be specified since Ver.4.0.0, Mobile Ver.2.0.0</span></small>|
+|[Border](/package/extension3/dateedit/properties/border) | CR | boolean | $TRUE | Frame display |
+|[DisableHelper](/package/extension3/dateedit/properties/disablehelper) | CRW | boolean | $FALSE |Disable calendar display<br><small><span style="color:red">Added since Ver.4.1.0</span></small><br><small><span style="color:blue">Not supported in Mobile, AI</span></small> |
+|[DisableToday](/package/extension3/dateedit/properties/disabletoday) | CRW | boolean | $FALSE | Disable today's date entry by double-clicking <br><small><span style="color:red">Added since Ver.4.2.0</span></small><br><small><span style="color:blue">Not supported in Mobile</span></small>|
+|[EditText](/package/extension3/dateedit/properties/edittext) | CR | String |  | The character string displayed on the screen<br><small><span style="color:red">Added since Ver.5.0.0</span></small><br><small><span style="color:blue">Not supported in Mobile, AI</span></small>|
+|[Format](/package/extension3/dateedit/properties/format) | CR | String |  | Format string<br><small><span style="color:green">Formats that can be specified since Ver.4.1.0, Mobile Ver.3.0.0 have been added.</span></small>|
+|[HorizontalAlign](/package/extension3/dateedit/properties/horizontalalign) | CR | integer | $STD | Horizontal alignment|
+|[InvalidDate](/package/extension3/dateedit/properties/invaliddate) | R | boolean | $FALSE | Check invalid dates|
+|[ShowFormat](/package/extension3/dateedit/properties/showformat) | CR | boolean | $FALSE |Display the specified contents of the Format property<br><small><span style="color:red">Added since Ver.4.0.3, Mobile Ver.2.0.0</span></small> |
+|[UndecidedStyle](/package/extension3/dateedit/properties/undecidedstyle) | CR | integer | $STD | Behavior when an invalid value is entered|
+|[Value](/package/extension3/dateedit/properties/value)* | CRW | Date |  |The value to display in the DateEdit object<br><small><span style="color:green">The Value value is now automatically corrected according to the Format.</span></small> |
+|[VerticalAlign](/package/extension3/dateedit/properties/verticalalign) | CR | integer | $STD | Vertical alignment (printing only)<br><small><span style="color:blue">Not supported in Mobile, AI</span></small>|
 
 <u><b>Access</b></u><br>
 R: Readable
