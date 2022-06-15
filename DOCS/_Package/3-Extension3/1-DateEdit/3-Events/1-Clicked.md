@@ -12,3 +12,4 @@ permalink: /package/extension3/dateedit/events/clicked
 <br>
 
 Occurs when the left mouse button is clicked.
+
