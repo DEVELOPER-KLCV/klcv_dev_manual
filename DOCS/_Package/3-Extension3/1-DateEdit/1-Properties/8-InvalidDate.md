@@ -11,7 +11,7 @@ permalink: /package/extension3/dateedit/properties/invaliddate
 # {{ page.title }}
 <br>
 
-If the date entered from the screen is incorrect, it will be $ TRUE. If the date is correct or not entered, it will be $ FALSE.
+If the date entered from the screen is incorrect, it will be $TRUE. If the date is correct or not entered, it will be $FALSE.
 
 By checking this property and the Value property, you can see what kind of input was made.
 

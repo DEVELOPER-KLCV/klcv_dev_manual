@@ -11,11 +11,11 @@ permalink: /package/extension3/dateedit/properties/horizontalalign
 # {{ page.title }}
 <br>
 
-Align horizontally. $ STD is left aligned.
+Align horizontally. $STD is left aligned.
 
 | Constant | Value | Description    |
 |----------|:-----:|----------------|
-| $STD     |   0   | Same as $ LEFT |
+| $STD     |   0   | Same as $LEFT |
 | $LEFT    |   1   | Left aligned   |
 | $CENTER  |   2   | Centered       |
 | $RIGHT   |   3   | Right aligned  |

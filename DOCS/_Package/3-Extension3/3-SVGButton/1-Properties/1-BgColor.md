@@ -9,3 +9,6 @@ nav_order: 1
 permalink: /package/extension3/svgbutton/properties/bgcolor
 ---
 # {{ page.title }}
+<br>
+
+Specify the background color with a <a href="/base/color">color constant</a>.

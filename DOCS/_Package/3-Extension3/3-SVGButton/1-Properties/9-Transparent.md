@@ -9,3 +9,6 @@ nav_order: 9
 permalink: /package/extension3/svgbutton/properties/transparent
 ---
 # {{ page.title }}
+<br>
+
+If $ TRUE is specified, the background will be a transparent color.

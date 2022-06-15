@@ -18,5 +18,5 @@ The following events are defined in the NumberEdit class.
 
 |Name       | Description |
 |----------	|-------------|
-|[Clicked](/package/extension3/numberedit/events/clicked)||
-|[Touch](/package/extension3/numberedit/events/touch)||
+|[Clicked](/package/extension3/numberedit/events/clicked)|Occurs when the left mouse button is clicked|
+|[Touch](/package/extension3/numberedit/events/touch)|Occurs when the value entered in NumberEdit is confirmed|

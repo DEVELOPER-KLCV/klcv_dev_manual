@@ -18,5 +18,5 @@ The following events are defined in the TabFrame class.
 
 |Name     | Description |
 |---------|-------------|
-|[Clicked](/package/extension3/tabframe/events/clicked) ||
-|[RClicked](/package/extension3/tabframe/events/rclicked) ||
+|[Clicked](/package/extension3/tabframe/events/clicked) |Occurs when the left mouse button is clicked|
+|[RClicked](/package/extension3/tabframe/events/rclicked) |Occurs when the right mouse button is clicked|

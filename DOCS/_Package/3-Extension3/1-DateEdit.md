@@ -42,10 +42,10 @@ The value can be changed by pressing the up and down arrow keys (↑, ↓) on ea
 
 ***Enter Today's Date***<br>
 Double-click the mouse to automatically enter today's date.
-The input item is the item specified by the <a href="/package/extension3/DateEdit/properties/format">Format</a> property. For example, if "YY / MM" is specified, only the year and month will be entered.
+The input item is the item specified by the <a href="/package/extension3/dateedit/properties/format">Format</a> property. For example, if "YY / MM" is specified, only the year and month will be entered.
 
 ***Enter by Month Name***<br>
-If the <a href="/package/extension3/DateEdit/properties/format">Format</a> property is specified to use the name of the month, you can also enter it using the alphabetic key.
+If the <a href="/package/extension3/dateedit/properties/format">Format</a> property is specified to use the name of the month, you can also enter it using the alphabetic key.
 
 When Format = "MONTH-DD-YYYY" ;, if you enter characters that can uniquely identify the name of the month such as AP and AU, it will be automatically converted to "APRIL" and "AUGUST".
 
@@ -68,13 +68,13 @@ Clipboard operations such as copy (Ctrl + C), cut (Ctrl + X), and paste (Ctrl + 
 
 In paste, the entire target character string is regarded as a date character string, and it is pasted to the entire range regardless of the selection range.
 
-The string that can be interpreted as a date is in the YYYY / MM / DD format or the format specified by the <a href="/package/extension3/DateEdit/properties/format">Format</a> property. If it cannot be interpreted in either format, it is simply pasted in a position where it can be entered and the invalid characters as a date are removed.
+The string that can be interpreted as a date is in the YYYY / MM / DD format or the format specified by the <a href="/package/extension3/dateedit/properties/format">Format</a> property. If it cannot be interpreted in either format, it is simply pasted in a position where it can be entered and the invalid characters as a date are removed.
 
 ***Cancel with Ctrl + Z***<br>
 Unedit and revert to the value of the Value property. Press Ctrl + Z again to return to the state before the cancellation.
 
 **Calendar Operation**<br>
-Press the space key to display the calendar. (If Mobile version, it is displayed when the <a href="/package/extension3/DateEdit/methods/showhelper">ShowHelper</a> method is executed.)
+Press the space key to display the calendar. (If Mobile version, it is displayed when the <a href="/package/extension3/dateedit/methods/showhelper">ShowHelper</a> method is executed.)
 
 Click a date or press the ENTER key to enter the selected date and close the calendar.
 
@@ -86,7 +86,7 @@ If there are restrictions on the dates that can be entered by specifying the For
 
 
 **Format**<br>
-If the <a href="/package/extension3/DateEdit/properties/format">Format</a> property is not specified, it operates as if "YYYY / MM / DD" is specified.
+If the <a href="/package/extension3/dateedit/properties/format">Format</a> property is not specified, it operates as if "YYYY / MM / DD" is specified.
 
 The year can be specified in the range of 4 to 2 digits, and the following range can be entered for each.
 
@@ -103,7 +103,7 @@ The input value is interpreted as it is in the Western calendar.
 
 However, the range from 1900 to 2099, which is within the representation range of the Date type, is valid.
 
-It is possible to specify the year in multiple places in the <a href="/package/extension3/DateEdit/properties/format">Format</a> property (such as "YY / MM / DD YY"), but you cannot specify different numbers of digits such as "YY (YYYY)".
+It is possible to specify the year in multiple places in the <a href="/package/extension3/dateedit/properties/format">Format</a> property (such as "YY / MM / DD YY"), but you cannot specify different numbers of digits such as "YY (YYYY)".
 
 Japanese calendar can be used for the year. The Japanese calendar is always used in combination with the calendar ("WR") and the year ("WYY").
 
@@ -132,14 +132,14 @@ If is specified, the April, June, September, and November inputs will be correct
 
 The operation is different between Ver.4 or earlier and Ver.5 or later.
 
-In Ver.4 or earlier, the <a href="/package/extension3/DateEdit/properties/format">Format</a> property is not considered when setting the <a href="/package/extension3/DateEdit/properties/value">Value</a> property from the script.
+In Ver.4 or earlier, the <a href="/package/extension3/dateedit/properties/format">Format</a> property is not considered when setting the <a href="/package/extension3/dateedit/properties/value">Value</a> property from the script.
 
 For example, 2080/01/01 can be set as the Value property from the script for the 2-digit AD format (input range: 1950-2049). Moving the focus from the DateEdit object automatically rewrites the Value property to 1980/01/01, which is within the input range. Also, when the calendar is displayed, the calendar of 1980/01/01 is displayed.
 
 In Ver.5 or later, the Format property is considered when setting the Value property from the script, and the corrected value is set in the Value property.
 
 **Other restrictions**<br>
-The following cannot be specified in the <a href="/package/extension3/DateEdit/properties/format">Format</a> property.<br>
+The following cannot be specified in the <a href="/package/extension3/dateedit/properties/format">Format</a> property.<br>
 <ul>
   <li>Specify TZ<br>It is not possible to specify the TZ to display the time zone.</li>
   <li>Specify u<br>Option u cannot be specified to display the time in UTC. It will always be local time.</li>
@@ -151,7 +151,7 @@ The following cannot be specified in the <a href="/package/extension3/DateEdit/p
 
 
 **Default properties and ValueType**<br>
- The default property is  <a href="/package/extension3/DateEdit/properties/value">Value</a>. The value type specification is invalid.
+ The default property is  <a href="/package/extension3/dateedit/properties/value">Value</a>. The value type specification is invalid.
 
  
 **Restrictions when visual style is enabled**<br>
