@@ -18,4 +18,4 @@ The following events are defined in the ComboBox class.
 
 |Name       | Description |
 |----------	|-------------|
-|[Touch](/package/extension4/combobox/events/touch) | |
+|[Touch](/package/extension4/combobox/events/touch) | Occurs when the combo box value is fixed |

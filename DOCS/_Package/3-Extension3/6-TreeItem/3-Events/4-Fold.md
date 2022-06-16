@@ -14,4 +14,4 @@ Occurs when the tree of a tree item is closed
 
 Double-clicking a tree item or clicking [-] closes the tree and hides the child items.
 
-<a href="/4000/package/extension3/treeitem/events/#reminder-when-referring-to-selection-items">Reminder when referring to selection items</a>
+<a href="/package/extension3/treeitem/events/#reminder-when-referring-to-selection-items">Reminder when referring to selection items</a>

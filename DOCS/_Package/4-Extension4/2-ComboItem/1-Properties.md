@@ -18,7 +18,7 @@ The following properties are defined in the ComboItem class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[Value](/package/extension4/comboitem/properties/value)* | CRW | String<br>UString |  | |
+|[Value](/package/extension4/comboitem/properties/value)* | CRW | String<br>UString |  |  Character string to be displayed in the selections <br><small><span style="color:green">UString have been added since Ver.5.0.3</span></small>|
 
 <u><b>Access</b></u><br>
 R: Readable

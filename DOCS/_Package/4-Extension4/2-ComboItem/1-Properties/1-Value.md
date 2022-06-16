@@ -10,4 +10,4 @@ permalink: /package/extension4/comboitem/properties/value
 ---
 # {{ page.title }}
 
-Specify the character string to be displayed in the combo box choices.
+Specify the character string to be displayed in the combo box options.
