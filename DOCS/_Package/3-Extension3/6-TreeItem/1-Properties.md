@@ -18,11 +18,11 @@ The following properties are defined in the TreeItem class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[CloseIcon](/package/extension3/treeitem/properties/closeicon) | CR | integer |  | |
-|[Expanded](/package/extension3/treeitem/properties/expanded) | CRW | boolean | $FALSE | |
-|[OpenIcon](/package/extension3/treeitem/properties/openicon) | CR | integer |  | |
-|[Title](/package/extension3/treeitem/properties/title) | CRW | String |  | |
-|[Value](/package/extension3/treeitem/properties/value) | CRW | String<br>Number<br>Fixed<br>Date<br>UString |  | |
+|[CloseIcon](/package/extension3/treeitem/properties/closeicon) | CR | integer |  |Tree closed icon |
+|[Expanded](/package/extension3/treeitem/properties/expanded) | CRW | boolean | $FALSE |Expand/Collapse state of the tree item |
+|[OpenIcon](/package/extension3/treeitem/properties/openicon) | CR | integer |  | Tree open icon|
+|[Title](/package/extension3/treeitem/properties/title) | CRW | String |  | Characters to display on tree items|
+|[Value](/package/extension3/treeitem/properties/value) | CRW | String<br>Number<br>Fixed<br>Date<br>UString |  |Object value<br> <small><span style="color:green">UString have been added since Ver.4.2.0</span></small>|
 
 <u><b>Access</b></u><br>
 R: Readable

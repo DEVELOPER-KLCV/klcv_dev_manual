@@ -9,3 +9,6 @@ nav_order: 9
 permalink: /package/extension3/treeview/properties/value
 ---
 # {{ page.title }}
+<br>
+
+The number of the currently selected tree item. -1 indicates the non-selected state.

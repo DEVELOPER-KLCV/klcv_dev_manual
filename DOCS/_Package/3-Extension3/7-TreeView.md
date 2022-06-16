@@ -37,7 +37,7 @@ Since ver5.0, the STree class that makes the tree view easier to handle has been
 
 <a href="{{ img1 }}" target="_blank"> <img src="{{ img1 }}" alt="{{img1}}"></a>
 
-**Specifying Icon**
+### **Specifying Icon Number**
 
 By default, the displayed icon types are as follows.
 

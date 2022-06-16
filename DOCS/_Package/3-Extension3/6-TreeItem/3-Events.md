@@ -18,16 +18,16 @@ The following events are defined in the TreeItem class.
 
 |Name     | Description |
 |---------|-------------|
-|[Clicked](/package/extension3/treeitem/events/clicked) ||
-|[DoubleClicked](/package/extension3/treeitem/events/doubleclicked) ||
-|[Expand](/package/extension3/treeitem/events/expand) ||
-|[Fold](/package/extension3/treeitem/events/fold) ||
-|[GetFocus](/package/extension3/treeitem/events/getfocus) ||
-|[LostFocus](/package/extension3/treeitem/events/lostfocus) ||
-|[RClicked](/package/extension3/treeitem/events/rclicked) ||
-|[Touch](/package/extension3/treeitem/events/touch) ||
+|[Clicked](/package/extension3/treeitem/events/clicked) |Occurs when the left mouse button is double-clicked|
+|[DoubleClicked](/package/extension3/treeitem/events/doubleclicked) |Occurs when the tree of a tree item is opened|
+|[Expand](/package/extension3/treeitem/events/expand) |Occurs when the tree of a tree item is opened|
+|[Fold](/package/extension3/treeitem/events/fold) |Occurs when the tree of a tree item is closed|
+|[GetFocus](/package/extension3/treeitem/events/getfocus) |Occurs when a tree item is ready for editing|
+|[LostFocus](/package/extension3/treeitem/events/lostfocus) |Occurs when finish editing a tree item|
+|[RClicked](/package/extension3/treeitem/events/rclicked) |Occurs when the right mouse button is clicked|
+|[Touch](/package/extension3/treeitem/events/touch) |Occurs when selecting a tree item|
 
-<b>Precautions when referencing selection items</b>
+### <b>Reminder when referring to selection items</b>
 
 Do not use the [Value](/package/extension3/treeview/properties/value) property of the parent object [TreeView](/package/extension3/treeview) class to refer to the selected item number in the handler of the event that occurred in the TreeItem class. (The selected item number may not be reflected.)
 

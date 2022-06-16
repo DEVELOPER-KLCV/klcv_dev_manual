@@ -11,7 +11,7 @@ permalink: /package/standard/spread/properties/fontface
 # {{ page.title }}
 <br>
 
-Specifies font decoration properties.
+Specifies font decoration attributes.
 
 Specify the combination of the following values.
 

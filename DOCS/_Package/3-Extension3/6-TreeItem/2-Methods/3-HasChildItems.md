@@ -13,7 +13,7 @@ permalink: /package/extension3/treeitem/methods/haschilditems
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Check for children's tree items.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/extension3/treeitem/methods/haschilditems
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns $TRUE if there are children's tree items, $FALSE otherwise.</td>
   </tr>  
   <tr>
     <td>Arguments</td>

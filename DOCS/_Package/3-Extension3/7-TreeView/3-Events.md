@@ -18,5 +18,5 @@ The following events are defined in the TreeView class.
 
 |Name     | Description |
 |---------|-------------|
-|[Clicked](/package/extension3/treeview/events/clicked) ||
-|[Dropped](/package/extension3/treeview/events/dropped) ||
+|[Clicked](/package/extension3/treeview/events/clicked) |Occurs when the left mouse button is clicked|
+|[Dropped](/package/extension3/treeview/events/dropped) |Occurs when dropped by drag and drop<br><small><span style="color:red">Added since Ver.4.1.0</span></small>|

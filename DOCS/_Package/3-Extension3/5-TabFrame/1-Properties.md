@@ -34,7 +34,7 @@ Only for Mobile, Android version
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[UseTapAndHold](/package/extension3/tabframe/properties/usetapandhold) | CRW | boolean | $FALSE | Whether to use tap and hold operation<br><small><span style="color:red">Added since Mobile Ver.3.0.0</span></small>|
+|[UseTapAndHold](/package/extension3/tabframe/properties/usetapandhold) | CRW | boolean | $FALSE | Whether to use tap and hold operation<br> <small><span style="color:red">Added since Mobile Ver.3.0.0</span></small>|
 
 <u><b>Access</b></u><br>
 R: Readable

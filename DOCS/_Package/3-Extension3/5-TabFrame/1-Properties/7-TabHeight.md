@@ -9,3 +9,6 @@ nav_order: 7
 permalink: /package/extension3/tabframe/properties/tabheight
 ---
 # {{ page.title }}
+<br>
+
+Set the height of the tab.

@@ -18,9 +18,9 @@ The following methods are defined in the TreeView class.
 
 |Name     | Description |
 |---------|-------------|
-|[CreateItem](/package/extension3/treeview/methods/createitem) ||
-|[GetChildItems](/package/extension3/treeview/methods/getchilditems) ||
-|[GetParentItem](/package/extension3/treeview/methods/getparentitem) ||
-|[HasChildItems](/package/extension3/treeview/methods/haschilditems) ||
-|[ResetImage](/package/extension3/treeview/methods/resetimage) ||
-|[SetImage](/package/extension3/treeview/methods/setimage) ||
+|[CreateItem](/package/extension3/treeview/methods/createitem) |Create a new tree item|
+|[GetChildItems](/package/extension3/treeview/methods/getchilditems) |Get the child's tree item|
+|[GetParentItem](/package/extension3/treeview/methods/getparentitem) |This class always returns null|
+|[HasChildItems](/package/extension3/treeview/methods/haschilditems) |Find out if there are children's tree items|
+|[ResetImage](/package/extension3/treeview/methods/resetimage) |Discard the image list set by the SetImage method <br><small><span style="color:red">Added since Ver.4.0.0</span></small>|
+|[SetImage](/package/extension3/treeview/methods/setimage) |Set the image list used to display the icon of the tree item <br><small><span style="color:red">Added since Ver.4.0.0</span></small>|

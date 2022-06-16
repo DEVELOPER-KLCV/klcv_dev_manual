@@ -13,20 +13,20 @@ permalink: /package/extension3/treeview/methods/createitem
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Create a new tree item.<br>The created <a href="/package/extension4/treeitem/">TreeItem</a> object can be connected to any position in the tree by the <a href="/package/system/object/methods/append">Append</a> method.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var item = TreeView1.CreateItem( [ <b>name</b> ] )</td>
+    <td colspan="2">var item = TreeView1.CreateItem( [ <b><i>name</i></b> ] )</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Created TreeItem object</td>
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>String <b>name</b></td>
-    <td></td>
+    <td>String <b><i>name</i></b></td>
+    <td>Specifies the name of the TreeItem object to create. If omitted, it will be an anonymous object.</td>
   </tr>
   <tr>
     <td>Exception</td>

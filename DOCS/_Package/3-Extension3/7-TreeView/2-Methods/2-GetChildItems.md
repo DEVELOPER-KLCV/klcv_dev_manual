@@ -13,7 +13,7 @@ permalink: /package/extension3/treeview/methods/getchilditems
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Gets the child's tree item.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/extension3/treeview/methods/getchilditems
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2"><a href="/package/system/array">Array</a> object containing <a href="/package/extension3/treeitem">TreeItem</a> object</td>
   </tr>  
   <tr>
     <td>Arguments</td>

@@ -28,7 +28,7 @@ The type of drag and drop to be accepted can be specified by specifying the drop
 
 Please decide the copy or move by the application and implement it.
 
-**Attention to specify $ MOVEMODE**<br>
+**Attention to specify $MOVEMODE**<br>
 If both $ COPYMODE and $ MOVEMODE are omitted, the copy mode operates, but if only $ MOVEMODE is specified, the copy mode is canceled.
 
 To specify both copy mode and move mode, use $ COPYMODE + $ MOVEMODE .

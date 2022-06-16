@@ -13,7 +13,7 @@ permalink: /package/extension3/treeview/methods/resetimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Discard the image list set by the <a href="/package/extension3/treeview/methods/setimage">SetImage</a> method.<br><small><span style="color:red">Added since Ver.5.0.3</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>

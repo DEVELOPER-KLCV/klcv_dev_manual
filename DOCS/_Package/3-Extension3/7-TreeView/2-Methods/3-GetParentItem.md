@@ -13,7 +13,7 @@ permalink: /package/extension3/treeview/methods/getparentitem
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">This class always returns null. Used in conjunction with the <a href="/package/extension3/treeitem/methods/getparentitem">GetParentItem</a> method of the <a href="/package/extension3/treeitem">TreeItem</a> class.</td>
   </tr>
   <tr>
     <td>Call format</td>

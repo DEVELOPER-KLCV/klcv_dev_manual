@@ -18,6 +18,6 @@ The following methods are defined in the TreeItem class.
 
 |Name     | Description |
 |---------|-------------|
-|[GetChildItems](/package/extension3/treeitem/methods/getchilditems) ||
-|[GetParentItem](/package/extension3/treeitem/methods/getparentitem) ||
-|[HasChildItems](/package/extension3/treeitem/methods/haschilditems) ||
+|[GetChildItems](/package/extension3/treeitem/methods/getchilditems) |Get the child's tree item|
+|[GetParentItem](/package/extension3/treeitem/methods/getparentitem) |Gets the parent tree item|
+|[HasChildItems](/package/extension3/treeitem/methods/haschilditems) |Find out if there are children's tree items|

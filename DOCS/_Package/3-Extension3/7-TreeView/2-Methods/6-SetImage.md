@@ -13,11 +13,11 @@ permalink: /package/extension3/treeview/methods/setimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Sets the image list used to display the icon of the tree item.<br><small><span style="color:red">Added since Ver.4.0.0</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">TreeView1.SetImage( <b>img</b> )</td>
+    <td colspan="2">TreeView1.SetImage( <b><i>img</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,13 +25,13 @@ permalink: /package/extension3/treeview/methods/setimage
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>ImageList <b>img</b></td>
-    <td></td>
+    <td>ImageList <b><i>img</i></b></td>
+    <td><a href="/package/extension4/imagelist">ImageList</a> object that holds the image list you want to display</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-5</td>
-    <td></td>
+    <td>ImageList reference is abnormal</td>
   </tr>
   <tr>
     <td>Example of use</td>

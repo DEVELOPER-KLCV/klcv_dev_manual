@@ -9,7 +9,6 @@ nav_order: 8
 permalink: /package/standard/spread/properties/fontkind
 ---
 # {{ page.title }}
-# {{ page.title }}
 <br>
 
 Specify the font type.

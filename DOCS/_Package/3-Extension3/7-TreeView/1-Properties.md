@@ -18,15 +18,15 @@ The following properties are defined in the TreeView class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[AcceptDrop](/package/extension3/treeview/properties/acceptdrop) | CRW | integer | 0 | |
-|[BgColor](/package/extension3/treeview/properties/bgcolor) | CRW | integer | $STD | |
-|[Border](/package/extension3/treeview/properties/border) | CR | boolean | $FALSE | |
-|[Editable](/package/extension3/treeview/properties/editable) | CRW | boolean | $TRUE | |
-|[FgColor](/package/extension3/treeview/properties/fgcolor) | CRW | integer | $STD | |
-|[FontFace](/package/extension3/treeview/properties/fontface) | CR | integer | $STD | |
-|[FontKind](/package/extension3/treeview/properties/fontkind) | CR | integer | $STD | |
-|[FontSize](/package/extension3/treeview/properties/fontsize) | CR | integer | 10 | |
-|[Value](/package/extension3/treeview/properties/value)* | CRW | integer |  | |
+|[AcceptDrop](/package/extension3/treeview/properties/acceptdrop) | CRW | integer | 0 | Type that accepts drag and drop <br><small><span style="color:red">Added since Ver.4.1.0</span></small>|
+|[BgColor](/package/extension3/treeview/properties/bgcolor) | CRW | integer | $STD | Background color|
+|[Border](/package/extension3/treeview/properties/border) | CR | boolean | $FALSE | Frame display|
+|[Editable](/package/extension3/treeview/properties/editable) | CRW | boolean | $TRUE | Editability|
+|[FgColor](/package/extension3/treeview/properties/fgcolor) | CRW | integer | $STD | Text color|
+|[FontFace](/package/extension3/treeview/properties/fontface) | CR | integer | $STD |Font decoration attributes |
+|[FontKind](/package/extension3/treeview/properties/fontkind) | CR | integer | $STD |Font type <br><small><span style="color:red">Supported fonts have been added since Ver.4.1.0</span></small> |
+|[FontSize](/package/extension3/treeview/properties/fontsize) | CR | integer | 10 |Font size |
+|[Value](/package/extension3/treeview/properties/value)* | CRW | integer |  |Selected position |
 
 <u><b>Access</b></u><br>
 R: Readable

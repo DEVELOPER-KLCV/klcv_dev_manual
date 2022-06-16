@@ -9,3 +9,6 @@ nav_order: 5
 permalink: /package/extension3/treeview/properties/fgcolor
 ---
 # {{ page.title }}
+<br>
+
+Specify the font color with a <a href="/base/color">color constant</a>.
