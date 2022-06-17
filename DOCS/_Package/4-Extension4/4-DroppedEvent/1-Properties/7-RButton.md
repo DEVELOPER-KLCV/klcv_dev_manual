@@ -9,3 +9,7 @@ nav_order: 7
 permalink: /package/extension4/droppedevent/properties/rbutton
 ---
 # {{ page.title }}
+
+It is the state where the right mouse button is pressed when it is dropped.
+
+$TRUE indicates that it was pressed, and $FALSE indicates that it was not pressed.

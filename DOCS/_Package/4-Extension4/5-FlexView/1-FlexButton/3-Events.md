@@ -18,6 +18,6 @@ The following events are defined in the FlexButton class.
 
 |Name       | Description |
 |----------	|-------------|
-|[Pushed](/package/extension4/flexview/flexbutton/events/pushed) | |
-|[RClicked](/package/extension4/flexview/flexbutton/events/rclicked) | |
+|[Pushed](/package/extension4/flexview/flexbutton/events/pushed) |Occurs when a button is pressed with the mouse or key |
+|[RClicked](/package/extension4/flexview/flexbutton/events/rclicked) |Occurs with a right mouse click |
 

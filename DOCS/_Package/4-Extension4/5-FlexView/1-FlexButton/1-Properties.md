@@ -18,8 +18,8 @@ The following properties are defined in the FlexButton class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[Active](/package/extension4/flexview/flexbutton/properties/active) | CRW | boolean | $TRUE |
-|[Value](/package/extension4/flexview/flexbutton/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date<br>UString | |
+|[Active](/package/extension4/flexview/flexbutton/properties/active) | CRW | boolean | $TRUE | Specify Activity  |
+|[Value](/package/extension4/flexview/flexbutton/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date<br>UString | | Initial cell value<br><small><span style="color:green">UString have been added since Ver.4.2.0</span></small>|
 
 <u><b>Access</b></u><br>
 R: Readable

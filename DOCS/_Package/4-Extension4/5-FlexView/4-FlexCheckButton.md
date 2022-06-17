@@ -14,3 +14,27 @@ permalink: /package/extension4/flexview/flexcheckbutton
 
 
 # {{ page.title }}
+<br>
+
+<a href="/img/Package/Ext4-FlexView-FlexCheckButton.PNG" target="_blank">
+<img src="/img/Package/Ext4-FlexView-FlexCheckButton.PNG" alt="login image"></a>
+
+The FlexCheckButton class is a class that defines how FlexView cells are displayed, and the corresponding cells are displayed like checkboxes.
+
+Place the FlexCheckButton object under a FlexRecord object, FlexColumnSet object, or FlexRowSet object.
+
+**Screen Display Example**
+
+{% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/pac/ext4/ext_flexcheck.files/image001.png" %}
+
+<a href="{{ img1 }}" target="_blank"> <img src="{{ img1 }}" alt="{{img1}}"></a>
+
+**Constraint Layout** 
+
+The FlexCheckButton object cannot be placed to the left (previous in definition order) of objects in the FlexHeader class and its derived classes.
+
+When located as a child of FlexRowSet and FlexColumnSet, it cannot co-exist with objects in the FlexHeader class and its derived classes.
+
+**Default properties and ValueType**<br>
+
+The default property is <a href="/package/extension4/flexview/flexcheckbutton/properties/value">Value</a>. ValueType can be String Number, Fixed, Date and UString.<br><small><span style="color:green">Value Type can be specified since Ver.4.2.0</span></small>

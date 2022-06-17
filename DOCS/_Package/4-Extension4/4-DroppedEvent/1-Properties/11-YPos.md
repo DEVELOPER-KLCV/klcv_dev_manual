@@ -9,3 +9,5 @@ nav_order: 11
 permalink: /package/extension4/droppedevent/properties/ypos
 ---
 # {{ page.title }}
+
+The dropped Y coordinate.

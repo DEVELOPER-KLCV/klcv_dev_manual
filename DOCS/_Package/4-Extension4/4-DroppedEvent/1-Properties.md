@@ -16,19 +16,19 @@ permalink: /package/extension4/droppedevent/properties
 
 The following properties are defined in the DroppedEvent class.
 
-|Name       | Access | Type   | Initial Value | Description |
-|----------	|--------|--------|---------------|-------------|
-|[AltKey](/package/extension4/droppedevent/properties/altkey) | CR | boolean | |
-|[CtrlKey](/package/extension4/droppedevent/properties/ctrlkey) | CR | boolean | |
-|[Data](/package/extension4/droppedevent/properties/data) | CR | Object | |
-|[LButton](/package/extension4/droppedevent/properties/lbutton) | CR | boolean | |
-|[MButton](/package/extension4/droppedevent/properties/mbutton) | CR | boolean | |
-|[Mode](/package/extension4/droppedevent/properties/mode) | CR | integer | |
-|[RButton](/package/extension4/droppedevent/properties/rbutton) | CR | boolean | |
-|[ShiftKey](/package/extension4/droppedevent/properties/shiftkey) | CR | boolean | |
-|[Type](/package/extension4/droppedevent/properties/type) | CR | integer | |
-|[XPos](/package/extension4/droppedevent/properties/xpos) | CR | integer | |
-|[YPos](/package/extension4/droppedevent/properties/ypos) | CR | integer | |
+|Name       | Access | Type   | Description |
+|----------	|--------|--------|-------------|
+|[AltKey](/package/extension4/droppedevent/properties/altkey) | CR | boolean |Pressing state of Alt key when dropped |
+|[CtrlKey](/package/extension4/droppedevent/properties/ctrlkey) | CR | boolean | Pressing state of Ctrl key when dropped|
+|[Data](/package/extension4/droppedevent/properties/data) | CR | Object |Dropped data |
+|[LButton](/package/extension4/droppedevent/properties/lbutton) | CR | boolean | Pressing state of left mouse button when dropped|
+|[MButton](/package/extension4/droppedevent/properties/mbutton) | CR | boolean | Pressing state of middle mouse button when dropped|
+|[Mode](/package/extension4/droppedevent/properties/mode) | CR | integer |Whether drag and drop is in copy mode or move mode <br><small><span style="color:red">Added since Ver.5.0.0</span></small> |
+|[RButton](/package/extension4/droppedevent/properties/rbutton) | CR | boolean | Pressing state of right mouse button when dropped|
+|[ShiftKey](/package/extension4/droppedevent/properties/shiftkey) | CR | boolean | Pressing state of Shift key when dropped
+|[Type](/package/extension4/droppedevent/properties/type) | CR | integer |Format of dropped data |
+|[XPos](/package/extension4/droppedevent/properties/xpos) | CR | integer |Dropped X coordinate |
+|[YPos](/package/extension4/droppedevent/properties/ypos) | CR | integer |Dropped Y coordinate |
 
 <u><b>Access</b></u><br>
 R: Readable

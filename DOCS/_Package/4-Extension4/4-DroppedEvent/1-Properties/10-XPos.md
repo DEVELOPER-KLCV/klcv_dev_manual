@@ -9,3 +9,5 @@ nav_order: 10
 permalink: /package/extension4/droppedevent/properties/xpos
 ---
 # {{ page.title }}
+
+The dropped X coordinate.

@@ -14,11 +14,11 @@ permalink: /package/extension4/dragsource/methods/setobject
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the object to drag and drop. If it is already set, it will be overwritten.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">source.SetObject( <b>obj</b> )</td>
+    <td colspan="2">source.SetObject( <b><i>obj</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -26,17 +26,17 @@ permalink: /package/extension4/dragsource/methods/setobject
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>Object <b>obj</b></td>
-    <td></td>
+    <td>Object <i>obj</i</td>
+    <td>Objects to drag and drop</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>CRS-328</td>
-    <td></td>
+    <td>Only objects or properties can be converted</td>
   </tr>
   <tr>
     <td>CRS-130</td>
-    <td></td>
+    <td>Unable for type conversion</td>
   </tr>
   <tr>
     <td>Example of use</td>

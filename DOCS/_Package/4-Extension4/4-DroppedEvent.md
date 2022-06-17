@@ -13,3 +13,12 @@ permalink: /package/extension4/droppedevent
 
 
 # {{ page.title }}
+<br>
+
+<a href="/img/Package/Ext4-DroppedEvent.PNG" target="_blank">
+<img src="/img/Package/Ext4-DroppedEvent.PNG" alt="login image"></a>
+
+A class that holds data for Dropped events.
+
+**Default properties and ValueType**<br>
+There are no default properties. The ValueType specification is invalid.

@@ -18,7 +18,7 @@ The following properties are defined in the FlexButtonCell class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[Active](/package/extension4/flexview/flexbuttoncell/properties/active) | CRW | boolean | $TRUE | |
+|[Active](/package/extension4/flexview/flexbuttoncell/properties/active) | CRW | boolean | $TRUE | Active state|
 
 <u><b>Access</b></u><br>
 R: Readable

@@ -14,11 +14,11 @@ permalink: /package/extension4/dragsource/methods/setstring
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the character string data to be dragged and dropped. If it is already set, it will be overwritten.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">source.SetString( <b>str</b> )</td>
+    <td colspan="2">source.SetString( <b><i>str</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -26,17 +26,13 @@ permalink: /package/extension4/dragsource/methods/setstring
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>String <b>str</b></td>
-    <td></td>
+    <td>String <b><i>str</i></b></td>
+    <td>Character string data to be dragged and dropped. If it is an empty string, it will be ignored.</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>CRS-112</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>CRS-130</td>
-    <td></td>
+    <td>Cannot be converted to a string</td>
   </tr>
   <tr>
     <td>Example of use</td>

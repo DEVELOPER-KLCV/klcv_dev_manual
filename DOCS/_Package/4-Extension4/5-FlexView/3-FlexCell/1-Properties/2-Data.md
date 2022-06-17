@@ -9,3 +9,7 @@ nav_order: 2
 permalink: /package/extension4/flexview/flexcell/properties/data
 ---
 # {{ page.title }}
+
+A generic string property. It can be used for any purpose in the application.
+
+ 

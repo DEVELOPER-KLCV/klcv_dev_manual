@@ -14,11 +14,11 @@ permalink: /package/extension4/dragsource/methods/addfile
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the file to drag and drop. The file to be dragged and dropped is added each time this method is executed.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">source.AddFile( <b>filepath</b> )</td>
+    <td colspan="2">source.AddFile( <b><i>filepath</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -26,13 +26,13 @@ permalink: /package/extension4/dragsource/methods/addfile
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>String <b>filepath</b></td>
-    <td></td>
+    <td>String <b><i>filepath</i></b></td>
+    <td>Absolute path of the file to drag and drop. If it is an empty string, it will be ignored.</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>CRS-112</td>
-    <td></td>
+    <td>Cannot be converted to a string</td>
   </tr>
   <tr>
     <td>Example of use</td>
