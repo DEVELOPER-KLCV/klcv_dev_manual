@@ -18,5 +18,5 @@ The following methods are defined in the FlexLabel class.
 
 |Name       |  Description    |
 |----------	|-----------------|
-|[ResetImage](/package/extension4/flexview/flexlabel/methods/resetimage) |  |
-|[SetImage](/package/extension4/flexview/flexlabel/methods/setimage) |  |
+|[ResetImage](/package/extension4/flexview/flexlabel/methods/resetimage) |Discard the image list set by the SetImage method  |
+|[SetImage](/package/extension4/flexview/flexlabel/methods/setimage) |Set the image list used to display the cell icon  |

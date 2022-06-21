@@ -18,7 +18,7 @@ The following properties are defined in the FlexColumnSet class.
 
 |Name       | Access | Type   | Description |
 |----------	|--------|--------|-------------|
-|[Value](/package/extension4/flexview/flexcolumnset/properties/value)* | CRW  |String<br>Number<br>Fixed<br>Date<br>UString | |
+|[Value](/package/extension4/flexview/flexcolumnset/properties/value)* | CRW  |String<br>Number<br>Fixed<br>Date<br>UString |Object Value<br><small><span style="color:red">Added since Ver.5.0.3</span></small>|
 
 <u><b>Access</b></u><br>
 R: Readable

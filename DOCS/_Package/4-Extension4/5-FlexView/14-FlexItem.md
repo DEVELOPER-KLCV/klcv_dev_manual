@@ -14,3 +14,8 @@ permalink: /package/extension4/flexview/flexitem
 
 
 # {{ page.title }}
+
+<a href="/img/Package/Ext4-FlexView-FlexItem.PNG" target="_blank">
+<img src="/img/Package/Ext4-FlexView-FlexItem.PNG" alt="login image"></a>
+
+FlexItem is a class that defines how columns of the FlexView class are displayed. FlexItem is a virtual class that is the basis of other classes and has no substance.

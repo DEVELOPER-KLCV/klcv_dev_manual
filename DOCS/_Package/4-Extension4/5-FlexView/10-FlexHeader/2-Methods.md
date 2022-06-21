@@ -18,5 +18,5 @@ The following methods are defined in the FlexHeader class.
 
 |Name       |  Description    |
 |----------	|--------|--------|
-|[ResetImage](/package/extension4/flexview/flexheader/methods/resetimage) | |
-|[SetImage](/package/extension4/flexview/flexheader/methods/setimage) | |
+|[ResetImage](/package/extension4/flexview/flexheader/methods/resetimage) | Discard the image list set by the SetImage method<br><small><span style="color:red">Added since Ver.4.1.0</span></small>|
+|[SetImage](/package/extension4/flexview/flexheader/methods/setimage) | Set the image list used to display the cell icon<br><small><span style="color:red">Added since Ver.4.1.0</span></small>|

@@ -13,11 +13,21 @@ permalink: /package/extension4/flexview/flexlabel/methods/setimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Sets the image list used to display the cell icon.<br>
+
+ 
+
+Display example<br>
+
+{% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/pac/ext4/ext_flexlabelm1.files/image001.png" %}
+
+<a href="{{ img1 }}" target="_blank"> <img src="{{ img1 }}" alt="{{img1}}"></a>
+<br>
+If the icon displayed is larger than the row height, it will be scaled down while maintaining the aspect ratio.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">FlexLabel1.SetImage( <b>img</b> )</td>
+    <td colspan="2">FlexLabel1.SetImage( <b><i>img</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,8 +35,8 @@ permalink: /package/extension4/flexview/flexlabel/methods/setimage
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>ImageList <b>img</b></td>
-    <td></td>
+    <td>ImageList <b><i>img</i></b></td>
+    <td><a href="/package/extension4/imagelist">ImageList</a> object that holds the image list you want to display</td>
   </tr>
   <tr>
     <td>Exception</td>

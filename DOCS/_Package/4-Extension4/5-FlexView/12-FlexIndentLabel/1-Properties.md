@@ -18,12 +18,12 @@ The following properties are defined in the FlexIndentLabel class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|----------|
-|[Foldable](/package/extension4/flexview/flexindentlabel/properties/foldable) | CRW | boolean | $TRUE | |
-|[Folding](/package/extension4/flexview/flexindentlabel/properties/folding) | CRW | boolean | $FALSE | |
-|[Indent](/package/extension4/flexview/flexindentlabel/properties/indent) | CRW | boolean | $TRUE | |
-|[Key](/package/extension4/flexview/flexindentlabel/properties/key) | CRW | String |  | |
-|[ParentKey](/package/extension4/flexview/flexindentlabel/properties/parentkey) | CRW | String |  | |
-|[Value](/package/extension4/flexview/flexindentlabel/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date<br>UString |  | |
+|[Foldable](/package/extension4/flexview/flexindentlabel/properties/foldable) | CRW | boolean | $TRUE | Propriety of folding | 
+|[Folding](/package/extension4/flexview/flexindentlabel/properties/folding) | CRW | boolean | $FALSE | Folded state|
+|[Indent](/package/extension4/flexview/flexindentlabel/properties/indent) | CRW | boolean | $TRUE |Indented state<br><small><span style="color:red">Added since Ver.4.1.3</span></small> |
+|[Key](/package/extension4/flexview/flexindentlabel/properties/key) | CRW | String |  | Own key|
+|[ParentKey](/package/extension4/flexview/flexindentlabel/properties/parentkey) | CRW | String |  | Parent's key|
+|[Value](/package/extension4/flexview/flexindentlabel/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date<br>UString |  | Initial cell value<br><small><span style="color:green">Added UString since Ver.4.2.0</span></small>|
 
 <u><b>Access</b></u><br>
 R: Readable

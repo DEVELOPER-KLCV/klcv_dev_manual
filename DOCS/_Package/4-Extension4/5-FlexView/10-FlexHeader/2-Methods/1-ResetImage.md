@@ -13,7 +13,7 @@ permalink: /package/extension4/flexview/flexheader/methods/resetimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Discard the image list set by the <a href="/package/extension4/flexview/flexheader/methods/setimage">SetImage</a> method.<br><small><span style="color:red">Added since Ver.4.1.0</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>

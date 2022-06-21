@@ -18,9 +18,9 @@ The following properties are defined in the FlexIndentLabelCell class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|----------|
-|[Folding](/package/extension4/flexview/flexindentlabelcell/properties/folding) | CRW | boolean | $FALSE | |
-|[Key](/package/extension4/flexview/flexindentlabelcell/properties/key) | CRW | String |  | |
-|[ParentKey](/package/extension4/flexview/flexindentlabelcell/properties/parentkey) | CRW | String |  | |
+|[Folding](/package/extension4/flexview/flexindentlabelcell/properties/folding) | CRW | boolean | $FALSE | Folded state |
+|[Key](/package/extension4/flexview/flexindentlabelcell/properties/key) | CRW | String |  | Own key |
+|[ParentKey](/package/extension4/flexview/flexindentlabelcell/properties/parentkey) | CRW | String |  | Parent's key |
 
 <u><b>Access</b></u><br>
 R: Readable

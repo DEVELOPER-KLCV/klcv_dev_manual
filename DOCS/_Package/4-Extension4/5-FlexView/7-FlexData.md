@@ -14,3 +14,9 @@ permalink: /package/extension4/flexview/flexdata
 
 
 # {{ page.title }}
+<br>
+
+<a href="/img/Package/Ext4-FlexView-FlexData.PNG" target="_blank">
+<img src="/img/Package/Ext4-FlexView-FlexData.PNG" alt="login image"></a>
+
+FlexData is a class that defines how cells in the FlexView class are displayed. FlexData is a virtual class that is the basis of other classes and has no substance.

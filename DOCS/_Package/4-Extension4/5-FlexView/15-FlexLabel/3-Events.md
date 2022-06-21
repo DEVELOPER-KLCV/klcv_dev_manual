@@ -18,6 +18,6 @@ The following events are defined in the FlexLabel class.
 
 |Name       |  Description    |
 |----------	|-----------------|
-|[Clicked](/package/extension4/flexview/flexlabel/events/clicked) |  |
-|[DoubleClicked](/package/extension4/flexview/flexlabel/events/doubleclicked) |  |
-|[RClicked](/package/extension4/flexview/flexlabel/events/rclicked) |  |
+|[Clicked](/package/extension4/flexview/flexlabel/events/clicked) |Occurs with a left mouse click  |
+|[DoubleClicked](/package/extension4/flexview/flexlabel/events/doubleclicked) |Occurs with a left double click on the mouse  |
+|[RClicked](/package/extension4/flexview/flexlabel/events/rclicked) |Occurs with a right mouse click  |

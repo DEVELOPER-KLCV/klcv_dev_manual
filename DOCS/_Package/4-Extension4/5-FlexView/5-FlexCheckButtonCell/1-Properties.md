@@ -18,8 +18,8 @@ The following properties are defined in the FlexCheckButtonCell class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|-------------|
-|[Active](/package/extension4/flexview/flexcheckbuttoncell/properties/active) | CRW | boolean | $TRUE | |
-|[Selected](/package/extension4/flexview/flexcheckbuttoncell/properties/selected) | CRW | boolean | $TRUE | |
+|[Active](/package/extension4/flexview/flexcheckbuttoncell/properties/active) | CRW | boolean | $TRUE | Specify the activity|
+|[Selected](/package/extension4/flexview/flexcheckbuttoncell/properties/selected) | CRW | boolean | $TRUE |Checked status |
 
 <u><b>Access</b></u><br>
 R: Readable

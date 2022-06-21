@@ -57,8 +57,8 @@ The following objects derived from <a href="/package/extension4/flexview/flexite
 |[FlexTreeHeader](/package/extension4/flexview/flextreeheader)  |[FlexTreeHeaderCell](/package/extension4/flexview/flextreeheadercell)  | Tree display line header                                                                  |
 |[FlexLabel](/package/extension4/flexview/flexlabel)       |[FlexLabelCell](/package/extension4/flexview/flexlabelcell)       | Display cells like labels                                                                 |
 |[FlexIndentLabel](/package/extension4/flexview/flexindentlabel) |[FlexIndentLabelCell](/package/extension4/flexview/flexindentlabelcell) | Indent travel                                                                             |
-|[FlexButton](/package/extension4/flexview/flexbutton)      | FlexButtonCell [FlexButtonCell](/package/extension4/flexview/flexbuttoncell)      | Display cells like buttons. It is possible to click.                                      |
-|[FlexCheckButton](/package/extension4/flexview/flexcheckbutton)  | FlexCheckButtonCell [FlexCheckButtonCell](/package/extension4/flexview/flexcheckbuttoncell) | Displays cells like checkboxes. You can change the selection status by clicking.          |
+|[FlexButton](/package/extension4/flexview/flexbutton)      | [FlexButtonCell](/package/extension4/flexview/flexbuttoncell)      | Display cells like buttons. It is possible to click.                                      |
+|[FlexCheckButton](/package/extension4/flexview/flexcheckbutton)  | [FlexCheckButtonCell](/package/extension4/flexview/flexcheckbuttoncell) | Displays cells like checkboxes. You can change the selection status by clicking.          |
 |[FlexTextBox](/package/extension4/flexview/flextextbox)     |[FlexTextBoxCell](/package/extension4/flexview/flextextboxcell)     | Display the cell like a text box. Editing by key input is possible.                       |
 |[FlexListBox](/package/extension4/flexview/flexlistbox)     |[FlexListBoxCell](/package/extension4/flexview/flexlistboxcell)     | Display the cells like a pull-down list. You can change the selection status by clicking. |
 
