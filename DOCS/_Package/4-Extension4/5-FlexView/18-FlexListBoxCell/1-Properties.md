@@ -18,7 +18,7 @@ The following properties are defined in the FlexListBoxCell class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|----------|
-|[Active](/package/extension4/flexview/flexlistboxcell/properties/active) | CRW | boolean |  $TRUE | |
+|[Active](/package/extension4/flexview/flexlistboxcell/properties/active) | CRW | boolean |  $TRUE | Propriety of list selection|
 
 <u><b>Access</b></u><br>
 R: Readable

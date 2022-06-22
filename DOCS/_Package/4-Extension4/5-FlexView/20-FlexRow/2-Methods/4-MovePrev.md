@@ -13,7 +13,7 @@ permalink: /package/extension4/flexview/flexrow/methods/moveprev
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Point to the previous line. <br>Faster than the FlexView.GetRow (n) method when returning to the row to be pointed to.<br> If the InvalidState property is $ TRUE, the exception EXT-12 is raised.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/extension4/flexview/flexrow/methods/moveprev
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns true if it was successfully moved. <br>Returns false if it cannot be moved.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
@@ -30,7 +30,7 @@ permalink: /package/extension4/flexview/flexrow/methods/moveprev
   <tr>
     <td>Exception</td>
     <td>EXT-12</td>
-    <td></td>
+    <td>Invalid accessor</td>
   </tr>
   <tr>
     <td>Example of use</td>

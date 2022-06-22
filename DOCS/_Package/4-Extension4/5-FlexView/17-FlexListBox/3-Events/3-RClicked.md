@@ -9,3 +9,15 @@ nav_order: 3
 permalink: /package/extension4/flexview/flexlistbox/events/rclicked
 ---
 # {{ page.title }}
+
+An event that occurs when you right-click on the cell that corresponds to the FlexListBox.
+
+The RClicked event has the following structure:
+
+```
+Event {
+    FlexRow row; /* 移動した行をポイントするFlexRowオブジェクト */
+}
+```
+
+The cell cursor can be referenced by the RowPosition and ColumnPosition properties, but since the event goes through the event queue, the FlexRow object attached to the event caught by the event handler has the cell cursor at that point. It may point to a line that is different from the position. Therefore, in order to manipulate the data at the position where the event occurred, be sure to specify the row by the row of the event.

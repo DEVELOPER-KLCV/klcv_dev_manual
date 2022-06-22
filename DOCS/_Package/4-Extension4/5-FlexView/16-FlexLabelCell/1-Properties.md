@@ -18,7 +18,7 @@ The following properties are defined in the FlexLabelCell class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|----------|
-|[Icon](/package/extension4/flexview/flexlabelcell/properties/icon) | CRW | integer |  0 | |
+|[Icon](/package/extension4/flexview/flexlabelcell/properties/icon) | CRW | integer |  0 |Initial value of icon number to be displayed in cell |
 
 <u><b>Access</b></u><br>
 R: Readable

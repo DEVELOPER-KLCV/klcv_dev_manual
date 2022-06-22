@@ -18,12 +18,12 @@ The following properties are defined in the FlexRecord class.
 
 |Name       | Access | Type   | Initial Value | Description |
 |----------	|--------|--------|---------------|----------|
-|[BgColor](/package/extension4/flexview/flexrecord/properties/bgcolor) | CRW | integer |  $STD | |
-|[Border](/package/extension4/flexview/flexrecord/properties/border) | CRW | boolean |  $FALSE | |
-|[BorderStyle](/package/extension4/flexview/flexrecord/properties/borderstyle) | CRW | integer |  0 | |
-|[Height](/package/extension4/flexview/flexrecord/properties/height) | CRW | integer |  20 | |
-|[StripedOpacity](/package/extension4/flexview/flexrecord/properties/stripedopacity) | CRW | integer |  100 | |
-|[Value](/package/extension4/flexview/flexrecord/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date |   | |
+|[BgColor](/package/extension4/flexview/flexrecord/properties/bgcolor) | CRW | integer |  $STD | Background color|
+|[Border](/package/extension4/flexview/flexrecord/properties/border) | CRW | boolean |  $FALSE | Display frame (not available, reserved for future)|
+|[BorderStyle](/package/extension4/flexview/flexrecord/properties/borderstyle) | CRW | integer |  0 | Border style (not available, reserved for future)|
+|[Height](/package/extension4/flexview/flexrecord/properties/height) | CRW | integer |  20 |Row height |
+|[StripedOpacity](/package/extension4/flexview/flexrecord/properties/stripedopacity) | CRW | integer |  100 | Striped transparency|
+|[Value](/package/extension4/flexview/flexrecord/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date |   |Object value |
 
 <u><b>Access</b></u><br>
 R: Readable

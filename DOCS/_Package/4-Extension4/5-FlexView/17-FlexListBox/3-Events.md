@@ -18,7 +18,7 @@ The following events are defined in the FlexListBox class.
 
 |Name       | Description |
 |----------	|-------------|
-|[Clicked](/package/extension4/flexview/flexlistbox/events/clicked) |  |
-|[DoubleClicked](/package/extension4/flexview/flexlistbox/events/doubleclicked) |  |
-|[RClicked](/package/extension4/flexview/flexlistbox/events/rclicked) |  |
-|[SelectChanged](/package/extension4/flexview/flexlistbox/events/selectchanged) |  |
+|[Clicked](/package/extension4/flexview/flexlistbox/events/clicked) |Occurs with a left mouse click  |
+|[DoubleClicked](/package/extension4/flexview/flexlistbox/events/doubleclicked) |Occurs with a double left mouse click  |
+|[RClicked](/package/extension4/flexview/flexlistbox/events/rclicked) |Occurs with a right mouse click  |
+|[SelectChanged](/package/extension4/flexview/flexlistbox/events/selectchanged) |Occurs when choosing an option  |

@@ -18,9 +18,9 @@ The following properties are defined in the FlexRow class.
 
 |Name       | Access | Type   | Description |
 |----------	|--------|--------|-------------|
-|[End](/package/extension4/flexview/flexrow/properties/end) | R | boolean | |
-|[InvalidState](/package/extension4/flexview/flexrow/properties/invalidstate) | R | boolean | |
-|[Position](/package/extension4/flexview/flexrow/properties/position)* | R | integer | |
+|[End](/package/extension4/flexview/flexrow/properties/end) | R | boolean |Indicates the end |
+|[InvalidState](/package/extension4/flexview/flexrow/properties/invalidstate) | R | boolean |Indicates invalid status |
+|[Position](/package/extension4/flexview/flexrow/properties/position)* | R | integer |Line position |
 
 <u><b>Access</b></u><br>
 R: Readable

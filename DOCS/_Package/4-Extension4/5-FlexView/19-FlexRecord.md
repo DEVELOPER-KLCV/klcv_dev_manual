@@ -14,3 +14,11 @@ permalink: /package/extension4/flexview/flexrecord
 
 
 # {{ page.title }}
+
+<a href="/img/Package/Ext4-FlexView-FlexRecord.PNG" target="_blank">
+<img src="/img/Package/Ext4-FlexView-FlexRecord.PNG" alt="login image"></a>
+
+FlexRecrod is a class that defines how rows are displayed for the FlexView class.
+
+**Default properties and ValueType**<br> 
+The default property is <a href="/package/extension4/flexview/flexlistbox/properties/value">Value</a>. ValueType can be String Number, Fixed and Date.
