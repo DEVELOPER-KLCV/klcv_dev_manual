@@ -82,7 +82,7 @@ Specify the border type. Only valid if the <a href="/package/extension4/flexview
   <tr>
     <td class="tg-i7zr">$DASH</td>
     <td class="tg-tcrt">9</td>
-    <td class="tg-i7zr">Display with a long dotted line<br>On <img src="https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/ver_images/mver-non.gif" alt="Image" width="40" height="12"># it will be the same display as $DOT</td>
+    <td class="tg-i7zr">Display with a long dotted line<br>On <img src="https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/ver_images/mver-non.gif" alt="Image" width="40" height="12"> it will be the same display as $DOT</td>
   </tr>
   <tr>
     <td class="tg-i7zr">$DOT</td>

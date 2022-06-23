@@ -18,7 +18,7 @@ The following properties are defined in the FlexTextBoxCell class.
 
 |Name      | Access | Type   |Initial Value | Description |
 |----------	|--------|--------|---------------|-----------|
-|[Editable](/package/extension4/flexview/flextextboxcell/properties/editable) | CRW | boolean |  $TRUE |
+|[Editable](/package/extension4/flexview/flextextboxcell/properties/editable) | CRW | boolean |  $TRUE | Editability  | 
 
 <u><b>Access</b></u><br>
 R: Readable

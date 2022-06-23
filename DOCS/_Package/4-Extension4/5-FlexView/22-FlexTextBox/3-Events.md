@@ -18,8 +18,8 @@ The following events are defined in the FlexTextBox class.
 
 |Name      |  Description |
 |----------|--------------|
-|[BeginEdit](/package/extension4/flexview/flextextbox/events/beginedit) | |
-|[Clicked](/package/extension4/flexview/flextextbox/events/clicked) | |
-|[RClicked](/package/extension4/flexview/flextextbox/events/rclicked) | |
-|[TextChanged](/package/extension4/flexview/flextextbox/events/textchanged) | |
+|[BeginEdit](/package/extension4/flexview/flextextbox/events/beginedit) |Occurs when editing starts <br><small><span style="color:red">Added since Ver.5.1.0</span></small> |
+|[Clicked](/package/extension4/flexview/flextextbox/events/clicked) |Occurs with a left mouse click |
+|[RClicked](/package/extension4/flexview/flextextbox/events/rclicked) | Occurs with a right mouse click|
+|[TextChanged](/package/extension4/flexview/flextextbox/events/textchanged) |Occurs when entering text |
 

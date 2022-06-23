@@ -9,3 +9,8 @@ nav_order: 4
 permalink: /package/extension4/flexview/flextextbox/properties/copyable
 ---
 # {{ page.title }}
+
+Set whether the cell value can be copied.
+
+<small><span style="color:red">Added since Ver.5.0.3</span></small>
+<br><small><span style="color:blue">Not supported in Mobile, AI</span></small>

@@ -9,3 +9,9 @@ nav_order: 4
 permalink: /package/extension4/flexview/flextreeheader/properties/value
 ---
 # {{ page.title }}
+
+Specify the initial value of the cell. Holds the value of the data type specified in <a href="/package/system/object/properties/valuetype">ValueType</a>.
+
+See the <a href="/package/extension4/flexview/flexdata/properties/value">FlexData.Value</a> property for the behavior of the Value property.
+
+<small><span style="color:green">The handling of & can be changed with the <a href="/package/extension4/flexview/flexview/properties/noprefix">NoPrefix</a>  property of the FlexView class since Ver.5.0.0, Mobile Ver.4.5.0</span></small>  

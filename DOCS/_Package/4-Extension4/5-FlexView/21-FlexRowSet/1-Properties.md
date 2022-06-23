@@ -18,7 +18,7 @@ The following properties are defined in the FlexRowSet class.
 
 |Name       | Access | Type   | Description |
 |----------	|--------|--------|-------------|
-|[Value](/package/extension4/flexview/flexrow/properties/value) | CRW | String<br>Number<br>Fixed<br>Date<br>UString | |
+|[Value](/package/extension4/flexview/flexrow/properties/value) | CRW | String<br>Number<br>Fixed<br>Date<br>UString |Object value <br><small><span style="color:red">Added since Ver.5.0.3</span></small>|
 
 <u><b>Access</b></u><br>
 R: Readable

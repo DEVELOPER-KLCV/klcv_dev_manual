@@ -14,3 +14,17 @@ permalink: /package/extension4/flexview/flexrowset
 
 
 # {{ page.title }}
+
+<a href="/img/Package/Ext4-FlexView-FlexRowSet.PNG" target="_blank">
+<img src="/img/Package/Ext4-FlexView-FlexRowSet.PNG" alt="login image"></a>
+
+FlexRowSet is a class that defines how the columns of the FlexView class are displayed, and displays the derived classes of FlexItems placed underneath side by side in the vertical direction.
+
+**Screen Display Example**
+
+{% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/pac/ext4/ext_flexrowset.files/image001.png" %}
+
+<a href="{{ img1 }}" target="_blank"> <img src="{{ img1 }}" alt="{{img1}}"></a>
+
+**Default properties and ValueType**<br> 
+The default property is <a href="/package/extension4/flexview/flexlistbox/properties/value">Value</a>. ValueType can be String Number, Fixed, Date and UString.<br><small><span style="color:green">Value Type can be specified since Ver.5.0.3</span></small> 
