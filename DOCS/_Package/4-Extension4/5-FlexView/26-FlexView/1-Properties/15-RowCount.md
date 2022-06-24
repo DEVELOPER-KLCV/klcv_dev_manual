@@ -9,3 +9,5 @@ nav_order: 15
 permalink: /package/extension4/flexview/flexview/properties/rowcount
 ---
 # {{ page.title }}
+
+Shows the current total number of rows.  

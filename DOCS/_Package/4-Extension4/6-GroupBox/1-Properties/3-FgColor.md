@@ -9,3 +9,5 @@ nav_order: 3
 permalink: /package/extension4/groupbox/properties/fgcolor
 ---
 # {{ page.title }}
+
+Specify the text color with a <a href="/base/color">color constant</a>.
