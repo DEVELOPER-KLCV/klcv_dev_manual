@@ -22,3 +22,4 @@ The following methods are defined in the FlexRow class.
 |[GetHeaderColumn](/package/extension4/flexview/flexrow/methods/getheadercolumn) |Gets the FlexCell at the specified position |
 |[MoveNext](/package/extension4/flexview/flexrow/methods/movenext) |Move to the next line  |
 |[MovePrev](/package/extension4/flexview/flexrow/methods/moveprev) | Move to the previous line |
+ 

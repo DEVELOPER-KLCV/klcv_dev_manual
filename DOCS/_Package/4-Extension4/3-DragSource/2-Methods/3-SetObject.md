@@ -25,12 +25,12 @@ permalink: /package/extension4/dragsource/methods/setobject
     <td colspan="2">None</td>
   </tr>  
   <tr>
-    <td>Arguments</td>
-    <td>Object <i>obj</i</td>
+    <td >Arguments</td>
+    <td>Object <b><i>obj</i></b></td>
     <td>Objects to drag and drop</td>
   </tr>
   <tr>
-    <td>Exception</td>
+    <td rowspan="2">Exception</td>
     <td>CRS-328</td>
     <td>Only objects or properties can be converted</td>
   </tr>

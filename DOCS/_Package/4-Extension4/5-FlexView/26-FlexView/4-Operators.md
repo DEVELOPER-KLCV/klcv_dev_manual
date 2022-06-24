@@ -18,5 +18,5 @@ The following operators are defined in the FlexView class.
 
 | Operator      | Description         |
 |---------------|---------------------|
-|[FlexView << CSVDocument](/package/extension4/flexview/flexview/operators/1)    | |
-|[CSVDocument << FlexView](/package/extension4/flexview/flexview/operators/2)    | |
+|[FlexView << CSVDocument](/package/extension4/flexview/flexview/operators/1)    | Load the CSV Document into FlexView|
+|[CSVDocument << FlexView](/package/extension4/flexview/flexview/operators/2)    | Output FlexView to CSV Document |
