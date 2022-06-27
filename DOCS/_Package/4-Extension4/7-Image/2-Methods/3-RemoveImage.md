@@ -13,7 +13,7 @@ permalink: /package/extension4/image/methods/removeimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">The image imported by the <a href="/package/extension4/image/methods/loadimage">LoadImage</a> method is removed.</td>
   </tr>
   <tr>
     <td>Call format</td>

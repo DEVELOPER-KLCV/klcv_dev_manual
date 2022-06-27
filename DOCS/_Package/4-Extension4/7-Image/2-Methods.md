@@ -18,8 +18,8 @@ The following methods are defined in the Image class.
 
 |Name       | Description   |
 |----------	|---------------|
-|[LoadImage](/package/extension4/image/methods/loadimage) ||
-|[ModifyBrightness](/package/extension4/image/methods/modifybrightness) ||
-|[RemoveImage](/package/extension4/image/methods/removeimage) ||
-|[Rotate](/package/extension4/image/methods/rotate) ||
-|[Save](/package/extension4/image/methods/save) ||
+|[LoadImage](/package/extension4/image/methods/loadimage) | Load image file|
+|[ModifyBrightness](/package/extension4/image/methods/modifybrightness) |Change the brightness of the image <br><small><span style="color:red">Added since Ver.5.0.3</span></small><br><small><span style="color:blue">Not supported in Mobile, AI</span></small>|
+|[RemoveImage](/package/extension4/image/methods/removeimage) |Remove image imported by the LoadImage method |
+|[Rotate](/package/extension4/image/methods/rotate) |Rotate the image<br><small><span style="color:red">Added since Ver.5.0.0</span></small><br><small><span style="color:blue">Not supported in Mobile, AI</span></small>|
+|[Save](/package/extension4/image/methods/save) |Save the image in the specified format<br><small><span style="color:red">Added since Ver.5.0.43</span></small><br><small><span style="color:blue">Not supported in Mobile, AI</span></small>|

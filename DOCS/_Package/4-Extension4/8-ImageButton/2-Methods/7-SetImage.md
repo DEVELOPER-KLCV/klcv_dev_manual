@@ -13,11 +13,11 @@ permalink: /package/extension4/imagebutton/methods/setimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the image to be displayed on the button.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">ImageButton1.SetImage( <b>img</b> )</td>
+    <td colspan="2">ImageButton1.SetImage( <b><i>img</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,17 +25,17 @@ permalink: /package/extension4/imagebutton/methods/setimage
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>Object <b>img</b></td>
-    <td></td>
+    <td>Object <b><i>img</i></b></td>
+    <td>Set the <a href="/package/extension4/image">Image</a> object, <a href="/package/extension4/imagelist">ImageList</a> object, or URL. <br> If you specify an ImageList object, the first image is used. <br> When set by URL, JPEG or PNG is effective as the image format.</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-1</td>
-    <td></td>
+    <td>Invalid URL argument</td>
   </tr>
   <tr>
     <td>EXT-7</td>
-    <td></td>
+    <td>Invalid reference</td>
   </tr>
   <tr>
     <td>Example of use</td>

@@ -13,3 +13,13 @@ permalink: /package/extension4/image
 
 
 # {{ page.title }}
+<br>
+
+<a href="/img/Package/Ext4-Image.PNG" target="_blank">
+<img src="/img/Package/Ext4-Image.PNG" alt="login image"></a>
+
+A class that holds images.
+
+Default properties and ValueType
+ 
+There are no default properties. The ValueType specification is invalid.

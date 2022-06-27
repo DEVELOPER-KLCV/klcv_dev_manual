@@ -9,3 +9,5 @@ nav_order: 1
 permalink: /package/extension4/image/properties/height
 ---
 # {{ page.title }}
+
+The height of the imported image.

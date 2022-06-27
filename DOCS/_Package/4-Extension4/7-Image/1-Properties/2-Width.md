@@ -9,3 +9,5 @@ nav_order: 2
 permalink: /package/extension4/image/properties/width
 ---
 # {{ page.title }}
+
+The width of the imported image. 

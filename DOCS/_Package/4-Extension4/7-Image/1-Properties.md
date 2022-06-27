@@ -18,8 +18,8 @@ The following properties are defined in the Image class.
 
 |Name       | Access | Type   | Description   |
 |----------	|--------|--------|---------------|
-|[Height](/package/extension4/image/properties/height) | R | integer |  |
-|[Width](/package/extension4/image/properties/width) | R | integer |  |
+|[Height](/package/extension4/image/properties/height) | R | integer | Height of imported image |
+|[Width](/package/extension4/image/properties/width) | R | integer | Width of imported image |
 
 <u><b>Access</b></u><br>
 R: Readable

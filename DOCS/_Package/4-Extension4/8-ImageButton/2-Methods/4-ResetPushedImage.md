@@ -13,7 +13,7 @@ permalink: /package/extension4/imagebutton/methods/resetpushedimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Discard the image set by the <a href="/package/extension4/imagebutton/methods/setpushedimage">SetPushedImage</a> method.</td>
   </tr>
   <tr>
     <td>Call format</td>
