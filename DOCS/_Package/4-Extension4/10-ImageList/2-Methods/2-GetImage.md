@@ -13,20 +13,20 @@ permalink: /package/extension4/imagelist/methods/getimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Gets the image with the specified index number.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var img = ImageList1.GetImage( <b>no</b> )</td>
+    <td colspan="2">var img = ImageList1.GetImage( <b><i>no</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">None</td>
+    <td colspan="2"><a href="/package/extension4/image">Image</a> object <br> The Image object obtained by this method cannot be rotated by the <br><a href="/package/extension4/image/methods/rotate">Rotate</a> method.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>integer <b>no</b></td>
-    <td></td>
+    <td>integer <b><i>no</i></b></td>
+    <td>Image list index number<br> Specify an integer starting from 0.</td>
   </tr>
   <tr>
     <td>Exception</td>

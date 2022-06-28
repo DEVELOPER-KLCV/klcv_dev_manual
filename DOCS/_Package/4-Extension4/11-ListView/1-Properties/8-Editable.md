@@ -9,3 +9,5 @@ nav_order: 8
 permalink: /package/extension4/listview/properties/editable
 ---
 # {{ page.title }}
+
+You can edit the character string. Only the first column when ListStyle = $REPORT.

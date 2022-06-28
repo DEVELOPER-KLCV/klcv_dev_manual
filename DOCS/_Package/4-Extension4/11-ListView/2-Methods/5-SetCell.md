@@ -13,11 +13,11 @@ permalink: /package/extension4/listview/methods/setcell
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Change the value of the cell in the column specified by ColumnIndex of the row specified by RowIndex to String</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">ListView1.SetCell( <b>RowIndex</b>, <b>ColumnIndex</b>, <b>data</b> )</td>
+    <td colspan="2">ListView1.SetCell( <b><i>RowIndex</i></b>, <b><i>ColumnIndex</i></b>, <b><i>data</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,16 +25,16 @@ permalink: /package/extension4/listview/methods/setcell
   </tr>  
   <tr>
     <td rowspan="3">Arguments</td>
-    <td>integer <b>RowIndex</b></td>
-    <td></td>
+    <td>integer <b><i>RowIndex</i></b></td>
+    <td>An integer starting from 0. 0 is the top line. Every time the value increases by 1, it goes down one line.</td>
   </tr>
   <tr>
-    <td>integer <b>ColumnIndex</b></td>
-    <td></td>
+    <td>integer <b><i>ColumnIndex</i></b></td>
+    <td>An integer starting from 0. 0 is the leftmost column. Every time the value increases by 1, it becomes the column to the right.</td>
   </tr>
   <tr>
-    <td>String <b>data</b></td>
-    <td></td>
+    <td>String <b><i>data</i></b></td>
+    <td>New value in cell</td>
   </tr>
   <tr>
     <td>Exception</td>

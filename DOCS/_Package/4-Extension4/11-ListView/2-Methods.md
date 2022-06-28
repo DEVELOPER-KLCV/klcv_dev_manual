@@ -18,10 +18,10 @@ The following methods are defined in the ListView class.
 
 |Name       | Description   |
 |----------	|---------------|
-|[GetCell](/package/extension4/listview/methods/getcell)| |
-|[GetHeader](/package/extension4/listview/methods/getheader)| |
-|[ResetImage](/package/extension4/listview/methods/resetimage)| |
-|[ResetLargeImage](/package/extension4/listview/methods/resetlargeimage)| |
-|[SetCell](/package/extension4/listview/methods/setcell)| |
-|[SetImage](/package/extension4/listview/methods/setimage)| |
-|[SetLargeImage](/package/extension4/listview/methods/setlargeimage)| |
+|[GetCell](/package/extension4/listview/methods/getcell)| Gets the string in the cell|
+|[GetHeader](/package/extension4/listview/methods/getheader)| Returns a reference to the column header information|
+|[ResetImage](/package/extension4/listview/methods/resetimage)| Discard the image list set by the SetImage method|
+|[ResetLargeImage](/package/extension4/listview/methods/resetlargeimage)|Discard the image list set by the SetLargeImage method |
+|[SetCell](/package/extension4/listview/methods/setcell)|Set the string in the cell |
+|[SetImage](/package/extension4/listview/methods/setimage)|Sets the image list used for displaying small icons |
+|[SetLargeImage](/package/extension4/listview/methods/setlargeimage)|Sets the image list used for displaying large icons |

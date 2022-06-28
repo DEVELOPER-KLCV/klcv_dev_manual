@@ -18,5 +18,5 @@ The following methods are defined in the ImageLabel class.
 
 |Name       | Description   |
 |----------	|--------|--------|---------------|---------|
-|[ResetImage](/package/extension4/imagelabel/methods/resetimage) |  |
-|[SetImage](/package/extension4/imagelabel/methods/setimage) |  |
+|[ResetImage](/package/extension4/imagelabel/methods/resetimage) | Discard the image set by the SetImage method |
+|[SetImage](/package/extension4/imagelabel/methods/setimage) | Set the image to be displayed on the label |

@@ -13,7 +13,7 @@ permalink: /package/extension4/imagelabel/methods/resetimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Discards the image set with the <a href="/package/extension4/imagelabel/methods/setimage">SetImage</a> method.</td>
   </tr>
   <tr>
     <td>Call format</td>

@@ -13,7 +13,7 @@ permalink: /package/extension4/imagelist/methods/removeimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Discard all loaded images.</td>
   </tr>
   <tr>
     <td>Call format</td>

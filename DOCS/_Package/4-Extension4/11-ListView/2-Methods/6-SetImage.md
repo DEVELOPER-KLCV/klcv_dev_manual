@@ -13,11 +13,11 @@ permalink: /package/extension4/listview/methods/setimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Sets the image list used to display the small icons.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">ListView1.SetImage( <b>img</b> )</td>
+    <td colspan="2">ListView1.SetImage( <b><i>img</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,13 +25,13 @@ permalink: /package/extension4/listview/methods/setimage
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>ImageList <b>img</b></td>
-    <td></td>
+    <td>ImageList <b><i>img</i></b></td>
+    <td><a href="/package/extension-4/imagelist">ImageList</a> object that holds the image list you want to display</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-5</td>
-    <td></td>
+    <td>ImageList reference is abnormal</td>
   </tr>
   <tr>
     <td>Example of use</td>
@@ -41,6 +41,6 @@ permalink: /package/extension4/listview/methods/setimage
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension4/listviewitem/properties/icon">ListViewItem.Icon</a> property<b><a href="/package/extension4/listview/methods/resetimage">ResetImage</a> method<br><a href="/package/extension4/imagelist">ImageList</a> class</td>
+    <td colspan="2"><a href="/package/extension4/listviewitem/properties/icon">ListViewItem.Icon</a> property<br><a href="/package/extension4/listview/methods/resetimage">ResetImage</a> method<br><a href="/package/extension4/imagelist">ImageList</a> class</td>
   </tr>
 </table>

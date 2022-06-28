@@ -18,8 +18,8 @@ The following methods are defined in the ImageList class.
 
 |Name       | Description   |
 |----------	|---------------|
-|[Constructor](/package/extension4/imagelist/methods/constructor)| |
-|[GetImage](/package/extension4/imagelist/methods/getimage)| |
-|[LoadIcon](/package/extension4/imagelist/methods/loadicon)| |
-|[LoadImage](/package/extension4/imagelist/methods/loadimage)| |
-|[RemoveImage](/package/extension4/imagelist/methods/removeimage)| |
+|[Constructor](/package/extension4/imagelist/methods/constructor)|Initialize the ImageList object <br><small><span style="color:red">Added since Ver.4.0.0</span></small> |
+|[GetImage](/package/extension4/imagelist/methods/getimage)| Gets the image with the specified index number|
+|[LoadIcon](/package/extension4/imagelist/methods/loadicon)|Loads the icon image associated with the extension <br><small><span style="color:blue">Not supported in AI</span></small> |
+|[LoadImage](/package/extension4/imagelist/methods/loadimage)| Load the image file|
+|[RemoveImage](/package/extension4/imagelist/methods/removeimage)|Discard all loaded images |

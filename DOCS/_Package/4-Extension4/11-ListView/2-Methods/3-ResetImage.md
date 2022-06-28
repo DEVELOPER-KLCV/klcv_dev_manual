@@ -13,7 +13,7 @@ permalink: /package/extension4/listview/methods/resetimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Discard the image list set by the <a href="/package/extension4/listview/methods/setimage">SetImage</a> method.</td>
   </tr>
   <tr>
     <td>Call format</td>

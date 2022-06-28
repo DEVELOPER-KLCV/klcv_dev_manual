@@ -9,3 +9,12 @@ nav_order: 15
 permalink: /package/extension4/listview/properties/liststyle
 ---
 # {{ page.title }}
+
+List display style.
+
+| Constant   | Value | Description   |
+|------------|:-----:|---------------|
+| $LARGEICON |   0   | Large icon    |
+| $LIST      |   1   | List format   |
+| $REPORT    |   2   | Report format |
+| $SMALLICON |   3   | Small icon    |

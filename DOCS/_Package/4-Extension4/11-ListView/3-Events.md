@@ -18,7 +18,9 @@ The following events are defined in the ListView class.
 
 |Name       | Description   |
 |----------	|---------------|
-|[Clicked](/package/extension4/listview/events/clicked)| |
-|[DoubleClicked](/package/extension4/listview/events/doubleclicked)| |
-|[Dropped](/package/extension4/listview/events/dropped)| |
-|[RClicked](/package/extension4/listview/events/rclicked)| |
+|[Clicked](/package/extension4/listview/events/clicked)| Occurs when the left mouse button is clicked|
+|[DoubleClicked](/package/extension4/listview/events/doubleclicked)| Occurs when the left mouse button is double-clicked|
+|[Dropped](/package/extension4/listview/events/dropped)| Occurs when dropped by drag and drop<br><small><span style="color:red">Added since Ver.4.1.0</span></small>|
+|[RClicked](/package/extension4/listview/events/rclicked)|Occurs when the right mouse button is clicked |
+
+※ When each item in ListView is clicked, the Clicked event of ListViewItem is generated. If you want to raise the Clicked event of the ListView, click anywhere other than the item.

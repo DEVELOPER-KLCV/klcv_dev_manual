@@ -9,3 +9,5 @@ nav_order: 13
 permalink: /package/extension4/listview/properties/gridline
 ---
 # {{ page.title }}
+
+Display grid lines. Valid only when ListStyle = $REPORT. 

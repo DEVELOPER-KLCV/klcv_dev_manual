@@ -9,3 +9,5 @@ nav_order: 4
 permalink: /package/extension4/listview/properties/checkboxes
 ---
 # {{ page.title }}
+
+Displays a check box.

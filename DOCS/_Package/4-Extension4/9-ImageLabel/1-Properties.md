@@ -18,15 +18,15 @@ The following properties are defined in the ImageLabel class.
 
 |Name       | Access | Type   | Initial Value | Description   |
 |----------	|--------|--------|---------------|---------|
-|[BoxStyle](/package/extension4/imagelabel/properties/boxstyle) | CRW | integer | $BOX | |
-|[HorzPlacement](/package/extension4/imagelabel/properties/horzplacement) | CRW | integer | $STD | |
-|[ImageHeight](/package/extension4/imagelabel/properties/imageheight) | CRW | integer | 32 | |
-|[ImageWidth](/package/extension4/imagelabel/properties/imagewidth) | CRW | integer | 32 | |
-|[NoPrefix](/package/extension4/imagelabel/properties/noprefix) | CRW | boolean | $FALSE | |
-|[Resize](/package/extension4/imagelabel/properties/resize) | CRW | integer | $STD | |
-|[Spacing](/package/extension4/imagelabel/properties/spacing) | CRW | integer | 0 | |
-|[TextAlign](/package/extension4/imagelabel/properties/textalign) | CRW | integer | $STD | |
-|[VertPlacement](/package/extension4/imagelabel/properties/vertplacement) | CRW | integer | $STD | |
+|[BoxStyle](/package/extension4/imagelabel/properties/boxstyle) | CRW | integer | $BOX |Label border style |
+|[HorzPlacement](/package/extension4/imagelabel/properties/horzplacement) | CRW | integer | $STD | Horizontal display position of images and texts|
+|[ImageHeight](/package/extension4/imagelabel/properties/imageheight) | CRW | integer | 32 |Height when enlarging/ reducing the image |
+|[ImageWidth](/package/extension4/imagelabel/properties/imagewidth) | CRW | integer | 32 |Width when enlarging / reducing the image |
+|[NoPrefix](/package/extension4/imagelabel/properties/noprefix) | CRW | boolean | $FALSE |Mode without interpretation of & <br><small><span style="color:red">Added since Ver.5.0.0, Mobile Ver.4.5.0</span></small><br><small><span style="color:blue">Not supported in Mobile, AI</span></small> |
+|[Resize](/package/extension4/imagelabel/properties/resize) | CRW | integer | $STD | How to enlarge / reduce the image |
+|[Spacing](/package/extension4/imagelabel/properties/spacing) | CRW | integer | 0 |Peripheral margin|
+|[TextAlign](/package/extension4/imagelabel/properties/textalign) | CRW | integer | $STD | Display position in the text display area <br><small><span style="color:red">Added since Ver.5.0.3</span></small><br><small><span style="color:blue">Not supported in Mobile, AI</span></small>|
+|[VertPlacement](/package/extension4/imagelabel/properties/vertplacement) | CRW | integer | $STD | Vertical display position of images and texts|
 
 <u><b>Access</b></u><br>
 R: Readable

@@ -61,8 +61,7 @@ The initial value of the margin (<a href="/package/standard/imagebutton/properti
 
 
 **Precautions when scaling**<br>
-  ◆ The image displayed internally is also subject to scaling.
-
+◆ The image displayed internally is also subject to scaling.
 
 
 
