@@ -60,7 +60,6 @@ The types of icons displayed are as follows by default.
 
 You can also use the SetImage method to change to the icon stored in the ImageList object.
 
-
 **Restrictions when visual style is enabled**<br>
 Nothing in particular
 
