@@ -14,6 +14,9 @@ permalink: /package/system/event
 
 # {{ page.title }}
 
+<a href="/img/Package/System-Event.PNG" target="_blank">
+<img src="/img/Package/System-Event.PNG" alt="login image"></a>
+
 A class that represents an event that occurs in a CRS program, such as a button click.
 
 It is also used when the [PostEvent](/package/system/object/methods/postevent) method raises an event from a CRS script. 

@@ -20,5 +20,5 @@ Only for Android version
 
 |Name       | Description     |
 |----------	|-----------------|
-|[Clicked](/package/extension4/maskedit/events/clicked) | |
-|[Touch](/package/extension4/maskedit/events/touch) | |
+|[Clicked](/package/extension4/maskedit/events/clicked) | Occurs when the left mouse button is clicked |
+|[Touch](/package/extension4/maskedit/events/touch) | Occurs when the value entered in the mask edit is confirmed |

@@ -18,14 +18,14 @@ The following properties are defined in the ListViewItem class.
 
 |Name       | Access | Type   | Initial Value | Description   |
 |----------	|--------|--------|---------------|---------|
-|[BgColor](/package/extension4/listviewitem/properties/bgcolor) | CRW | integer | $STD | |
-|[Bold](/package/extension4/listviewitem/properties/bold) | CRW | boolean | $FALSE | |
-|[Checked](/package/extension4/listviewitem/properties/checked) | CRW | boolean | $FALSE | |
-|[FgColor](/package/extension4/listviewitem/properties/fgcolor) | CRW | integer | $STD | |
-|[Format](/package/extension4/listviewitem/properties/format) | CR | String |  | |
-|[Icon](/package/extension4/listviewitem/properties/icon) | CRW | integer | 0 | |
-|[Selected](/package/extension4/listviewitem/properties/selected) | CRW | boolean | $FALSE | |
-|[Value](/package/extension4/listviewitem/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date |  | |
+|[BgColor](/package/extension4/listviewitem/properties/bgcolor) | CRW | integer | $STD |Background color |
+|[Bold](/package/extension4/listviewitem/properties/bold) | CRW | boolean | $FALSE |Bold line |
+|[Checked](/package/extension4/listviewitem/properties/checked) | CRW | boolean | $FALSE |Check box selection |
+|[FgColor](/package/extension4/listviewitem/properties/fgcolor) | CRW | integer | $STD |Font color |
+|[Format](/package/extension4/listviewitem/properties/format) | CR | String |  |Formatting string |
+|[Icon](/package/extension4/listviewitem/properties/icon) | CRW | integer | 0 |Image list icon index number |
+|[Selected](/package/extension4/listviewitem/properties/selected) | CRW | boolean | $FALSE |Row selection |
+|[Value](/package/extension4/listviewitem/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date |  | Item font|
 
 <u><b>Access</b></u><br>
 R: Readable

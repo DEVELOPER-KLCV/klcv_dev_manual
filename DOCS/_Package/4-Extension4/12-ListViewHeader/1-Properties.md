@@ -18,8 +18,8 @@ The following properties are defined in the ListViewHeader class.
 
 |Name       | Access | Type   | Initial Value | Description   |
 |----------	|--------|--------|---------------|---------|
-|[ColHorzAlign](/package/extension4/listviewheader/properties/colhorzalign) | CR | integer | $STD |<br><small><span style="color:green">It also affects the placement of column names since Ver.5.0.0.</span></small> |
-|[HorizontalAlign](/package/extension4/listviewheader/properties/horizontalign) | CR | integer | $STD | <br><small><span style="color:green">It also affects the placement of column names since Ver.5.0.0.</span></small>|
+|[ColHorzAlign](/package/extension4/listviewheader/properties/colhorzalign) | CR | integer | $STD |Column name position alignment<br><small><span style="color:green">It also affects the position of column names since Ver.5.0.0.</span></small> |
+|[HorizontalAlign](/package/extension4/listviewheader/properties/horizontalign) | CR | integer | $STD | Position alignment in column<br><small><span style="color:green">It also affects the position of column names since Ver.5.0.0.</span></small>|
 |[Title](/package/extension4/listviewheader/properties/title) | CRW | String |  | Column name|
 |[Value](/package/extension4/listviewheader/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date |  | Object value|
 |[Visible](/package/extension4/listviewheader/properties/visible) | CRW | boolean | $TRUE |Display/Hide |

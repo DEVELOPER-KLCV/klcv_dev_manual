@@ -18,9 +18,9 @@ The following events are defined in the ListViewSubItem class.
 
 |Name       | Description     |
 |----------	|-----------------|
-|[Clicked](/package/extension4/listviewsubitem/events/clicked) | |
-|[DoubleClicked](/package/extension4/listviewsubitem/events/doubleclicked) | |
-|[RClicked](/package/extension4/listviewsubitem/events/rclicked) | |
+|[Clicked](/package/extension4/listviewsubitem/events/clicked) | Occurs when clicking an item|
+|[DoubleClicked](/package/extension4/listviewsubitem/events/doubleclicked) |Occurs when double-clicking an item |
+|[RClicked](/package/extension4/listviewsubitem/events/rclicked) | Occurs when right-clicking on an item|
 
 <b>Precautions when referencing selection items</b>
 

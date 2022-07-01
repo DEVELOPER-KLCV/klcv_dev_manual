@@ -18,10 +18,10 @@ The following properties are defined in the ListViewSubItem class.
 
 |Name       | Access | Type   | Initial Value | Description   |
 |----------	|--------|--------|---------------|---------|
-|[BgColor](/package/extension4/listviewsubitem/properties/bgcolor) | CRW | integer | $STD | |
-|[FgColor](/package/extension4/listviewsubitem/properties/fgcolor) | CRW | integer | $STD | |
-|[Format](/package/extension4/listviewsubitem/properties/format) | CR | String |  | |
-|[Value](/package/extension4/listviewsubitem/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date |  | |
+|[BgColor](/package/extension4/listviewsubitem/properties/bgcolor) | CRW | integer | $STD | Background color |
+|[FgColor](/package/extension4/listviewsubitem/properties/fgcolor) | CRW | integer | $STD | Font color |
+|[Format](/package/extension4/listviewsubitem/properties/format) | CR | String |  | Formatting string <br><small><span style="color:red">Formats that can be specified have been added since Ver.4.1.0</span></small>|
+|[Value](/package/extension4/listviewsubitem/properties/value)* | CRW | String<br>Number<br>Fixed<br>Date |  | Item font|
 
 <u><b>Access</b></u><br>
 R: Readable

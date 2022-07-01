@@ -52,7 +52,7 @@ Not subject to printing.
 **Default properties and ValueType**<br>
 The default property is <a href="/package/extension4/listview/properties/value">Value</a>. The ValueType specification is invalid.
 
-**Icon specification**<br>
+### Icon specification<br>
 The types of icons displayed are as follows by default.
 
 <a href="/img/Package/Ext4-ListView1.PNG" target="_blank">

@@ -9,3 +9,5 @@ nav_order: 6
 permalink: /package/extension4/listviewheader/properties/width
 ---
 # {{ page.title }}
+
+Set the column width.

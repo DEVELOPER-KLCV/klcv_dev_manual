@@ -18,4 +18,4 @@ The following events are defined in the ProgressBar class.
 
 |Name       | Description     |
 |----------	|-----------------|
-|[Timer](/package/extension4/progressbar/events/timer) | |
+|[Timer](/package/extension4/progressbar/events/timer) |Occurs every time the progress bar advances one step |

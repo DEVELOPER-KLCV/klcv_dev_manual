@@ -20,4 +20,4 @@ Only for Android version
 
 |Name       | Description     |
 |----------	|-----------------|
-|[SetMargins](/package/extension4/maskedit/methods/setmargins) | |
+|[SetMargins](/package/extension4/maskedit/methods/setmargins) |Set the left and right margins. <br><small><span style="color:red">Added since AI Ver.1.0.2</span></small> |
