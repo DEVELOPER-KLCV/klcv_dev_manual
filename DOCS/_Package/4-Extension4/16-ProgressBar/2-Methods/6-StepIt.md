@@ -13,11 +13,11 @@ permalink: /package/extension4/progressbar/methods/stepit
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Take the progress bar one step.<br> If specify an argument, the progress bar advances to the step position of that numerical value.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var num = ProgressBar1.StepIt( [ <b>num</b> ] )</td>
+    <td colspan="2">var num = ProgressBar1.StepIt( [ <b><i>num</i></b> ] )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,8 +25,8 @@ permalink: /package/extension4/progressbar/methods/stepit
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>integer <b>num</b></td>
-    <td></td>
+    <td>integer <b><i>num</i></b></td>
+    <td>Step position<br>Specify a value less than or equal to <a href="/package/extension4/progressbar/properties/step">Step</a> property. If omitted, proceed one step.</td>
   </tr>
   <tr>
     <td>Exception</td>

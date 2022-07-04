@@ -9,3 +9,7 @@ nav_order: 5
 permalink: /package/extension4/splitterframe/properties/resize
 ---
 # {{ page.title }}
+
+Setting $TRUE allows you to change the size by manipulating the position of the split line with the mouse.
+
+If you set $FALSE, the position of the split line is fixed and the size cannot be changed.

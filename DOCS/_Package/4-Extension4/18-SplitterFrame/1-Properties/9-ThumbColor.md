@@ -9,3 +9,5 @@ nav_order: 9
 permalink: /package/extension4/splitterframe/properties/thumbcolor
 ---
 # {{ page.title }}
+
+Specify the color of the split line with a <a href="/base/color">color constant</a>.

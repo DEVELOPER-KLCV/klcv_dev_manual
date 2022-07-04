@@ -18,9 +18,9 @@ The following properties are defined in the TrayIcon class.
 
 |Name       | Access | Type   | Initial Value | Description   |
 |----------	|--------|--------|---------------|---------|
-|[Icon](/package/extension4/trayicon/properties/icon) | CRW | integer | 0 | |
-|[Value](/package/extension4/trayicon/properties/value)* | CRW | String |  | |
-|[Visible](/package/extension4/trayicon/properties/visible) | CRW | boolean | $FALSE | |
+|[Icon](/package/extension4/trayicon/properties/icon) | CRW | integer | 0 | Icon number of tray icon|
+|[Value](/package/extension4/trayicon/properties/value)* | CRW | String |  |Tray icon tool tip |
+|[Visible](/package/extension4/trayicon/properties/visible) | CRW | boolean | $FALSE | Display control|
 
 <u><b>Access</b></u><br>
 R: Readable

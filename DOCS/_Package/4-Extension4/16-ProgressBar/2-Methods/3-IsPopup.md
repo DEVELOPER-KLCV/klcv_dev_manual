@@ -13,7 +13,7 @@ permalink: /package/extension4/progressbar/methods/ispopup
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Check if it is displayed in a pop-up. <br><br>Pressing the cancel button in the pop-up window closes the window, so you can also use it to find out if the cancel button was pressed.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/extension4/progressbar/methods/ispopup
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">If it is displayed in a pop-up, $TRUE is returned, otherwise $FALSE is returned.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
@@ -52,6 +52,6 @@ permalink: /package/extension4/progressbar/methods/ispopup
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension4/progressbar/properties/popup">Popup</a> method</td>
+    <td colspan="2"><a href="/package/extension4/progressbar/methods/popup">Popup</a> method</td>
   </tr>
 </table>

@@ -13,11 +13,11 @@ permalink: /package/extension4/progressbar/methods/popup
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">The progress bar will pop up in a separate window.<br> Only ProgressBar objects created with the <a href="/package/extension4/progressbar/methods/create">Create</a> method can be used.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">pb.Popup( [ <b>UseCancel</b> [, <b>UseMessage</b> ] ] )</td>
+    <td colspan="2">pb.Popup( [ <b><i>UseCancel</i></b> [, <b><i>UseMessage</i></b> ] ] )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,12 +25,12 @@ permalink: /package/extension4/progressbar/methods/popup
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
-    <td>boolean <b>UseCancel</b></td>
-    <td></td>
+    <td>boolean <b><i>UseCancel</i></b></td>
+    <td>If $TRUE is specified, a cancel button will be displayed. <br>Use the <a href="/package/extension4/progressbar/methods/ispopup">IsPopup</a> method to check if it was canceled.</td>
   </tr>
   <tr>
-    <td>boolean <b>UseMessage</b></td>
-    <td></td>
+    <td>boolean <b><i>UseMessage</i></b></td>
+    <td>If $TRUE is specified, the message string specified by the <a href="/package/extension4/progressbar/properties/message">Message</a> property will be displayed.<br><small><span style="color:red">Added since Ver.5.0.0</span></small></td>
   </tr>
   <tr>
     <td>Exception</td>

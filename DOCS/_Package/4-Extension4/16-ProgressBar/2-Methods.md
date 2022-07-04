@@ -18,16 +18,16 @@ The following methods are defined in the ProgressBar class.
 
 |Name       | Description     |
 |----------	|-----------------|
-|[AutoStep](/package/extension4/progressbar/methods/autostep) | |
-|[AutoStepOff](/package/extension4/progressbar/methods/autostepoff) | |
-|[IsPopup](/package/extension4/progressbar/methods/ispopup) | |
-|[Popup](/package/extension4/progressbar/methods/popup) | |
-|[PopupClose](/package/extension4/progressbar/methods/popupclose) | |
-|[StepIt](/package/extension4/progressbar/methods/stepit) | |
+|[AutoStep](/package/extension4/progressbar/methods/autostep) |Starts automatic progress of progress bar |
+|[AutoStepOff](/package/extension4/progressbar/methods/autostepoff) |Stops the automatic progress of the progress bar |
+|[IsPopup](/package/extension4/progressbar/methods/ispopup) | Check if it is displayed in a pop-up|
+|[Popup](/package/extension4/progressbar/methods/popup) |The progress bar will pop up in a separate window |
+|[PopupClose](/package/extension4/progressbar/methods/popupclose) |Close the pop-up window |
+|[StepIt](/package/extension4/progressbar/methods/stepit) |Take the progress bar one step |
 
 Static method
 
 
 |Name       | Description     |
 |----------	|-----------------|
-|[Create](/package/extension4/progressbar/methods/create) | |
+|[Create](/package/extension4/progressbar/methods/create) | Create ProgressBar object|

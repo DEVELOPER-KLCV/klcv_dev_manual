@@ -9,3 +9,5 @@ nav_order: 10
 permalink: /package/extension4/splitterframe/properties/thumbsize
 ---
 # {{ page.title }}
+
+Specify the thickness of the split line in the range of 0 to 64.

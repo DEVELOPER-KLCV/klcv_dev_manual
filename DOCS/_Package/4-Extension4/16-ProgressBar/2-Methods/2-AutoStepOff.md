@@ -13,7 +13,7 @@ permalink: /package/extension4/progressbar/methods/autostepoff
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Stops the automatic progress of the progress bar started by the <a href="/package/extension4/progressbar/methods/autostep">AutoStep</a> method.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -44,6 +44,6 @@ permalink: /package/extension4/progressbar/methods/autostepoff
   </tr>
   <tr>
     <td>Related item</td>
-    <td colspan="2"><a href="/package/extension4/progressbar/properties/autostep">AutoStep</a> method</td>
+    <td colspan="2"><a href="/package/extension4/progressbar/methods/autostep">AutoStep</a> method</td>
   </tr>
 </table>

@@ -9,3 +9,5 @@ nav_order: 3
 permalink: /package/extension4/trayicon/property/visible
 ---
 # {{ page.title }}
+
+When $TRUE is set, an icon will be displayed in the task tray. Set $FALSE to hide it.

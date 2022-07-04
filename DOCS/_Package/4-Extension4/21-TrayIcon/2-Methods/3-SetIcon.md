@@ -13,11 +13,11 @@ permalink: /package/extension4/trayicon/methods/seticon
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the icon file (* .ico) used to display the icon in the task tray.<br><small><span style="color:red">Added since Ver.5.0.0</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">TrayIcon1.SetIcon( <b>URL or reader</b> )</td>
+    <td colspan="2">TrayIcon1.SetIcon( <b><i>URL or reader</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,17 +25,17 @@ permalink: /package/extension4/trayicon/methods/seticon
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td><b>URL or reader</b></td>
-    <td></td>
+    <td><b><i>URL or reader</i></b></td>
+    <td>URL or <a href="/base/readerwriter#reader-object">ReaderObject</a></td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-59</td>
-    <td></td>
+    <td>The argument of SetIcon is invalid</td>
   </tr>
   <tr>
     <td>EXT-60</td>
-    <td></td>
+    <td>Unable to create temporary file</td>
   </tr>
   <tr>
     <td>Example of use</td>

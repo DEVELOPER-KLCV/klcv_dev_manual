@@ -13,7 +13,7 @@ permalink: /package/extension4/progressbar/methods/create
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Create a ProgressBar object. <br>This method is a static method. It can be called without creating an object. <br><br>It is used to generate a progress bar that pops up in a separate window using the <a href="/package/extension4/progressbar/methods/popup">Popup</a> method.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/extension4/progressbar/methods/create
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns a ProgressBar object.</td>
   </tr>  
   <tr>
     <td>Arguments</td>

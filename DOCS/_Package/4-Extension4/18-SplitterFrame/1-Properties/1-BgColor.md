@@ -9,3 +9,5 @@ nav_order: 1
 permalink: /package/extension4/splitterframe/properties/bgcolor
 ---
 # {{ page.title }}
+
+Specify the background color with a <a href="/base/color">color constant</a>.

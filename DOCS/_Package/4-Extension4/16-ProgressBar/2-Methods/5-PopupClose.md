@@ -13,7 +13,7 @@ permalink: /package/extension4/progressbar/methods/popupclose
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Close the window popped up by the <a href="/package/extension4/progressbar/methods/popup">Popup</a> method.</td>
   </tr>
   <tr>
     <td>Call format</td>

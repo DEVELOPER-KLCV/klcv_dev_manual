@@ -9,3 +9,10 @@ nav_order: 7
 permalink: /package/extension4/splitterframe/properties/splitpolicy
 ---
 # {{ page.title }}
+
+Specify the SplitPosition property unit.
+
+| Constant  | Description |
+|-----------|-------------|
+| $ABSOLUTE | Dot unit    |
+| $RELATIVE | Ratio ( % ) | 

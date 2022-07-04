@@ -18,8 +18,8 @@ The following events are defined in the TrayIcon class.
 
 |Name       | Description   |
 |----------	|---------------|
-|[Clicked](/package/extension4/trayicon/events/clicked) | |
-|[DoubleClicked](/package/extension4/trayicon/events/doubleclicked) | |
-|[LButtonUp](/package/extension4/trayicon/events/lbuttonup) | |
-|[RButtonUp](/package/extension4/trayicon/events/rbuttonup) | |
-|[RClicked](/package/extension4/trayicon/events/rclicked) | |
+|[Clicked](/package/extension4/trayicon/events/clicked) |Occurs when the left mouse button is clicked |
+|[DoubleClicked](/package/extension4/trayicon/events/doubleclicked) | Occurs when the left mouse button is double-clicked|
+|[LButtonUp](/package/extension4/trayicon/events/lbuttonup) | Occurs when the left mouse button is released|
+|[RButtonUp](/package/extension4/trayicon/events/rbuttonup) |Occurs when the right mouse button is released |
+|[RClicked](/package/extension4/trayicon/events/rclicked) | Occurs when the right mouse button is clicked|
