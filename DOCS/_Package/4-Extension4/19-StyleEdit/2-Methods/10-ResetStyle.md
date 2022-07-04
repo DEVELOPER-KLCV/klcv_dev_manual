@@ -13,7 +13,7 @@ permalink: /package/extension4/styleedit/methods/resetstyle
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Reset the style.</td>
   </tr>
   <tr>
     <td>Call format</td>

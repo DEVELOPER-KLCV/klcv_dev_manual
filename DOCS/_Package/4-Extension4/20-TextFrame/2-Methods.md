@@ -18,5 +18,5 @@ The following methods are defined in the TextFrame class.
 
 |Name       | Description   |
 |----------	|---------------|
-|[AppendCR](/package/extension4/textframe/methods/appendcr) |  | |
-|[SetMargins](/package/extension4/textframe/methods/setmargins) |  | |
+|[AppendCR](/package/extension4/textframe/methods/appendcr) |  | Converts the line feed code|
+|[SetMargins](/package/extension4/textframe/methods/setmargins) |  | Set the left and right margins <br><small><span style="color:red">Added since Ver.5.0.2</span></small>|

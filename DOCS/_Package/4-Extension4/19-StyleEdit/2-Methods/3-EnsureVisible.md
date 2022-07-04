@@ -13,11 +13,11 @@ permalink: /package/extension4/styleedit/methods/ensurevisible
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Scroll so that the cullet position is in the screen.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">StyleEdit1.EnsureVisible( [ <b>line</b> ] )</td>
+    <td colspan="2">StyleEdit1.EnsureVisible( [ <b><i>line</i></b> ] )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,8 +25,8 @@ permalink: /package/extension4/styleedit/methods/ensurevisible
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>integer <b>line</b></td>
-    <td></td>
+    <td>integer <b><i>line</i></b></td>
+    <td>Specify the line number starting from 0.<br>If omitted, the current caret line will be the target.</td>
   </tr>
   <tr>
     <td>Exception</td>

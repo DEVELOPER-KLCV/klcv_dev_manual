@@ -133,6 +133,25 @@ Setting a value for the <a href="/package/extension4/styleedit/properties/accept
  
 The StyleEdit class has different access from the inheritance source property for the following properties.
 
-<a href="/package/extension4/styleedit/properties/fontkind">FontKind</a>, <a href="/package/extension4/styleedit/properties/fontface">FontFace</a>, <a href="/package/extension4/styleedit/properties/fontsize">FontSize</a> properties
+<a href="/package/extension4/styleedit/properties/fontkind">FontKind</a>, <a href="/package/extension4/styleedit/properties/fontface">FontFace</a>, <a href="/package/extension4/styleedit/properties/fontsize">FontSize</a> properties <br>
+&nbsp;&nbsp;&nbsp;CR → CRW (initialization, readable / writeable)
 
-CR → CRW (initialization, readable / writeable)
+<a href="/package/extension4/styleedit/properties/acceptdrop">AcceptDrop</a><br>
+&nbsp;&nbsp;&nbsp;CRW → CR (initialization, readable / writeable)
+
+<small><span style="color:red">Additional functions since Ver.4.1.3 ---></span></small>
+
+**Brace Folding Function**<br>
+A brace (enclosed in parentheses) interval between specific keywords can be specified by using the StyleEdit.BRACESTART and StyleEdit.BRACEEND styles with the <a href="/package/extension4/styleedit/methods/setkeywordstyle">SetKeywordStyle</a> method. 
+
+Between the braces, the brace section is displayed on the left side so that the line can be collapsed.
+
+This function can be used to display a hierarchy of things like program sources, or to display long sentences in outlines for each paragraph.
+<small><span style="color:red"><--- until here</span></small>
+
+**Restrictions when visual style is enabled**<br>
+Visual style specification is invalid
+
+**Precautions when scaling**<br>
+◆ The displayed contents are not subject to scaling.<br>
+<small><span style="color:green">The above restrictions have been removed since Ver.5.0.1.</span></small>

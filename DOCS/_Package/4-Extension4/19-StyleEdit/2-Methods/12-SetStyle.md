@@ -13,11 +13,11 @@ permalink: /package/extension4/styleedit/methods/setstyle
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Register the style in the style number.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">StyleEdit1.SetStyle( <b>styleNo</b>, <b>fgColor</b> [, <b>bgColor</b> [, <b>fontFace</b> [, <b>fontKind</b> [, <b>fontSize</b> [, <b>hotSpot</b> ] ] ] ] ] )</td>
+    <td colspan="2">StyleEdit1.SetStyle( <b><i>styleNo</i></b>, <b><i>fgColor</i></b> [, <b><i>bgColor</i></b> [, <b><i>fontFace</i></b> [, <b><i>fontKind</i></b> [, <b><i>fontSize</i></b> [, <b><i>hotSpot</i></b> ] ] ] ] ] )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,32 +25,32 @@ permalink: /package/extension4/styleedit/methods/setstyle
   </tr>  
   <tr>
     <td rowspan="7">Arguments</td>
-    <td>integer <b>styleNo</b></td>
-    <td></td>
+    <td>integer <b><i>styleNo</i></b></td>
+    <td>The style number to register. The range is 9 to 30.</td>
   </tr>
   <tr>
-    <td>integer <b>fgColor</b></td>
-    <td></td>
+    <td>integer <b><i>fgColor</i></b></td>
+    <td>Specify the font color with a <a href="/base/color">color constant</a>.</td>
   </tr>
   <tr>
     <td>integer <b>bgColor </b></td>
-    <td></td>
+    <td>Specify the background color with a <a href="/base/color">color constant</a>.</td>
   </tr>
   <tr>
-    <td>integer <b>fontFace </b></td>
-    <td></td>
+    <td>integer <b><i>fontFace</i></b></td>
+    <td>Specifies the decoration attributes of the font. The value follows the FontFace property.</td>
   </tr>
   <tr>
-    <td>integer <b>fontKind </b></td>
-    <td></td>
+    <td>integer <b><i>fontKind</i> </b></td>
+    <td>Specifies the font type. The value follows the FontKind property.</td>
   </tr>
   <tr>
-    <td>integer <b>fontSize </b></td>
-    <td></td>
+    <td>integer <b><i>fontSize</i></b></td>
+    <td>Specifies the font size. The value follows the FontSize property.</td>
   </tr>
   <tr>
-    <td>boolean <b>hotSpot </b></td>
-    <td></td>
+    <td>boolean <b><i>hotSpot</i></b></td>
+    <td>Specify $TRUE if you want to specify hotspot attributes.</td>
   </tr>
   <tr>
     <td>Exception</td>

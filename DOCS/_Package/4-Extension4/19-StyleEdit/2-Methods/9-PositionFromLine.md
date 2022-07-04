@@ -13,20 +13,20 @@ permalink: /package/extension4/styleedit/methods/positionfromline
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Find the position of the first character of a line from the line number.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var pos = StyleEdit1.PositionFromLine( <b>line</b> )</td>
+    <td colspan="2">var pos = StyleEdit1.PositionFromLine( <b><i>line</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">integer character position<br>※ Always -1 during object initialization</td>
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>integer <b>line</b></td>
-    <td></td>
+    <td>integer <b><i>line</i></b></td>
+    <td>Specify the line number starting from 0.</td>
   </tr>
   <tr>
     <td>Exception</td>

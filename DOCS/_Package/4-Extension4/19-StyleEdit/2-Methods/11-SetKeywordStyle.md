@@ -13,11 +13,11 @@ permalink: /package/extension4/styleedit/methods/setkeywordstyle
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Register the style and the keyword to be applied in the style number.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">StyleEdit1.SetKeywordStyle( <b>styleNo</b>, <b>keywordsOrRegExp</b>, <b>mode</b>, <b>fgColor</b> [, <b>bgColor</b> [, <b>fontFace</b> [, <b>fontKind</b> [, <b>fontSize</b> ] ] ] ] )</td>
+    <td colspan="2">StyleEdit1.SetKeywordStyle( <b><i>styleNo</i></b>, <b><i>keywordsOrRegExp</i></b>, <b><i>mode</i></b>, <b><i>fgColor</i></b> [, <b><i>bgColor</i></b> [, <b><i>fontFace</i></b> [, <b><i>fontKind</i></b> [, <b><i>fontSize</i></b> ] ] ] ] )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,43 +25,85 @@ permalink: /package/extension4/styleedit/methods/setkeywordstyle
   </tr>  
   <tr>
     <td rowspan="8">Arguments</td>
-    <td>integer <b>styleNo</b></td>
-    <td></td>
+    <td>integer <b><i>styleNo</i></b></td>
+    <td>The style number to register.<br>The range that can be specified is from 0 to 8.</td>
   </tr>
   <tr>
-    <td>String <b>keywordsOrRegExp</b></td>
-    <td></td>
+    <td>String <b><i>keywordsOrRegExp</i></b></td>
+    <td>Specify a keyword list or regular expression.<br> The keyword list is a character string in which keywords are separated by one of the characters "\ n", "\ r", "\ t", and a space. <br> Up to 256 keywords can be registered.<br>  Since the condition is applied to the regular expression line by line, you cannot specify a style that spans multiple lines.</td>
   </tr>
   <tr>
-    <td>integer <b>integer </b></td>
-    <td></td>
+    <td>integer <b><i>mode</i></b></td>
+    <td>Specifies the behavior of the style.<br>
+   <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0ss8{background-color:#c0c0c0;border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;text-align:left;
+  vertical-align:top}
+.tg .tg-j5n6{border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0ss8">Constant</th>
+    <th class="tg-0ss8">Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-j5n6">StyleEdit.REGEXP</td>
+    <td class="tg-j5n6">Interpret the keyword as a regular expression</td>
   </tr>
   <tr>
-    <td>integer <b>fgColor </b></td>
-    <td></td>
+    <td class="tg-j5n6">StyleEdit.NOCASE</td>
+    <td class="tg-j5n6">Case insensitive</td>
   </tr>
   <tr>
-    <td>integer <b>bgColor </b></td>
-    <td></td>
+    <td class="tg-j5n6">StyleEdit.HOTSPOT</td>
+    <td class="tg-j5n6">Specify the hotspots ( mouse clickable style )</td>
   </tr>
   <tr>
-    <td>integer <b>fontFace </b></td>
-    <td></td>
+    <td class="tg-j5n6">StyleEdit.BRACESTART</td>
+    <td class="tg-j5n6">Specify the start keyword for the collapsed paragraph</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">StyleEdit.BRACEEND</td>
+    <td class="tg-j5n6">Specify the end keyword for the collapsed paragraph</td>
+  </tr>
+</tbody>
+</table><br><small><span style="color:red">StyleEdit.BRACESTART and StyleEdit.BRACEEND have been added from Ver.4.1.3</span></small></td>
+  </tr>
+  <tr>
+    <td>integer <b><i>fgColor</i></b></td>
+    <td>Specify the font color with a <a href="/base/color">color constant</a>
+.</td>
+  </tr>
+  <tr>
+    <td>integer <b><i>bgColor</i></b></td>
+    <td>Specify the background color with a <a href="/base/color">color constant</a>
+.</td>
+  </tr>
+  <tr>
+    <td>integer <b><i>fontFace</i></b></td>
+    <td>Specifies the decoration attributes of the font.The value follows the FontFace property.</td>
   </tr>
   
   <tr>
-    <td>integer <b>fontKind </b></td>
-    <td></td>
+    <td>integer <b><i>fontKind</i></b></td>
+    <td>Specifies the font type. The value follows the FontKind property.</td>
   </tr>
   
   <tr>
-    <td>integer <b>fontSize </b></td>
-    <td></td>
+    <td>integer <b><i>fontSize</i></b></td>
+    <td>Specifies the font size. The value follows the FontSize property.</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>Func-4</td>
-    <td></td>
+    <td>Invalid arguments</td>
   </tr>
   <tr>
     <td>Example of use</td>

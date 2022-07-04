@@ -13,7 +13,7 @@ permalink: /package/extension4/styleedit/methods/emptyundobuffer
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Clear the undo history.</td>
   </tr>
   <tr>
     <td>Call format</td>

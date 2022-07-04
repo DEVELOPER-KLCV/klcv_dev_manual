@@ -18,7 +18,7 @@ The following events are defined in the StyleEdit class.
 
 |Name       | Description   |
 |----------	|---------------|
-|[ContextMenu](/package/extension4/styleedit/events/contextmenu) |  |
-|[HotspotClicked](/package/extension4/styleedit/events/hotspotclicked) |  |
-|[HotspotDoubleClicked](/package/extension4/styleedit/events/hotspotdoubleclicked) |  |
-|[Touch](/package/extension4/styleedit/events/touch) |  |
+|[ContextMenu](/package/extension4/styleedit/events/contextmenu) | Occurs in the display operation of the context menu<br><small><span style="color:red">Added since Ver.4.1.3</span></small> |
+|[HotspotClicked](/package/extension4/styleedit/events/hotspotclicked) | Occurs when left-clicking the mouse on the title |
+|[HotspotDoubleClicked](/package/extension4/styleedit/events/hotspotdoubleclicked) | Occurs with a left double click of the mouse on the title |
+|[Touch](/package/extension4/styleedit/events/touch) | Occurs when the value entered in StyleEdit is confirmed |
