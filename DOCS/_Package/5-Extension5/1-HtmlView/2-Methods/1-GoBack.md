@@ -14,7 +14,7 @@ permalink: /package/extension5/htmlview/methods/goback
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns the currently displayed page to the previous page. <br> If the GoBack method is used to change pages, the <a href="/package/extension5/htmlview/methods/goforward">GoForward</a> method can be used to move to the next page.</td>
   </tr>
   <tr>
     <td>Call format</td>

@@ -18,5 +18,5 @@ The following methods are defined in the STree class.
 
 |Name       |  Description   |
 |----------	|----------------|
-|[ResetImage](/package/extension5/stree/methods/resetimage) | |
-|[SetImage](/package/extension5/stree/methods/setimage) | |
+|[ResetImage](/package/extension5/stree/methods/resetimage) | Discard the image list set by the SetImage method|
+|[SetImage](/package/extension5/stree/methods/setimage) |Sets the image list used to display tree item icons |

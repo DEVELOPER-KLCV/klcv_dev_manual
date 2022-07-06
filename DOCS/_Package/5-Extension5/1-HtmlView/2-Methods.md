@@ -18,14 +18,14 @@ The following methods are defined in the HtmlView class.
 
 |Name       | Description   |
 |----------	|---------------|
-|[GoBack](/package/extension5/htmlview/methods/goback) | |
-|[GoForward](/package/extension5/htmlview/methods/goforward) | |
-|[GoUrl](/package/extension5/htmlview/methods/gourl) | |
-|[IsBusy](/package/extension5/htmlview/methods/isbusy) | |
-|[Preview](/package/extension5/htmlview/methods/preview) | |
-|[Print](/package/extension5/htmlview/methods/print) | |
-|[Refresh](/package/extension5/htmlview/methods/refresh) | |
-|[ScrollBy](/package/extension5/htmlview/methods/scrollby) | |
-|SetCursor | |
-|[Stop](/package/extension5/htmlview/methods/stop) | |
-|[Zoom](/package/extension5/htmlview/methods/zoom) | |
+|[GoBack](/package/extension5/htmlview/methods/goback) | Returns the currently displayed page to the previous page|
+|[GoForward](/package/extension5/htmlview/methods/goforward) |Moves the currently displayed page to the next page |
+|[GoUrl](/package/extension5/htmlview/methods/gourl) | Specify the URL of the web page to display|
+|[IsBusy](/package/extension5/htmlview/methods/isbusy) | Returns whether the current state is loading the page|
+|[Preview](/package/extension5/htmlview/methods/preview) |Shows a print preview of the content being displayed |
+|[Print](/package/extension5/htmlview/methods/print) | Print the displayed content|
+|[Refresh](/package/extension5/htmlview/methods/refresh) | Refreshes the currently displayed page|
+|[ScrollBy](/package/extension5/htmlview/methods/scrollby) | Scrolls the displayed page <br><small><span style="color:red">Added since Ver.5.0.3</span></small>|
+|SetCursor | It is invalid. The mouse cursor cannot be changed in this class|
+|[Stop](/package/extension5/htmlview/methods/stop) |Stops loading resources such as HTML sources and images that are currently being loaded |
+|[Zoom](/package/extension5/htmlview/methods/zoom) |Enlarge or reduce the display |

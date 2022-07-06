@@ -18,8 +18,8 @@ The following events are defined in the HtmlView class.
 
 |Name       | Description   |
 |----------	|---------------|
-|[BeforeNavigate](/package/extension5/htmlview/events/beforenavigate) | |
-|[DocumentComplete](/package/extension5/htmlview/events/documentcomplete) | |
-|[Dropped](/package/extension5/htmlview/events/dropped) | |
-|[NavigateError](/package/extension5/htmlview/events/navigateerror) | |
-|[RClicked](/package/extension5/htmlview/events/rclicked) | |
+|[BeforeNavigate](/package/extension5/htmlview/events/beforenavigate) |Occurs when trying to move to a specified URL |
+|[DocumentComplete](/package/extension5/htmlview/events/documentcomplete) |Occurs when the page load is complete |
+|[Dropped](/package/extension5/htmlview/events/dropped) |Occurs when dragging and dropping |
+|[NavigateError](/package/extension5/htmlview/events/navigateerror) |Occurs when moving to the specified URL fails |
+|[RClicked](/package/extension5/htmlview/events/rclicked) |Occurs when right-clicking the mouse |

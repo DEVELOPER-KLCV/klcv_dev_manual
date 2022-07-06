@@ -9,3 +9,5 @@ nav_order: 2
 permalink: /package/extension5/htmlview/events/documentcomplete
 ---
 # {{ page.title }}
+
+Occurs when the page load is complete.

@@ -29,8 +29,8 @@ The following properties are defined in the STreeItem class.
 |[Prev](/package/extension5/streeitem/properties/prev) | R | STreeItem | |
 |[PrevVisible](/package/extension5/streeitem/properties/prevvisible) | R | STreeItem | |
 |[Selected](/package/extension5/streeitem/properties/selected) | CRW | boolean | |
-|[Title](/package/extension5/streeitem/properties/title) | CRW | String | |
-|[Value](/package/extension5/streeitem/properties/value)* | CRW | String | |
+|[Title](/package/extension5/streeitem/properties/title) | CRW | String | Item display character|
+|[Value](/package/extension5/streeitem/properties/value)* | CRW | String |Object value |
 
 <u><b>Access</b></u><br>
 R: Readable

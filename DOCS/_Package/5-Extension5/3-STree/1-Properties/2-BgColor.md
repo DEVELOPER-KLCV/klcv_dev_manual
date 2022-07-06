@@ -9,3 +9,5 @@ nav_order: 2
 permalink: /package/extension5/stree/properties/bgcolor
 ---
 # {{ page.title }}
+
+Specify the background color with a <a href="/base/color">color constant</a>.

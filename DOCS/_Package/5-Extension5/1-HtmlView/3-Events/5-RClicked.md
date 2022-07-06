@@ -9,3 +9,5 @@ nav_order: 5
 permalink: /package/extension5/htmlview/events/rclicked
 ---
 # {{ page.title }}
+
+Occurs when right-clicking the mouse.

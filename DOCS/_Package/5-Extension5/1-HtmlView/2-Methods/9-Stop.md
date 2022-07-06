@@ -14,7 +14,7 @@ permalink: /package/extension5/htmlview/methods/stop
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Stops loading resources such as HTML sources and images that are currently being loaded.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -31,7 +31,7 @@ permalink: /package/extension5/htmlview/methods/stop
   <tr>
     <td>Exception</td>
     <td>EXT-27</td>
-    <td></td>
+    <td>Initialization has not been completed</td>
   </tr>
   <tr>
     <td>Example of use</td>

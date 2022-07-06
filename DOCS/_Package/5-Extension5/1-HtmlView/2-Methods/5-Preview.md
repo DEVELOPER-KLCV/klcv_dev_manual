@@ -14,7 +14,7 @@ permalink: /package/extension5/htmlview/methods/preview
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Displays a print preview of the displayed content.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -31,7 +31,7 @@ permalink: /package/extension5/htmlview/methods/preview
   <tr>
     <td>Exception</td>
     <td>EXT-27</td>
-    <td></td>
+    <td>Initialization has not been completed</td>
   </tr>
   <tr>
     <td>Example of use</td>

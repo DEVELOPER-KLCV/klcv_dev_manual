@@ -14,7 +14,7 @@ permalink: /package/extension5/htmlview/methods/isbusy
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns whether the current state is page loading.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -22,7 +22,7 @@ permalink: /package/extension5/htmlview/methods/isbusy
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns $TRUE if the state is loading a page, $FALSE otherwise.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
@@ -31,7 +31,7 @@ permalink: /package/extension5/htmlview/methods/isbusy
   <tr>
     <td>Exception</td>
     <td>EXT-27</td>
-    <td></td>
+    <td>Initialization has not been completed</td>
   </tr>
   <tr>
     <td>Example of use</td>

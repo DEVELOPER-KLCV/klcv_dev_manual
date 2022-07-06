@@ -17,7 +17,7 @@ permalink: /package/extension5/stree/methods/setimage
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">STree1.SetImage( <b>img</b> )</td>
+    <td colspan="2">STree1.SetImage( <b><i>img</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,8 +25,8 @@ permalink: /package/extension5/stree/methods/setimage
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>ImageList <b>img</b></td>
-    <td>ImageList object that holds the image list you want to display</td>
+    <td>ImageList <b><i>img</i></b></td>
+    <td></a> method<br><a href="/package/extension4/imagelist">ImageList</a> object that holds the image list you want to display</td>
   </tr>
   <tr>
     <td>Exception</td>

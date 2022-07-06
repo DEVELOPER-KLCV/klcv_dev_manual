@@ -9,3 +9,6 @@ nav_order: 3
 permalink: /package/extension5/htmlview/events/dropped
 ---
 # {{ page.title }}
+
+
+Occurs when dragging and dropping.

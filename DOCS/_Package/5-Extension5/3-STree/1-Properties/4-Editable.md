@@ -9,3 +9,7 @@ nav_order: 4
 permalink: /package/extension5/stree/properties/editable
 ---
 # {{ page.title }}
+
+Setting $TRUE allows the user to edit the title of the item.
+
+If $FALSE is set, the title cannot be edited.

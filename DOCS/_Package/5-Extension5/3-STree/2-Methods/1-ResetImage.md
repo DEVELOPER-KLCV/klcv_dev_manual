@@ -13,7 +13,7 @@ permalink: /package/extension5/stree/methods/resetimage
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2">Discard the image list set by the [SetImage](/package/extension5/stree/methods/setimage) method.</td>
+    <td colspan="2">Discard the image list set by the <a href="/package/extension5/stree/methods/setimage">SetImage</a> method.</td>
   </tr>
   <tr>
     <td>Call format</td>

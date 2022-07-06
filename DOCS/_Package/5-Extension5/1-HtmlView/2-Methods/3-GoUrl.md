@@ -14,11 +14,11 @@ permalink: /package/extension5/htmlview/methods/gourl
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Specify the URL of the web page to display.<br> This method allows to switch the page displayed from the CRS program. <br>Page transition is also possible from the displayed HTML hyperlink.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">HtmlView1.GoUrl( <b>url</b> )</td>
+    <td colspan="2">HtmlView1.GoUrl( <b><i>url</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -26,8 +26,8 @@ permalink: /package/extension5/htmlview/methods/gourl
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td><b>url</b></td>
-    <td></td>
+    <td><b><i>url</i></b></td>
+    <td>Specifies the URL (URI) string for the page to open.<br> http, ftp, https, file (local path) etc. can be opened.</td>
   </tr>
   <tr>
     <td>Exception</td>

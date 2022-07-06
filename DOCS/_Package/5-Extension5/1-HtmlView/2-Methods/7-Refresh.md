@@ -14,7 +14,7 @@ permalink: /package/extension5/htmlview/methods/refresh
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Refresh the currently displayed page.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -31,7 +31,7 @@ permalink: /package/extension5/htmlview/methods/refresh
   <tr>
     <td>Exception</td>
     <td>EXT-27</td>
-    <td></td>
+    <td>Initialization has not been completed</td>
   </tr>
   <tr>
     <td>Example of use</td>
