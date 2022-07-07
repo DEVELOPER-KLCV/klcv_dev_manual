@@ -13,7 +13,7 @@ permalink: /package/extension5/streeitem/methods/expandall
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Expand and collapse the tree in bulk include all its descendants.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,12 +26,12 @@ permalink: /package/extension5/streeitem/methods/expandall
   <tr>
     <td>Arguments</td>
     <td><b>expanded</b></td>
-    <td></td>
+    <td>If $TRUE is specified, the tree will be expanded. <br> If $FALSE is specified, it collapses the tree. The default is $TRUE.</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-12</td>
-    <td></td>
+    <td>Invalid accessor</td>
   </tr>
   <tr>
     <td>Example of use</td>

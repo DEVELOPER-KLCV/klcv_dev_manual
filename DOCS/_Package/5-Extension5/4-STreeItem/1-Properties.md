@@ -18,17 +18,17 @@ The following properties are defined in the STreeItem class.
 
 |Name       | Access | Type   | Description   |
 |----------	|--------|--------|---------------|
-|[Child](/package/extension5/streeitem/properties/child) | R | STreeItem |  |
-|[CloseIcon](/package/extension5/streeitem/properties/closeicon) | CRW | integer |  |
-|[Expanded](/package/extension5/streeitem/properties/expanded) | CRW | boolean |  |
-|[Id](/package/extension5/streeitem/properties/id) | R | integer | |
-|[Next](/package/extension5/streeitem/properties/next) | R | STreeItem | |
-|[NextVisible](/package/extension5/streeitem/properties/nextvisible) | R | STreeItem | |
-|[OpenIcon](/package/extension5/streeitem/properties/openicon) | CRW | integer | |
-|[Parent](/package/extension5/streeitem/properties/parent) | R | STreeItem | |
-|[Prev](/package/extension5/streeitem/properties/prev) | R | STreeItem | |
-|[PrevVisible](/package/extension5/streeitem/properties/prevvisible) | R | STreeItem | |
-|[Selected](/package/extension5/streeitem/properties/selected) | CRW | boolean | |
+|[Child](/package/extension5/streeitem/properties/child) | R | STreeItem |  Accessor for the item of its first child|
+|[CloseIcon](/package/extension5/streeitem/properties/closeicon) | CRW | integer | Icon with the tree closed |
+|[Expanded](/package/extension5/streeitem/properties/expanded) | CRW | boolean | Expand / collapse state of the item tree |
+|[Id](/package/extension5/streeitem/properties/id) | R | integer | Item ID|
+|[Next](/package/extension5/streeitem/properties/next) | R | STreeItem |Accessor for its next item |
+|[NextVisible](/package/extension5/streeitem/properties/nextvisible) | R | STreeItem |Accessor of the item displayed next to itself |
+|[OpenIcon](/package/extension5/streeitem/properties/openicon) | CRW | integer |Icon when the tree expanded |
+|[Parent](/package/extension5/streeitem/properties/parent) | R | STreeItem |Accessor of own parent's item |
+|[Prev](/package/extension5/streeitem/properties/prev) | R | STreeItem |Accessor of the previous item |
+|[PrevVisible](/package/extension5/streeitem/properties/prevvisible) | R | STreeItem | Accessor of the previously displayed item |
+|[Selected](/package/extension5/streeitem/properties/selected) | CRW | boolean |Item selection status |
 |[Title](/package/extension5/streeitem/properties/title) | CRW | String | Item display character|
 |[Value](/package/extension5/streeitem/properties/value)* | CRW | String |Object value |
 

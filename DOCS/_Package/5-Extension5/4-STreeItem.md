@@ -22,7 +22,7 @@ An accessor class for manipulating each item in the STree class. Be sure to get 
 **Default properties and ValueType**<br>
 The default property is <a href="/package/extension5/streeitem/properties/value">Value</a>. The value type specification is invalid.
 
-**Format for adding items by passing an XML Document**<br>
+### Format for adding items by passing an XML Document <br>
 There are the following rules in XML when adding an item using an XMLDocument object with the <a href="/package/extension5/streeitem/methods/append">Append</a> and <a href="/package/extension5/streeitem/methods/insert">Insert</a> methods.
 
 - The root node is skipped.

@@ -13,7 +13,7 @@ permalink: /package/extension5/streeitem/methods/ensurevisible
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Ensures that the specified item is visible within the screen when scrolling/expand the contents.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -30,7 +30,7 @@ permalink: /package/extension5/streeitem/methods/ensurevisible
   <tr>
     <td>Exception</td>
     <td>EXT-12</td>
-    <td></td>
+    <td>Invalid accessor</td>
   </tr>
   <tr>
     <td>Example of use</td>

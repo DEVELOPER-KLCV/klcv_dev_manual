@@ -9,3 +9,5 @@ nav_order: 12
 permalink: /package/extension5/streeitem/properties/title
 ---
 # {{ page.title }}
+
+The display character of the item.

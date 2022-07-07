@@ -9,3 +9,7 @@ nav_order: 6
 permalink: /package/extension5/streeitem/properties/nextvisible
 ---
 # {{ page.title }}
+
+Gets the STreeItem object that will be the accessor to the next displayed item.
+
+If the next displayed item does not exist, it will be null.

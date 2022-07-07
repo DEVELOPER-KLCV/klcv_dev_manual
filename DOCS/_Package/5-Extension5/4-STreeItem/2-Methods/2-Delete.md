@@ -13,7 +13,7 @@ permalink: /package/extension5/streeitem/methods/delete
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Deletes itself and all items pointed to by its children. <br>When called for a root item, it deletes all items except the root item. <br>The accessor indicating the deleted item is disabled and the <a href="/package/extension5/streeitem/properties/id">Id</a> property is 0.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -30,7 +30,7 @@ permalink: /package/extension5/streeitem/methods/delete
   <tr>
     <td>Exception</td>
     <td>EXT-12</td>
-    <td></td>
+    <td>Invalid accessor</td>
   </tr>
   <tr>
     <td>Example of use</td>

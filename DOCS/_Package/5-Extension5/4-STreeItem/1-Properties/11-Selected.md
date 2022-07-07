@@ -9,3 +9,5 @@ nav_order: 11
 permalink: /package/extension5/streeitem/properties/selected
 ---
 # {{ page.title }}
+
+Indicates the item selection status.

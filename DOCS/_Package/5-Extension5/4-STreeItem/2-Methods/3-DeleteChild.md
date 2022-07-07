@@ -13,7 +13,7 @@ permalink: /package/extension5/streeitem/methods/deletechild
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Disconnects all child objects connected to the object from the object tree.<br> See the <a href="/package/extension5/streeitem/methods/delete">Delete</a> method for disconnecting from the object tree.<br><small><span style="color:green">Since Ver.5.0.2, in addition to the above, it has been extended to delete its own child items from the tree.</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -30,7 +30,7 @@ permalink: /package/extension5/streeitem/methods/deletechild
   <tr>
     <td>Exception</td>
     <td>EXT-12</td>
-    <td></td>
+    <td>Invalid accessor</td>
   </tr>
   <tr>
     <td>Example of use</td>

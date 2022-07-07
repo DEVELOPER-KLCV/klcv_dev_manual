@@ -6,7 +6,7 @@ parent: Properties
 has_children: false
 title: TrayIcon.Visible Property
 nav_order: 3
-permalink: /package/extension4/trayicon/property/visible
+permalink: /package/extension4/trayicon/properties/visible
 ---
 # {{ page.title }}
 
