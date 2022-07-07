@@ -11,236 +11,780 @@ permalink: /package/extension5/sspread
 ---
 {% assign img1 = "/img/Biz Browser V/Package_Button.png" %}
 
-
 # {{ page.title }}
 
+<a href="/img/Package/Ext5-SSpread.PNG" target="_blank">
+<img src="/img/Package/Ext5-SSpread.PNG" alt="login image"></a>
 
-The following properties are defined in the SSpread class.
+A class that displays high-performance spreadsheets.
 
-| Name                     | Access | & = | Type                    | Initial Value                                                                                                     | explanation                                                                                       |
-|--------------------------|--------|:---:|-------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| AcceptDrop               | CRW    |     | integer                 | 0                                                                                                                 | Type that accepts drag and drop                                                                   |
-| ActiveCellHighlightStyle | CRW    |     | integer                 | $ActiveCellHighlightStyleNormal                                                                                   | Highlight active cell                                                                             |
-| ActiveCol                | R      |     | integer                 | 1                                                                                                                 | Active cell column number                                                                         |
-| ActiveRow                | R      |     | integer                 | 1                                                                                                                 | Active cell row number                                                                            |
-| AllowCellOverflow        | CRW    |     | boolean                 | $FALSE                                                                                                            | Displayed in the next cell                                                                        |
-| AllowColMove             | CRW    |     | boolean                 | $FALSE                                                                                                            | Allow drag and drop to move columns                                                               |
-| AllowDragDrop            | CRW    |     | boolean                 | $FALSE                                                                                                            | Allow drag and drop of cell blocks                                                                |
-| AllowEditOverflow        | CRW    |     | boolean                 | $FALSE                                                                                                            | In the input mode, it is displayed so that it extends beyond the adjacent cell.                   |
-| AllowMultiBlocks         | CRW    |     | boolean                 | $FALSE                                                                                                            | Allow multiple selection of cell blocks                                                           |
-| AllowRowMove             | CRW    |     | boolean                 | $FALSE                                                                                                            | Allow drag and drop to move rows                                                                  |
-| AllowUserFormulas        | CRW    |     | boolean                 | $FALSE                                                                                                            | Allow entry of formulas                                                                           |
-| Appearance               | CRW    |     | integer                 | $AppearanceFlat                                                                                                   | Borders across the spreadsheet                                                                    |
-| AppearanceStyle          | CRW    |     | integer                 | $AppearanceStyleEnhanced                                                                                          | Overall spreadsheet design                                                                        |
-| ArrowsExitEditMode       | CRW    |     | boolean                 | $FALSE                                                                                                            | Operation of arrow keys in input mode                                                             |
-| AutoCalc                 | CRW    |     | boolean                 | $TRUE                                                                                                             | Automatically recalculate each formula in related cells                                           |
-| AutoClipboard            | CRW    |     | boolean                 | $TRUE                                                                                                             | Enable shortcut keys to operate the clipboard                                                     |
-| BackColor                | CRW    |  ×  | integer UString         | $WHITE                                                                                                            | Background color for rows, columns, cells, cell blocks                                            |
-| BackColorStyle           | CRW    |     | integer                 | $BackColorStyleOverGrid                                                                                           | Display background color above grid lines                                                         |
-| BgColor                  | CRW    |  ×  | integer UString         | $WHITE                                                                                                            | Background color for rows, columns, cells, cell blocks                                            |
-| BlockMode                | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Enable the value of each property for the cell block                                              |
-| Border                   | CRW    |     | boolean                 | $FALSE                                                                                                            | Display of frame                                                                                  |
-| BorderStyle              | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Display of frame                                                                                  |
-| ButtonDrawMode           | CRW    |     | integer                 | $ButtonDrawModeAlways                                                                                             | Button type, combo box type cell button display range                                             |
-| CellNote                 | CRW    |  ×  | UString                 | ""                                                                                                                | Cell comment settings <br><small><span style="color:red">Added since Ver.5.0.2</span></small> added                                                                 |
-| CellTag                  | CRW    |  ×  | UString                 | ""                                                                                                                | User-defined tags for cells, columns and rows                                                     |
-| CellType                 | CRW    |  ×  | integer                 | $CellTypeEdit                                                                                                     | Data types of cells in rows, columns, cells, cell blocks                                          |
-| ChangeMade               | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Whether the cell value has changed                                                                |
-| Clip                     | CRW    |  ×  | UString                 | ――――                                                                                                              | Set the value in the cell block                                                                   |
-| Clipboard Options        | CRW    |     | integer                 | $ClipboardOptionsCopyPasteAllHeaders                                                                              | Handling of headers when copying and pasting                                                      |
-| ClipValue                | CRW    |  ×  | UString                 | ――――                                                                                                              | Set the value in the cell block                                                                   |
-| Col                      | CRW    |  ×  | integer                 | -1                                                                                                                | Columns to be processed                                                                           |
-| Col2                     | CRW    |  ×  | integer                 | 0                                                                                                                 | The last column of the cell block to be processed                                                 |
-| ColHeadersAutoText       | CRW    |     | integer                 | $DispLetters                                                                                                      | Display format of column header                                                                   |
-| ColHeadersShow           | CRW    |     | boolean                 | $TRUE                                                                                                             | Show / hide column headers                                                                        |
-| ColHidden                | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Show / hide columns                                                                               |
-| ColID                    | CRW    |  ×  | UString                 | ""                                                                                                                | A string that identifies the column                                                               |
-| ColMerge                 | CRW    |  ×  | integer                 | $MergeNone                                                                                                        | Group cells with the same content in a particular column                                          |
-| Cols Frozen              | CRW    |     | integer                 | 0                                                                                                                 | Number of columns to be fixedly displayed without scrolling                                       |
-| ColUserSortIndicator     | *      |  ×  | integer                 | $ColUserSortIndicatorNone                                                                                         | Show / hide sort indicator                                                                        |
-| ColWidth                 | *      |  ×  | integer                 | 64                                                                                                                | Column width                                                                                      |
-| CursorIcon               | CRW    |  ×  | String Object Reference | ――――                                                                                                              | User-defined mouse cursor                                                                         |
-| CursorStyle              | CRW    |  ×  | integer                 | $CursorStyleDefault                                                                                               | Mouse cursor shape to use                                                                         |
-| CursorType               | CRW    |  ×  | integer                 | $CursorTypeDefault                                                                                                | Target to set the mouse cursor                                                                    |
-| DataColCnt               | R      |     | integer                 | 0                                                                                                                 | Column number of the last cell where the value is entered                                         |
-| DataRowCnt               | R      |     | integer                 | 0                                                                                                                 | Row number of the last cell where the value is entered                                            |
-| EditEnterAction          | CRW    |     | integer                 |                                                                                                                   | Enter key behavior                                                                                |
-| EditMode                 | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Input mode status                                                                                 |
-| EditModePermanent        | CRW    |     | boolean                 | $FALSE                                                                                                            | Input mode is always ON                                                                           |
-| EditModeReplace          | CRW    |     | boolean                 | $FALSE                                                                                                            | Replace with original value in input mode                                                         |
-| FgColor                  | CRW    |  ×  | integer UString         | $BLACK                                                                                                            | Text color of rows, columns, cells, cell blocks                                                   |
-| FontBold                 | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Bold font for rows, columns, cells, and cell blocks                                               |
-| FontFace                 | CRW    |  ×  | integer                 | $STD                                                                                                              | Row, column, cell, cell block font styles                                                         |
-| FontItalic               | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Font italics for rows, columns, cells and cell blocks                                             |
-| FontKind                 | CRW    |  ×  | integer UString         | $STD                                                                                                              | Row, column, cell, cell block font types                                                          |
-| FontName                 | CRW    |  ×  | UString                 | " MS Gothic "                                                                                                     | Font names for rows, columns, cells, and cell blocks                                              |
-| FontSize                 | CRW    |  ×  | integer                 | Ten                                                                                                               | Row, column, cell, cell block font size                                                           |
-| FontStrikethru           | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Row, column, cell, cell block font strikethrough                                                  |
-| FontUnderline            | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Underline fonts for rows, columns, cells, and cell blocks                                         |
-| ForeColor                | CRW    |  ×  | integer UString         | $BLACK                                                                                                            | Text color of rows, columns, cells, cell blocks                                                   |
-| Formula                  | CRW    |  ×  | UString                 | ""                                                                                                                | Cell formula                                                                                      |
-| FormulaSync              | CRW    |     | boolean                 | $TRUE                                                                                                             | Automatically update cell references in formulas                                                  |
-| GrayAreaBackColor        | CRW    |     | integer UString         | $STD                                                                                                              | Background color of gray area                                                                     |
-| GridColor                | CRW    |     | integer UString         | $STD                                                                                                              | Display color of grid lines                                                                       |
-| GridShowHoriz            | CRW    |     | boolean                 | $TRUE                                                                                                             | Show / hide horizontal grid lines                                                                 |
-| GridShowVert             | CRW    |     | boolean                 | $TRUE                                                                                                             | Show / hide vertical grid lines                                                                   |
-| GridSolid                | CRW    |     | boolean                 | $TRUE                                                                                                             | Grid line type                                                                                    |
-| IsBlockSelected          | R      |     | boolean                 | $FALSE                                                                                                            | Whether cell block is selected                                                                    |
-| LeftCol                  | CRW    |     | integer                 | 1                                                                                                                 | Column number to display in the leftmost column                                                   |
-| Lock                     | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Lock rows, columns, cells, cell blocks                                                            |
-| LockBackColor            | CRW    |     | integer UString         | $STD                                                                                                              | Background color of locked cells                                                                  |
-| LockForeColor            | CRW    |     | integer UString         | $STD                                                                                                              | Text color of locked cell                                                                         |
-| MaxCols                  | CRW    |     | integer                 | 500                                                                                                               | Total number of columns                                                                           |
-| MaxRows                  | CRW    |     | integer                 | 500                                                                                                               | Total number of rows                                                                              |
-| MaxTextCellHeight        | R      |  ×  | integer                 | ――――                                                                                                              | Height required to display the text set in the cell                                               |
-| MaxTextCellWidth         | R      |  ×  | integer                 | ――――                                                                                                              | The width required to display the text set in the cell                                            |
-| MaxTextColWidth          | *      |  ×  | integer                 | ――――                                                                                                              | The width required to display the text set in the column                                          |
-| MaxTextRowHeight         | *      |  ×  | integer                 | ――――                                                                                                              | The height required to display the text set on the line                                           |
-| MoveActiveOnFocus        | CRW    |     | boolean                 | $TRUE                                                                                                             | Activates the cell pointed to by the mouse pointer when getting focus                             |
-| NoBeep                   | CRW    |     | boolean                 | $FALSE                                                                                                            | Beep when you make a mistake or make a mistake                                                    |
-| NoBorder                 | CRW    |     | boolean                 | $FALSE                                                                                                            | Show / Hide Borders at Right and Bottom Edges of Spreadsheets                                     |
-| OperationMode            | CRW    |     | integer                 | $OperationModeNormal                                                                                              | Operation mode                                                                                    |
-| ProcessDelete            | CRW    |     | Integer                 | $DeleteNone                                                                                                       | Delete the data and formula in the selected cell with the Delete key. <br><small><span style="color:red">Added since Ver.5.0.2</span></small>                 |
-| ProcessTab               | CRW    |     | boolean                 | $FALSE                                                                                                            | Move the active cell with the Tab key                                                             |
-| Protect                  | CRW    |     | boolean                 | $TRUE                                                                                                             | Prohibit writing of locked cells                                                                  |
-| ReDraw                   | CRW    |     | boolean                 | $TRUE                                                                                                             | Allow redraw <br><small><span style="color:red">Added since Ver.5.0.2</span></small>                                                                          |
-| RestrictCols             | CRW    |     | boolean                 | $FALSE                                                                                                            | Prohibit entering a value if no value has been entered in the column to the left                  |
-| RestrictRows             | CRW    |     | boolean                 | $FALSE                                                                                                            | Prohibit entering a value if no value has been entered in the next line above                     |
-| RetainSelBlock           | CRW    |     | boolean                 | $FALSE                                                                                                            | Leave selection highlighted when out of focus                                                     |
-| Row                      | CRW    |  ×  | integer                 | -1                                                                                                                | Line to be processed                                                                              |
-| Row2                     | CRW    |  ×  | integer                 | 0                                                                                                                 | The last row of the cell block to be processed                                                    |
-| RowHeadersAutoText       | CRW    |     | integer                 | $DispNumbers                                                                                                      | Line header display format                                                                        |
-| RowHeadersShow           | CRW    |     | boolean                 | $TRUE                                                                                                             | Show / hide line headers                                                                          |
-| RowHeight                | *      |  ×  | integer                 | 15                                                                                                                | Row height                                                                                        |
-| RowHidden                | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Show / hide rows                                                                                  |
-| RowMerge                 | CRW    |  ×  | integer                 | $MergeNone                                                                                                        | Group cells with the same content within a particular row                                         |
-| Rows Frozen              | CRW    |     | integer                 | 0                                                                                                                 | Number of lines to be fixedly displayed without scrolling                                         |
-| ScrollBarExtMode         | CRW    |     | boolean                 | $FALSE                                                                                                            | Automatically show / hide scrollbars                                                              |
-| ScrollBarHColor          | CRW    |     | integer UString         | $STD                                                                                                              | Horizontal scrollbar color                                                                        |
-| ScrollBarHeight          | CRW    |     | integer                 | -1                                                                                                                | Horizontal scroll bar height                                                                      |
-| ScrollBarMaxAlign        | CRW    |     | boolean                 | $TRUE                                                                                                             | Display position of the last cell when scrolling to the end                                       |
-| ScrollBars               | CRW    |     | integer                 | $ScrollBarsBoth                                                                                                   | Show / hide scrollbar                                                                             |
-| ScrollBarShowMax         | CRW    |     | boolean                 | $TRUE                                                                                                             | Scroll range (until the last data, up to the last cell)                                           |
-| ScrollBarStyle           | CRW    |     | integer                 | $ScrollBarStyleInherit                                                                                            | Scrollbar design                                                                                  |
-| ScrollBarTrack           | CRW    |     | integer                 | $ScrollBarTrackOff                                                                                                | Show spreadsheet contents while scrolling                                                         |
-| ScrollBarVColor          | CRW    |     | integer UString         | $STD                                                                                                              | Vertical scrollbar color                                                                          |
-| ScrollBarWidth           | CRW    |     | integer                 | -1                                                                                                                | Vertical scrollbar width                                                                          |
-| SelBackColor             | CRW    |     | integer UString         | $STD                                                                                                              | Background color of the selected cell or cell block                                               |
-| SelBlockCol              | R      |     | integer                 | 0                                                                                                                 | Leftmost column number of the selected cell block                                                 |
-| SelBlockCol2             | R      |     | integer                 | 0                                                                                                                 | Rightmost column number of the selected cell block                                                |
-| SelBlockRow              | R      |     | integer                 | 0                                                                                                                 | Row number at the top of the selected cell block                                                  |
-| SelBlockRow2             | R      |     | integer                 | 0                                                                                                                 | Row number at the bottom of the selected cell block                                               |
-| SelectBlockOptions       | CRW    |  ×  | integer                 | 15                                                                                                                | Options when selecting cell blocks                                                                |
-| SelectionCount           | R      |     | integer                 | 0                                                                                                                 | Number of selected cell blocks or number of rows when multiple rows are selected                  |
-| SelForeColor             | CRW    |     | integer UString         | $STD                                                                                                              | Text color of the selected cell or cell block                                                     |
-| SelLength                | CRW    |  ×  | integer                 | ――――                                                                                                              | Number of characters for character selection in input mode                                        |
-| SelModeIndex             | CRW    |  ×  | integer                 | ――――                                                                                                              | Line number to select in single selection mode                                                    |
-| SelModeSelected          | CRW    |  ×  | boolean                 | ――――                                                                                                              | Select the row indicated by the Row property in multiple selection mode                           |
-| SelStart                 | CRW    |  ×  | integer                 | ――――                                                                                                              | Start position of character selection in input mode                                               |
-| SelText                  | CRW    |  ×  | UString                 | ――――                                                                                                              | Character string for character selection in input mode                                            |
-| ShadowColor              | CRW    |     | integer UString         | $STD                                                                                                              | Row and column headers, and label cell background color                                           |
-| ShadowDark               | CRW    |     | integer UString         | $STD                                                                                                              | Row and column headers, and the color of the shadow side of the unevenness of the label type cell |
-| ShadowLight              | CRW    |     | integer UString         | $STD                                                                                                              | Light side color of row and column headers and unevenness of label type cells <br><small><span style="color:red">Added since Ver.5.0.1</span></small>        |
-| ShadowText               | CRW    |     | integer UString         | $STD                                                                                                              | Text color for row and column headers and label cells                                             |
-| SortKey                  | *      |  ×  | integer                 | ――――                                                                                                              | Sort key                                                                                          |
-| SortKeyOrder             | *      |  ×  | integer                 | $SortKeyOrderAscending                                                                                            | Sort order                                                                                        |
-| StartingColNumber        | CRW    |     | integer                 | 1                                                                                                                 | Column display start number                                                                       |
-| StartingRowNumber        | CRW    |     | integer                 | 1                                                                                                                 | Line display start number                                                                         |
-| Text                     | CRW    |  ×  | UString                 | ""                                                                                                                | Cell value                                                                                        |
-| ToolTip                  | CRW    |     | String                  | ""                                                                                                                | Value to display in tooltip                                                                       |
-| ToolTipDelayTime         | CRW    |     | integer                 | 0                                                                                                                 | Time to display tooltips                                                                          |
-| TopRow                   | CRW    |     | integer                 | 1                                                                                                                 | The number of the line to be displayed on the top line                                            |
-| TwoDigitYearMax          | CRW    |     | integer                 | 2059                                                                                                              | Base year for converting a 2-digit year to a 4-digit year                                         |
-| TypeButtonAlign          | CRW    |  ×  | integer                 | $TypeButtonAlignBottom                                                                                            | Arrangement of characters in button cell                                                          |
-| TypeButtonColor          | CRW    |  ×  | integer UString         | (OS setting value )                                                                                               | Button cell background color                                                                      |
-| TypeButtonDarkColor      | CRW    |  ×  | integer UString         | (OS setting value )                                                                                               | The color of the shadow side of the unevenness of the button cell                                 |
-| TypeButtonLightColor     | CRW    |  ×  | integer UString         | (OS setting value )                                                                                               | The color of the unevenness of the button cell on the light side                                  |
-| TypeButtonPicture        | CRW    |  ×  | String Object Reference | ――――                                                                                                              | Image of button cell not pressed                                                                  |
-| TypeButtonPictureDown    | CRW    |  ×  | String Object Reference | ――――                                                                                                              | Image of the button cell being pressed                                                            |
-| TypeButtonShadowSize     | CRW    |  ×  | integer                 | 1                                                                                                                 | Depth of unevenness of button cell                                                                |
-| TypeButtonText           | CRW    |  ×  | UString                 | ""                                                                                                                | Button cell text                                                                                  |
-| TypeButtonTextColor      | CRW    |  ×  | integer UString         | (OS setting value )                                                                                               | Text color of button cell                                                                         |
-| TypeButtonType           | CRW    |  ×  | integer                 | $TypeButtonTypeNormal                                                                                             | Button type of button cell                                                                        |
-| TypeCheckCenter          | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Check box type cell check box is placed in the center                                             |
-| TypeCheckPicture         | *      |  ×  | String Object Reference | ――――                                                                                                              | Check box image of check box type cell                                                            |
-| TypeCheckText            | CRW    |  ×  | UString                 | ""                                                                                                                | Checkbox cell text                                                                                |
-| TypeCheckTextAlign       | CRW    |  ×  | integer                 | $TypeCheckTextAlignRight                                                                                          | Arrangement of characters in check box type cells                                                 |
-| TypeCheckType            | CRW    |  ×  | integer                 | $TypeCheckTypeNormal                                                                                              | Check box type of check box type cell                                                             |
-| TypeComboBoxAutoSearch   | CRW    |  ×  | integer                 | $TypeComboBoxAutoSearchSingleChar                                                                                 | Combo box cell search type                                                                        |
-| TypeComboBoxCount        | R      |  ×  | integer                 | 0                                                                                                                 | Number of items in combo box type cell                                                            |
-| TypeComboBoxCurSel       | CRW    |  ×  | integer                 | -1                                                                                                                | Selected item number of combo box type cell                                                       |
-| TypeComboBoxEditable     | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Make the item name of the combo box type cell editable                                            |
-| TypeComboBoxIndex        | CRW    |  ×  | integer                 | 0                                                                                                                 | Item number to be processed by combo box type cell                                                |
-| TypeComboBoxList         | CRW    |  ×  | UString                 | ""                                                                                                                | List of item names for combo box cell                                                             |
-| TypeComboBoxMaxDrop      | CRW    |  ×  | integer                 | 6                                                                                                                 | Number of rows to display in the drop-down list of combo box cells                                |
-| TypeComboBoxString       | CRW    |  ×  | UString                 | ――――                                                                                                              | Item name of combo box type cell                                                                  |
-| TypeComboBoxWidth        | CRW    |  ×  | integer                 | 0                                                                                                                 | Combo box cell drop-down list width                                                               |
-| TypeCurrencyDecimal      | CRW    |  ×  | UString                 | ""                                                                                                                | Decimal point symbol for currency cell                                                            |
-| TypeCurrencyDecPlaces    | CRW    |  ×  | integer                 | 2                                                                                                                 | Number of digits to display after the decimal point in the currency cell                          |
-| TypeCurrencyLeadingZero  | CRW    |  ×  | integer                 | $TypeLeadingZeroIntl                                                                                              | Show leading zeros in currency cells                                                              |
-| TypeCurrencyMax          | CRW    |  ×  | Number                  | 9999999.99                                                                                                        | Upper limit that can be entered in currency cell                                                  |
-| TypeCurrencyMin          | CRW    |  ×  | Number                  | – 9999999.99                                                                                                      | Lower limit that can be entered in currency cell                                                  |
-| TypeCurrencyNegStyle     | CRW    |  ×  | integer                 | $TypeCurrencyNegStyleIntl                                                                                         | Negative number format for currency cells                                                         |
-| TypeCurrencyPosStyle     | CRW    |  ×  | integer                 | $TypeCurrencyPosStyleIntl                                                                                         | Positive format of currency cell                                                                  |
-| TypeCurrencySeparator    | CRW    |  ×  | UString                 | ""                                                                                                                | Delimiter for every 3 digits of currency cell                                                     |
-| TypeCurrencyShowSep      | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Display the delimiter for every 3 digits of the currency type cell                                |
-| TypeCurrencyShowSymbol   | CRW    |  ×  | boolean                 | $TRUE                                                                                                             | Display the currency symbol of a currency cell                                                    |
-| TypeCurrencySymbol       | CRW    |  ×  | UString                 | ""                                                                                                                | Currency symbol of currency type cell                                                             |
-| TypeDateCentury          | CRW    |  ×  | boolean                 | (OS setting value )                                                                                               | 4 - digit year display of date cell                                                               |
-| TypeDateFormat           | CRW    |  ×  | integer                 | (OS setting value )                                                                                               | Date cell display format                                                                          |
-| TypeDateMax              | CRW    |  ×  | UString                 | "20991231"                                                                                                        | Upper limit of the date that can be entered in the date cell                                      |
-| TypeDateMin              | CRW    |  ×  | UString                 | "19000101"                                                                                                        | Lower limit of the date that can be entered in the date cell                                      |
-| TypeDateSeparator        | CRW    |  ×  | integer                 | (OS setting value )                                                                                               | Date cell year / month / day separator                                                            |
-| TypeEditCharCase         | CRW    |  ×  | integer                 | $TypeEditCharCaseSetNone                                                                                          | Automatically convert uppercase and lowercase letters in character cells                          |
-| TypeEditCharSet          | CRW    |  ×  | integer                 | $TypeEditCharSetASCII                                                                                             | Character types that can be entered in character cell                                             |
-| TypeEditMultiLine        | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Allow multi-line input for character cells                                                        |
-| TypeEditPassword         | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Display * instead of the entered character in the character cell                                  |
-| TypeEllipses             | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Display ellipsis in cells that do not fit                                                         |
-| TypeHAlign               | CRW    |  ×  | integer                 | Currency, numbers, percentages, exponential cells $TypeHAlignRight Cell type other than the above $TypeHAlignLeft | Horizontal placement of cells                                                                     |
-| TypeMaxEditLen           | CRW    |  ×  | integer                 | Character cell 32000 Combo box type cell 150                                                                      | Maximum number of characters that can be entered in a cell                                        |
-| TypeNegRed               | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Negative numbers in cells are displayed in red                                                    |
-| TypeNumberDecimal        | CRW    |  ×  | UString                 | ""                                                                                                                | Decimal point symbol for numeric cells                                                            |
-| TypeNumberDecPlaces      | CRW    |  ×  | integer                 | 2                                                                                                                 | Number of digits to display after the decimal point in a numeric cell                             |
-| TypeNumberLeadingZero    | CRW    |  ×  | integer                 | $TypeLeadingZeroIntl                                                                                              | Show leading zeros in numeric cells                                                               |
-| TypeNumberMax            | CRW    |  ×  | Number                  | 9999999.99                                                                                                        | Upper limit that can be entered in a numeric cell                                                 |
-| TypeNumberMin            | CRW    |  ×  | Number                  | – 9999999.99                                                                                                      | Lower limit that can be entered in a numeric cell                                                 |
-| TypeNumberNegStyle       | CRW    |  ×  | integer                 | $TypeNumberNegStyleIntl                                                                                           | Negative number format for numeric cells                                                          |
-| TypeNumberSeparator      | CRW    |  ×  | UString                 | ""                                                                                                                | Delimiter for every 3 digits of a numeric cell                                                    |
-| TypeNumberShowSep        | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Display the delimiter for every 3 digits of the numeric cell                                      |
-| TypePercentDecimal       | CRW    |  ×  | UString                 | ""                                                                                                                | Decimal point symbol for percent cell                                                             |
-| TypePercentDecPlaces     | CRW    |  ×  | integer                 | 2                                                                                                                 | Number of digits to display after the decimal point in the percentage cell                        |
-| TypePercentLeadingZero   | CRW    |  ×  | integer                 | $TypeLeadingZeroIntl                                                                                              | Show leading zeros for percentage cells                                                           |
-| TypePercentMax           | CRW    |  ×  | Number                  | 9999.99                                                                                                           | Upper limit that can be entered for percentage cells                                              |
-| TypePercentMin           | CRW    |  ×  | Number                  | -9999.99                                                                                                          | Lower limit that can be entered for percentage cells                                              |
-| TypePercentNegStyle      | CRW    |  ×  | integer                 | $TypePercentNegStyleIntl                                                                                          | Negative number format for percentage cells                                                       |
-| TypePicDefaultText       | CRW    |  ×  | UString                 | ""                                                                                                                | Character string to be displayed instead of the edit definition character of the mask type cell   |
-| TypePicMask              | CRW    |  ×  | UString                 | ""                                                                                                                | Mask cell format                                                                                  |
-| TypePictCenter           | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Center the image of the image type cell                                                           |
-| TypePictMaintainScale    | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Preserves the aspect ratio of the image in the image type cell                                    |
-| TypePictPicture          | CRW    |  ×  | String Object Reference | ――――                                                                                                              | Image type cell image                                                                             |
-| TypePictStretch          | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Enlarging / reducing the image in the image type cell                                             |
-| TypeScientificDecimal    | CRW    |  ×  | UString                 | ""                                                                                                                | Decimal point symbol for exponential cells                                                        |
-| TypeScientificDecPlaces  | CRW    |  ×  | integer                 | 0                                                                                                                 | Number of digits after the decimal point in the exponential cell                                  |
-| TypeScientificMax        | CRW    |  ×  | Number                  | 1.7E + 308                                                                                                        | Valid maximum value for exponential cells                                                         |
-| TypeScientificMin        | CRW    |  ×  | Number                  | -1.7E + 308                                                                                                       | Valid minimum of exponential cells                                                                |
-| TypeSpin                 | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Show spin button in cell                                                                          |
-| TypeSpin Inc             | CRW    |  ×  | Number                  | 1.1 1.1                                                                                                           | Amount of change due to one click of the spin button on the cell                                  |
-| TypeSpinWrap             | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Operation at the upper and lower limits of the spin button in the cell                            |
-| TypeTextOrient           | CRW    |  ×  | integer                 | $TypeTextOrientHorizontal                                                                                         | Display direction of cell characters                                                              |
-| TypeTextPrefix           | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Handling of & characters contained in the value of label type cell                                |
-| TypeTextShadow           | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Convex display of label type cells                                                                |
-| TypeTextShadowIn         | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Concave display of label type cell                                                                |
-| TypeTextWordWrap         | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Labeled cell word wrap                                                                            |
-| TypeTime24Hour           | CRW    |  ×  | integer                 | (OS setting value )                                                                                               | 12 -hour / 24 -hour clock cell                                                                    |
-| TypeTimeMax              | CRW    |  ×  | UString                 | "235959"                                                                                                          | Upper limit of time that can be entered in the time cell                                          |
-| TypeTimeMin              | CRW    |  ×  | UString                 | "000000"                                                                                                          | Lower limit of time that can be entered in the time cell                                          |
-| TypeTimeSeconds          | CRW    |  ×  | boolean                 | $FALSE                                                                                                            | Display seconds in time cell                                                                      |
-| TypeTimeSeparator        | CRW    |  ×  | integer                 | (OS setting value )                                                                                               | Delimiter between hours, minutes, and seconds in a time cell                                      |
-| TypeVAlign               | CRW    |  ×  | integer                 | Check box type cell $TypeVAlignCenter Cell type other than the above $TypeVAlignTop                               | Vertical placement of cells                                                                       |
-| UseChange                | CRW    |     | boolean                 | ――――                                                                                                              | Specifying a value is invalid for this class                                                      |
-| UserColAction            | CRW    |     | integer                 | $UserColActionDefault                                                                                             | The action to take when you click on the column header                                            |
-| UserResize               | CRW    |     | integer                 | $UserResizeBoth                                                                                                   | Allow mouse to change column width and row height                                                 |
-| UserResizeCol            | CRW    |  ×  | integer                 | $UserResizeDefault                                                                                                | Allow the mouse to change the width of the column                                                 |
-| UserResizeRow            | CRW    |  ×  | integer                 | $UserResizeDefault                                                                                                | Allow mouse to change row height                                                                  |
-| UseVisualStyles          | CRW    |     | integer                 | $UseVisualStylesInherit                                                                                           | Design of buttons, checkboxes, etc. placed in cells                                               |
-| Value                    | CRW    |  ×  | UString                 | ""                                                                                                                | Cell value                                                                                        |
+**Screen Display Example**
+
+{% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/pac/ext5/ext_sspread.files/image001.png" %}
+
+<a href="{{ img1 }}" target="_blank"> <img src="{{ img1 }}" alt="{{img1}}"></a>
+
+**Printer output by Doc class**<br>
+Not subject to printing.
+
+**Default properties and ValueType**<br>
+There are no default properties. The value type specification is invalid.
+
+**Character Code**<br>
+In this class, the basic character code is treated as Unicode, and the properties and methods that handle character strings are UString type with some exceptions.
+
+If you set an object of type String, it will be automatically converted to type UString before processing.
+
+When specifying the number of characters and the position of characters, it is in character units without distinction such as full-width / half-width.
+
+**SSpread class-specific property execution order specification**<br>
+
+In normal CRS execution, the properties set in the script are reflected on the GUI side after the execution of the series of scripts is completed.
+
+Therefore, the setting order of properties is not related to the reflection of GUI, and conversely, when referencing properties, the state of GUI is not reflected in real time.
+
+However, the SSpread class is designed with a strong awareness of porting from client-server type applications created with Visual Basic, and is executed with different behavior rules from other classes.
+
+Setting and reading properties is accessed in real time in the GUI and executed in the order in which they are written, including methods.
+
+
+(Description example)
+
+```
+Col = 2;
+Row = 3;
+BgColor = $BLUE;
+Col = 4;
+Row = 5;
+BgColor = $RED;
+```
+
+In normal CRS execution, only Col = 4, Row = 5, BgColor = $ RED described later are valid, but in SSpread class, Col = 2, Row = 3, BgColor = $ BLUE are executed as described, and In addition, Col = 4, Row = 5, BgColor = $ RED are executed.
+
+Therefore, the order in which the properties are written directly affects the execution speed.
+
+Generally, the speed decreases as the number of target cells increases, so it is more efficient to execute the property method that is reflected in the entire spreadsheet at the stage where the cell data is as small as possible.
+
+**Col, Row, Col2, Row2, BlockMode properties**<br>
+The <a href="/package/extension5/sspread/properties/col">Col</a>, <a href="/package/extension5/sspread/properties/row">Row</a>, <a href="/package/extension5/sspread/properties/col2">Col2</a>, and <a href="/package/extension5/sspread/properties/row2">Row2</a> properties are used to set the scope of processing before performing various processing on the spreadsheet.
+
+Targets for which these properties need to be preset include the <a href="/package/extension5/sspread/properties/backcolor">BackColor</a>, <a href="/package/extension5/sspread/properties/forecolor">ForeColor</a>, <a href="/package/extension5/sspread/properties/fontbold">FontBold</a>, <a href="/package/extension5/sspread/properties/fontitalic">FontItalic</a>, <a href="/package/extension5/sspread/properties/celltype">CellType</a>, <a href="/package/extension5/sspread/properties/text">Text</a>, <a href="/package/extension5/sspread/properties/value">Value</a>, <a href="/package/extension5/sspread/properties/lock">Lock</a>, and <a href="/package/extension5/sspread/properties/formula">Formula</a> properties.
+
+| Processing object        | Properties to set                             |
+|--------------------------|-----------------------------------------------|
+| Cell                     | Col , Row                                     |
+| Column (1 column)        | Col , Row ( -1 )                              |
+| Column range             | Col , Col2                                    |
+| Column header (1 column) | Col , Row ( 0 )                               |
+| Whole column header      | Col ( -1 ), Row ( 0 )                         |
+| Row                      | Row , Col ( -1 )                              |
+| Range of rows            | Row , Row2                                    |
+| Row header (1 column)    | Col ( 0 ), Row                                |
+| Whole row header         | Col , Row ( -1 )                              |
+| Cell block               | Col , Row , Col2 , Row2 , BlockMode ( $TRUE ) |
+| Entire spreadsheet       | Col ( -1 ), Row ( -1 )                        |
+
+Set <a href="/package/extension5/sspread/properties/blockmode">BlockMode</a> to $TRUE to enable the Col2, Row2 properties to specify cell blocks.
+
+If you leave BlockMode at $TRUE after setting it to a cell block, it may affect the unintended range in the subsequent processing, so it is recommended to return it to $FALSE after use.
+
+If you specify multiple cells with different values and refer to the values, the value of one representative cell will be returned in principle. To ensure that you get the value of a particular cell, specify the cell clearly in the Col and Row properties before referencing.
+
+**This class's unique color handling (#RRGGBB format)**<br>
+Apart from the standard color constants ($BLACK, $FF0000, etc.), any color can be used in this class.
+
+Color information is represented by a character string in the following format.
+```
+"#RRGGBB"
+```
+1st character: #
+
+2nd and 3rd characters (RR): Hexagonal number (00 to FF) representing the red component
+
+4th and 5th characters (GG): Hexagonal number representing the green component (00 to FF)
+
+6th and 7th characters (BB): Hexagonal number (00 to FF) representing the blue component<br>
+(Example)<br> Orange color
+
+For the colors defined in the color constants, the color constants take precedence even if the string format is specified.
+
+Specifying $ STD sets the standard color.
+
+**Index Property**<br>
+Some properties get and set the value by specifying the index number of the target data. (Example: <a href="/package/extension5/sspread/properties/colwidth">ColWidth</a>, <a href="/package/extension5/sspread/properties/rowheight">RowHeight</a> property, etc.)
+
+```
+/* 取得例 */
+var w = ColWidth(5);
+var h = RowHeight(7);
+/* 設定例 */
+ColWidth(5) = w + 10;
+RowHeight(7) = h + 10;
+```
+
+Notice that the index number is enclosed in (n) (round brackets) instead of the [n] (square brackets) that represent the array.
+
+The substance of these properties is a method, and by passing an index number as an argument of the method, it behaves like a property.
+
+(Displayed as a method on Biz / Desiger)
+
+In this manual, properties with such a function are called "index properties" and are treated as properties.
+
+
+**Restriction of property setting by reference operator (& =)**<br>
+The "reference operator", which is an operator peculiar to Biz / Browser, automatically assigns the changed value to the left side when the right side of the assignment expression is changed.
+
+(Example)
+```
+Width &= ^.Width - 10;
+Height &= ^.Height - 10;
+```
+
+However, there are many properties in this class that can be changed to affect the values of other properties or behave differently depending on the order in which they are set.
+
+When a reference operator is used for such a property, the intended result is difficult to obtained because the processing target of the assignment destination (left side) and the value of the reference destination (right side) may differ depending on the state of other properties. 
+
+Properties whose "& =" column in the <a href="/package/extension5/sspread/properties">Property List</a> is "x" are targeted.
+
+(A typical example is a property that presets the Col and Row properties.)
+
+**Do not use** these properties on either the left or right side of the reference operator.
+
+(Example that cannot be used)
+```
+Col = 2;
+Row = 3;
+BackColor & = ^. Label1.BgColor; / * Specify on the left side * /
+Col = 4;
+Row = 5;
+^ .Label1.BgColor = $ RED; / * The reference operator changes the background color of columns 4 rows 5 cells * /
+ 
+Col = 6;
+Row = 7;
+^ .Label2.BgColor & = BackColor; / * Specify on the right side * /
+Col = 8;
+Row = 9;
+BackColor = $ GREEN; / * The reference operator changes the background color of Label2 * /
+```
+
+Note that these properties are excluded from the property view of Biz / Designer so that they cannot be set, so specify them directly in the CRS program.
+
+
+**Limits on fonts applied to cell blocks**<br>
+If you use the  <a href="/package/extension5/sspread/properties/fontbold">FontBold</a>,<a href="/package/extension5/sspread/properties/fontface">FontFace</a>, <a href="/package/extension5/sspread/properties/fontitalic">FontItalic</a>, <a href="/package/extension5/sspread/properties/fontkind">FontKind</a>, <a href="/package/extension5/sspread/properties/fontname">FontName</a>, <a href="/package/extension5/sspread/properties/fontsize">FontSize</a>, <a href="/package/extension5/sspread/properties/fontstrikethru">FontStrikethru</a>, and <a href="/package/extension5/sspread/properties/fontunderline">FontUnderline</a> properties and set <a href="/package/extension5/sspread/properties/blockmode">BlockMode</a> to $TRUE to apply the settings to a cell block, the font settings for each cell will be discarded and the font will be recreated based on the cell pointed to by the <a href="/package/extension5/sspread/properties/col">Col</a> and <a href="/package/extension5/sspread/properties/row">Row</a> properties.
+
+In other words, if you make a cell "bold" and then apply "oblique" to the cell block that contains that cell, the "bold" will be canceled.
+
+When setting fonts, first make common settings from a large range, and then make individual settings.
+
+**Get and set the value for each cell data type**<br>
+Depending on the cell data type set in the CellType property, the cell value can be obtained and set as follows.
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0ss8{background-color:#c0c0c0;border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;text-align:left;
+  vertical-align:top}
+.tg .tg-j5n6{border-color:inherit;font-family:Arial, Helvetica, sans-serif !important;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0ss8">Cell data type</th>
+    <th class="tg-0ss8">Data / status</th>
+    <th class="tg-0ss8"><a href="/package/extension5/sspread/properties/text">Text</a> property</th>
+    <th class="tg-0ss8"><a href="/package/extension5/sspread/properties/value">Value</a> property</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-j5n6">Text type</td>
+    <td class="tg-j5n6">-</td>
+    <td class="tg-j5n6">String</td>
+    <td class="tg-j5n6">String</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">Label type</td>
+    <td class="tg-j5n6">-</td>
+    <td class="tg-j5n6">String</td>
+    <td class="tg-j5n6">String</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">Date type</td>
+    <td class="tg-j5n6">"2011/04/27"</td>
+    <td class="tg-j5n6">"2011/04/27"</td>
+    <td class="tg-j5n6">"20110427"</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">Momentary</td>
+    <td class="tg-j5n6">"11:25:03 pm"</td>
+    <td class="tg-j5n6">"11:25:03 pm"</td>
+    <td class="tg-j5n6">"232503"</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">Numeric type</td>
+    <td class="tg-j5n6">"10,000.00"</td>
+    <td class="tg-j5n6">"10,000.00"</td>
+    <td class="tg-j5n6">"10000.00"</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">Currency type</td>
+    <td class="tg-j5n6">"\10,000.00"</td>
+    <td class="tg-j5n6">"\10,000.00"</td>
+    <td class="tg-j5n6">"10000.00"</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">Percentage type</td>
+    <td class="tg-j5n6">"15%"</td>
+    <td class="tg-j5n6">"15%"</td>
+    <td class="tg-j5n6">"0.15"</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">Exponential</td>
+    <td class="tg-j5n6">"2.22E+05"</td>
+    <td class="tg-j5n6">"2.22E+05"</td>
+    <td class="tg-j5n6">"222222"</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">Mask type</td>
+    <td class="tg-j5n6">"22-45-76"</td>
+    <td class="tg-j5n6">"22-45-76"</td>
+    <td class="tg-j5n6">"224576"</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6" rowspan="3">Command button</td>
+    <td class="tg-j5n6">Being pressed</td>
+    <td class="tg-j5n6">"1"</td>
+    <td class="tg-j5n6">"1"</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">Not pressed</td>
+    <td class="tg-j5n6">"0"</td>
+    <td class="tg-j5n6">"0"</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">Not set</td>
+    <td class="tg-j5n6">blank text column</td>
+    <td class="tg-j5n6">"0"</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6" rowspan="4">Checkbox</td>
+    <td class="tg-j5n6">Ticked</td>
+    <td class="tg-j5n6">"1"</td>
+    <td class="tg-j5n6">"1"</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">Unticked</td>
+    <td class="tg-j5n6">"0"</td>
+    <td class="tg-j5n6">"0"</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">Gray state</td>
+    <td class="tg-j5n6">"2"</td>
+    <td class="tg-j5n6">"2"</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">Not set</td>
+    <td class="tg-j5n6">blank text column</td>
+    <td class="tg-j5n6">"0"</td>
+  </tr>
+  <tr>
+    <td class="tg-j5n6">Combo box</td>
+    <td class="tg-j5n6">-</td>
+    <td class="tg-j5n6">String data of the selected element</td>
+    <td class="tg-j5n6">Index of selected element<br>(Blank character string when not selected)</td>
+  </tr>
+</tbody>
+</table>
+
+**Precautions for specifying the range based on the lower and upper limits**<br>
+
+Properties that specify a range of values, such as <a href="/package/extension5/sspread/properties/typenumbermin">TypeNumberMin</a> and <a href="/package/extension5/sspread/properties/typenumbermax">TypeNumberMax</a>, can limit input operations, but do not guarantee that the values will be within the range. Incorrect values may be set temporarily by input operations, or incorrect values may be set from the CRS script.
+
+The <a href="/package/extension5/sspread/events/editerror">EditError</a> event is raised when an invalid value is set by an input operation. If want to make sure that the value is checked, control it with a CRS script.
+
+**Notes on property references in event handlers**<br>
+Biz / Browser events are executed sequentially after being accumulated in the event queue. Therefore, there is no guarantee that the timing and order of events will always be the same.
+
+Even for events that occur in this class, the value of the property referenced in the event handler may differ depending on the execution status. For example, the <a href="/package/extension5/sspread/events/leavecell">LeaveCell</a>  event is generated by moving the active cell, but it is uncertain whether the value before or after the move can be obtained when the <a href="/package/extension5/sspread/properties/activecol">ActiveCol</a> or <a href="/package/extension5/sspread/properties/activerow">ActiveRow</a> property is referenced in the OnLeaveCell event handler.
+
+Events of this class are passed relevant information as child objects of event handler arguments (Event objects), so be sure to use that information.
+
+```
+Function OnLeaveCell(e) {
+    ^.Label1.Value = ActiveCol; /* variable */
+    ^.Label2.Value = ActiveRow; /* variable */
+    ^ .Label3.Value = e.Col;      / * Column number before moving * /
+    ^ .Label4.Value = e.Row;      / * Row number before moving * /
+    ^ .Label5.Value = e.NewCol;   / * Column number after move * /
+    ^ .Label6.Value = e.NewRow;   / * Moved row number * /
+}
+```
+
+**Inherited property for each cell data type**<br>
+The <a href="/package/extension5/sspread/properties/celltype">CellType</a> property and properties whose name starts with "Type" set the cell data type. These properties are stored for the last setting for each cell data type, and are inherited the next time they are set for a cell with the same data type. See the <a href="/package/extension5/sspread/properties/celltype">CellType</a> property for more information.
+
+
+**Standard keyboard operation and KeyDown event**<br>
+The spreadsheet can be operated with the following keys.
+
+
+| Key                    | Action                                                                                                          |
+|------------------------|-----------------------------------------------------------------------------------------------------------------|
+| Arrow keys             | Move active cell Extend the selection with the Shift key                                                        |
+| PageUp , PageDown keys | Move the active cell up or down on a page-by-page basis Move left or right with Ctrl key                        |
+| Home , End key         | Move active cell to first or last cell in row Use the Ctrl key to move to the first and last cells of the whole |
+| Tab key                | Set in <a href="/package/extension5/sspread/properties/processtab">ProcessTab</a>  property                                                                                      |
+| Space key              | Select a line with the Ctrl key Select a column with the Shift key Select all with Ctrl + Shift                 |
+| Enter key              | Set by <a href="/package/extension5/sspread/properties/editenteraction">EditEnterAction</a> property                                                                                 |
+| Esc key                | Cancel selection etc.                                                                                           |
+| Delete key             | Set with <a href="/package/extension5/sspread/properties/processdelete">ProcessDelete</a> property                                                                                 |
+
+If set the <a href="/package/extension5/sspread/properties/autoclipbord">AutoClipbord</a> property to $TRUE, the following key operations also can be used.
+
+| Key                        | Action |
+|----------------------------|--------|
+| Ctrl +'C' , Ctrl + Insert  | Copy   |
+| Ctrl +'X' , Shift + Delete | Cut    |
+| Ctrl +'V' , Shift + Insert | Paste  |
+
+
+The above key does not generate the <a href="/package/extension5/sspread/events/keydown">KeyDown</a> event of the parent Form when pressed. Specifying <a href="/package/extension5/sspread/properties/altkey">AltKey</a> properties such as Button on the same Form is also invalid.
+
+Other keys will raise the KeyDown event of the parent Form if they are not used to edit the data. Control by key operation should be performed by the OnKeyDown event handler of the parent Form.
+
+
+**Import/Export function in Excel**<br>
+SSpread is equipped with methods for reading from Excel format files and outputting to Excel format.
+
+This function tries to match the cell information handled by SSpread with the cell information handled by Excel as much as possible, but please note that the input / output results do not exactly match because there are differences in the functions that can be handled by each.
+
+Also, macros (VBA), graphs, and other images cannot be input or output with SSpread.
+
+Please note that if the file has an extremely large size or a large number of formulas, it will take a very long time to import / export, and the process may slow down or stop (no response).
+
+&nbsp; &nbsp; ***Correspondence of ruled line during output***
+&nbsp; &nbsp; The relationship between the ruled line specified by SSpread and the ruled line output is as follows.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
