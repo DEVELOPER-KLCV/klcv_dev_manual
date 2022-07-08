@@ -366,10 +366,27 @@ Also, macros (VBA), graphs, and other images cannot be input or output with SSpr
 
 Please note that if the file has an extremely large size or a large number of formulas, it will take a very long time to import / export, and the process may slow down or stop (no response).
 
-&nbsp; &nbsp; ***Correspondence of ruled line during output***
+&nbsp; &nbsp; ***Correspondence of ruled line during output***<br> 
 &nbsp; &nbsp; The relationship between the ruled line specified by SSpread and the ruled line output is as follows.
 
+| Constant                        | Description                    | Ruled lines in Excel            |
+|---------------------------------|--------------------------------|---------------------------------|
+| $CellBorderStyleSolid           | Solid line                     | Thick line                      |
+| $ CellBorderStyleDash           | Dashed line                    | Thick dashed line               |
+| $ CellBorderStyleDot            | Dotted line                    | Dotted line                     |
+| $ CellBorderStyleDashDot        | Dashed dotted line             | Thick dashed dotted line        |
+| $ CellBorderStyleDashDotDot     | Dashed double dotted line      | Thick dashed double dotted line |
+| $CellBorderStyleFineSolid       | Very fine dotted line                | Solid line                      |
+| $CellBorderStyleFineDash        | Fine dashed line               | Dashed line                     |
+| $CellBorderStyleFineDot         | Fine dotted line               | Dotted line                     |
+| $ CellBorderStyleFineDashDot    | Fine dash-dotted line          | Dashed dotted line              |
+| $ CellBorderStyleFineDashDotDot | Fine dashed double-dotted line | Dashed double dotted line       |
 
+**Restrictions when visual style is enabled**<br>
+Nothing in particular
+
+**Precautions when scaling**<br>
+◆ The displayed content is not subject to scaling.
 
 
 
