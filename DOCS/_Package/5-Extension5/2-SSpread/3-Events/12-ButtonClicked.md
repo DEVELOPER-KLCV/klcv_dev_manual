@@ -40,5 +40,5 @@ Function OnButtonClicked (e) {
 ```
 
 Related Item<br>
-<a href="/package/extension5/sspread/properties/celltype">CellType</a>, <a href="/package/extension5/sspread/properties/text">Text</a>, <a href="/package/extension5/sspread/properties/typebuttontype">TypeButtonType</a>, <a href="/package/extension5/sspread/properties/value">Value</a>, property
+<a href="/package/extension5/sspread/properties/celltype">CellType</a>, <a href="/package/extension5/sspread/properties/text">Text</a>, <a href="/package/extension5/sspread/properties/typebuttontype">TypeButtonType</a>, <a href="/package/extension5/sspread/properties/value">Value</a> property
 

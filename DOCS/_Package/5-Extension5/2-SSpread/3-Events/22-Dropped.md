@@ -9,3 +9,28 @@ nav_order: 22
 permalink: /package/extension5/sspread/events/dropped
 ---
 # {{ page.title }}
+
+It is an event that occurs when it is dropped by drag and drop operation.
+
+A DroppedEvent object is passed as an argument to the OnDropped event handler.
+
+It may occur multiple times depending on the dropped content. For example, if multiple files are dropped from Explorer, the event will occur several times for that file.
+
+Events also occur when text data and files are dropped at the same time.
+
+Example of usage<br>
+```
+Function OnDropped(e) {
+    switch (e.Type) {
+    case $STRING:
+        print(e.Data, "\n");
+        break;
+    case $FILE:
+        print(e.Data.PathName, "\n");
+        break;
+    }
+}
+```
+
+<small><span style="color:red">Added since Ver.5.0.3</span></small>
+<br><small><span style="color:blue">Not supported in Mobile, AI</span></small>  
