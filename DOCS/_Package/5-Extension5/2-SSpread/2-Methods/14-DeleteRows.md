@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/deleterows
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Deletes the specified row or range.<br><br>Deleting a row does not reduce the number of rows set in the <a href="/package/extension5/sspread/properties/maxrows">MaxRows</a> property, it automatically adds a blank row at the end of the spreadsheet.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,20 +26,20 @@ permalink: /package/extension5/sspread/methods/deleterows
   <tr>
     <td rowspan="2">Arguments</td>
     <td><b>row</b></td>
-    <td></td>
+    <td>First line number of the line range to be deleted</td>
   </tr>
   <tr>
     <td><b>numrows</b></td>
-    <td></td>
+    <td>Number of lines to delete</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-1</td>
-    <td></td>
+    <td>Invalid DeleteRows argument</td>
   </tr>
   <tr>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the DeleteRows method</td>
   </tr>
   <tr>
     <td>Example of use</td>

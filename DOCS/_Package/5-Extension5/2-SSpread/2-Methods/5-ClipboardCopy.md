@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/clipboardcopy
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Copies the selected cell block to the clipboard.<br><br>When exchanging data via the clipboard, use the tab-separated text format. If no cell is selected, the active cell is copied.<br>Use the ClipboardOptions property to change the handling of headers in clipboard operations.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -30,7 +30,7 @@ permalink: /package/extension5/sspread/methods/clipboardcopy
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the ClipboardCopy method</td>
   </tr>
   <tr>
     <td>Example of use</td>

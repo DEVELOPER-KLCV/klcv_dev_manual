@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/clearselection
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Removes all selected cells on the spreadsheet.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -30,7 +30,7 @@ permalink: /package/extension5/sspread/methods/clearselection
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the ClearRange method<br><small><span style="color:green">Changed to the following specifications since Ver.5.0.3</span></small></td>
   </tr>
   <tr>
     <td>Example of use</td>

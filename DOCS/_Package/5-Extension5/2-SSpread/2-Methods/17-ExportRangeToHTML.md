@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/exportrangetohtml
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Export a specific cell range to an HTML file. <br><br>A cell range specification has been added to the functionality of the <a href="/package/extension5/sspread/methods/exporttohtml">ExportToHTML</a> method. The cell range specified by the argument is exported regardless of the presence or absence of data in the cell.<br><br> Use the <a href="/package/extension5/sspread/methods/exportrangetohtmlex">ExportRangeToHTMLEx</a> method to specify style information.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,33 +26,33 @@ permalink: /package/extension5/sspread/methods/exportrangetohtml
   <tr>
     <td rowspan="5">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Start column number of cell range to export</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Start row number of cell range to export</td>
   </tr>
   <tr>
     <td><b>col2</b></td>
-    <td></td>
+    <td>Last column number of cell range to export</td>
   </tr>
   <tr>
     <td><b>row2</b></td>
-    <td></td>
+    <td>Last row number of cell range to export</td>
   </tr>
   
   <tr>
     <td><b>Writer</b></td>
-    <td></td>
+    <td>Export destination <a href="/base/readerwriter#writer-object">Writer Object</a></td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-25</td>
-    <td></td>
+    <td>No valid Writer object specified</td>
   </tr>
   <tr>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the ExportRangeToHTML method</td>
   </tr>
   <tr>
     <td>Example of use</td>

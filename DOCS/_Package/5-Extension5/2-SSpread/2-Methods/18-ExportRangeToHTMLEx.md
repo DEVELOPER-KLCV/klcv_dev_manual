@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/exportrangetohtmlex
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Export a specific cell range to an HTML file.<br><br>An extension of the ExportRangeToHTML method. The style information can be specified to be output to the HTML table.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,56 +26,56 @@ permalink: /package/extension5/sspread/methods/exportrangetohtmlex
   <tr>
     <td rowspan="11">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Start column number of cell range to export</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Start row number of cell range to export</td>
   </tr>
   <tr>
     <td><b>col2</b></td>
-    <td></td>
+    <td>Last column number of cell range to export</td>
   </tr>
   <tr>
     <td><b>row2</b></td>
-    <td></td>
+    <td>Last row number of cell range to export</td>
   </tr>
   <tr>
     <td><b>Writer</b></td>
-    <td></td>
+    <td>Export destination <a href="/base/readerwriter#writer-object">Writer Object</a></td>
   </tr>
   <tr>
     <td><b>title</b></td>
-    <td></td>
+    <td>HTML page title</td>
   </tr>
   <tr>
     <td><b>css</b></td>
-    <td></td>
+    <td>CSS file name</td>
   </tr>
   <tr>
     <td><b>table</b></td>
-    <td></td>
+    <td>Table tag class name</td>
   </tr>
   <tr>
     <td><b>tr</b></td>
-    <td></td>
+    <td>Tr tag class name</td>
   </tr>
   <tr>
     <td><b>td</b></td>
-    <td></td>
+    <td>Td tag class name</td>
   </tr>
   <tr>
     <td><b>th</b></td>
-    <td></td>
+    <td>Th tag class name</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-25</td>
-    <td></td>
+    <td>No valid Writer object specified</td>
   </tr>
   <tr>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the ExportRangeToHTMLEx method</td>
   </tr>
   <tr>
     <td>Example of use</td>

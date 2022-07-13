@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/clipboardpaste
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Paste the contents of the clipboard into the active cell or cell block. <br><br>When exchanging data via the clipboard, use the tab-separated text format. If a cell block is selected, it will be replaced with the contents of the clipboard. Data larger than the cell block will be discarded. If no cell is selected, it will be pasted into the cell block starting with the active cell. <br><br>Use the <a href="/package/extension5/sspread/properties/clipboardoptions">ClipboardOptions</a> property to change the handling of headers in clipboard operations.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -30,7 +30,7 @@ permalink: /package/extension5/sspread/methods/clipboardpaste
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the ClipboardCopy method</td>
   </tr>
   <tr>
     <td>Example of use</td>

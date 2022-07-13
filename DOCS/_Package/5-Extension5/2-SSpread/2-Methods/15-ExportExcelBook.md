@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/exportexcelbook
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Export to an Excel format file. <br><br>The exported file will be in the format up to Excel 2003 (BIFF8 format). <br><br>Use the <a href="/package/extension5/sspread/methods/exportexcelbookex">ExportExcelBookEx</a> method to specify how to handle the formula. Use the <a href="/package/extension5/sspread/methods/exporttoexcel">ExportToExcel</a> method to specify the sheet name.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,16 +26,16 @@ permalink: /package/extension5/sspread/methods/exportexcelbook
   <tr>
     <td>Arguments</td>
     <td><b>Writer</b></td>
-    <td></td>
+    <td>Export destination <a href="/base/readerwriter#writer-object">Writer Object</a></td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-25</td>
-    <td></td>
+    <td>No valid Writer object specified</td>
   </tr>
   <tr>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the ExportExcelBook method</td>
   </tr>
   <tr>
     <td>Example of use</td>

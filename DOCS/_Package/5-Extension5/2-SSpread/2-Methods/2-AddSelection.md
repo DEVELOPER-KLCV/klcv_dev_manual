@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/addselection
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Add a selection of cell blocks.<br><br>Adds a new cell block selection if the user is allowed to select multiple cell blocks (if the <a href="/package/extension5/sspread/properties/allowmutiblocks">AllowMultiBlocks</a> property is $TRUE).<br><br> To get the selected cell block, use the <a href="/package/extension5/sspread/methods/getselection">GetSelection</a> method.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,24 +26,24 @@ permalink: /package/extension5/sspread/methods/addselection
   <tr>
     <td rowspan="4">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Leftmost column number of cell block</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Row number at the top of the cell block</td>
   </tr>
   <tr>
     <td><b>col2</b></td>
-    <td></td>
+    <td>Rightmost column number of cell block</td>
   </tr>
   <tr>
     <td><b>row2</b></td>
-    <td></td>
+    <td>Row number at the bottom of the cell block</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the AddSelection method</td>
   </tr>
   <tr>
     <td>Example of use</td>

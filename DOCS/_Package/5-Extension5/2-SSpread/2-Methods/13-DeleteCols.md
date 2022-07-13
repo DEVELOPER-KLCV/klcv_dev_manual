@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/deletecols
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Deletes the specified column or column range.<br><br>Deleting a column does not reduce the number of columns set in the <a href="/package/extension5/sspread/properties/maxcols">MaxCols</a> property, it automatically adds a blank column at the end of the spreadsheet.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,20 +26,20 @@ permalink: /package/extension5/sspread/methods/deletecols
   <tr>
     <td rowspan="2">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>First column number in the range of columns to delete</td>
   </tr>
   <tr>
     <td><b>numcols</b></td>
-    <td></td>
+    <td>Number of columns to delete</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-1</td>
-    <td></td>
+    <td>Invalid DeleteCols argument</td>
   </tr>
   <tr>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the DeleteCols method</td>
   </tr>
   <tr>
     <td>Example of use</td>

@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/exporttoxcel
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Specify the sheet name and export to an Excel format file.<br><br> The exported file will be in the format up to Excel 2003 (BIFF8 format). <br><br>If you want to specify how to handle the formula, use the <a href="/package/extension5/sspread/methods/exporttoexcelex">ExportToExcelEx</a> method tp specify].</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,20 +26,20 @@ permalink: /package/extension5/sspread/methods/exporttoxcel
   <tr>
     <td rowspan="2">Arguments</td>
     <td><b>Writer</b></td>
-    <td></td>
+    <td>Export destination <a href="/base/readerwriter#writer-object">Writer Object</a></td>
   </tr>
   <tr>
     <td><b>sheetname</b></td>
-    <td></td>
+    <td>Sheet name to be created in the Excel file</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-25</td>
-    <td></td>
+    <td>No valid Writer object specified</td>
   </tr>
   <tr>
     <td>EXT-28</td>
-    <td></td>
+    <td>	An error occurred in the ExportToExcel method</td>
   </tr>
   <tr>
     <td>Example of use</td>

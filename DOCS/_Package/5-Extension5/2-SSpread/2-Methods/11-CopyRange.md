@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/copyrange
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Copies the specified cell block to the specified location.<br><br>The data and formats in the cell block are copied. The copy destination cell will be overwritten with the same range as the copy source cell block.<br><br>Use the <a href="/package/extension5/sspread/methods/copycolrange">CopyColRange</a> method to copy a column range and the <a href="/package/extension5/sspread/methods/copyrowrange">CopyRowRange</a> method to copy a row range. The <a href="/package/extension5/sspread/methods/moverange">MoveRange</a> and <a href="/package/extension5/sspread/methods/swaprange">SwapRange</a> methods can be used to move or swap cell blocks.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,32 +26,32 @@ permalink: /package/extension5/sspread/methods/copyrange
   <tr>
     <td rowspan="6">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Column number of the upper left cell of the copy source block</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Row number in the upper left cell of the copy source block</td>
   </tr>
   <tr>
     <td><b>col2</b></td>
-    <td></td>
+    <td>Column number of the lower right cell of the copy source block</td>
   </tr>
   <tr>
     <td><b>row2</b></td>
-    <td></td>
+    <td>Row number of the lower right cell of the copy source block</td>
   </tr>
   <tr>
     <td><b>coldest</b></td>
-    <td></td>
+    <td>Column number of the upper left cell of the copy destination block</td>
   </tr>
   <tr>
     <td><b>rowdest</b></td>
-    <td></td>
+    <td>Row number in the upper left cell of the copy destination block</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the CopyRange method</td>
   </tr>
   <tr>
     <td>Example of use</td>

@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/copyrowrange
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Copies the specified row range to the specified position.<br><br>The row range data and formatting are copied. The copy destination row will be overwritten with the same number of rows as the row range to be copied.<br><br>Use the <a href="/package/extension5/sspread/methods/copyrange">CopyRange</a> method to copy a range of cells and the <a href="/package/extension5/sspread/methods/copycolrange">CopyColRange</a> method to copy a range of columns. You can move or swap row ranges using the <a href="/package/extension5/sspread/methods/moverowrange">MoveRowRange</a> and SwapRowRange methods.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,20 +26,20 @@ permalink: /package/extension5/sspread/methods/copyrowrange
   <tr>
     <td rowspan="3">Arguments</td>
     <td><b>row</b></td>
-    <td></td>
+    <td>The last row number of the row range to copy</td>
   </tr>
   <tr>
     <td><b>row2</b></td>
-    <td></td>
+    <td>Row number to copy to the row range</td>
   </tr>
   <tr>
     <td><b>rowdest</b></td>
-    <td></td>
+    <td>Row number to copy to the row range</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the CopyRowRange method</td>
   </tr>
   <tr>
     <td>Example of use</td>

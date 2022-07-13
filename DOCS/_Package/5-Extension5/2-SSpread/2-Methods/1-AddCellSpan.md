@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/addcellspan
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Merge cells.<br><br>By merging cells, multiple cells become one big cell.<br>In the merged cells, the data in the first cell specified in the arguments <b>col</b>, <b>row</b> occupy the entire merged area. Each other cell keeps the data as it is, but it disappears.<br><br>To see the state of cell merging, use the <a href="/package/extension5/sspread/methods/getcellspan">GetCellSpan</a> method. To unmerge cells, use the <a href="/package/extension5/sspread/methods/removecellspan">RemoveCellSpan</a> method.<br><br>Spreadsheets containing merged cells will no longer be reorderable.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,24 +26,24 @@ permalink: /package/extension5/sspread/methods/addcellspan
   <tr>
     <td rowspan="4">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Column number of the cell to start merging</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Row number of cell to start merging</td>
   </tr>
   <tr>
     <td><b>numcols</b></td>
-    <td></td>
+    <td>Number of columns to join</td>
   </tr>
   <tr>
     <td><b>numrows</b></td>
-    <td></td>
+    <td>Number of rows to join</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the AddCellSpan method</td>
   </tr>
   <tr>
     <td>Example of use</td>
