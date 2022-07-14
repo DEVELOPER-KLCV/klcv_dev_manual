@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/loadblockfrombuffer
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Imports the contents of a spreadsheet stored in ByteArray in binary format into the spreadsheet currently being editing.-1 or 0 cannot be specified as the cell range.Even if it is specify a range larger than the range saved by SaveBlockToBuffer, it will be the range up to the range acquired by <a href="/package/extension5/sspread/methods/saveblocktobuffer">SaveBlockToBuffer</a>.<br><br>Binary data is in SSpread's own format. It can be saved using the SaveBlockToBuffer method.<br><small><span style="color:red">Added since Ver.5.0.3</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,32 +26,32 @@ permalink: /package/extension5/sspread/methods/loadblockfrombuffer
   <tr>
     <td rowspan="5">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Column number of the upper left cell of the cell range to be read</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Row number of the upper left cell of the cell range to be read</td>
   </tr>
   <tr>
     <td><b>col2</b></td>
-    <td></td>
+    <td>Column number of the lower right cell of the cell range to be read</td>
   </tr>
   <tr>
     <td><b>row2</b></td>
-    <td></td>
+    <td>Row number of the lower right cell of the cell range to be read</td>
   </tr>
   <tr>
     <td><b>data</b></td>
-    <td></td>
+    <td>ByteArray object containing binary format data</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-1</td>
-    <td></td>
+    <td>The argument of LoadBlockFromBuffer is invalid</td>
   </tr>
   <tr>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the LoadBlockFromBuffer method</td>
   </tr>
   <tr>
     <td>Related item</td>

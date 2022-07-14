@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/insertrows
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Inserts one or more rows before the specified row.<br><br>Inserting a row does not increase the maximum number of rows set in the <a href="/package/extension5/sspread/properties/maxrows">MaxRows</a> property. The data set in the last row of the spreadsheet will be out of range and lost due to the insertion of a row.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,20 +26,20 @@ permalink: /package/extension5/sspread/methods/insertrows
   <tr>
     <td rowspan="2">Arguments</td>
     <td><b>row</b></td>
-    <td></td>
+    <td>Row number immediately before the row insertion position</td>
   </tr>
   <tr>
     <td><b>numrows</b></td>
-    <td></td>
+    <td>Number of rows to insert</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-1</td>
-    <td></td>
+    <td>The argument of InsertRows is invalid</td>
   </tr>
   <tr>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the InsertRows method</td>
   </tr>
   <tr>
     <td>Example of use</td>

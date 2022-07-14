@@ -4,7 +4,7 @@ layout: default
 grand_parent: SSpread Class
 parent: Methods
 has_children: false
-title: SSpread.LoadFromBuffer Method
+title: SSpread.LoadFromFile Method
 nav_order: 61
 permalink: /package/extension5/sspread/methods/loadfromfile
 ---
@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/loadfromfile
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Imports the contents of a spreadsheet saved in binary format into the spreadsheet currently being edited.<br><br>Binary files are SSpread's own format. It can be saved using the <a href="/package/extension5/sspread/methods/savetofile">SaveToFile</a> method. To load a text file separated by characters such as tabs, use the <a href="/package/extension5/sspread/methods/loadtabfile">LoadTabFile</a> and <a href="/package/extension5/sspread/methods/loadtextfile">LoadTextFile</a> methods.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,16 +26,16 @@ permalink: /package/extension5/sspread/methods/loadfromfile
   <tr>
     <td>Arguments</td>
     <td><b>URL or Reader</b></td>
-    <td></td>
+    <td>Binary file URL or <a href="/base/readerwriter#reader-object">Reader Object</a><br><br> If URL is specified, the file will be cached on local computer for faster loading from the next time onwards. The latest files can always be acquired from the server by specifying an <a href="/package/httppackage/httpresponse">HttpResponse</a> object.</td>
   </tr>  
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-24</td>
-    <td></td>
+    <td>No valid Reader object specified</td>
   </tr>
   <tr>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the LoadFromFile method</td>
   </tr>
   <tr>
     <td>Example of use</td>

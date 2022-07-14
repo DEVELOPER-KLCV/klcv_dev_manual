@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/isvisible
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns whether the specified cell, row, or column is displayed within the display area of the spreadsheet.<br><br>Specify -1 for the argument <b>col</b> to specify only the <b>row</b>, and -1 for the argument row to specify only the column. However, only rows or columns are specified, the argument <b>partial</b> is invalid, and if only a part is displayed, $TRUE is returned.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,20 +21,20 @@ permalink: /package/extension5/sspread/methods/isvisible
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">$TRUE if the cell is visible, $FALSE if it is not visible</td>
   </tr>  
   <tr>
     <td rowspan="3">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Cell column position</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Cell row position</td>
   </tr>
   <tr>
     <td><b>partial</b></td>
-    <td></td>
+    <td>$TRUE to see only partially visible cells, $FALSE to see all visible cells</td>
   </tr>
   <tr>
     <td>Example of use</td>

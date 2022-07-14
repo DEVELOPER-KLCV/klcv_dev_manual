@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/getexcelsheetlist
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Gets the sheet name list from the specified Excel file.<br>The acquired sheet name can be used to specify the sheet name of the <a href="/package/extension5/sspread/methods/importexcelsheet">ImportExcelSheet</a> method.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,21 +21,21 @@ permalink: /package/extension5/sspread/methods/getexcelsheetlist
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">UString array object containing a list of sheet names</td>
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td><b>col</b></td>
-    <td></td>
+    <td><b>URL or Reader</b></td>
+    <td>Excel file URL or <a href="/base/readerwriter#reader-object">Reader Object</a><br><br>If specify a URL, the file will be cached on local computer for faster loading from the next time onwards. The latest files from the server can be acquired by specifying an <a href="/package/httppackage/httpresponse">HttpResponse</a> object.</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-24</td>
-    <td></td>
+    <td>No valid Reader object specified</td>
   </tr>
   <tr>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the GetExcelSheetList method</td>
   </tr>
   <tr>
     <td>Example of use</td>

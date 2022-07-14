@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/iscellselected
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns if the specified cell is currently selected.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/extension5/sspread/methods/iscellselected
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">None</td>
+    <td colspan="2">$TRUE if selected, $FALSE otherwise</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Cell column number</td>
   </tr>
   <tr>
     <td><b>rows</b></td>
-    <td></td>
+    <td>Cell row number</td>
   </tr>
   <tr>
     <td>Example of use</td>

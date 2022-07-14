@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/getcolitemdata
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Gets the individual numeric data set for the specified column.<br><br> Use the SetColItemData method to set individual numeric data for a column.<br> This numeric data does not affect the behavior of the spreadsheet. It can be used for any purpose.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/extension5/sspread/methods/getcolitemdata
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Numerical data<br>0 is returned for columns that are not set.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Column index</td>
   </tr>
   <tr>
     <td>Exception</td>

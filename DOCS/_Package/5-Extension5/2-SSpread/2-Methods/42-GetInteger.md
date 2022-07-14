@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/getinteger
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Gets integer values from numeric, currency, and percentage cells.<br><br>The <a href="/package/extension5/sspread/properties/clip">Clip</a>, <a href="/package/extension5/sspread/properties/clipvalue">ClipValue</a>, <a href="/package/extension5/sspread/properties/text">Text</a> and <a href="/package/extension5/sspread/properties/value">Value</a> properties can be referred directly to the cell value as a string, but this method directly refers to the integer value in the cell if the cell type is numeric, currency, or percentage.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/extension5/sspread/methods/getinteger
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Integer value</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>col</td>
-    <td></td>
+    <td>Cell column number</td>
   </tr>
   <tr>
     <td>row</td>
-    <td></td>
+    <td>Cell row number</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
