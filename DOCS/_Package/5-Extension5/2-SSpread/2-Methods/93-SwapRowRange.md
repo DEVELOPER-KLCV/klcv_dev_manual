@@ -39,7 +39,7 @@ permalink: /package/extension5/sspread/methods/swaprowrange
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the SwapRowRange method</td>
   </tr>
   <tr>
     <td>Example of use</td>

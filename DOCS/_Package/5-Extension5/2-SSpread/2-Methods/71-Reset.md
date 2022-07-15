@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/reset
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Removes and initializes the settings for all attributes in the spreadsheet. <br><br>Use this method to clear all data and formatting from your spreadsheet. <br><br> Use the <a href="/package/extension5/sspread/methods/clearrange">ClearRange</a> method to clear a specific range of cell.</td>
   </tr>
   <tr>
     <td>Call format</td>

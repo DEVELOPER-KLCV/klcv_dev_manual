@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/setselection
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Select the cell block on the spreadsheet.<br><br> Refer to the <a href="/package/extension5/sspread/properties/selblockcol">SelBlockCol</a>, <a href="/package/extension5/sspread/properties/selblockcol2">SelBlockCol2</a>, <a href="/package/extension5/sspread/properties/selblockrow">SelBlockRow</a> and <a href="/package/extension5/sspread/properties/selblockrow2">SelBlockRow2</a> properties to get the selected cell block.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,24 +26,24 @@ permalink: /package/extension5/sspread/methods/setselection
   <tr>
     <td rowspan="4">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>The leftmost column number of the cell block to select</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Row number at the top of the cell block to select</td>
   </tr>
   <tr>
     <td><b>col2</b></td>
-    <td></td>
+    <td>Rightmost column number of the cell block to select</td>
   </tr>
   <tr>
     <td><b>row2</b></td>
-    <td></td>
+    <td>Row number at the bottom of the cell block to select</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the SetSelection method</td>
   </tr>
   <tr>
     <td>Example of use</td>

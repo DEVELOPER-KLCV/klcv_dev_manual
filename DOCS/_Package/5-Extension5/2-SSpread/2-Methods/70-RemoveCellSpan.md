@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/removecellspan
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Unmerge cells.<br><br>The cell range containing the specified anchor cell is unmerged.<br><br> Use the GetCellSpan method to see the cell merge status. Use the AddCellSpan method to merge cells.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,11 +26,11 @@ permalink: /package/extension5/sspread/methods/removecellspan
   <tr>
     <td rowspan="2">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Column number of anchor cell to be unmerged</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Row number of the anchor cell to be unmerged</td>
   </tr>
   <tr>
     <td>Exception</td>

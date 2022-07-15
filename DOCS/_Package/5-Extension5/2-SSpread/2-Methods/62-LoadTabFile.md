@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/loadtabfile
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Imports tab-delimiter data files into the spreadsheet currently being editing.<br><br>Use the <a href="/package/extension5/sspread/methods/loadtextfile">LoadTextFile</a> method to load a file with any delimiter.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,19 +26,19 @@ permalink: /package/extension5/sspread/methods/loadtabfile
   <tr>
     <td>Arguments</td>
     <td><b>URL or Reader</b></td>
-    <td></td>
+    <td>Tab-delimited file URL or <a href="/base/readerwriter#reader-object">Reader Object</a><br><br> The file will be cached on local computer for faster loading from the next time onwards if URL is specified. The latest files can be acquired from the server by specifying an <a href="/package/httppackage/httpresponse">HttpResponse</a> object.</td>
   </tr>  
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-24</td>
-    <td></td>
+    <td>No valid Reader object specified</td>
   </tr>
   <tr>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the LoadTabFile method</td>
   </tr>
   <tr>
-    <td>Example of use</td>
+    <td>Example of use</td> 
     <td colspan="2"><code><pre>
     var session = findHttpSession("http://example.com");
     var res = session.Get("tabfile.txt");

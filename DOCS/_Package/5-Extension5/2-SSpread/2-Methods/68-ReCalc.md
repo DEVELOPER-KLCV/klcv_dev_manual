@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/recalc
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2"> Recalculate the formula for the entire spreadsheet.<br><br>Use this method to recalculate all formulas in your spreadsheet when the <a href="/package/extension5/sspread/properties/autocalc">AutoCalc</a> property is set to $FALSE.<br><br> Use the <a href="/package/extension5/sspread/methods/recalccell">ReCalcCell</a> method to recalculate the formulas in individual cells.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -30,7 +30,7 @@ permalink: /package/extension5/sspread/methods/recalc
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the ReCalc method</td>
   </tr>
   <tr>
     <td>Example of use</td>

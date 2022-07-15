@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/savetobuffer
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Saves all the information in the spreadsheet in binary format in ByteArray.<br><br> Binary data is in SSpread's own format. It can be loaded using the <a href="/package/extension5/sspread/methods/loadfrombuffer">LoadFromBuffer</a> method. <br><small><span style="color:red">Added since Ver.5.0.3</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/extension5/sspread/methods/savetobuffer
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">ByteArray object that stores sheet information</td>
   </tr>  
   <tr>
     <td>Arguments</td>
@@ -30,7 +30,7 @@ permalink: /package/extension5/sspread/methods/savetobuffer
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>Error in SaveToBuffer method</td>
   </tr>
   <tr>
     <td>Example of use</td>

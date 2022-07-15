@@ -90,7 +90,7 @@ If you leave BlockMode at $TRUE after setting it to a cell block, it may affect 
 
 If you specify multiple cells with different values and refer to the values, the value of one representative cell will be returned in principle. To ensure that you get the value of a particular cell, specify the cell clearly in the Col and Row properties before referencing.
 
-**This class's unique color handling (#RRGGBB format)**<br>
+### This class's unique color handling (#RRGGBB format)<br>
 Apart from the standard color constants ($BLACK, $FF0000, etc.), any color can be used in this class.
 
 Color information is represented by a character string in the following format.

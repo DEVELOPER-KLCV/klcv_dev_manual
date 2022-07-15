@@ -47,7 +47,7 @@ permalink: /package/extension5/sspread/methods/getcellborder
   <tr>
     <td class="tg-j5n6">Number<br>UString</td>
     <td class="tg-pf8i">Color</td>
-    <td class="tg-j5n6">Ruled line color<br>Able to get the<a href="https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/base/color.htm" target="_blank" rel="noopener noreferrer"> </a>color constant or #RRGGBB format</td>
+    <td class="tg-j5n6">Border color<br>Able to get the <a href="/base/color">color constant</a> or <a href="package/extension5/sspread/#this-classs-unique-color-handling-rrggbb-format">#RRGGBB format</a></td>
   </tr>
   <tr>
     <td class="tg-j5n6">Number</td>

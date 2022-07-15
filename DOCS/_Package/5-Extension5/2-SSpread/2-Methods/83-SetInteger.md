@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/setinteger
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set integer values in numeric, currency, and percentage cells.<br><br> The Clip, ClipValue, Text, and Value for each properties can set the cell value as a string, but this method sets an integer value directly in the cell if the cell type is numeric, currency, or percentage.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,20 +26,20 @@ permalink: /package/extension5/sspread/methods/setinteger
   <tr>
     <td rowspan="3">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Cell column number</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Cell row number</td>
   </tr>
   <tr>
     <td><b>value</b></td>
-    <td></td>
+    <td>Integer value to set</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the SetInteger method</td>
   </tr>
   <tr>
     <td>Example of use</td>

@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/setrowitemdata
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set individual numerical data for each specified row. Use the <a href="/package/extension5/sspread/methods/getrowitemdata">GetRowItemData</a> method to get individual numeric data for a row. This numeric data does not affect the behavior of the spreadsheet. It can be used for any purpose.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,20 +26,20 @@ permalink: /package/extension5/sspread/methods/setrowitemdata
   <tr>
     <td rowspan="2">Arguments</td>
     <td><b>row</b></td>
-    <td></td>
+    <td>Row number</td>
   </tr>
   <tr>
     <td><b>value</b></td>
-    <td></td>
+    <td>Numerical data</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-1</td>
-    <td></td>
+    <td>The argument of SetRowItemData is invalid</td>
   </tr>
   <tr>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the SetRowItemData method</td>
   </tr>
   <tr>
     <td>Example of use</td>
@@ -57,3 +57,4 @@ permalink: /package/extension5/sspread/methods/setrowitemdata
     <td colspan="2"><a href="/package/extension5/sspread/properties/celltag">CellTag</a> property<br><a href="/package/extension5/sspread/methods/getcolitemdata">GetColItemData</a>, <a href="/package/extension5/sspread/methods/getrowitemdata">GetRowItemData</a>, <a href="/package/extension5/sspread/methods/setcolitemdata">SetColItemData</a> methods</td>
   </tr>
 </table>
+ 

@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/settext
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Sets the text in the specified cell.<br><br> This is the same function as setting the value with the <a href="/package/extension5/sspread/properties/text">Text</a> property. Use the <a href="/package/extension5/sspread/methods/setfloat">SetFloat</a> and <a href="/package/extension5/sspread/methods/setinteger">SetInteger</a> methods to set the cell value as a number.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,20 +26,20 @@ permalink: /package/extension5/sspread/methods/settext
   <tr>
     <td rowspan="3">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Cell column number</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Cell row number</td>
   </tr>
   <tr>
     <td><b>text</b></td>
-    <td></td>
+    <td>Text to set</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the SetText method</td>
   </tr>
   <tr>
     <td>Example of use</td>

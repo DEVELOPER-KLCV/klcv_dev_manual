@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/setoddevenrowcolor
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the background color and text color for the odd-numbered and even-numbered lines, respectively.<br><br> If you have set the BackColor or ForeColor properties on individual cells, columns, or rows, those settings take precedence. If you want to get the background color and text color set for odd and even rows, use the GetOddEvenRowColor method.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,24 +26,24 @@ permalink: /package/extension5/sspread/methods/setoddevenrowcolor
   <tr>
     <td rowspan="4">Arguments</td>
     <td><b>backodd</b></td>
-    <td></td>
+    <td>Background color for odd rows</td>
   </tr>
   <tr>
     <td><b>foreodd</b></td>
-    <td></td>
+    <td>Text color of odd-numbered rows</td>
   </tr>
   <tr>
     <td><b>backeven</b></td>
-    <td></td>
+    <td>Even row background color</td>
   </tr>
   <tr>
     <td><b>foreeven</b></td>
-    <td></td>
+    <td>Text color of even-numbered rows</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the SetOddEvenRowColor method</td>
   </tr>
   <tr>
     <td>Example of use</td>
