@@ -28,7 +28,7 @@ The following properties are defined in the SSpread class.
 | [AllowEditOverflow](/package/extension5/sspread/properties/alloweditoverflow) | CRW | | boolean | $FALSE | In the input mode, it is displayed so that it extends beyond the adjacent cell. |
 | [AllowMultiBlocks](/package/extension5/sspread/properties/allowmultiblocks) | CRW | | boolean | $FALSE | Allow multiple selection of cell blocks |
 | [AllowRowMove](/package/extension5/sspread/properties/allowrowmove) | CRW || boolean | $FALSE | Allow drag and drop to move rows |
-|[AllowUserFormulas](/package/extension5/sspread/properties/allowuserformula) | CRW | | boolean | $FALSE | Allow entry of formulas |
+|[AllowUserFormulas](/package/extension5/sspread/properties/allowuserformulas) | CRW | | boolean | $FALSE | Allow entry of formulas |
 |[Appearance](/package/extension5/sspread/properties/appearance) | CRW || integer | $AppearanceFlat | Borders across the spreadsheet |
 | [AppearanceStyle](/package/extension5/sspread/properties/appearancestyle) | CRW | | integer | $AppearanceStyleEnhanced | Overall spreadsheet design |
 |[ArrowsExitEditMode](/package/extension5/sspread/properties/arrowsexiteditmode) | CRW | | boolean | $FALSE | Operation of arrow keys in input mode |

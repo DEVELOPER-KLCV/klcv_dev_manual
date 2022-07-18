@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/swapcolrange
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Swaps the specified column range with another column range.<br><br>Swap the data and format of the column range. The number of columns to be replaced is the same as the range of columns to be replaced.<br><br>Use the <a href="/package/extension5/sspread/methods/swaprange">SwapRange</a> method to swap cell ranges and the <a href="/package/extension5/sspread/methods/swaprowrange">SwapRowRange</a> method to swap rows. The column range can be copied or moved using the <a href="/package/extension5/sspread/methods/copyrowrange">CopyRowRange</a> and <a href="/package/extension5/sspread/methods/movecolrange">MoveColRange</a> methods.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,20 +26,20 @@ permalink: /package/extension5/sspread/methods/swapcolrange
   <tr>
     <td rowspan="3">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Column number at the beginning of the column range of the swap source</td>
   </tr>
   <tr>
     <td><b>col2</b></td>
-    <td></td>
+    <td>Last column number in the source column range</td>
   </tr>
   <tr>
     <td><b>coldest</b></td>
-    <td></td>
+    <td>Column number at the beginning of the column range of the swap destination</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the SwapColRange method</td>
   </tr>
   <tr>
     <td>Example of use</td>
