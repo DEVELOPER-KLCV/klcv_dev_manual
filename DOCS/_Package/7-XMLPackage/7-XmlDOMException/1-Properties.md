@@ -15,9 +15,9 @@ The following properties are defined in the XmlDOMException class.
 
 |Name       | Access | Type   | Description |
 |----------	|--------|--------|-------------|
-| [Code](/package/xmlpackage/xmldomexception/properties/code) | R | integer |  |
-| [Message](/package/xmlpackage/xmldomexception/properties/message)* | R | String |  |
-| [Method](/package/xmlpackage/xmldomexception/properties/method) | R | String |  |
+| [Code](/package/xmlpackage/xmldomexception/properties/code) | R | integer | Exception type |
+| [Message](/package/xmlpackage/xmldomexception/properties/message)* | R | String | A descriptive text indicating the content of the exception |
+| [Method](/package/xmlpackage/xmldomexception/properties/method) | R | String | The function that caused the exception |
 
 <u><b>Access</b></u><br>
 R: Readable

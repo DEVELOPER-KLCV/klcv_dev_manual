@@ -15,6 +15,9 @@ permalink: /package/xmlpackage/xmlattr
 
 ---
 
+<a href="/img/Package/XML-XMLAttr.png" target="_blank">
+<img src="/img/Package/XML-XMLAttr.png" alt="login image"></a>
+
 A class that defines an Attr node. Since the Attr node does not belong to the DOM tree, the XmlAttr class is derived from the XmlNode class, but properties such as [ParentNode](/package/xmlpackage/xmlnode/properties/parentnode), [PreviousSibling](/package/xmlpackage/xmlnode/properties/previoussibling), and [NextSibling](/package/xmlpackage/xmlnode/properties/nextsibling) are null.
 
 **Default properties and ValueType**

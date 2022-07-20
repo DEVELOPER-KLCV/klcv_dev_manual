@@ -14,6 +14,9 @@ permalink: /package/xmlpackage/XmlProcessingInstruction
 # {{ page.title }}
 
 ---
+<a href="/img/Package/XML-XmlProcessingInstructionClass.png" target="_blank">
+<img src="/img/Package/XML-XmlProcessingInstructionClass.png" alt="login image"></a>
+
 A class that defines a Processing Instruction node.
 
 The XML prologue (<? Xml version = "1.0"?> Part) is also a processing instruction in XML syntax, but because it is processed specially, the corresponding Processing Instruction node is not generated. Also, if you refer to the XML source with the [XmlNode.Xml](/package/xmlpackage/xmlnode/properties/xml) property, which is a specification specific to Biz / Browser, the prologue part will be added automatically. Therefore, when outputting XML to a file etc., it is not necessary to add a Processing Instruction node for prologue.

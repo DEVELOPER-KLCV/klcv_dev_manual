@@ -15,6 +15,9 @@ permalink: /package/xmlpackage/xmlcdatasection
 
 ---
 
+<a href="/img/Package/XML-XmlCDatasectionclass.png" target="_blank">
+<img src="/img/Package/XML-XmlCDatasectionclass.png" alt="login image"></a>
+
 A class that defines a CDATASection node. The XmlCDATASection class is derived from the XmlText class and inherits the properties and methods of the XmlText class.
 
 **Default properties and ValueType**

@@ -14,6 +14,8 @@ permalink: /package/xmlpackage/xmlelement
 # {{ page.title }}
 
 ---
+<a href="/img/Package/XML-XmlElementClass.png" target="_blank">
+<img src="/img/Package/XML-XmlElementClass.png" alt="login image"></a>
 
 A class that defines a Node element.
 

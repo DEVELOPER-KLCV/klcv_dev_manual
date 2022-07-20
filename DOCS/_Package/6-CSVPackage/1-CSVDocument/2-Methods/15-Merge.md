@@ -13,7 +13,7 @@ permalink: /package/csvpackage/csvdocument/methods/merge
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Merge two CSV data.<br>The number of columns in the two merged CSV data will be adjusted to the larger one.<br><br><small><span style="color:red">Added since Ver.4.1.0. Same functionality as in previous versions of <i>marge</i>.</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,21 +21,17 @@ permalink: /package/csvpackage/csvdocument/methods/merge
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">New CSVDocument object combined from two CSVDocument</td>
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>CSVDocument <b>reacsvdocder</b></td>
-    <td></td>
+    <td>CSVDocument <b>csvdoc</b></td>
+    <td>CSVDocument object to be combined</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>CSV-15</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>CSV-9</td>
-    <td></td>
+    <td>The argument is not valid CSVDocument object</td>
   </tr>
   <tr>
     <td>Example of use</td>

@@ -15,6 +15,9 @@ permalink: /package/xmlpackage/xmlnode
 
 ---
 
+<a href="/img/Package/XML-XmlNodeClass.png" target="_blank">
+<img src="/img/Package/XML-XmlNodeClass.png" alt="login image"></a>
+
 The base class for all nodes. It has the basic functionality of the nodes that make up the DOM tree.
 
 The XmlNode class is a virtual class and cannot instantiate itself.

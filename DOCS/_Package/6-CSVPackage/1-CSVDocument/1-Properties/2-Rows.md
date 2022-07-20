@@ -10,3 +10,6 @@ permalink: /package/csvpackage/csvdocument/properties/rows
 ---
 # {{ page.title }}
 
+Number of rows in CSV data.
+
+This property is read-only and cannot be changed.

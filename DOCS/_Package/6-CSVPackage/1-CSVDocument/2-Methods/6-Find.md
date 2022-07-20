@@ -13,7 +13,7 @@ permalink: /package/csvpackage/csvdocument/methods/find
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Search CSVData under specified conditions and returns the first row index found from the rows.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/csvpackage/csvdocument/methods/find
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Return row that starts from number 0 that first matches the specified condition.<br>If matches row is not found, -1 is returned.</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
-    <td>integer <b>row</b></td>
-    <td></td>
+    <td>integer <b><i>row</i></b></td>
+    <td>Return row with index 0 from row to start the search.<br>Row after specified <b><i>row</i></b> will be searched.</td>
   </tr>
   <tr>
-    <td>String <b>cond</b></td>
-    <td></td>
+    <td>String <b><i>cond</i></b></td>
+    <td>Search condition.<br> Specify as the same format as <a href="/package/csvpackage/csvdocument/methods/load">Load</a> method.<br> Can specify as many search conditions, as long as the maximum condition is same with number of columns, and to specify more than one condition, combine them with AND.</td>
   </tr>
   <tr>
     <td>Exception</td>

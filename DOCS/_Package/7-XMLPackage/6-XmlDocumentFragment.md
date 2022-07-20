@@ -14,6 +14,8 @@ permalink: /package/xmlpackage/xmldocumentfragment
 # {{ page.title }}
 
 ---
+<a href="/img/Package/XML-XmlDocumentFragmentClass.png" target="_blank">
+<img src="/img/Package/XML-XmlDocumentFragmentClass.png" alt="login image"></a>
 
 A class that maintains a fragment of a document.
 

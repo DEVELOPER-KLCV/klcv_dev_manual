@@ -13,7 +13,7 @@ permalink: /package/csvpackage/csvdocument/methods/replace
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Replace data in cells of specified column at once.<br>By stating the condition, selected cell can be replaced.<br><br><small><span style="color:red">Added since Ver.4.1.0 Mobile Ver.3.0.0</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,29 +21,35 @@ permalink: /package/csvpackage/csvdocument/methods/replace
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Number of updated cell.</td>
   </tr>  
   <tr>
     <td rowspan="4">Arguments</td>
     <td>integer <b>row</b></td>
-    <td></td>
+    <td>Column number starting with 0 on the column that starts the replacement.<br>The rows after the row specified by row will be replaced.</td>
   </tr>
   <tr>
     <td>integer <b>col</b></td>
-    <td></td>
+    <td>Column number starts with 0 on the column that starts the replacement.</td>
   </tr>
   <tr>
     <td>String <b>val</b></td>
-    <td></td>
+    <td>Character string to bet set.<br>The string can be specified directly, or can specify the value in another column in the following format.<br><code><pre>
+    "[列番号]"
+    </pre></code><br>Example:-<code><pre>
+    "[3]"
+    </pre></code><br>In this example,the cell that matches the condition is replaced with the values in the 4th column of the same row.<br><br>If the replacement string starts with "[", escape it with "\ [". Note that \ is an escape character in the CRS language, so if specify it as a string constant in a CRS script, \ must be specified twice.<br>Example:-<code><pre>
+    "\\[12\\]"
+    </pre></code></td>
   </tr>
   <tr>
     <td>String <b>cond</b></td>
-    <td></td>
+    <td>Search criteria for cells to replace<br>Format is specified same as <a href="/package/csvpackage/csvdocument/methods/load">Load</a> method.<br>Can specify as many search conditions as desired,as long as the maximum same as the number of columns, and if specify more than one, combine them with AND.</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>CSV-14</td>
-    <td></td>
+    <td>Incorrect column index</td>
   </tr>
   <tr>
     <td>Example of use</td>

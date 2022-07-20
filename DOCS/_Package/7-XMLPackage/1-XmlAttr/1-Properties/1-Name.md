@@ -12,7 +12,7 @@ permalink: /package/xmlpackage/xmlattr/properties/name
 
 The attribute name of the Attr node.
 
-**<small>Add more from here ---></small>**
+**<small>Ver.4.2.0 added from here ---></small>**
 
 **Unicode-specific character constraints**
 

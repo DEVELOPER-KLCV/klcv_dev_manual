@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldocument/methods/importnode
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Import the node from another DOM tree.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/xmlpackage/xmldocument/methods/importnode
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Imported XmlNode object<br>This node is not yet connected to the document tree and has no parent.</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>XmlNode <b>node</b></td>
-    <td></td>
+    <td>Node to import</td>
   </tr>
   <tr>
     <td>boolean <b>deep</b></td>
-    <td></td>
+    <td>$TRUE for recursive imports , $FALSE otherwise</td>
   </tr>
   <tr>
     <td>Exception</td>

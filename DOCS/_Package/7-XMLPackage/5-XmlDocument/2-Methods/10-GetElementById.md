@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldocument/methods/getelementbyid
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Search for the Element node from the ID attribute.<br><br>The name of the ID attribute to be searched can be changed with the <a href="/package/xmlpackage/xmldocument/properties/IndexAttributeName">IndexAttributeName</a> property.When the IndexAttributeName property is not set, the attribute named "ID" (case sensitive) is searched as the ID attribute.<br><br><small><span style="color:red">Added since Ver.4.0.0</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmldocument/methods/getelementbyid
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlElement object with the specified ID attribute.<br>If not found, null is returned.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>elementId</b></td>
-    <td></td>
+    <td>The value specified for the ID attribute to be searched</td>
   </tr>
   <tr>
     <td>Exception</td>

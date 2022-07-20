@@ -13,11 +13,11 @@ permalink: /package/csvpackage/csvdocument/methods/DeleteRow
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Delete row of selected row index.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">csvdoc.DeleteRow( <b>row </b> )</td>
+    <td colspan="2">csvdoc.DeleteRow( <b><i>row </i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,13 +25,13 @@ permalink: /package/csvpackage/csvdocument/methods/DeleteRow
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>integer <b>row </b></td>
-    <td></td>
+    <td>integer <b><i>row</i></b></td>
+    <td>Line number starting with 0 on the line to be deleted.<br>If you specify 0, the first line is deleted, and if you specify 1, the second line is deleted.</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>CSV-6</td>
-    <td></td>
+    <td>Specified row cannot be deleted</td>
   </tr>
   <tr>
     <td>Example of use</td>

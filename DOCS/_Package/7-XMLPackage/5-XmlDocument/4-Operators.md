@@ -15,5 +15,5 @@ The following operators are defined in the XmlDocument class.
 
 |Name       |  Description |
 |----------	|--------------|
-| [XmlDocument << XML Constant](/package/xmlpackage/xmldocument/operators/1) |  |
-| [XmlDocument << XmlDocument](/package/xmlpackage/xmldocument/operators/2) |  |
+| [XmlDocument << XML Constant](/package/xmlpackage/xmldocument/operators/1) | Load XML constants into XmlDocument |
+| [XmlDocument << XmlDocument](/package/xmlpackage/xmldocument/operators/2) | Copy XmlDocument to another XmlDocument |

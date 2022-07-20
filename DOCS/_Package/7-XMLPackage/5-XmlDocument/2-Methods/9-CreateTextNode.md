@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldocument/methods/createtextnode
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Create a Text node.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmldocument/methods/createtextnode
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlText object</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>data</b></td>
-    <td></td>
+    <td>Character string that is the initial value of the Text node</td>
   </tr>
   <tr>
     <td>Exception</td>

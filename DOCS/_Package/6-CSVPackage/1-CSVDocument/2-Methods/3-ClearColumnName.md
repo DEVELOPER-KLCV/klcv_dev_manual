@@ -13,7 +13,7 @@ permalink: /package/csvpackage/csvdocument/methods/clearcolumnname
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Delete all column names.</td>
   </tr>
   <tr>
     <td>Call format</td>

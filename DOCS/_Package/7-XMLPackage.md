@@ -31,98 +31,98 @@ SVG (Scalable Vector Graphics) operations are realized by operating the XML node
     </tr>
     <tr>
         <td><a href="/package/xmlpackage/xmlattr">XmlAttr</a></td>
-        <td></td>
+        <td>Define Attr node</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
         <td><a href="/package/xmlpackage/xmlcdatasection">XmlCDATASection</a></td>
-        <td></td>
+        <td>Define CDATASection node</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
         <td><a href="/package/xmlpackage/xmlcharacterdata">XmlCharacterData</a></td>
-        <td></td>
+        <td>The base class of the node that stores string</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
         <td><a href="/package/xmlpackage/xmlcomment">XmlComment</a></td>
-        <td></td>
+        <td>Define comment node</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
         <td><a href="/package/xmlpackage/xmldocument">XmlDocument</a></td>
-        <td></td>
+        <td>Defines the root node (Document node) of the DOM tree</td>
         <td>3.0.0</td>
         <td>3.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
         <td><a href="/package/xmlpackage/xmldocumentfragment">XmlDocumentFragment</a></td>
-        <td></td>
+        <td>A class that maintains a fragment of a document</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
         <td><a href="/package/xmlpackage/xmldomexception">XmlDOMException</a></td>
-        <td></td>
+        <td>Define DOM exceptions</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
         <td><a href="/package/xmlpackage/xmldomimplementation">XmlDOMImplementation</a></td>
-        <td></td>
+        <td>Defines the implementation of the DOM</td>
         <td>3.0.0</td>
         <td>3.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
         <td><a href="/package/xmlpackage/xmlelement">XmlElement</a></td>
-        <td></td>
+        <td>Define the Element node</td>
         <td>3.0.0</td>
         <td>3.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
         <td><a href="/package/xmlpackage/xmlnamednodemap">XmlNamedNodeMap</a></td>
-        <td></td>
+        <td>Manage a collection of nodes with a named map</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
         <td><a href="/package/xmlpackage/xmlnode">XmlNode</a></td>
-        <td></td>
+        <td>Base class for all nodes.<br>Defines other node in Mobile version</td>
         <td>3.0.0</td>
         <td>3.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
         <td><a href="/package/xmlpackage/xmlnodelist">XmlNodeList</a></td>
-        <td></td>
+        <td>Manage a set of nodes in a node list</td>
         <td>3.0.0</td>
         <td>3.0.0</td>
         <td>1.0.0</td>
     </tr>
     <tr>
         <td><a href="/package/xmlpackage/xmlprocessinginstruction">XmlProcessingInstruction</a></td>
-        <td></td>
+        <td>Defines a Processing Instruction node</td>
         <td>3.0.0</td>
         <td>-</td>
         <td>-</td>
     </tr>
     <tr>
         <td><a href="/package/xmlpackage/xmltext">XmlText</a></td>
-        <td></td>
+        <td>Define Text node</td>
         <td>3.0.0</td>
         <td>3.0.0</td>
         <td>1.0.0</td>
@@ -165,7 +165,7 @@ Xrefs are only resolved for SVG <image> elements.
 
 The characters included in the DOM tree are converted to the SHIFT-JIS character code and constructed in consideration of compatibility with CRS scripts. The only encoding that can be saved with the [XmlDocument.Save](/package/xmlpackage/xmldocument/methods/save) method is SHIFT-JIS.
 
-However, the number that represents the length of the characters used in the [XmlCharacterData.Length](/package/xmlpackage/xmlcharacterdata/properties/length) property and the [XmlCharacterData.SubstringData](/package/xmlpackage/xmlcharacterdata/methods/substringdata) method is not the number of bytes but the number of characters. If you need the number of bytes, use the Length of the global function.
+However, the number that represents the length of the characters used in the [XmlCharacterData.Length](/package/xmlpackage/xmlcharacterdata/properties/length) property and the [XmlCharacterData.SubstringData](/package/xmlpackage/xmlcharacterdata/methods/substringdata) method is not the number of bytes but the number of characters. If you need the number of bytes, use the [Length](/method/str/length) of the global function.
 
 **<small>Added from Version 4.2.0 From here---&gt;</small>**<br>
 When the [XmlDOMImplementation](/package/xmlpackage/xmldomimplementation) object used when constructing the DOM tree is generated in Unicode mode, the character string included in the DOM tree is retained in Unicode, and the XML encoding method saved by the [XmlDocument.Save](/package/xmlpackage/xmldocument/methods/save) method is fixed to UTF-8. Become.
@@ -177,7 +177,7 @@ var impl = new XmlDOMImplementation(XmlDOMImplementation.Unicode);
 ```
 
 No special consideration is required to access the DOM tree in Unicode mode. Value settings in Shift-JIS are automatically converted to Unicode, and when Unicode property values ​​and method return values ​​are received in Shift-JIS, they are automatically converted to Shift-JIS. At that time, if a character that cannot be converted is detected, it is replaced with "?".
-<br>**<small>until here</small>**
+<br>**<small><--until here</small>**
 
 **<small>Changed namespace definition to be represented as an attribute from Version 4.0.0</small>
 

@@ -15,6 +15,9 @@ permalink: /package/xmlpackage/xmlcharacterdata
 
 ---
 
+<a href="/img/Package/XML-XmlCharacterDataClass.png" target="_blank">
+<img src="/img/Package/XML-XmlCharacterDataClass.png" alt="login image"></a>
+
 The base class of the node that stores the string. It has the basic functionality of a node that stores strings.
 
 The XmlCharacterData class is a virtual class and cannot instantiate itself.

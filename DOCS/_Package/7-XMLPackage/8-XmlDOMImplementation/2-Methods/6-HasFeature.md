@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldomimplementation/methods/hasfeature
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Checks if it corresponds to the version specified by the <b>version</b> of the function specified by <b>feature</b>.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/xmlpackage/xmldomimplementation/methods/hasfeature
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">$TRUE if the specified version is supported , $FALSE if not supported</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>String <b>feature</b></td>
-    <td></td>
+    <td>Function to check the version<br>Corresponds to "xml" and "dom".</td>
   </tr>
   <tr>
     <td>String <b>version</b></td>
-    <td></td>
+    <td>Supported version ( Please specify in "1.0" format)</td>
   </tr>
   <tr>
     <td>Exception</td>

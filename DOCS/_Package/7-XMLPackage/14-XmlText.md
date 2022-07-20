@@ -14,6 +14,8 @@ permalink: /package/xmlpackage/xmltext
 # {{ page.title }}
 
 ---
+<a href="/img/Package/XML-XmlTextClass.png" target="_blank">
+<img src="/img/Package/XML-XmlTextClass.png" alt="login image"></a>
 
 A class that defines a Text node. The XmlText class is derived from the XmlCharacterData class and inherits the properties and methods of the XmlCharacterData class.
 

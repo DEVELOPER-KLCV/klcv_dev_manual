@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldomimplementation/methods/encodexml
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2"> XMLescape the character string</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmldomimplementation/methods/encodexml
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Character string that has been XMLescaped</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>str</b></td>
-    <td></td>
+    <td>XML escape string</td>
   </tr>
   <tr>
     <td>Exception</td>

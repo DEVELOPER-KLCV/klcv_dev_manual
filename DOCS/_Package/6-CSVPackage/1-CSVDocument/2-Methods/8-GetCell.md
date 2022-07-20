@@ -13,24 +13,24 @@ permalink: /package/csvpackage/csvdocument/methods/getcell
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Specify the row and column,then data of the corresponding cell wiil be retrieved.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var data = csvdoc.GetCell( <b>row, column</b> )</td>
+    <td colspan="2">var data = csvdoc.GetCell( <b><i>row, column</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Character string of cell <br>If the corresponding cell does not exist, null is returned.</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
-    <td>integer <b>row</b></td>
-    <td></td>
+    <td>integer <b><i>row</i></b></td>
+    <td>Retrieve cell which row starts from 0</td>
   </tr>
   <tr>
-    <td>integer <b>column</b></td>
-    <td></td>
+    <td>integer <b><i>column</i></b></td>
+    <td>Retrieve cell which column starts from 0</td>
   </tr>
   <tr>
     <td>Exception</td>

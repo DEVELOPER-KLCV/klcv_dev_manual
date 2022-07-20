@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldocument/methods/createelement
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Create an Element node.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmldocument/methods/createelement
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlElement object</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>tagName</b></td>
-    <td></td>
+    <td>Tag name of the Element node to be created</td>
   </tr>
   <tr>
     <td>Exception</td>

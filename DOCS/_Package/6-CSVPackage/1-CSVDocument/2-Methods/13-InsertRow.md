@@ -13,7 +13,7 @@ permalink: /package/csvpackage/csvdocument/methods/insertrow
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Inserts a row at the specified position.<br>The data in each cell of the inserted row is initialised with an empty string.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/csvpackage/csvdocument/methods/insertrow
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">None</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>integer <b>row</b></td>
-    <td></td>
+    <td>Line number starting with 0 at the insertion position.<br>Specify 0 to create the first line, 1 to create a new line at the second line. Specifying -1 or a number greater than the current line number inserts it as the last line.</td>
   </tr>
   <tr>
     <td>Exception</td>

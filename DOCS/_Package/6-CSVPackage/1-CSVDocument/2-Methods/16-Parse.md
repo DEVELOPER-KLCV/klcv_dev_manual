@@ -13,7 +13,7 @@ permalink: /package/csvpackage/csvdocument/methods/parse
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Load CSV data from character string<br><br><small><span style="color:red">Added since Ver.4.0.0, Mobile Ver.3.0.0</span></small><br><br>When Parse method is executed, the previous data will be lost.<br><br>The loading function of Parse method is same as <a href="/package/csvpackage/csvdocument/methods/load">Load</a> method, but a String object can be specified as an argument.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,11 +26,11 @@ permalink: /package/csvpackage/csvdocument/methods/parse
   <tr>
     <td rowspan="2">Arguments</td>
     <td>String <b>str</b></td>
-    <td></td>
+    <td>CSV character string</td>
   </tr>
   <tr>
     <td>String <b>cond</b></td>
-    <td></td>
+    <td>Search condition that specify the rows to be loaded.<br>To set this, write the format same as <a href="/package/csvpackage/csvdocument/methods/load">Load</a>method.<br>For the Search condition, the Maximum can be specified only as the same number with the number of columns. If more than one is specified, combine them with AND.</td>
   </tr>
   <tr>
     <td>Exception</td>

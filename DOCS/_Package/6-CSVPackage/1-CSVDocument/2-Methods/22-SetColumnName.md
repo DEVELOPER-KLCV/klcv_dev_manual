@@ -13,7 +13,8 @@ permalink: /package/csvpackage/csvdocument/methods/setcolumnname
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Set the name of the column.<br><br>Column names can represent object names and property names, as well as simply used as names, and can be copied when copying CSV data to an array with the <a href="/package/csvpackage/csvdocument/operators/1">[] << CSV constant operator</a> or  <a href="/package/csvpackage/csvdocument/operators/2">[] << CSVDocument operator</a>. The destination object or property can be explicitly specified.
+    <br></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,16 +27,16 @@ permalink: /package/csvpackage/csvdocument/methods/setcolumnname
   <tr>
     <td rowspan="2">Arguments</td>
     <td>integer <b>column</b></td>
-    <td></td>
+    <td>Column number 0 to set the name of column</td>
   </tr>
   <tr>
     <td>String  <b>name</b></td>
-    <td></td>
+    <td>Column name<br><br>If empty string is specified, the column name will be deleted.</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>CSV-14</td>
-    <td></td>
+    <td>Incorrect column index</td>
   </tr>
   <tr>
     <td>Example of use</td>

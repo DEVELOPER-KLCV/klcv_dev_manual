@@ -11,5 +11,5 @@ permalink: /package/xmlpackage/xmldomimplementation/methods/createdocumenttype
 # {{ page.title }}
 
 Reserved for future extensions, cannot be called.
-<br>**<small>Not supported in Mobile, AI</small>**
+<br><small><span style="color:blue">Not supported in Mobile, AI</span></small>
 

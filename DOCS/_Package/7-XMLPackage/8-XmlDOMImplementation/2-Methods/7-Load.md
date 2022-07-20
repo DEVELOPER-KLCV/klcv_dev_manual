@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldomimplementation/methods/load
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Read XML from the Reader object .<br>It is used when loading an XML file from a web server or file .</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,29 +21,29 @@ permalink: /package/xmlpackage/xmldomimplementation/methods/load
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlDocument object</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>Object <b>reader</b></td>
-    <td></td>
+    <td><a href="/base/readerwriter#reader-object">ReaderObject</a> to read from (object that can use ReadLine method)</td>
   </tr>
   <tr>
     <td rowspan="4">Exception</td>
     <td>XML-1</td>
-    <td></td>
+    <td>XML parse error</td>
   </tr>
   <tr>
     <td>XML-2</td>
-    <td></td>
+    <td>No valid Read object specified</td>
   </tr>
   <tr>
     <td>XML-3</td>
-    <td></td>
+    <td>Does not support the ReadLine () method</td>
   </tr>
   <tr>
     <td>XML-13</td>
-    <td></td>
+    <td>Input XML is empty</td>
   </tr>
   <tr>
     <td>Example of use</td>
