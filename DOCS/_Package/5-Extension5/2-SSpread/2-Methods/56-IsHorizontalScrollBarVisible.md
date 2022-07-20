@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/ishorizontalscrollbarvisible
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns whether the horizontal scrollbar is visible</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/extension5/sspread/methods/ishorizontalscrollbarvisible
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">$TRUE if horizontal scrollbar is displayed, $FALSE otherwise</td>
   </tr>  
   <tr>
     <td>Arguments</td>

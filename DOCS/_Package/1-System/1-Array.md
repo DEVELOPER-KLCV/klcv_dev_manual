@@ -14,6 +14,11 @@ permalink: /package/system/array
 # {{ page.title }}
 
 ---
+
+<a href="/img/Biz Browser V/System-Array.PNG" target="_blank">
+<img src="/img/Biz Browser V/System-Array.PNG" alt="login image">
+</a>
+
 A class that holds a dynamic array.
 
 CRS programs can handle arrays in two ways: the Array class and [array objects](/bizBrowserV/6/6-1/).

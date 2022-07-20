@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/typecomboboxclear
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Removes all list items from the combo box cell.<br><br>Only valid for cells with $ CellTypeComboBox (combo box type) set in the CellType property. Use the TypeComboBoxRemoveItem method to remove individual list items</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,11 +26,11 @@ permalink: /package/extension5/sspread/methods/typecomboboxclear
   <tr>
     <td rowspan="2">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Combo box cell column number</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Row number of combo box type cell</td>
   </tr>
   <tr>
     <td>Exception</td>

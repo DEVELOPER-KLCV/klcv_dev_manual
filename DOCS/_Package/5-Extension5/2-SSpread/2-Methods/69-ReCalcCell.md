@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/recalccell
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Recalculate the formula in each cell.<br><br>Use this method to manually recalculate individual cells when the <a href="/package/extension5/sspread/properties/autocalc">AutoCalc</a> property is set to $FALSE. To recalculate all the formulas in the spreadsheet, use the <a href="/package/extension5/sspread/methods/recalc">ReCalc</a> method.</td>   
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,16 +26,16 @@ permalink: /package/extension5/sspread/methods/recalccell
   <tr>
     <td rowspan="2">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Cell column number</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Cell row number</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the ReCalcCell method</td>
   </tr>
   <tr>
     <td>Example of use</td>

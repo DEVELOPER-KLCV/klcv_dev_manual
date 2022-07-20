@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/getrowitemdata
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Gets the individual numeric data set in the specified row.<br><br> Use the <a href="/package/extension5/sspread/methods/setrowitemdata">SetRowItemData</a> method to set individual numeric data for a row. <br>This numeric data does not affect the behavior of the spreadsheet. It can be used for any purpose.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/extension5/sspread/methods/getrowitemdata
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Numerical data<br>0 is returned for rows that are not set.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td><b>row</b></td>
-    <td></td>
+    <td>Row number</td>
   </tr>
   <tr>
     <td>Exception</td>

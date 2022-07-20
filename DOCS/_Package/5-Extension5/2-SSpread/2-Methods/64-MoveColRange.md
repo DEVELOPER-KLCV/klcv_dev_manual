@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/movecolrange
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Moves the specified column range to the specified position.<br><br>Moves the data and format of the column range. The destination column will be overwritten with the same number of columns as the range of columns to move.<br><br>Use the <a href="/package/extension5/sspread/methods/moverange">MoveRange</a> method to move the cell range and the <a href="/package/extension5/sspread/methods/moverowrange">MoveRowRange</a> method to move the row range. The <a href="/package/extension5/sspread/methods/copycolrange">CopyColRange</a> and <a href="/package/extension5/sspread/methods/swapcolrange">SwapColRange</a> methods can be used to copy or swap column ranges.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,20 +26,20 @@ permalink: /package/extension5/sspread/methods/movecolrange
   <tr>
     <td rowspan="3">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>First column number of the range to move</td>
   </tr>  
   <tr>
     <td><b>col2</b></td>
-    <td></td>
+    <td>Last column number of the range to move</td>
   </tr>  
   <tr>
     <td><b>coldest</b></td>
-    <td></td>
+    <td>Column number of the moved column range</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the MoveColRange method</td>
   </tr>
   <tr>
     <td>Example of use</td>

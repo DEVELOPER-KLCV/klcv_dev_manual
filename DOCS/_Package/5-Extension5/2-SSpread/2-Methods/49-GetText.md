@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/gettext
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Gets the value of the specified cell as a string.<br><br>It is the same function as getting the value by Text property.<br>Use the GetFloat and GetInteger methods to get the cell value as a number.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,16 +26,16 @@ permalink: /package/extension5/sspread/methods/gettext
   <tr>
     <td rowspan="2">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Cell column number</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Cell row number</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the GetText method</td>
   </tr>
   <tr>
     <td>Example of use</td>

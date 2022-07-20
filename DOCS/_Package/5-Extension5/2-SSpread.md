@@ -65,7 +65,7 @@ Therefore, the order in which the properties are written directly affects the ex
 
 Generally, the speed decreases as the number of target cells increases, so it is more efficient to execute the property method that is reflected in the entire spreadsheet at the stage where the cell data is as small as possible.
 
-**Col, Row, Col2, Row2, BlockMode properties**<br>
+### Col, Row, Col2, Row2, BlockMode properties<br>
 The <a href="/package/extension5/sspread/properties/col">Col</a>, <a href="/package/extension5/sspread/properties/row">Row</a>, <a href="/package/extension5/sspread/properties/col2">Col2</a>, and <a href="/package/extension5/sspread/properties/row2">Row2</a> properties are used to set the scope of processing before performing various processing on the spreadsheet.
 
 Targets for which these properties need to be preset include the <a href="/package/extension5/sspread/properties/backcolor">BackColor</a>, <a href="/package/extension5/sspread/properties/forecolor">ForeColor</a>, <a href="/package/extension5/sspread/properties/fontbold">FontBold</a>, <a href="/package/extension5/sspread/properties/fontitalic">FontItalic</a>, <a href="/package/extension5/sspread/properties/celltype">CellType</a>, <a href="/package/extension5/sspread/properties/text">Text</a>, <a href="/package/extension5/sspread/properties/value">Value</a>, <a href="/package/extension5/sspread/properties/lock">Lock</a>, and <a href="/package/extension5/sspread/properties/formula">Formula</a> properties.
@@ -90,7 +90,7 @@ If you leave BlockMode at $TRUE after setting it to a cell block, it may affect 
 
 If you specify multiple cells with different values and refer to the values, the value of one representative cell will be returned in principle. To ensure that you get the value of a particular cell, specify the cell clearly in the Col and Row properties before referencing.
 
-**This class's unique color handling (#RRGGBB format)**<br>
+### This class's unique color handling (#RRGGBB format)<br>
 Apart from the standard color constants ($BLACK, $FF0000, etc.), any color can be used in this class.
 
 Color information is represented by a character string in the following format.

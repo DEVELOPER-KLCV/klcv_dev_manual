@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/savetabfileu
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Save the spreadsheet data in a Unicode tab-delimited file. <br><br>It has the same function as the SaveTabFile method, but the output result is a Unicode text file. <br><br>Use the ExportToTextFileU method to specify any delimiter.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,16 +26,16 @@ permalink: /package/extension5/sspread/methods/savetabfileu
   <tr>
     <td>Arguments</td>
     <td><b>Writer</b></td>
-    <td></td>
+    <td>Save to <a href="/base/readerwriter#writer-object">Writer Object</a></td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>EXT-25</td>
-    <td></td>
+    <td>No valid Writer object specified</td>
   </tr>
   <tr>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the SaveTabFileU method</td>
   </tr>
   <tr>
     <td>Example of use</td>

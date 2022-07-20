@@ -9,4 +9,4 @@ has_toc: false
 
 # {{ page.title }}
 
-content here
+This chapter describes in detail how to work with array objects in CRS scripts.

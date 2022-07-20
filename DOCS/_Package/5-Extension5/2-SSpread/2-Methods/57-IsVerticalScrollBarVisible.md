@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/isverticalscrollbarvisible
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns whether the vertical scrollbar is visible.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/extension5/sspread/methods/isverticalscrollbarvisible
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">$TRUE if the vertical scrollbar is visible, $FALSE otherwise</td>
   </tr>  
   <tr>
     <td>Arguments</td>

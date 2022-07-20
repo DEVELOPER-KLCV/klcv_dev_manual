@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/isformulavalid
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Returns whether the formula format is valid.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/extension5/sspread/methods/isformulavalid
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">None</td>
+    <td colspan="2">$TRUE if the format is valid, $FALSE if the format is invalid</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td><b>formula</b></td>
-    <td></td>
+    <td>formula</td>
   </tr>
   <tr>
     <td>Exception</td>

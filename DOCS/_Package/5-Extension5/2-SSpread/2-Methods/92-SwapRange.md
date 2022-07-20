@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/swaprange
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Replaces the data and format of the specified cell range with other cell ranges.<br><br>Swap the data and formats in the cell blocks. The cell to be replaced will be replaced in the same range as the cell block to be replaced.<br><br>Use the <a href="/package/extension5/sspread/methods/swapcolrange">SwapColRange</a> method to swap column ranges and the <a href="/package/extension5/sspread/methods/swaprowrange">SwapRowRange</a> method to swap row ranges. Cell blocks can be copied and moved using the <a href="/package/extension5/sspread/methods/copyrange">CopyRange</a> and <a href="/package/extension5/sspread/methods/moverange">MoveRange</a> methods.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,32 +26,32 @@ permalink: /package/extension5/sspread/methods/swaprange
   <tr>
     <td rowspan="6">Arguments</td>
     <td><b>col</b></td>
-    <td></td>
+    <td>Column number of the upper left cell of the cell range of the replacement source</td>
   </tr>
   <tr>
     <td><b>row</b></td>
-    <td></td>
+    <td>Row number of the upper left cell of the cell range of the replacement source</td>
   </tr>
   <tr>
     <td><b>col2</b></td>
-    <td></td>
+    <td>Column number of the lower right cell of the cell range of the replacement source</td>
   </tr>
   <tr>
     <td><b>row2</b></td>
-    <td></td>
+    <td>Row number of the lower right cell of the cell range of the replacement source</td>
   </tr>
   <tr>
     <td><b>coldest</b></td>
-    <td></td>
+    <td>Column number of the upper left cell of the replacement destination cell range</td>
   </tr>
   <tr>
     <td><b>rowdest</b></td>
-    <td></td>
+    <td>The row number of the upper left cell of the cell range to be replaced</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>EXT-28</td>
-    <td></td>
+    <td>An error occurred in the SwapRange method</td>
   </tr>
   <tr>
     <td>Example of use</td>

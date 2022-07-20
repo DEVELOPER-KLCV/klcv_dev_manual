@@ -13,7 +13,7 @@ permalink: /package/extension5/sspread/methods/getmultiselitem
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Gets the number of the selected line in multiple selection mode.<br><br>This is valid only when the <a href="/package/extension5/sspread/properties/operationmode">OperationMode</a> property is $OperationModeMulti (multiple selection mode) and $OperationModeExtended (extended multiple selection mode).<br><br>Call this method repeatedly to find out the numbers of all the selected lines. When examining the first line, specify 0 for the argument <b>prev</b>. When looking at the next line, set the return value of the first call to the argument <b>prev</b>. If there are no more rows selected, -1 is returned.<br><br>The number of selected lines can be obtained with the <a href="/package/extension5/sspread/properties/selectioncount">SelectionCount</a> property. Use the <a href="/package/extension5/sspread/properties/selmodeselected">SelModeSelected</a> property to select a row from the CRS program.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/extension5/sspread/methods/getmultiselitem
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Selected line number</td>
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>prev</td>
-    <td></td>
+    <td><b>prev</b></td>
+    <td>The number of the selected line immediately before (0 to line number)</td>
   </tr>
   <tr>
     <td>Exception</td>
