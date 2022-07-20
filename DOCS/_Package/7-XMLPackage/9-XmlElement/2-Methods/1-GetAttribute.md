@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlelement/methods/getattribute
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Get the value of the Attr node with the specified attribute name .</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmlelement/methods/getattribute
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Value of Attr node string<br>If the Attr node is not found, it returns an empty string.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>name</b></td>
-    <td></td>
+    <td>get the value of attribute name of the Attr node </td>
   </tr>
   <tr>
     <td>Exception</td>

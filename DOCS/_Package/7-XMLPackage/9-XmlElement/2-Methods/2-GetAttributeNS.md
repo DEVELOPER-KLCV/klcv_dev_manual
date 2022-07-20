@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlelement/methods/getattributens
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Get the value of the Attr node for the specified namespace URI and attribute name.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/xmlpackage/xmlelement/methods/getattributens
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Attr node value string.If the Attr node is not found, an empty string is returned.</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>String <b>namespaceURI</b></td>
-    <td></td>
+    <td>Namespace URI of the Attr node for which you want to get the value</td>
   </tr>
   <tr>
     <td>String <b>name</b></td>
-    <td></td>
+    <td>Attribute name of the Attr node for which you want to get the value</td>
   </tr>
   <tr>
     <td>Exception</td>

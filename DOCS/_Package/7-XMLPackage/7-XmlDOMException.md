@@ -15,6 +15,8 @@ permalink: /package/xmlpackage/xmldomexception
 
 ---
 
+<a href="/img/Package/XML-XmlDOMExceptiontClass.png" target="_blank">
+<img src="/img/Package/XML-XmlDOMExceptiontClass.png" alt="login image"></a>
 A class that defines DOM exceptions.
 
 **Default properties and ValueType**

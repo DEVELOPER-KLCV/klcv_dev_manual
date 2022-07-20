@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldocument/methods/getelementsbytagname
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Search for Element nodes by tag name to get a list of matching Element nodes.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmldocument/methods/getelementsbytagname
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlNodeList object containing an Element node with a tag name that matches the condition.<br>If not found, an empty XmlNodeList object is returned.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>tagName</b></td>
-    <td></td>
+    <td>Tag name to be searched</td>
   </tr>
   <tr>
     <td>Exception</td>

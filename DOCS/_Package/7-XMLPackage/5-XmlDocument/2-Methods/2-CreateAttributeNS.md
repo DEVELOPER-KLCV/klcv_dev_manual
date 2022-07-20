@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldocument/methods/createattributens
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Create an Attr node with a namespace URI.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/xmlpackage/xmldocument/methods/createattributens
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlAttr object</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>String <b>namespaceURI</b></td>
-    <td></td>
+    <td>Namespace URI of the Attr node to be created</td>
   </tr>
   <tr>
     <td>String <b>qualifiedName</b></td>
-    <td></td>
+    <td>Attribute name of the Attr node to be created</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>

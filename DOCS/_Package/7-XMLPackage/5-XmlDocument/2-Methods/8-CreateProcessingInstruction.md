@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldocument/methods/createprocessinginstruction
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Create a ProcessingInstruction node.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/xmlpackage/xmldocument/methods/createprocessinginstruction
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlProcessingInstruction object</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>String <b>target</b></td>
-    <td></td>
+    <td>Target part of processing instruction</td>
   </tr>
   <tr>
     <td>String <b>data</b></td>
-    <td></td>
+    <td>Data part of processing instruction</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>

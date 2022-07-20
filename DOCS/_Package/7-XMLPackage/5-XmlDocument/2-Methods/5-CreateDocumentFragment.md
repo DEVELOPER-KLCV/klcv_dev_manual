@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldocument/methods/createdocumentfragment
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Create a DocumentFragment node.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/xmlpackage/xmldocument/methods/createdocumentfragment
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlDocumentFragment object</td>
   </tr>  
   <tr>
     <td>Arguments</td>

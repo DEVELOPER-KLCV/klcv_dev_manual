@@ -15,6 +15,9 @@ permalink: /package/xmlpackage/xmldomimplementation
 
 ---
 
+<a href="/img/Package/XML-XmlDOMImplementationClass.png" target="_blank">
+<img src="/img/Package/XML-XmlDOMImplementationClass.png" alt="login image"></a>
+
 A class that defines the implementation of the DOM.
 
 It manages the creation of the [XmlDocument](/package/xmlpackage/xmldocument) object that is the root node of the DOM tree and the corresponding version of the DOM API.
@@ -25,5 +28,4 @@ The default property is [Value](/package/xmlpackage/xmldomimplementation/propert
 If ValueType is specified for UString, the internal character code will be Unicode.
 This is synonymous with specifying Unicode as the internal character code in the constructor.
 
-<br>
-**<small>Added since Version 5.0.3</small>**
+<br><small><span style="color:red">Added since Ver.5.0.3</span></small>

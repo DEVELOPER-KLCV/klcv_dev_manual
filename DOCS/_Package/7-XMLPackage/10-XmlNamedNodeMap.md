@@ -15,6 +15,9 @@ permalink: /package/xmlpackage/xmlnamednodemap
 
 ---
 
+<a href="/img/Package/XML-XmlNamedNodeMap.png" target="_blank">
+<img src="/img/Package/XML-XmlNamedNodeMap.png" alt="login image"></a>
+
 A class that manages a set of nodes in a named map. A node map has multiple nodes inside, but only one of them has the same name.
 
 **Default properties and ValueType**

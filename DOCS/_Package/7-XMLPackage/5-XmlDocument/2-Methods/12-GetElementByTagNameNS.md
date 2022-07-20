@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldocument/methods/getelementsbytagnamens
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Search for Element nodes by namespace URI and tag name to get a list of matching Element nodes.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/xmlpackage/xmldocument/methods/getelementsbytagnamens
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlNodeList object containing Element nodes that match the condition<br>If not found, an empty XmlNodeList object is returned.</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>String <b>namespaceURI</b></td>
-    <td></td>
+    <td>Namespace URI to search</td>
   </tr>
   <tr>
     <td>String <b>qualifiedName</b></td>
-    <td></td>
+    <td>Tag name to search</td>
   </tr>
   <tr>
     <td>Exception</td>

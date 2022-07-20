@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldocument/methods/createelementns
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Specify the a namespace URI, then the Element node is created.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/xmlpackage/xmldocument/methods/createelementns
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlElement object</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>String <b>namespaceURI</b></td>
-    <td></td>
+    <td>Namespace URI of the Element node to be created</td>
   </tr>
   <tr>
     <td>String <b>qualifiedName</b></td>
-    <td></td>
+    <td>Tag name of the Element node to be created</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>

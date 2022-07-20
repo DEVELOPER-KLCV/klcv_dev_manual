@@ -14,6 +14,8 @@ permalink: /package/xmlpackage/xmldocument
 # {{ page.title }}
 
 ---
+<a href="/img/Package/XML-XmlDocumentClass.png" target="_blank">
+<img src="/img/Package/XML-XmlDocumentClass.png" alt="login image"></a>
 
 A class that defines the root node (Document node) of the DOM tree.
 

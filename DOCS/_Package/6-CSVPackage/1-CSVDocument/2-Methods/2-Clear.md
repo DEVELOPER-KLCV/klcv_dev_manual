@@ -13,7 +13,7 @@ permalink: /package/csvpackage/csvdocument/methods/clear
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Delete all rows and columns and leave it  empty</td>
   </tr>
   <tr>
     <td>Call format</td>

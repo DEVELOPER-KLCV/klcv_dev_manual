@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldomimplementation/methods/decodexml
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">	Returns the XML escaped string to the original string.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmldomimplementation/methods/decodexml
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">String with removed XML escape</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>str</b></td>
-    <td></td>
+    <td>Character string that has been XMLescaped</td>
   </tr>
   <tr>
     <td>Exception</td>

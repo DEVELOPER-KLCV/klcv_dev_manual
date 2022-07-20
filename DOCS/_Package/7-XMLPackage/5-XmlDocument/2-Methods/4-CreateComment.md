@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldocument/methods/createcomment
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Create a Comment node.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmldocument/methods/createcomment
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlComment object</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>data</b></td>
-    <td></td>
+    <td>Character string that be the initial value of the Comment node</td>
   </tr>
   <tr>
     <td>Exception</td>

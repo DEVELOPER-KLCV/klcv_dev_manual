@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldocument/methods/CreateCDATASection
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Create a CDATASection node.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmldocument/methods/CreateCDATASection
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlCDATASection object</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>data</b></td>
-    <td></td>
+    <td>A string that is the initial value of the CDATASection node</td>
   </tr>
   <tr>
     <td>Exception</td>

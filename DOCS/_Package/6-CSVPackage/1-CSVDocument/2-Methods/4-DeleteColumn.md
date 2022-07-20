@@ -13,11 +13,11 @@ permalink: /package/csvpackage/csvdocument/methods/DeleteColumn
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Delete column of selected column index</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">csvdoc.DeleteColumn( <b>column</b> )</td>
+    <td colspan="2">csvdoc.DeleteColumn( <b><i>column</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
@@ -25,13 +25,13 @@ permalink: /package/csvpackage/csvdocument/methods/DeleteColumn
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>integer <b>column</b></td>
-    <td></td>
+    <td>integer <b><i>column</i></b></td>
+    <td>Delete column that starts from index column 0<br>If specified 0,the first column will be deleted,<br>if specified 1, the second column will be deleted.</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>CSV-4</td>
-    <td></td>
+    <td>Specified column cannot be deleted</td>
   </tr>
   <tr>
     <td>Example of use</td>

@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldomimplementation/methods/createdocument
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2"> Create a Document node.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,20 +21,20 @@ permalink: /package/xmlpackage/xmldomimplementation/methods/createdocument
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlDocument object</td>
   </tr>  
   <tr>
     <td rowspan="3">Arguments</td>
     <td>String <b>namespaceURI</b></td>
-    <td></td>
+    <td>Namespace URI of the Document node to be created</td>
   </tr>
   <tr>
     <td>String <b>qualifiedName</b></td>
-    <td></td>
+    <td>Tag name of the first Element node</td>
   </tr>
   <tr>
     <td>XmlDocumentType <b>doctype</b></td>
-    <td></td>
+    <td>Reserved for future expansion. Please specify null.</td>
   </tr>
   <tr>
     <td rowspan="3">Exception</td>

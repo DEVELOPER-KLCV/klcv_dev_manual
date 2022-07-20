@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldomimplementation/methods/parse
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Read XML string data.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,21 +21,21 @@ permalink: /package/xmlpackage/xmldomimplementation/methods/parse
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlDocument object</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>xmltext</b></td>
-    <td></td>
+    <td>XML string data</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>XML-1</td>
-    <td></td>
+    <td>XML parse error</td>
   </tr>
   <tr>
     <td>XML-13</td>
-    <td></td>
+    <td>Input XML is empty</td>
   </tr>
   <tr>
     <td>Example of use</td>

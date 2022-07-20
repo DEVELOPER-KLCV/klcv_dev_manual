@@ -15,7 +15,7 @@ The following properties are defined in the XmlElement class.
 
 |Name       | Access | Type   | Description |
 |----------	|--------|--------|-------------|
-| [TagName](/package/xmlpackage/xmlelement/properties/tagname) | R | String |
+| [TagName](/package/xmlpackage/xmlelement/properties/tagname) | R | String |Element node tag name|
 
 <u><b>Access</b></u><br>
 R: Readable

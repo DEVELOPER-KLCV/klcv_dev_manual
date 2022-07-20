@@ -13,7 +13,7 @@ permalink: /package/csvpackage/csvdocument/methods/truncate
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Delete multiple rows at once. The column is maintained.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,12 +26,12 @@ permalink: /package/csvpackage/csvdocument/methods/truncate
   <tr>
     <td>Arguments</td>
     <td>integer <b>row</b></td>
-    <td></td>
+    <td>Line number starting with 0 on the line that starts the deletion.<br>The rows after the specified <b>row</b> will be  deleted. If omitted, all lines will be deleted.<br><small><span style="color:red">Added since Ver.4.1.3, Mobile Ver.3.0.0</span></small></td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>CSV-13</td>
-    <td></td>
+    <td>Incorrect row index.</td>
   </tr>
   <tr>
     <td>Example of use</td>

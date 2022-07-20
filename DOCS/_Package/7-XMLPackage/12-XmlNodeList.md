@@ -15,6 +15,9 @@ permalink: /package/xmlpackage/xmlnodelist
 
 ---
 
+<a href="/img/Package/XML-XmlNodeListClass.png" target="_blank">
+<img src="/img/Package/XML-XmlNodeListClass.png" alt="login image"></a>
+
 A class that manages a set of nodes in a node list.
 
 **Default properties and ValueType**

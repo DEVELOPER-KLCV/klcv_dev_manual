@@ -13,25 +13,25 @@ permalink: /package/csvpackage/csvdocument/methods/getcolumnname
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Get the name of column<br><br>With <a href="/package/csvpackage/csvdocument/methods/setcolumnname">SetColumnName</a> method and <a href="/package/csvpackage/csvdocument/csvcontantse">CSV Constant</a> the column name is acquired.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2">var name = csvdoc.GetColumnName( <b>column</b> )</td>
+    <td colspan="2">var name = csvdoc.GetColumnName( <b><i>column</i></b> )</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Spcified column name</td>
   </tr>  
   <tr>
     <td>Arguments</td>
-    <td>integer <b>column</b></td>
-    <td></td>
+    <td>integer <b><i>column</i></b></td>
+    <td>Get the name of column which start from column index 0</td>
   </tr>
   <tr>
     <td>Exception</td>
     <td>CSV-14</td>
-    <td></td>
+    <td>Incorrect column index</td>
   </tr>
   <tr>
     <td>Example of use</td>

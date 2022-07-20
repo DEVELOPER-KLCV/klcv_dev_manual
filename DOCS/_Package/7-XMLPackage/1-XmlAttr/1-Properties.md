@@ -15,10 +15,10 @@ The following properties are defined in the XmlAttr class.
 
 |Name       | Access | Type   | Description |
 |----------	|--------|--------|-------------|
-| [Name](/package/xmlpackage/xmlattr/properties/name) | R      |String ||
-| [OwnerElement](/package/xmlpackage/xmlattr/properties/ownerelement) | R      |XmlElement ||
-| [Specified](/package/xmlpackage/xmlattr/properties/specified) 	| R 	 |Boolean  ||
-| [Value](/package/xmlpackage/xmlattr/properties/value) 	| RW 	 |String  ||
+| [Name](/package/xmlpackage/xmlattr/properties/name) | R      |String |Attr node attribute name|
+| [OwnerElement](/package/xmlpackage/xmlattr/properties/ownerelement) | R      |XmlElement |Element node to which the Attr node belongs|
+| [Specified](/package/xmlpackage/xmlattr/properties/specified) 	| R 	 |Boolean  |Whether the value of the Attr node is explicitly set|
+| [Value](/package/xmlpackage/xmlattr/properties/value) 	| RW 	 |String  |	Attr node value|
 
 <u><b>Access</b></u><br>
 R: Readable

@@ -13,7 +13,7 @@ permalink: /package/csvpackage/csvdocument/methods/setcells
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Update data in multiple columns of a specified row at once.<br><br><small><span style="color:red">Added since Ver.4.1.0, Mobile Ver.3.0.0</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -26,24 +26,24 @@ permalink: /package/csvpackage/csvdocument/methods/setcells
   <tr>
     <td rowspan="3">Arguments</td>
     <td>integer <b>row</b></td>
-    <td></td>
+    <td>Update row which satrts from row index 0</td>
   </tr>
   <tr>
     <td>integer <b>col</b></td>
-    <td></td>
+    <td>Column number starting with 0 for the column to start updating.<br>The update will start from specified <b>col</b> following order <b>data1,data2,...</b></td>
   </tr>
   <tr>
     <td>String <b>data</b></td>
-    <td></td>
+    <td>Character string set in cell</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>CSV-13</td>
-    <td></td>
+    <td>Incorrect row index</td>
   </tr>
   <tr>
     <td>CSV-14</td>
-    <td></td>
+    <td>Incorrect column index</td>
   </tr>
   <tr>
     <td>Example of use</td>

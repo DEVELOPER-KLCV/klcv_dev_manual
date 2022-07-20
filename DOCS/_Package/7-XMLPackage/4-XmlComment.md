@@ -15,6 +15,9 @@ permalink: /package/xmlpackage/xmlcomment
 
 ---
 
+<a href="/img/Package/XML-XmlCommentClass.png" target="_blank">
+<img src="/img/Package/XML-XmlCommentClass.png" alt="login image"></a>
+
 A class that defines a Comment node. The XmlComment class is derived from the XmlCharacterData class and inherits the properties and methods of the XmlCharacterData class.
 
 **Default properties and ValueType**

@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmldocument/methods/createattribute
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Create an Attr node.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmldocument/methods/createattribute
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlAttr object</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String  <b>name</b></td>
-    <td></td>
+    <td>Attribute name</td>
   </tr>
   <tr>
     <td>Exception</td>

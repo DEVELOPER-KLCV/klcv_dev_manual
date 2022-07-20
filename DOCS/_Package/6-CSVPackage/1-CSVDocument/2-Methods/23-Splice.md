@@ -13,7 +13,7 @@ permalink: /package/csvpackage/csvdocument/methods/splice
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Split CSV data according to the specified conditions.<br><br>Rows that setisfy the condition are removed from the CSVDocument object and stored in a new CSVDocument object.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/csvpackage/csvdocument/methods/splice
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">A new CSVDocument object consisting of only rows that satisfy the condition.</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>integer <b>row</b></td>
-    <td></td>
+    <td>Line number starting with 0 of the line that starts the split.<br><br>The <b>row</b> after the row specified by row is the target of division.</td>
   </tr>
   <tr>
     <td>String  <b>cond</b></td>
-    <td></td>
+    <td>Search conditions that specify the lines to be split<br><br>Specify in the same format as the Load method.<br><br>Can be specified as many search conditions as the number of columns at the maximum, and if multiple search conditions specified, combine them with AND.</td>
   </tr>
   <tr>
     <td>Exception</td>
