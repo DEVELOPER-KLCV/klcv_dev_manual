@@ -46,7 +46,7 @@ The following properties are defined in the SSpread class.
 |[CellType](/package/extension5/sspread/properties/celltype) | CRW | × | integer | $CellTypeEdit | Data types of cells in rows, columns, cells, cell blocks |
 |[ChangeMade](/package/extension5/sspread/properties/changemade) | CRW | × | boolean | $FALSE | Whether the cell value has changed |
 |[Clip](/package/extension5/sspread/properties/clip) | CRW | × | UString | - | Set the value in the cell block |
-|[ClipboardOptions](/package/extension5/sspread/properties/clipboaroptions) | CRW | | integer | $ClipboardOptionsCopyPasteAllHeaders | Handling of headers when copying and pasting |
+|[ClipboardOptions](/package/extension5/sspread/properties/clipboardoptions) | CRW | | integer | $ClipboardOptionsCopyPasteAllHeaders | Handling of headers when copying and pasting |
 |[ClipValue](/package/extension5/sspread/properties/clipvalue) | CRW | × | UString | - | Set the value in the cell block |
 |[Col](/package/extension5/sspread/properties/col) | CRW | × | integer | -1 | Columns to be processed |
 |[Col2](/package/extension5/sspread/properties/col2) | CRW | × | integer | 0 | The last column of the cell block to be processed |
