@@ -56,7 +56,7 @@ The following properties are defined in the SSpread class.
 |[ColID](/package/extension5/sspread/properties/colid)| CRW| ×| UString| ""| A string that identifies the column |
 |[ColMerge](/package/extension5/sspread/properties/colmerge)| CRW| ×| integer| $MergeNone| Group cells with the same content in a particular column |
 |[ColsFrozen](/package/extension5/sspread/properties/colsfrozen)| CRW| | integer| 0| Number of columns to be fixedly displayed without scrolling |
-|[ColUserSortIndicator](/package/extension5/sspread/properties/coluserssortindicator)| ※| ×| integer| $ColUserSortIndicatorNone| Show / hide sort indicator |
+|[ColUserSortIndicator](/package/extension5/sspread/properties/colusersortindicator)| ※| ×| integer| $ColUserSortIndicatorNone| Show / hide sort indicator | 
 |[ColWidth](/package/extension5/sspread/properties/colwidth)| ※| ×| integer| 64| Column width |
 |[CursorIcon](/package/extension5/sspread/properties/cursoricon)| CRW| ×| String<br>Object Reference| -| User-defined mouse cursor |
 |[CursorStyle](/package/extension5/sspread/properties/cursorstyle)| CRW| ×| integer| $CursorStyleDefault| Mouse cursor shape to use |
