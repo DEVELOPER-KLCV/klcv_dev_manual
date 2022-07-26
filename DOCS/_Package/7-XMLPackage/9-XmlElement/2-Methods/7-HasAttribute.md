@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlelement/methods/hasattribute
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Checks if there is an Attr node with the specified attribute name.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmlelement/methods/hasattribute
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">$TRUE if the Attr node exists , $FALSE if it does not exist</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>name</b></td>
-    <td></td>
+    <td>Attribute name</td>
   </tr>
   <tr>
     <td>Exception</td>

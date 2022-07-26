@@ -9,3 +9,6 @@ nav_order: 1
 permalink: /package/xmlpackage/xmlnodelist/properties/length
 ---
 # {{ page.title }}
+Represents the number of nodes in the node list.
+
+This property is read-only and cannot be changed.

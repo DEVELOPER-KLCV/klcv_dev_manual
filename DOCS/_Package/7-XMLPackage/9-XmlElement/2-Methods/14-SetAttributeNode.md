@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlelement/methods/setattributenode
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Specify the<a href="/package/xmlpackage/xmlattr/"> XmlAttr</a>object to configure the Attr node.<br>If there is an Attr node with the same attribute name as the specified XmlAttr object, replace the Attr node.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmlelement/methods/setattributenode
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Replaced XmlAttr object.<br>Returns null if there was no replacement.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>XmlAttr <b>attr</b></td>
-    <td></td>
+    <td>XmlAttr object to be set<br>You cannot specify an Attr node that is already set on another Element node.</td>
   </tr>
   <tr>
     <td rowspan="3">Exception</td>

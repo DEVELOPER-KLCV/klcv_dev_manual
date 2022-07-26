@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmltext/methods/splittext
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Splits the Text node at the specified position into two Text nodes.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmltext/methods/splittext
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlText object containing the second half of the split text</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>integer <b>offset</b></td>
-    <td></td>
+    <td>Split position (specified by the number of characters)</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>

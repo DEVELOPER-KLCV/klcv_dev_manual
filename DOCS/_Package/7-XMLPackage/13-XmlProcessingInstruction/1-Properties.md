@@ -15,8 +15,8 @@ The following properties are defined in the XmlProcessingInstruction class.
 
 |Name       | Access | Type   | Description |
 |----------	|--------|--------|-------------|
-| [Data](/package/xmlpackage/xmlprocesssinginstruction/properties/data) | CRW | String | |
-| [Target](/package/xmlpackage/xmlprocesssinginstruction/properties/target) | R | String | |
+| [Data](/package/xmlpackage/xmlprocesssinginstruction/properties/data) | CRW | String | Data part of processing instruction|
+| [Target](/package/xmlpackage/xmlprocesssinginstruction/properties/target) | R | String | Target part of processing instruction|
 
 <u><b>Access</b></u><br>
 R: Readable

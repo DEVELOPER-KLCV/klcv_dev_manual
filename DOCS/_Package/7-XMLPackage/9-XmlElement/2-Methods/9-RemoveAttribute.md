@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlelement/methods/removeattribute
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Delete the Attr node by specifying the attribute name .<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmlelement/methods/removeattribute
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">None</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>name</b></td>
-    <td></td>
+    <td>Attr node attribute name</td>
   </tr>
   <tr>
     <td>Exception</td>

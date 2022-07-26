@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnamednodemap/methods/item
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Fetch the node by specifying the index.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmlnamednodemap/methods/item
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlNode object<br>If the corresponding node is not found, such as by specifying an <b>index</b> that is greater than or equal to the <a href="/package/xmlpackage/xmlnamednodemap/properties/length">Length</a> property , null is returned.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>integer <b>index</b></td>
-    <td></td>
+    <td>Position of the node to retrieve ( by specifying an index starting from 0 )</td>
   </tr>
   <tr>
     <td>Exception</td>

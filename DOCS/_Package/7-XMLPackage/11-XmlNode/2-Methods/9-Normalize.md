@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnode/methods/normalize
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Normalizes the Text node.<br><br>Empty Text nodes are deleted and adjacent Text nodes are concatenated into a single Text node.</td>
   </tr>
   <tr>
     <td>Call format</td>

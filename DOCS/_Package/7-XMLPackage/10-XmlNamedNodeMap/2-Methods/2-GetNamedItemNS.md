@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnamednodemap/methods/getnameditemns
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Fetch the code by specifying URI namnespace and name.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/xmlpackage/xmlnamednodemap/methods/getnameditemns
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlNode object<br>Returns null if no node is found.</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>String <b>namespaceURI</b></td>
-    <td></td>
+    <td>Namspace URI of node</td>
   </tr>
   <tr>
     <td>String <b>localName</b></td>
-    <td></td>
+    <td>Nsme of node</td>
   </tr>
   <tr>
     <td>Exception</td>

@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnamednodemap/methods/NextNode
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Take out the next node.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/xmlpackage/xmlnamednodemap/methods/NextNode
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">	XmlNode object<br>Returns null if no more nodes are found . </td>
   </tr>  
   <tr>
     <td>Arguments</td>

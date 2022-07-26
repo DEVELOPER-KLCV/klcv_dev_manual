@@ -10,3 +10,5 @@ permalink: /package/xmlpackage/XmlProcessingInstruction/methods
 has_toc: false
 ---
 # {{ page.title }}
+
+There are no methods defined in the XmlProcessingInstruction class.

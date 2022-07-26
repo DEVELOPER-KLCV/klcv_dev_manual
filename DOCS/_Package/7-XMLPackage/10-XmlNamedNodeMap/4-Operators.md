@@ -15,5 +15,5 @@ The XmlNamedNodeMap class defines an operator for retrieving the nodes contained
 
 |Name       | Description |
 |----------	|-------------|
-| [XmlNamedNodeMap[ ]](/package/xmlpackage/xmlnamednodemap/operators/1) |  |
-| [XmlNamedNodeMap Iterate](/package/xmlpackage/xmlnamednodemap/operators/2) |  |
+| [XmlNamedNodeMap[ ]](/package/xmlpackage/xmlnamednodemap/operators/1) | Extract nodes in array format |
+| [XmlNamedNodeMap Iterate](/package/xmlpackage/xmlnamednodemap/operators/2) | Extract nodes continuously |

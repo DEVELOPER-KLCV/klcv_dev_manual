@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnode/methods/removechild
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Detach the child node from the node tree.<br><small><span style="color:blue">Not supported in Mobile and AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,21 +21,21 @@ permalink: /package/xmlpackage/xmlnode/methods/removechild
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Disconnected XmlNode object</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>XmlNode <b>child</b></td>
-    <td></td>
+    <td>Node to be disconnected</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
     <td>DOM-7</td>
-    <td></td>
+    <td>NO_MODIFICATION_ALLOWED_ERR</td>
   </tr>
   <tr>
     <td>DOM-8</td>
-    <td></td>
+    <td>NOT_FOUND_ERR</td>
   </tr>
   <tr>
     <td>Example of use</td>

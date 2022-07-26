@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlelement/methods/setattribute
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Specify the attribute name to set the value of the Attr node.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/xmlpackage/xmlelement/methods/setattribute
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">None</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>String <b>name</b></td>
-    <td></td>
+    <td>Attribute name of the Attr node for which you want to set the value</td>
   </tr>
   <tr>
     <td>String <b>value</b></td>
-    <td></td>
+    <td>Value to set</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>

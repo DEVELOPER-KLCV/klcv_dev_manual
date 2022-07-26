@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnode/methods/InsertBefore
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Add a node at the specified position.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,33 +21,33 @@ permalink: /package/xmlpackage/xmlnode/methods/InsertBefore
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Added XmlNode object</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>XmlNode <b>newChild</b></td>
-    <td></td>
+    <td>New node<br>If <b>newChild</b> is an <a href="/package/xmlpackage/xmldocumentfragment/">XmlDocumentFragment</a> object, all child nodes of <b>newChild</b> will be added in the same order. If <b>newChild</b> is connected to another tree, it will be inserted after being detached from the tree.</td>
   </tr>
   <tr>
     <td>XmlNode <b>refChild</b></td>
-    <td></td>
+    <td>Child node indicating the additional position.<br>If <b>refChild</b> is null, <b>newChild</b> will be added last.</td>
   </tr>
   <tr>
     <td rowspan="4">Exception</td>
     <td>DOM-3</td>
-    <td></td>
+    <td>HIERARCHY_REQUEST_ERR</td>
   </tr>
   <tr>
     <td>DOM-4</td>
-    <td></td>
+    <td>WRONG_DOCUMENT_ERR</td>
   </tr>
   <tr>
     <td>DOM-7</td>
-    <td></td>
+    <td>NO_MODIFICATION_ALLOWED_ERR</td>
   </tr>
   <tr>
     <td>DOM-8</td>
-    <td></td>
+    <td>NOT_FOUND_ERR</td>
   </tr>
   <tr>
     <td>Example of use</td>

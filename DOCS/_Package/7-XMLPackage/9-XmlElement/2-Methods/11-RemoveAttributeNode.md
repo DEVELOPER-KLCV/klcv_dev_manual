@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlelement/methods/removeattributenode
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Delete the Attr node by specifying the<a href="/package/xmlpackage/xmlattr/">XmlAttr</a>.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmlelement/methods/removeattributenode
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Deleted XmlAttr object.Returns null if it was not deleted .</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>XmlAttr <b>attr</b></td>
-    <td></td>
+    <td>XmlAttr object to delete</td>
   </tr>
   <tr>
     <td rowspan="2">Exception</td>
