@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnodelist/operators/1
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Extract the nodes in array format.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmlnodelist/operators/1
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlNode object<br>Return null if <b>index</b> is not in the valid range</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>integer <b>index</b></td>
-    <td></td>
+    <td>Position to retrieve the node</td>
   </tr>
   <tr>
     <td>Exception</td>

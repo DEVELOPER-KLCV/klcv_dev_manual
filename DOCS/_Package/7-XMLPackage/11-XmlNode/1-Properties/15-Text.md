@@ -9,3 +9,7 @@ nav_order: 15
 permalink: /package/xmlpackage/xmlnode/properties/Text
 ---
 # {{ page.title }}
+
+The text that aggregates the child nodes.
+
+This property is read-only and cannot be changed.

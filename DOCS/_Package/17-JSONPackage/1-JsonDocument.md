@@ -14,6 +14,8 @@ permalink: /package/jsonpackage/jsondocument
 # {{ page.title }}
 
 ---
+<a href="/img/Package/JSON-DocumentClass.jpg" target="_blank">
+<img src="/img/Package/JSON-DocumentClass.jpg" alt="login image"></a>
 
 A class that parses and outputs JSON data.
 

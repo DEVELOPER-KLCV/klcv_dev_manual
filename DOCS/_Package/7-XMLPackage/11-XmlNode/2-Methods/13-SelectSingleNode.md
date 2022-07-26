@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnode/methods/selectsinglenode
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Searches for nodes that match the conditions specified in XPath .</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmlnode/methods/selectsinglenode
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">The first XmlNode object found among the nodes that match the search criteria<br>Returns null if no matching node is found .</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>xpath</b></td>
-    <td></td>
+    <td>Specify the search conditions in XPath format.<br>The XPath format conforms to the <a href="/package/xmlpackage/xmlnode/methods/selectnodes">SelectNodes</a> method.</td>
   </tr>
   <tr>
     <td>Exception</td>

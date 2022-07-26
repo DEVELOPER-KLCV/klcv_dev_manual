@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnamednodemap/methods/setnameditemns
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Specify the <a href="/package/xmlpackage/xmlnode">XmlNode</a> object to set the node.<br>If a node with the same namespace URI and name as the specified node is already included in the node map, that node will be replaced.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,26 +21,26 @@ permalink: /package/xmlpackage/xmlnamednodemap/methods/setnameditemns
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2">None</td>
+    <td colspan="2">Replaced XmlNode object<br>Returns null if the replacement did not occur .</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>XmlNode <b>newNode</b></td>
-    <td></td>
+    <td>Node to be set</td>
   </tr>
   <tr>
     <td rowspan="3">Exception</td>
     <td>DOM-4</td>
-    <td></td>
+    <td>WRONG_DOCUMENT_ERR</td>
   </tr>
   <tr>
     <td>DOM-7</td>
-    <td></td>
+    <td>NO_MODIFICATION_ALLOWED_ERR</td>
   </tr>
   
   <tr>
     <td>DOM-10</td>
-    <td></td>
+    <td>INUSE_ATTRIBUTE_ERR</td>
   </tr>
   <tr>
     <td>Example of use</td>

@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnode/methods/LookupNamespaceURI
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Gets the namespace URI that corresponds to the specified prefix.<br><small><span style="color:red">Added since Ver.4.0.0</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmlnode/methods/LookupNamespaceURI
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Corresponding namespace URI<br>Returns null if not found.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>prefix</b></td>
-    <td></td>
+    <td>Namespace URI prefix</td>
   </tr>
   <tr>
     <td>Exception</td>

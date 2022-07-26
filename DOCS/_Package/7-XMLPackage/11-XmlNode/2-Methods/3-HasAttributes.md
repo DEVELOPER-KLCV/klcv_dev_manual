@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnode/methods/hasattributes
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Check for the presence of the Attr node.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/xmlpackage/xmlnode/methods/hasattributes
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">$TRUE if the node has an Attr node , $FALSE if it doesn't</td>
   </tr>  
   <tr>
     <td>Arguments</td>

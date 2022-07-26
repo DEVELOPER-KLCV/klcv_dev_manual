@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnodelist/methods/reset
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Resets the fetch position of the <a href="/package/xmlpackage/xmlnodelist/methods/nextnode">NextNode</a> method.</td>
   </tr>
   <tr>
     <td>Call format</td>

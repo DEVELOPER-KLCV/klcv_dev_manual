@@ -13,15 +13,15 @@ permalink: /package/xmlpackage/xmlnodelist/operators/2
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Eject nodes in succession.<br>The Iterate operator is unlike a normal operator, and is used to continuously access the data contained in an object inside the execution engine. Class objects  with Iterate can perform the same operations as arrayed objects with for <a href="/bizBrowserV/3/3-14/">for in loops</a> and <a href="/method/statistical/sum">sum</a> functions.</td>
   </tr>
   <tr>
     <td>Call format</td>
-    <td colspan="2"></td>
+    <td colspan="2">Iterate operator cannot be called directly.</td>
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Iterate object</td>
   </tr>  
   <tr>
     <td>Arguments</td>

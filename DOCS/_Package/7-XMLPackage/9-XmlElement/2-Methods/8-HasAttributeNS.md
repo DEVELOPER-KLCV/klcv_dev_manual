@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlelement/methods/hasattributens
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Checks for the existence of an Attr node with the specified namespace URI and attribute name .<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,16 +21,16 @@ permalink: /package/xmlpackage/xmlelement/methods/hasattributens
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">$TRUE if the Attr node exists , $FALSE if it does not</td>
   </tr>  
   <tr>
     <td rowspan="2">Arguments</td>
     <td>String <b>namespaceURI</b></td>
-    <td></td>
+    <td>Namespace URI</td>
   </tr>
   <tr>
     <td>String <b>name</b></td>
-    <td></td>
+    <td>Attribute name</td>
   </tr>
   <tr>
     <td>Exception</td>

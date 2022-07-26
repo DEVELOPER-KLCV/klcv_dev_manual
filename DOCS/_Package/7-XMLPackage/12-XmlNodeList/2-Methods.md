@@ -15,6 +15,6 @@ The following methods are defined in the XmlNodeList class.
 
 |Name       |  Description |
 |----------	|--------------|
-|[Item](/package/xmlpackage/xmlnodelist/methods/item) ||
-|[NextNode](/package/xmlpackage/xmlnodelist/methods/nextnode) ||
-|[Reset](/package/xmlpackage/xmlnodelist/methods/reset) ||
+|[Item](/package/xmlpackage/xmlnodelist/methods/item) |Extract the node by specifying the index|
+|[NextNode](/package/xmlpackage/xmlnodelist/methods/nextnode) |Extract the next node|
+|[Reset](/package/xmlpackage/xmlnodelist/methods/reset) |Reset the fetch position of the NextNode method|

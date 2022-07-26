@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnamednodemap/methods/removenameditem
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Delete the node by name.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmlnamednodemap/methods/removenameditem
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Deleted XmlNode object<br>Returns null if no node is found.</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>name</b></td>
-    <td></td>
+    <td>Node name</td>
   </tr>
   <tr>
     <td>Exception</td>

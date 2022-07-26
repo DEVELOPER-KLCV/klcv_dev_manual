@@ -17,7 +17,7 @@ The following methods are defined in the JSONDocument class.
 
 |Name       | Description |
 |----------	|-------------|
-|[Get](/package/jsonpackage/jsondocument/methods/get) | |
-|[Load](/package/jsonpackage/jsondocument/methods/load) | |
-|[Parse](/package/jsonpackage/jsondocument/methods/parse) | |
-|[Save](/package/jsonpackage/jsondocument/methods/save) | |
+|[Get](/package/jsonpackage/jsondocument/methods/get) |Read JSON from URL|
+|[Load](/package/jsonpackage/jsondocument/methods/load) |Read JSON from Reader object|
+|[Parse](/package/jsonpackage/jsondocument/methods/parse) |Read JSON from a string|
+|[Save](/package/jsonpackage/jsondocument/methods/save) |Save the JSON in a Writer object|

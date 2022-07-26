@@ -15,4 +15,4 @@ The following methods are defined in the XmlText class.
 
 | Name   | Description         |
 |--------|---------------------|
-|[SplitText](/package/xmlpackage/xmltext/methods/splittext) | |
+|[SplitText](/package/xmlpackage/xmltext/methods/splittext) |Split the Text node into two Text nodes <br><small><span style="color:blue">Not supported in Mobile, AI</span></small>|

@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnode/methods/appendchild
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Add a child node to the end.<br><small><span style="color:red">Added since Ver.5.0.3</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,25 +21,25 @@ permalink: /package/xmlpackage/xmlnode/methods/appendchild
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Added XmlNode object</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>XmlNode <b>child</b></td>
-    <td></td>
+    <td>Node to be added</td>
   </tr>
   <tr>
     <td rowspan="3">Exception</td>
     <td>DOM-3</td>
-    <td></td>
+    <td>HIERARCHY_REQUEST_ERR</td>
   </tr>
   <tr>
     <td>DOM-7</td>
-    <td></td>
+    <td>NO_MODIFICATION_ALLOWED_ERR</td>
   </tr>
   <tr>
     <td>DOM-8</td>
-    <td></td>
+    <td>NOT_FOUND_ERR</td>
   </tr>
   <tr>
     <td>Example of use</td>
@@ -57,6 +57,4 @@ permalink: /package/xmlpackage/xmlnode/methods/appendchild
     <td colspan="2"><a href="/package/xmlpackage/xmlnode/methods/insertbefore">InsertBefore</a>, <a href="/package/xmlpackage/xmlnode/methods/replacechild">ReplaceChild</a>, <a href="/package/xmlpackage/xmlnode/methods/removechild">RemoveChild</a> methods</td>
   </tr>
 </table>
-
-
 

@@ -13,6 +13,7 @@ permalink: /package/xmlpackage/xmlnode/methods/lookupprefix
 <table>
   <tr>
     <td>Explanation</td>
+    <td colspan="2">Get the prefix that corresponds to the namespace URI .<br><small><span style="color:red">Added since Ver.4.0.0</span></small></td>
     <td colspan="2"></td>
   </tr>
   <tr>
@@ -21,12 +22,12 @@ permalink: /package/xmlpackage/xmlnode/methods/lookupprefix
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Corresponding prefix.<br>Returns null if not found .</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>namespaceURI</b></td>
-    <td></td>
+    <td>Namespace URI</td>
   </tr>
   <tr>
     <td>Exception</td>

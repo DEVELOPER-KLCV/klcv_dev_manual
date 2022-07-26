@@ -15,7 +15,7 @@ The following properties are defined in the XmlNamedNodeMap class.
 
 |Name       | Access | Type   | Description |
 |----------	|--------|--------|-------------|
-| [Length](/package/xmlpackage/xmlnamednodemap/properties/length) | R | integer |
+| [Length](/package/xmlpackage/xmlnamednodemap/properties/length) | R | integer |Number of nodes contained in NodeMap|
 
 <u><b>Access</b></u><br>
 R: Readable

@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnode/methods/haschildnodes
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Check for the existence of child nodes.</td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,7 +21,7 @@ permalink: /package/xmlpackage/xmlnode/methods/haschildnodes
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">$TRUE if there are child nodes , $FALSE if not</td>
   </tr>  
   <tr>
     <td>Arguments</td>

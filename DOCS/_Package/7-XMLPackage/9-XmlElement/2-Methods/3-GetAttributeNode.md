@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlelement/methods/getattributenode
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Get the Attr node by specifying the attribute name .<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmlelement/methods/getattributenode
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">XmlAttr object<br>Returns null if not found .</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>String <b>name</b></td>
-    <td></td>
+    <td>Attr node attribute name</td>
   </tr>
   <tr>
     <td>Exception</td>

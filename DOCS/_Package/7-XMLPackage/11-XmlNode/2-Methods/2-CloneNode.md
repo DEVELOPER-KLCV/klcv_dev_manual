@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnode/methods/clonenode
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2"></td>
+    <td colspan="2">Create a duplicate of the node.<br>This method is not available in the <a href="/package/xmlpackage/xmldocument">XmlDocument</a> class.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
@@ -21,12 +21,12 @@ permalink: /package/xmlpackage/xmlnode/methods/clonenode
   </tr>
   <tr>
     <td>Return value</td>
-    <td colspan="2"></td>
+    <td colspan="2">Duplicate XmlNode object</td>
   </tr>  
   <tr>
     <td>Arguments</td>
     <td>boolean <b>deep</b></td>
-    <td></td>
+    <td>$TRUE if recursively copying the child nodes of the node, $FALSE otherwise</td>
   </tr>
   <tr>
     <td>Exception</td>
