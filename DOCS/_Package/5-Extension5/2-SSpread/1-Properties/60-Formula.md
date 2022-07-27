@@ -111,4 +111,106 @@ Math / trigonometric functions
 | TAN ( ***numerical value*** )                           | Numerical value | Numerical tangent                                                              |
 | TANH ( ***numerical value*** )                          | Numerical value | Numerical hyperbolic tangent (hyperbolic tangent)                              |
 | TRUNC ( ***number, number of digits*** )               | Numerical value | Round down the fractional part of theto the number of digits                   |
-| XROOT ( ***number, x*** )                              | Numerical value | Returns the value of the xth root of a number .                                |
+| XROOT ( ***number, x*** )                              | Numerical value | Returns the value of the xth root of a number.                                |
+
+### Logical functions
+
+| Format                                               | Return value  | Description                                                                    | Data editing |
+|------------------------------------------------------|---------------|--------------------------------------------------------------------------------|:------------:|
+| AND (***Formula 1, Formula 2, ...***)                   | Logical value | Returns TRUE if all argument values are TRUE, FALSE otherwise.               |      Yes     |
+| FALSE ()                                             | Logical value | Returns FALSE.                                                                |      No      |
+| IF (***logical expression, true value, false value*** ) | Logical value | Returns a true value if the formula is TRUE and a false value if it is FALSE. |      Yes     |
+| NOT ( ***logical expression*** )                           | Logical value | Reverse the formula.                                                          |      No      |
+| OR (***Formula 1, Formula 2, ...***)                    | Logical value | Returns TRUE if either argument value is TRUE, FALSE otherwise.              |      No      |
+| TRUE ()                                              | Logical value | Returns TRUE.                                                                  |      No      |
+
+### Statistical functions
+
+| Format                                              | Return value    | Description                                                                                                                            | 
+|-----------------------------------------------------|-----------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| AVERAGE (***number 1, number 2, ...***)                | Numerical value | Returns the average of all argument values.                                                                                            |      
+| MAX (***number 1, number 2, ...***)                      | Numerical value | Returns the maximum value from all argument values.                                                                                    |      
+| MEDIAN (***number 1, number 2, ...***)                   | Numerical value | Returns the median of all argument values.                                                                                             |    
+| MIN (***number 1, number 2, ...***)                      | Numerical value | Returns the minimum value of all argument values.                                                                                      |     
+| MODE (***number 1, number 2, ...***) | Numerical value | Returns the most frequently occurring value from all argument values.                                                                  |  
+| PERMUT (***number, number_chosen***)     | Numerical value | Returns the number of permutations for a given number of objects that can be selected from number objects.                        | 
+| RANK (***number, range [, order ]***)                   | Numerical value | Returns the position of the number from the range . If the order is 0, it is in descending order, otherwise it is in ascending order. |         
+| STDEV (***number 1, number 2, ...***)                    | Numerical value | Takes all argument values as a sample and returns the standard deviation of the population.                                            |             
+| STDEVP (***number 1, number 2, ...***)                   | Numerical value | Considers all argument values as the entire population and returns the standard deviation of the population.                           |            
+| VAR (***number 1, number 2, ...***)                      | Numerical value | Takes all argument values as a sample and returns the population variance.                                                             |     
+| VARP (***number 1, number 2, ...***)                     | Numerical value | Considers all argument values as the entire population and returns the population variance.                                            |         
+
+### Character functions
+
+| Format                                                                            | Return value    | Description                                                                                                                                                  |
+|-----------------------------------------------------------------------------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| CHAR ( ***number*** )                                                                   | String          | Returns the character corresponding to the number .                                                                                                          |
+| CLEAN ( ***string*** )                                                                  | String          | Deletes unprintable characters from the string .                                                                                                             |
+| CODE ( ***string*** )                                                                   | Numerical value | Returns the first character of the string as a numeric code.                                                                                                 |
+| CONCATENATE ( ***string 1, string 2, ...***)                                          | String          | Combine all argument values into a single string.                                                                                                            |
+| EXACT ( ***string 1, string 2*** )                                                     | Logical value   | Returns TRUE if string 1 and string 2 are equal, otherwise FALSE is returned.                                                                                |
+| FIND ( ***search string , target [, start position ]***)                                | Numerical value | Searches the search string after thetarget start position and returns the character position.                                                                |
+| LEFT ( ***string [, number of characters*** ])                                          | Numerical value | Returns the number of characters from the beginning of the string .                                                                                          |
+| LEN ( ***string*** )                                                                    | Numerical value | Returns the number of characters in the string .                                                                                                             |
+| LOWER ( ***string*** )                                                                  | String          | Converts a string to lowercase.                                                                                                                              |
+| MID ( ***string, start position, number of characters*** )                            | String          | Returns the number of characters fromthe start of the string .                                                                                               |
+| PROPER ( ***string*** )                                                                 | String          | Converts the first letter of all English words in the string to uppercase.                                                                                   |
+| REPLACE ( ***string, start position, number of characters, replacement string*** )   | String          | Replaces the number of charactersfromthe start of the string with the replacement string .                                                                   |
+| REPT ( ***string, number of repetitions*** )                                           | String          | The character string isdisplayed repeatedly as many times as the number of repetitions.                                                                      |
+| RIGHT ( ***string [, number of characters ]***)                                         | String          | Returns the number of characters from the right end of the string .                                                                                          |
+| SUBSTITUTE ( ***string, search string, replacement string [, replacement target ])*** | String          | Replaces the search string in thewith the replacement string . If you specify a replacement target , only the character string at that position is replaced. |
+| TRIM ( ***string*** )                                                                   | String          | Removes extra space from the string .                                                                                                                        |
+| UPPER ( ***string*** )                                                                  | String          | Converts a string to uppercase.                                                                                                                              |
+
+### Date / Time functions
+
+| Format                                | Return value    | Description                                                                                                                                                                                          |
+|---------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| DATE ( ***year, month, day***  )           | Numerical value | Returns consecutive values corresponding to year, month, and day.                                                                                                                                 |
+| DAY ( ***continuous value***  )              | Numerical value | Returns the day ( 1 to 31 ) from the date represented by the continuous value.                                                                                                                      |
+| HOUR ( ***continuous value***  )             | Numerical value | Returns the time ( 0-23 ) from the time represented by the continuous value.                                                                                                                        |
+| MINUTE ( ***continuous value***  )           | Numerical value | Returns the minutes ( 0 to 59 ) from the time represented by the continuous value.                                                                                                                  |
+| MONTH ( ***continuous value***  )            | Numerical value | Returns the month ( 1-12 ) fromthe date represented by the continuous value.                                                                                                                        |
+| NOW ()                                | Numerical value | Returns a continuous value that represents the current date and time.                                                                                                                                |
+| SECOND ( ***continuous value***  )           | Numerical value | Returns seconds ( 0 to 59 ) from the time represented by the continuous value .                                                                                                                       |
+| TIME ( ***hours, minutes, seconds***  )    | Numerical value | Returns continuous values corresponding to hours, minutes, and seconds .                                                                                                                           |
+| TODAY ()                              | Numerical value | Returns a continuous value that represents the current date.                                                                                                                                         |
+| WEEKDAY ( ***continuous value [, type ]*** ) | Numerical value | Returns the day of the week from the date represented by the continuous value . Returns 1 (Sunday) to 7 (Saturday) for type 1, 1 ( Monday) to 7 (Sunday) for 2, and 0 (Monday) to 6 (Sunday) for 3 . |
+| YEAR ( ***continuous value*** )             | Numerical value | Returns the year from the date represented by the continuous value.                                                                                                                                 |
+
+### Financial functions
+
+| Format                                                                                                                                | Return value    | Description                                                                                                                                                                                          |
+|---------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| DB (***acquisition price, salvage value, useful life, period [, month ]***)                                                             | Numerical value | Use the declining balance method to calculate the depreciation cost of an asset for a particular period.                                                                                             |
+| DDB (***acquisition price , salvage value , useful life , period [, rate ]***)                                                             | Numerical value | Use the double declining balance method to calculate the depreciation cost of an asset for a particular period.                                                                                      |
+| FV (***interest rate , period , recurring payment amount [, present value [, due date ]]***)                                               | Numerical value | Calculates the future value of the investment, subject to the specified arguments.                                                                                                                   |
+| NPER (***interest rate , recurring payment amount , present value [, future value [, due date ]]***)                                       | Numerical value | Calculates the period required for investment (number of payments) with the specified argument as a condition.                                                                                       |
+| PMT (***present value , interest rate , total number of payments, number of annual payments***) <br><small>* Specifications are different from Excel</small> | Numerical value | Returns the recurring payment amount for the investment, subject to the specified arguments.                                                                                                         |
+| PV (***interest rate , period , recurring payment amount [, future value [, due date ]]***)                                                | Numerical value | Calculates the present value of the investment, subject to the specified arguments.                                                                                                                  |
+| SLN (***acquisition price , salvage value , useful life***)                                                                               | Numerical value | Calculate the depreciation cost of an asset per period using the straight-line method.                                                                                                               |
+| SYD (***acquisition price , salvage value , useful life , period***)                                                                      | Numerical value | Use the straight-line depreciation method to calculate the depreciation cost of an asset for a particular period.                                                                                    |
+| TODAY ()                                                                                                                              | Numerical value | Returns a continuous value that represents the current date.                                                                                                                                         |
+| WEEKDAY (***continuous value [, type ]***)                                                                                                 | Numerical value | Returns the day of the week from the date represented by the continuous value . Returns 1 (Sunday) to 7 (Saturday) fortype 1 , 1 ( Monday) to 7 (Sunday) for 2 ,and 0 (Monday) to 6 (Sunday) for 3 . |
+| YEAR (***continuous value***)                                                                                                             | Numerical value | Returns the year from the date represented by the continuous value .                                                                                                                                 |
+
+### Information functions
+
+| Format                               | Return value    | Description                                                                                                        |
+|--------------------------------------|-----------------|--------------------------------------------------------------------------------------------------------------------|
+| COUNT _ _                            | Numerical value | Count the cells of the numeric data in the range.                                                                 |
+| COUNTA _ _                           | Numerical value | Count the cells that contain data such as range characters, numbers, and formulas. Unfilled cells are not counted. |
+| COUNTIF ( ***range, search condition*** ) | Numerical value | Count the cells that match the search criteria from the range .                                                    |
+| ISBLANK ( ***value*** )                    | Logical value   | Returns TRUE if the value is blank, FALSE otherwise.                                                               |
+| ISEVEN ( ***value*** )                     | Logical value   | Returns TRUE if the value is even, FALSE otherwise.                                                                |
+| ISNONTEXT ( ***value*** )                  | Logical value   | Returns TRUE if the value is non-text, FALSE otherwise.                                                            |
+| ISNUMBER _ _                         | Logical value   | Returns TRUE if the value is numeric, FALSE otherwise.                                                             |
+| ISODD ( ***value*** )                      | Logical value   | Returns TRUE if the value is odd, FALSE otherwise.                                                                 |
+| ISREF ( ***value*** )                      | Logical value   | Returns TRUE if the value is a reference to another cell, FALSE otherwise.                                         |
+| ISTEXT ( ***value*** )                     | Logical value   | Returns TRUE if the value is a string, FALSE otherwise.                                                            |
+
+### Other functions
+
+| Format                             | Return value | Description                                   |
+|------------------------------------|--------------|-----------------------------------------------|
+| URL (***address [, display string ])*** | String       | Create a hyperlink in the exported HTML file. | 
