@@ -14,7 +14,7 @@ permalink: /package/jsonpackage/jsondocument/methods/save
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2">Output the Array object set to Value in the Writer object as JSON data.<br><br>If the Array object is not set in the Value value , "[]" is output.<br><br>Since CRS does not have a Boolean value internally, it will be true when saved and 1 or 0 when false .<br><br>If the internal character code is Unicode , the character code of the saved JSON file will be UTF-8 .</td>
+    <td colspan="2">Output the Array object set to Value in the Writer object as JSON data.<br><br>If the Array object is not set in the Value value , "[]" is output.<br><br>Since CRS does not have a Boolean value internally, it will be <i>true</i> when saved and 1 or 0 when false .<br><br>If the internal character code is Unicode , the character code of the saved JSON file will be UTF-8 .</td>
   </tr>
   <tr>
     <td>Call format</td>

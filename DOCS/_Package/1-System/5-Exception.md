@@ -9,10 +9,10 @@ nav_order: 5
 permalink: /package/system/exception
 
 ---
-{% assign img1 = "https://biz-collections.com/support/webpages/html/onlinemanual/browser/crs/core/core1.files/image001.gif" %}
-
 
 # {{ page.title }}
+<a href="/img/Package/System-ExceptionClass.jpg" target="_blank">
+<img src="/img/Package/System-ExceptionClass.jpg" alt="login image"></a>
 
 A class that represents an exception that occurs in a CRS program.
 

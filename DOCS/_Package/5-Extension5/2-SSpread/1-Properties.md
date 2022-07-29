@@ -212,7 +212,7 @@ The following properties are defined in the SSpread class.
 |[TypePercentMax](/package/extension5/sspread/properties/typepercentmax)| CRW| ×| Number| 9999.99| Upper limit that can be entered for percentage cells |
 |[TypePercentMin](/package/extension5/sspread/properties/typepercentmin)| CRW| ×| Number| -9999.99| Lower limit that can be entered for percentage cells |
 |[TypePercentNegStyle](/package/extension5/sspread/properties/typepercentnegstyle)| CRW| ×| integer| $TypePercentNegStyleIntl| Negative number format for percentage cells |
-|[TypePicDefaultText](/package/extension5/sspread/properties/TypePercentNegStyleIntl)| CRW| ×| UString| ""| Character string to be displayed instead of the edit definition character of the mask type cell |
+|[TypePicDefaultText](/package/extension5/sspread/properties/typepicdefaulttext)| CRW| ×| UString| ""| Character string to be displayed instead of the edit definition character of the mask type cell |
 |[TypePicMask](/package/extension5/sspread/properties/typepicmask)| CRW| ×| UString| ""|Mask cell format  |
 |[TypePictCenter](/package/extension5/sspread/properties/typepictcenter)| CRW| ×| boolean |$FALSE| Center the image of the image type cell |
 |[TypePictMaintainScale](/package/extension5/sspread/properties/typepictmaintainscale)| CRW| ×| boolean| $FALSE|  Preserves the aspect ratio of the image in the image type cell |

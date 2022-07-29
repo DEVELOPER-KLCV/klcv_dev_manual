@@ -13,7 +13,7 @@ permalink: /package/xmlpackage/xmlnode/methods/appendchild
 <table>
   <tr>
     <td>Explanation</td>
-    <td colspan="2">Add a child node to the end.<br><small><span style="color:red">Added since Ver.5.0.3</span></small></td>
+    <td colspan="2">Add a child node to the end.<br><small><span style="color:blue">Not supported in Mobile, AI</span></small></td>
   </tr>
   <tr>
     <td>Call format</td>
