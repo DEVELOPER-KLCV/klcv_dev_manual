@@ -15,6 +15,10 @@ permalink: /package/httppackage/httpresponse
 
 ---
 
+<a href="/img/Package/HTTPPackage-HttpResponse.PNG" target="_blank">
+<img src="/img/Package/HTTPPackage-HttpResponse.PNG" alt="login image">
+</a>
+
 A class that holds HTTP responses.
 
 Get the HttpResponse object as the return value of the [HttpSession.Get](/package/httppackage/httpsession/methods/get) or [HttpSession.Post](/package/httppackage/httpsession/methods/post) method.
